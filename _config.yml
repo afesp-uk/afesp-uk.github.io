@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: afesp # the website title (if blank, full name will be used instead)
-first_name: Advancing Frontiers for Earth System Prediction
-middle_name: 
-last_name: 
+first_name: Advancing the Frontiers
+middle_name: Frontiers of
+last_name: Earth System Prediction
 contact_note: >
   j.kukulies@reading.ac.uk, mark.muetzelfeldt.reading.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

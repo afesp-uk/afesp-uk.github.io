@@ -69,4 +69,3 @@ This site is intended for:
 As a living resource, this site will continue to grow alongside the programme, providing an evolving record of how AFESP is advancing the frontiers of
 Earth system prediction.
 
-For the official AFESP website, please visit [https://research.reading.ac.uk/earth-system-prediction/](https://research.reading.ac.uk/earth-system-prediction/).

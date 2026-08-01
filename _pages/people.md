@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: AFESP members and teams 
+description: AFESP members and teams
 nav: true
 nav_order: 7
 
@@ -27,5 +27,4 @@ profiles:
       <p>Your City, State 12345</p>
 ---
 
-
-## Short bios 
+## Short bios

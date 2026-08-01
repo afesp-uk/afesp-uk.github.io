@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /
+permalink: /conferences/
 title: conferences
 description: Conference contributions, presentations, and other forms of outreach.
 nav: true

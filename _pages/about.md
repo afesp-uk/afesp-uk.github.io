@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>AFESP</a>. Advancing the Frontiers of Earth System Prediction. 
+subtitle: "<a href='#'>AFESP</a>. Advancing the Frontiers of Earth System Prediction."
 
 profile:
   align: right
@@ -68,4 +68,3 @@ This site is intended for:
 
 As a living resource, this site will continue to grow alongside the programme, providing an evolving record of how AFESP is advancing the frontiers of
 Earth system prediction.
-

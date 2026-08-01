@@ -6,7 +6,7 @@ subtitle: <a href='#'>AFESP</a>. Advancing the Frontiers of Earth System Predict
 
 profile:
   align: right
-  image: B31486 AFESP RGB.png
+  image: afesp_logo_rgb.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>    </p>

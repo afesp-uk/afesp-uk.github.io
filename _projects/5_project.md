@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 5
+title: URBANE: Urban Numerical Weather Prediction Expedited
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3

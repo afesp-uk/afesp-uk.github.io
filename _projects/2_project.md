@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: HiSCORE: High resolution data assimiation with Spatially and temporally Correlated ObseRvation Errors
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: The ECWMF Land Surface Hydrology Foundation model (ECFoundLand)
 description: with background image
 img: assets/img/12.jpg
 importance: 1

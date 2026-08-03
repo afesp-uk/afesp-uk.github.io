@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: People
+title: people
 description: Short bios of AFESP members and partners
 nav: true
 nav_order: 7

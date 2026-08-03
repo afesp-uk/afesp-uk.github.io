@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3 with very long name
+title: Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://www.wikipedia.org/

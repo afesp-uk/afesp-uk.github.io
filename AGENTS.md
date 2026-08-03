@@ -4,6 +4,8 @@
 
 `al-folio` v1.x is a **thin Jekyll starter, not a theme**. This repo owns starter wiring, example content, docs, and cross-plugin tests. All runtime — layouts, includes, Sass, Liquid tags, filters, feature JS — lives in versioned gems published under [`al-org-dev`](https://github.com/al-org-dev).
 
+> **This is the AFESP fork, not upstream al-folio.** Upstream is a GitHub _project_ page served from the `/al-folio` subpath; this repo is `afesp-uk/afesp-uk.github.io`, an _organisation_ page served from the domain root. The practical difference is the baseurl — see failure mode 3 below. Where this file and upstream docs disagree, this file wins.
+
 ## Route your change
 
 Find your change on the left; edit only what is on the right.
@@ -41,7 +43,7 @@ Read [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#failure-modes-that-produce-no
 
 1. **Features fail silently.** A feature renders only when its gem is loaded _and_ its flag is on _and_ the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
 2. **`Gemfile` and `_config.yml` are two lists that must agree.** A plugin in only one of them is inert. Adding or removing a plugin means editing both. Repo dirs use hyphens (`al-folio-core`); gem/plugin ids use underscores (`al_folio_core`).
-3. **This repo's effective baseurl is `/al-folio`.** `_config.yml` already sets it, so a plain `bundle exec jekyll build` is correct — that is what `deploy.yml`, `broken-links-site.yml` and `axe.yml` run. Passing `--baseurl /al-folio` is redundant but harmless; blanking the baseurl out is what renders the site unstyled with broken links. Dev server is at `http://localhost:4000/al-folio/`.
+3. **This repo's baseurl is empty.** `_config.yml` sets `baseurl: ""` and `url: https://afesp-uk.github.io`, because this is an org page served from the domain root. A plain `bundle exec jekyll build` is correct — that is what `deploy.yml`, `broken-links-site.yml` and `axe.yml` run. **Do not pass `--baseurl /al-folio`**: that is upstream's project-page path, and forcing it here prefixes every link and asset with a subpath that does not exist, rendering the site unstyled with broken links. The build stays green either way, which is what makes this silent. Dev server is at `http://localhost:4000/`.
 
 ## Validated local command set
 
@@ -52,7 +54,7 @@ bundle install
 npm ci
 npm run lint:prettier
 npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
+bundle exec jekyll build
 bash test/integration_comments.sh
 bash test/integration_plugin_toggles.sh
 bash test/integration_distill.sh
@@ -65,7 +67,7 @@ bundle exec al-folio upgrade audit
 bundle exec al-folio upgrade overrides audit
 bundle exec al-folio upgrade report
 docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
+curl -fsS http://127.0.0.1:8080/ >/dev/null
 docker compose logs --tail=80
 docker compose down
 ```

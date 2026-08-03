@@ -3,6 +3,11 @@ const { devices } = require("@playwright/test");
 
 const repoRoot = path.resolve(__dirname, "../..");
 
+// NOTE: --baseurl /al-folio is deliberate here and does NOT match this fork's
+// deployed config (_config.yml sets baseurl: "" — see AGENTS.md failure mode 3).
+// These specs pixel-diff against an upstream v0.16.3 baseline, which is a project
+// page at /al-folio; both sides must be served from the same path for the diff to
+// mean anything. Leave this in step with visual-regression.yml.
 const webServer = process.env.NO_WEBSERVER
   ? undefined
   : {

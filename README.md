@@ -28,6 +28,7 @@ This website serves a the scientific workspace for AFESP and contains:
   - [For members: How to add content?](#for-members-how-to-add-content)
     - [Adding a short bio](#adding-a-short-bio)
     - [Adding a publication](#adding-a-publication)
+    - [Adding a GitHub user or repository](#adding-a-github-user-or-repository)
     - [Adding news](#adding-news)
     - [Writing a blog entry](#writing-a-blog-entry)
   - [How to modify a text file on GitHub?](#how-to-modify-a-text-file-on-github)
@@ -59,8 +60,8 @@ The AFESP website uses the **al-folio** Jekyll template. Website content is mana
 
 ### Adding a GitHub user or repository
 
-1. Add your GitHub user name or repository name to **_data/repositories.yml**
-2. Done - you only need to push your changes but how your user profile and repository are displayed is taken care off. 
+1. Add your GitHub user name or repository name to **\_data/repositories.yml**
+2. Done - you only need to push your changes but how your user profile and repository are displayed is taken care off.
 
 ### Adding news
 

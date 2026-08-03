@@ -18,13 +18,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-
 <img
   src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
   alt="AFESP logo"
   style="display:block; width:100%; margin:0 auto 2rem auto;"
 />
-
 
 # About
 

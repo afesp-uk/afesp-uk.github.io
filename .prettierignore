@@ -1,3 +1,6 @@
+# Jekyll build output
+_site/
+
 **/*.map
 **/*.min.css
 **/*.min.js

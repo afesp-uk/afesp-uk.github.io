@@ -33,6 +33,7 @@ This website serves a the scientific workspace for AFESP and contains:
     - [Writing a blog entry](#writing-a-blog-entry)
   - [How to modify a text file on GitHub?](#how-to-modify-a-text-file-on-github)
     - [Editing files and publishing changes](#editing-files-and-publishing-changes)
+      - [Markdown formatting](#markdown-formatting)
       - [Option 1: GitHub web interface (recommended for simple edits)](#option-1-github-web-interface-recommended-for-simple-edits)
       - [Option 2: Local Git workflow (recommended for regular contributors and comprehensive edits)](#option-2-local-git-workflow-recommended-for-regular-contributors-and-comprehensive-edits)
   - [Using AI Agents for modifications](#using-ai-agents-for-modifications)
@@ -81,7 +82,6 @@ There are two ways to contribute to the website.
 #### Markdown formatting
 
 Website content is written using Markdown syntax. For a quick reference on formatting text, links, images, and other elements, see the official [GitHub Markdown documentation](https://docs.github.com/en/get-started/writing-on-github).
-
 
 #### Option 1: GitHub web interface (recommended for simple edits)
 

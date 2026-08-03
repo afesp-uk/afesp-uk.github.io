@@ -78,6 +78,11 @@ _To be completed._
 
 There are two ways to contribute to the website.
 
+#### Markdown formatting
+
+Website content is written using Markdown syntax. For a quick reference on formatting text, links, images, and other elements, see the official [GitHub Markdown documentation](https://docs.github.com/en/get-started/writing-on-github).
+
+
 #### Option 1: GitHub web interface (recommended for simple edits)
 
 Edit files directly in your web browser without installing any software.

@@ -20,7 +20,7 @@ latest_posts:
 
 
 <img
-  src="{{ '/assets/img/AFESP_logo_greyscale.jpg' | relative_url }}"
+  src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
   alt="AFESP logo"
   style="display:block; width:100%; margin:0 auto 2rem auto;"
 />

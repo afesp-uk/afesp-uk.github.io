@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='#'>AFESP</a>. Advancing the Frontiers of Earth System Prediction."
+subtitle: "Advancing the Frontiers of Earth System Prediction."
 
 profile:
   align: right
-  image: afesp_logo_rgb.png
+  image: AFESP_logo_greyscale.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -39,9 +39,9 @@ external audiences.
 
 ---
 
-## This scientific workspace
+## Research site updates 
 
-This GitHub site complements the official website by serving as the programme's **living scientific hub**. Rather than providing a static overview of AFESP, it
+This GitHub site complements the official website by serving as the programme's **living scientific workspace**. Rather than providing a static overview of AFESP, it
 documents the programme's **ongoing scientific progress**, showcasing the research, collaborations, software, publications, and scientific achievements emerging
 across the programme.
 

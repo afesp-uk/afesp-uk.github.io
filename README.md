@@ -55,8 +55,7 @@ The AFESP website uses the **al-folio** Jekyll template. Website content is mana
 
 1. Add the bibtex-formatted reference to **\_bibliography/papers.bib** (you can copy and paste from Google Scholar)
 2. Be sure to include a link and DOI
-3. Add an animation or representative figure from the publication in **assets/img/publication_preview/** and link to it by using the *preview=img_name.jpg* argument in the bibtex citation.
-
+3. Add an animation or representative figure from the publication in **assets/img/publication_preview/** and link to it by using the _preview=img_name.jpg_ argument in the bibtex citation.
 
 ### Adding news
 

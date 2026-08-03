@@ -19,3 +19,11 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+
+# Local pixi env (not part of upstream al-folio toolchain)
+pixi.toml
+pixi.lock
+.pixi/
+# pixi environments
+.pixi/*
+!.pixi/config.toml

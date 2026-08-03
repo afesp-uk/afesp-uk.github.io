@@ -57,6 +57,11 @@ The AFESP website uses the **al-folio** Jekyll template. Website content is mana
 2. Be sure to include a link and DOI
 3. Add an animation or representative figure from the publication in **assets/img/publication_preview/** and link to it by using the _preview=img_name.jpg_ argument in the bibtex citation.
 
+### Adding a GitHub user or repository
+
+1. Add your GitHub user name or repository name to **_data/repositories.yml**
+2. Done - you only need to push your changes but how your user profile and repository are displayed is taken care off. 
+
 ### Adding news
 
 1. Add a mark down file with your announcement in *_\_news/_ (you can use _announcement_short.md_ as a template)

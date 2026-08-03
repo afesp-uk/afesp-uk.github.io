@@ -23,6 +23,8 @@ jobs:
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Format Markdown Files 📝
         run: npx prettier "**/*.md" --write
+      - name: Format YAML Files 
+	npx prettier "**/*.yml" --write
       - name: Prettier Check 🔎
         id: prettier
         run: npx prettier . --check

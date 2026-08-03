@@ -4,7 +4,7 @@ title: The ECWMF Land Surface Hydrology Foundation model (ECFoundLand)
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: five-year projects
 related_publications: true
 ---
 

@@ -4,7 +4,7 @@ title: VaaSS: Vegetation as a Soil Sensor
 description: Towards a high-fidelity Integrated Forecasting System via ground-breaking and ambituous data-assimilation on the dynamic soil-vegetation hydraulic continuum.
 img:
 importance: 4
-category: fun
+category: five-year projects
 ---
 
 Every project has a beautiful feature showcase page.

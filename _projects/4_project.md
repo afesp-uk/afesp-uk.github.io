@@ -4,7 +4,7 @@ title: UPFLO: Improving understanding and modelling convective UPdraFts and anvi
 description: another without an image
 img:
 importance: 3
-category: fun
+category: five-year projects
 ---
 
 Every project has a beautiful feature showcase page.

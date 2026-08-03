@@ -18,7 +18,6 @@ This website serves a the scientific workspace for AFESP and contains:
 - Emerging methods, tools, and scientific developments
 - Progress towards the programme’s long-term scientific objectives
 
-
 ### Table Of Contents
 
 <!--ts-->
@@ -26,42 +25,44 @@ This website serves a the scientific workspace for AFESP and contains:
 - [Advancing the Frontier of Earth System Prediction](#advancing-the-frontier-of-earth-system-prediction)
   - [What is this site for?](#what-is-this-site-for)
     - [Table Of Contents](#table-of-contents)
-    - [For members: How to add content?](#for-members-how-to-add-content)
+  - [For members: How to add content?](#for-members-how-to-add-content)
     - [Adding a short bio](#adding-a-short-bio)
     - [Adding a publication](#adding-a-publication)
     - [Adding news](#adding-news)
     - [Writing a blog entry](#writing-a-blog-entry)
+  - [How to modify a text file on GitHub?](#how-to-modify-a-text-file-on-github)
     - [Editing files and publishing changes](#editing-files-and-publishing-changes)
-    - [Using AI agents](#using-ai-agents)
-
+      - [Option 1: GitHub web interface (recommended for simple edits)](#option-1-github-web-interface-recommended-for-simple-edits)
+      - [Option 2: Local Git workflow (recommended for regular contributors and comprehensive edits)](#option-2-local-git-workflow-recommended-for-regular-contributors-and-comprehensive-edits)
+  - [Using AI Agents for modifications](#using-ai-agents-for-modifications)
+    - [Codex](#codex)
+    - [Claude](#claude)
+    - [Copilot And Other Agents](#copilot-and-other-agents)
 
 <!--te-->
 
 ## For members: How to add content?
 
-
 The AFESP website uses the **al-folio** Jekyll template. Website content is managed through Markdown files in this GitHub repository. When content is added or updated, GitHub Pages automatically rebuilds the website, making it easy for members to maintain and share the latest programme updates.
-
 
 ### Adding a short bio
 
-1) Add a mark down file in **_pages/bios/**
-2) Add your profile picture in *assets/img*
-3) Add the profile in **_pages/people.md** by simply copy and pasting one of the existing profiles and replace with your information (don't forget to replace the link to the picture and about_name.md with the correct references to your picture and short bio. 
+1. Add a mark down file in **\_pages/bios/**
+2. Add your profile picture in _assets/img_
+3. Add the profile in **\_pages/people.md** by simply copy and pasting one of the existing profiles and replace with your information (don't forget to replace the link to the picture and about_name.md with the correct references to your picture and short bio.
 
 ### Adding a publication
 
-1) Add the bibtex-formatted reference to **_bibliography/papers.bib** (you can copy and paste from Google Scholar) 
+1. Add the bibtex-formatted reference to **\_bibliography/papers.bib** (you can copy and paste from Google Scholar)
 
 ### Adding news
 
-1) Add a mark down file with your announcement in **_news/* (you can use *announcement_short.md* as a template)
-2) If there is a longer announcement, use the template *announcement_long.md* where you can link to a more detailed description. 
-
+1. Add a mark down file with your announcement in *_\_news/_ (you can use _announcement_short.md_ as a template)
+2. If there is a longer announcement, use the template _announcement_long.md_ where you can link to a more detailed description.
 
 ### Writing a blog entry
 
-*To be completed.*
+_To be completed._
 
 ## How to modify a text file on GitHub?
 

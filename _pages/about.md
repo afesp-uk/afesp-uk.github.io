@@ -39,7 +39,7 @@ external audiences.
 
 ---
 
-## Research site updates 
+## Research site updates
 
 This GitHub site complements the official website by serving as the programme's **living scientific workspace**. Rather than providing a static overview of AFESP, it
 documents the programme's **ongoing scientific progress**, showcasing the research, collaborations, software, publications, and scientific achievements emerging

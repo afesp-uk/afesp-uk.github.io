@@ -1,5 +1,4 @@
 github_users:
-  - afesp-uk
   - pierluigividale
   - markmuetz
   - JuliaKukulies
@@ -7,7 +6,5 @@ github_users:
 repo_description_lines_max: 4
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
   - afesp-uk/afesp-uk.github.io
-  - digital-earths-global-hackathon
+  - digital-earths-global-hackathon/digital-earths-global-hackathon.github.io

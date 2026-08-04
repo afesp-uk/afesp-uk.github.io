@@ -2,80 +2,32 @@
 layout: page
 title: Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction
 description: a project that redirects to another website
-img: assets/img/7.jpg
+img: 
 redirect: https://www.wikipedia.org/
 importance: 2
 category: five-year projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Principal Investigator**: John Methven 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Postdoctoral Research Scientist**: Charlie Egan
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## The S2S Challenge 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The sub-seasonal to seasonal (S2S) range extends beyond the limit of predictability for synoptic scale weather systems with the loss of predictability stemming from chaos (sensitivity to initial conditions). This is manifest in phase errors in the location and timing of weather systems. However, there are components of the atmosphere with longer range predictability despite the chaotic behaviour; across the S2S range coupling with the land surface, ocean and cryosphere become increasingly important. There is a pressing need to improve predictive skill on the S2S range to the level where it can be useful for decision-making in the food, water and energy sectors. The goal of this project is to identify the atmospheric components that are inherently more predictable, unpick their dynamics, understand why they are more predictable, and use this knowledge to improve the representation of those phenomena in prediction systems.   
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+ 
+## Extended range predictability tied to wave-like phenomena and teleconnections 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Mid-latitude regimes central to S2S prediction are characterized by large-scale patterns with internal variability over timescales longer than individual cyclones. Three key examples include: 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+1. Teleconnections from the tropics to the extratropics are large scale: many mechanisms have been proposed but are represented with varying success by S2S systems.
+2. Unprecedented multi-day extreme rainfall events have occurred across Europe in the last two decades (de Leeuw et al, 2016) and they have been linked to troughs in quasi-stationary Rossby waves, while the ridges are related to heatwaves (2003, 2023). However, free running models tend to underestimate such multi-day events for reasons unknown.
+3. Mid-latitude blocking is associated with longer timescales and persistent weather extremes and yet blocking remains one of the greatest challenges for prediction (Woollings, 2018).
 
-{% raw %}
+A common feature of these phenomena is persistence and the working hypothesis here is that this stems from long intrinsic dynamical timescales which are the basis of longer-range predictability.  
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+In this project, we will extract dynamical modes of variability from multi-level global data using the Empirical Normal Mode (ENM) technique (Brunet, 1994) in which each mode has an intrinsic frequency given by its spatial structure (just as a bell has a tone dictated by its shape). The approach enables us in principle to diagnose predictable components of variability and the (stochastic) forcing of those components (Brunet & Methven, WMO S2S Book). Recent developments by the team have opened new opportunities and this project will harness them. 
 
-{% endraw %}
+The proposed work aims to provide the underpinning for long-term development (>5 years ahead) of S2S prediction systems by finding out what modes of the atmosphere are predictable, why this is and how current prediction models represent the structure and time-dependence of those modes. This information will be used to determine why current systems achieve weak S2S signals and how best to improve S2S prediction systems including ensemble design. 
+

@@ -7,74 +7,16 @@ importance: 2
 category: five-year projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Principal Investigator**: Chris Holloway 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Postdoctoral Research Scientist**: Deepak Gopalakrishnan
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Changes in anvil cloud with warming are one of the largest current sources of uncertainty in climate sensitivity (Sherwood et al 2020). Anvil cloud (including latent heating and radiative effects) also plays a key role in large-scale tropical convective organisation such as the MJO (Benedict et al 2020), the ITCZ (Talib et al 2018), and monsoons (Cetrone and Houze 2009), as well as mesoscale organisation including tropical cyclones (Ruppert et al 2020) and mesoscale convective systems (MCSs, Yuan et al 2011). While Cloud-system Resolving Models (CRMs, ~1-5-km grid spacing with explicit convection) improve the location and timing of deep convection, they often have biases in updraft strength, cloud amount (including anvil life cycle) and organisation. Observations to constrain these biases are not routinely available and therefore are the primary objective of the satellite mission INvestigation of Convective UpdraftS (INCUS), which is led by project partner Sue van den Heever at Colorado State University. INCUS will provide the first tropics-wide investigation of the evolution of convective updrafts and mass flux from its launch date in August 2026 (Kim et al 2023, Prasanth et al 2023).  
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Anvil clouds are directly linked to the detrainment of moisture and condensate from deep convective updrafts. These mid-to-upper level stratiform clouds and their source updrafts involve a complex interplay between radiative effects, microphysical properties, latent heating, and convective dynamics. During their life cycle, anvil clouds transition from more surface-cooling thick clouds to more surface-warming thin clouds, and modelling studies show that changing the representation of any of the physical processes above can have a significant effect on cloud evolution and radiative effects (Gasparini et al 2019). Traditionally, km-scale models are compared to rainfall observations in order to improve short-term forecasts of severe weather and precipitation, while coarse-grid climate models are tuned to achieve a realistic top-of-atmosphere radiative balance. However, as we move to global km-scale model simulations we increasingly need to evaluate and improve the key processes that link cloud microphysics, radiative processes, precipitation, latent heating, convective dynamics and the large-scale circulation. We need to capture variability as well as the mean state, cloud as well as precipitation, average events as well as extremes, and we need to do this from cloud scales to global scales (Holloway et al 2014). To do this, we need to evaluate global km-scale models with observations and process models that target the full range of relevant processes across these different scales.  
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In UPFLO, we will combine regional and global km-scale modelling (and sub-km process modelling) with data from observational field campaigns (including the current WesCon UK campaign on turbulent processes and convection, Barrett et al. 2021; CAMP2Ex in the tropical West Pacific, Reid et al 2023; CINDY-DYNAMO in the tropical Indian Ocean, Gottschalck et al 2013; DCMEX in 2022 which sampled cloud microphysics and related properties in anvil clouds over New Mexico; and the upcoming 2024 ORCESTRA campaign in the tropical Atlantic) to investigate how convective updrafts interact with anvil cloud processes and larger scales. Pre-launch, INCUS research centres on understanding how the Ka-band radars on three planned SmallSats (all passing over the same location within minutes) will be able to measure cloud properties including updraft velocities (Prasanth et al 2023). Specific WesCon case studies in which aircraft and ground-based radars sampled the same convective updrafts will provide valuable insight into this question and help develop INCUS retrieval algorithms.  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In addition to INCUS, data from the EarthCARE satellite mission (launching 2024 with cloudprofiling Doppler-capable radar to study clouds and aerosols) will also be utilised. In preparation for INCUS and EarthCARE, global km-scale ECMWF simulations and explicit convection global and regional simulations from the Met Office K-Scale project will provide large statistical samples of updrafts and related cloud properties with which to address our project objectives as well, and satellite simulators will be applied to model fields. Following launch, INCUS and EarthCARE retrievals will provide novel data sets to constrain updraft strength and cloud amounts in these simulations.  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Through comparisons of km-scale models to observations and process models, we will study model biases in updrafts, anvil clouds and associated radiation fluxes and their sensitivity to parameterisation choices involving key processes including microphysics and turbulent mixing. We will work closely with model developers to facilitate improvement of the representation of convective updrafts and anvil clouds 

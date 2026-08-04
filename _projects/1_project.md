@@ -2,80 +2,24 @@
 layout: page
 title: The ECWMF Land Surface Hydrology Foundation model (ECFoundLand)
 description: with background image
-img: assets/img/12.jpg
+img: 
 importance: 1
 category: five-year projects
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Principal Investigator**: Hannah Cloke 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Postdoctoral Research Scientist**: Hamidreza Mosaffa 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project aims to develop a novel hydrology-informed foundation model for land surface hydrology that leverages the power of machine learning (ML) and artificial intelligence (AI), and to integrate it into ECMWF’s Earth System modelling approach. The project will address the challenges and limitations of existing Earth System models in representing land surface hydrology and its feedbacks to the atmosphere particularly at the extended range, and in providing accurate and reliable predictions of hydrological conditions and extremes such as floods, which can support decision making and risk management in various sectors. The foundation model will be constrained using core principles of hydrological scientific understanding such as the closure of the water balance, and will be tested using explainable AI methods to ensure hydrological consistency. Fine tuned models will then be developed for the downstream tasks of (a) improving land surface-atmosphere feedbacks at extended range/S2S scales and (b) forecasting floods. This project brings together different existing research collaborations at ECMWF and will use ECMWF’s portfolio of earth system datasets and archived experiments, as well as targeted new experiments. It will also exploit synergies with major European initiatives in this field at ECMWF such as DestinE and Copernicus EMS. The project is designed to anticipate the long-term horizon and next steps for the ECMWF strategy: taking the Earth System to machine learning. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Project Aim**: to advance the understanding of Earth System hydrological predictability and improve Earth System forecasting through the development of a hydrology informed foundation model for land surface hydrology.  
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Research Objectives**: Research objectives are divided into Core objectives and flexible stretch objectives to allow the project to have direction but also allowing it to evolve without constraining it too much in this fast-paced field.  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+1. Develop and assemble the tools, information and datasets that are required to develop a hydrology informed foundation model of land surface hydrology 
+2. Develop and evaluate a global foundation model and test for conceptual & scientific soundness using explainable AI techniques 
+3. Develop and evaluate fine-tuned models for Land surface – atmosphere feedbacks at the extended range/S2S 
+4. Develop and evaluate fine-tuned models for forecasting floods at different spatial scales and leadtimes
+5. Explore the potential of using ECFoundLand to improve process representation, parameterisation and optimisation in ECLand 6. Explore the potential to add a land surface hydrology foundation model to larger foundation model in weather and climate)

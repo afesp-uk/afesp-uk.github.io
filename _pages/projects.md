@@ -2,12 +2,18 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 3
 display_categories: [five-year projects]
 horizontal: false
 ---
+
+
+The University of Reading currently fund six five-year research grants, awarded following and internal competition and a two-stage panel-based independent peer review process in 2023.
+
+
+These initial research projects will deliver research priorities aligned to the [strategic science plan](https://research.reading.ac.uk/earth-system-prediction/our-research/science-plan/) for Advancing the Frontiers of Earth System Prediction (AFESP) which has been jointly agreed by the programme partners – the University of Reading, the European Centre for Medium-Range Weather Forecasts, the UK Met Office, and the National Centre for Atmospheric Science. 
 
 <!-- pages/projects.md -->
 <div class="projects">

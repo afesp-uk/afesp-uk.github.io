@@ -52,7 +52,6 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Indrakshi Mukherjee</p>
-      <p> </p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
 ---

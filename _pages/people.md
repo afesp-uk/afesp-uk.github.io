@@ -33,7 +33,8 @@ profiles:
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Julia Kukulies      </p>
+      <p>Julia Kukulies </p>
+      
       <p>AFESP Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>

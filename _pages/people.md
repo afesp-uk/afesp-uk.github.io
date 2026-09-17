@@ -25,12 +25,4 @@ profiles:
       <p>AFESP Fellow</p>
       <p>Department for Meteorology</p>
       <p>University of Reading</p>
-  - align: right
-    #image: profile_pics/muetzelfeldt.png
-    content: bios/about_mark.md
-    #image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Office: AFESP Fellow</p>
-      <p>Department for Meteorology</p>
-      <p>University of Reading</p>      
 ---

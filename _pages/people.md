@@ -25,4 +25,12 @@ profiles:
       <p>AFESP Fellow</p>
       <p>Department for Meteorology</p>
       <p>University of Reading</p>
+    - align: left
+    image: profile_pics/egan.jpg
+    content: bios/about_charlie.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>AFESP Postdoctoral Research Scientist</p>
+      <p>Department for Meteorology</p>
+      <p>University of Reading</p>
 ---

@@ -28,7 +28,7 @@ profiles:
     - align: right
     #image: profile_pics/s-a.png
     content: bios/about_sharar.md
-    image_circular: false # crops the image to make it circular
+    #image_circular: false # crops the image to make it circular
     more_info: >
       <p>Office: AFESP Research Software Engineer</p>
       <p>National Centre for Atmospheric Scinece</p>

@@ -2,9 +2,11 @@ github_users:
   - pierluigividale
   - markmuetz
   - JuliaKukulies
+  - charlieegan
 
 repo_description_lines_max: 4
 
 github_repos:
   - afesp-uk/afesp-uk.github.io
   - digital-earths-global-hackathon/digital-earths-global-hackathon.github.io
+  - charlieegan/background-states-of-the-atmosphere

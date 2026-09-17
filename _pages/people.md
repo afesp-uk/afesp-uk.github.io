@@ -15,7 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Sharar Ahmadi</p>
-      <p>AFESP Research Software Engineer</p>
+      <p style="white-space: nowrap;">AFESP Research Software Engineer</p>
       <p>National Centre for Atmospheric Science</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>

@@ -16,7 +16,7 @@ profiles:
     more_info: >
       <p>Sharar Ahmadi</p>
       <p>AFESP Research Software Engineer</p>
-      <p>National Centre of Atmospheric Science</p>
+      <p>National Centre for Atmospheric Science</p>
       <p>Department for Meteorology</p>
       <p>University of Reading</p>
   - align: right

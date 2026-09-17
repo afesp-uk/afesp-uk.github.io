@@ -48,7 +48,7 @@ profiles:
       <p>University of Reading</p>
   - align: left
     image: profile_pics/blank.jpg
-    content: bios/about_Indrakshi.md
+    content: bios/about_indrakshi.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Indrakshi Mukherjee</p>

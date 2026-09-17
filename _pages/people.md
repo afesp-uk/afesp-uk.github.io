@@ -10,11 +10,13 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: profile_pics/egan.jpg
-    content: bios/about_charlie.md
+    image: profile_pics/ahmadi.jpg
+    content: bios/about_sharar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>AFESP Postdoctoral Research Scientist</p>
+      <p>Sharar Ahmadi</p>
+      <p>AFESP Research Software Engineer</p>
+      <p>National Centre of Atmospheric Science</p>
       <p>Department for Meteorology</p>
       <p>University of Reading</p>
   - align: right

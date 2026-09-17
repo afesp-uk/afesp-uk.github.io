@@ -17,30 +17,33 @@ profiles:
       <p>Sharar Ahmadi</p>
       <p>AFESP Research Software Engineer</p>
       <p>National Centre for Atmospheric Science</p>
-      <p>Department for Meteorology</p>
+      <p>Department of Meteorology</p>
       <p>University of Reading</p>
   - align: right
-    image: profile_pics/muetzelfeldt.png
-    content: bios/about_mark.md
+    image: profile_pics/egan.jpg
+    content: bios/about_charlie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Office: AFESP Fellow</p>
-      <p>Department for Meteorology</p>
+      <p>Charlie Egan</p>
+      <p>AFESP Postdoctoral Research Scientist</p>
+      <p>Department of Meteorology</p>
       <p>University of Reading</p>
   - align: left
     image: profile_pics/kukulies.jpg
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
+      <p>Julia Kukulies</p>
       <p>AFESP Fellow</p>
-      <p>Department for Meteorology</p>
+      <p>Department of Meteorology</p>
       <p>University of Reading</p>
-  - align: left
-    image: profile_pics/egan.jpg
-    content: bios/about_charlie.md
+  - align: right
+    image: profile_pics/muetzelfeldt.png
+    content: bios/about_mark.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>AFESP Postdoctoral Research Scientist</p>
-      <p>Department for Meteorology</p>
+      <p>Mark Muetzelfeldt</p>
+      <p>Office: AFESP Fellow</p>
+      <p>Department of Meteorology</p>
       <p>University of Reading</p>
 ---

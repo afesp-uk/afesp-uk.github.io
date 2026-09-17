@@ -19,7 +19,7 @@ profiles:
       <p>National Centre for Atmospheric Science</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
-  - align: right
+  - align: left
     image: profile_pics/egan.jpg
     content: bios/about_charlie.md
     image_circular: false # crops the image to make it circular
@@ -37,7 +37,7 @@ profiles:
       <p>AFESP Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
-  - align: right
+  - align: left
     image: profile_pics/muetzelfeldt.jpg
     content: bios/about_mark.md
     image_circular: false # crops the image to make it circular

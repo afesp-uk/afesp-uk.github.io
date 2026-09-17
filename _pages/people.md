@@ -26,7 +26,7 @@ profiles:
       <p>Department for Meteorology</p>
       <p>University of Reading</p>
     - align: right
-    image: profile_pics/s-a.png
+    #image: profile_pics/s-a.png
     content: bios/about_sharar.md
     image_circular: false # crops the image to make it circular
     more_info: >

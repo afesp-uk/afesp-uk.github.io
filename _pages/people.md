@@ -34,7 +34,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Julia Kukulies</p> <br> 
-      <p>AFESP Fellow</p>
+      <p>AFESP Research Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
   - align: left
@@ -43,7 +43,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Mark Muetzelfeldt</p>
-      <p>Office: AFESP Fellow</p>
+      <p>AFESP Research Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
   - align: left

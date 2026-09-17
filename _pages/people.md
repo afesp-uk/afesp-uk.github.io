@@ -33,18 +33,26 @@ profiles:
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Julia Kukulies </p>
-      
+      <p>Julia Kukulies</p>     
       <p>AFESP Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
   - align: right
-    image: profile_pics/muetzelfeldt.png
+    image: profile_pics/muetzelfeldt.jpg
     content: bios/about_mark.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Mark Muetzelfeldt</p>
       <p>Office: AFESP Fellow</p>
+      <p>Department of Meteorology</p>
+      <p>University of Reading</p>
+  - align: left
+    image: profile_pics/blank.jpg
+    content: bios/about_Indrakshi.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Indrakshi Mukherjee</p>
+      <p> </p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
 ---

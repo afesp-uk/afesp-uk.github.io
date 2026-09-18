@@ -48,11 +48,11 @@ profiles:
       <p>University of Reading</p>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_indrakshi.md
+    content: bios/about_template.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Ms Indrakshi Mukherjee</p>
-      <p>AFESP PhD Student</p>
-      <p>Department of Meteorology</p>
-      <p>University of Reading</p>
+      <p>Title FirstName LastName</p>
+      <p>AFESP  --- </p>
+      <p>Department of  --- </p>
+      <p>University of --- </p>
 ---

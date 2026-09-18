@@ -14,7 +14,7 @@ profiles:
     content: bios/about_sharar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Sharar Ahmadi</p>
+      <p>Dr Sharar Ahmadi</p>
       <p style="white-space: nowrap;">AFESP Research Software Engineer</p>
       <p>National Centre for Atmospheric Science</p>
       <p>Department of Meteorology</p>
@@ -24,7 +24,7 @@ profiles:
     content: bios/about_charlie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Charlie Egan</p>
+      <p>Dr Charlie Egan</p>
       <p>AFESP Postdoctoral Research Scientist</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
@@ -33,7 +33,7 @@ profiles:
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Julia Kukulies</p> <br> 
+      <p>Dr Julia Kukulies</p> <br> 
       <p>AFESP Research Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
@@ -42,7 +42,7 @@ profiles:
     content: bios/about_mark.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Mark Muetzelfeldt</p>
+      <p>Dr Mark Muetzelfeldt</p>
       <p>AFESP Research Fellow</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>
@@ -51,7 +51,7 @@ profiles:
     content: bios/about_indrakshi.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Indrakshi Mukherjee</p>
+      <p>Ms Indrakshi Mukherjee</p>
       <p>AFESP PhD Student</p>
       <p>Department of Meteorology</p>
       <p>University of Reading</p>

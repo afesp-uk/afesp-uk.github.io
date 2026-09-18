@@ -14,7 +14,7 @@ profiles:
     content: bios/about_sharar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="font-size: 0.88em; line-height: 1.15;">
+      <div style="font-size: 0.85em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0;">Dr Sharar Ahmadi</p>
         <p style="white-space: nowrap; margin: 0;">AFESP Research Software Engineer</p>
         <p style="white-space: nowrap; margin: 0;">National Centre for Atmospheric Science</p>
@@ -26,7 +26,7 @@ profiles:
     content: bios/about_charlie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="font-size: 0.88em; line-height: 1.15;">
+      <div style="font-size: 0.85em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0;">Dr Charlie Egan</p>
         <p style="white-space: nowrap; margin: 0;">AFESP Postdoctoral Research Scientist</p>
         <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
@@ -37,7 +37,7 @@ profiles:
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="font-size: 0.88em; line-height: 1.15;">
+      <div style="font-size: 0.85em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0;">Dr Julia Kukulies</p>
         <p style="white-space: nowrap; margin: 0;">AFESP Research Fellow</p>
         <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
@@ -48,7 +48,7 @@ profiles:
     content: bios/about_mark.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="font-size: 0.88em; line-height: 1.15;">
+      <div style="font-size: 0.85em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0;">Dr Mark Muetzelfeldt</p>
         <p style="white-space: nowrap; margin: 0;">AFESP Research Fellow</p>
         <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
@@ -59,7 +59,7 @@ profiles:
     content: bios/about_template.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <div style="font-size: 0.88em; line-height: 1.15;">
+      <div style="font-size: 0.85em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0;">Title FirstName LastName</p>
         <p style="white-space: nowrap; margin: 0;">AFESP  --- </p>
         <p style="white-space: nowrap; margin: 0;">Department of  --- </p>

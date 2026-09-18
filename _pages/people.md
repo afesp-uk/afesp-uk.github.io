@@ -14,45 +14,55 @@ profiles:
     content: bios/about_sharar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Dr Sharar Ahmadi</p>
-      <p style="white-space: nowrap;">AFESP Research Software Engineer</p>
-      <p>National Centre for Atmospheric Science</p>
-      <p>Department of Meteorology</p>
-      <p>University of Reading</p>
+      <div style="font-size: 0.88em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0;">Dr Sharar Ahmadi</p>
+        <p style="white-space: nowrap; margin: 0;">AFESP Research Software Engineer</p>
+        <p style="white-space: nowrap; margin: 0;">National Centre for Atmospheric Science</p>
+        <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0;">University of Reading</p>
+      </div>
   - align: left
     image: profile_pics/egan.jpg
     content: bios/about_charlie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Dr Charlie Egan</p>
-      <p>AFESP Postdoctoral Research Scientist</p>
-      <p>Department of Meteorology</p>
-      <p>University of Reading</p>
+      <div style="font-size: 0.88em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0;">Dr Charlie Egan</p>
+        <p style="white-space: nowrap; margin: 0;">AFESP Postdoctoral Research Scientist</p>
+        <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0;">University of Reading</p>
+      </div>
   - align: left
     image: profile_pics/kukulies.jpg
     content: bios/about_julia.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Dr Julia Kukulies</p> <br> 
-      <p>AFESP Research Fellow</p>
-      <p>Department of Meteorology</p>
-      <p>University of Reading</p>
+      <div style="font-size: 0.88em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0;">Dr Julia Kukulies</p>
+        <p style="white-space: nowrap; margin: 0;">AFESP Research Fellow</p>
+        <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0;">University of Reading</p>
+      </div>
   - align: left
     image: profile_pics/muetzelfeldt.jpg
     content: bios/about_mark.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Dr Mark Muetzelfeldt</p>
-      <p>AFESP Research Fellow</p>
-      <p>Department of Meteorology</p>
-      <p>University of Reading</p>
+      <div style="font-size: 0.88em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0;">Dr Mark Muetzelfeldt</p>
+        <p style="white-space: nowrap; margin: 0;">AFESP Research Fellow</p>
+        <p style="white-space: nowrap; margin: 0;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0;">University of Reading</p>
+      </div>
   - align: left
     image: profile_pics/blank.png
     content: bios/about_template.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Title FirstName LastName</p>
-      <p>AFESP  --- </p>
-      <p>Department of  --- </p>
-      <p>University of --- </p>
+      <div style="font-size: 0.88em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0;">Title FirstName LastName</p>
+        <p style="white-space: nowrap; margin: 0;">AFESP  --- </p>
+        <p style="white-space: nowrap; margin: 0;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0;">University of --- </p>
+      </div>
 ---

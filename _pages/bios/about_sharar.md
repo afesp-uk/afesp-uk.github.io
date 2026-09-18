@@ -4,9 +4,9 @@ I am interested in applying software engineering, optimisation, HPC, and paralle
 
 Education:
 
-<p style="white-space: nowrap; font-size: 0.9em;">PhD in Computer Software Engineering, Amirkabir University of Technology (Tehran Polytechnic)</p>
-<p style="white-space: nowrap; font-size: 0.9em;">MSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
-<p style="white-space: nowrap; font-size: 0.9em;">BSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
+<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">PhD in Computer Software Engineering, Amirkabir University of Technology (Tehran Polytechnic)</p>
+<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">MSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
+<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">BSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

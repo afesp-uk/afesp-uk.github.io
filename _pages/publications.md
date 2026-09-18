@@ -18,3 +18,14 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		document.querySelectorAll(".publications a").forEach((link) => {
+			if (link.textContent && link.textContent.trim() === "Website") {
+				link.textContent = "URL";
+				link.setAttribute("aria-label", "URL");
+			}
+		});
+	});
+</script>

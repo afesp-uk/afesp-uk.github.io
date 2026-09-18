@@ -1,4 +1,6 @@
-Hi, I am a Research Software Engineer with a PhD in Computer Software Engineering, and my research interest is the application of software engineering, optimisation, HPC, and parallel programming, large‑scale data engineering, data analysis, data management, and AI/ML approaches, to accelerate modelling of the atmosphere, climate, oceans, land surface, Antarctica, and the Earth system.
+<p style="text-align: justify;">
+	Hi, I am a Research Software Engineer with a PhD in Computer Software Engineering, and my research interest is the application of software engineering, optimisation, HPC, and parallel programming, large‑scale data engineering, data analysis, data management, and AI/ML approaches, to accelerate modelling of the atmosphere, climate, oceans, land surface, Antarctica, and the Earth system.
+</p>
 
 
 <!--

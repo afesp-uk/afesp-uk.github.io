@@ -15,7 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Dr Sharar Ahmadi</p>
+        <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.85em;">Dr Sharar Ahmadi</p>
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP Research Software Engineer</p>
         <p style="white-space: nowrap; margin: 0; display: block;">National Centre for Atmospheric Science</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
@@ -27,7 +27,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Dr Charlie Egan</p>
+        <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.85em;">Dr Charlie Egan</p>
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP Postdoctoral Research Scientist</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
@@ -38,7 +38,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Dr Julia Kukulies</p>
+        <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.85em;">Dr Julia Kukulies</p>
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP Research Fellow</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
@@ -49,7 +49,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Dr Mark Muetzelfeldt</p>
+        <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.85em;">Dr Mark Muetzelfeldt</p>
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP Research Fellow</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
@@ -60,7 +60,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Title FirstName LastName</p>
+        <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.85em;">Title FirstName SurName</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>

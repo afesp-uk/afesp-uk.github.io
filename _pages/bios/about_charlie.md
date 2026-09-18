@@ -1,3 +1,4 @@
+<p style="text-align: justify;">
 Since September 2025, I have been a Postdoctoral Research Scientist on the project *Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction*. My academic background is in mathematics and my current research interests are in applications of mathematical analysis to problems in meteorology.
 
 
@@ -7,4 +8,4 @@ My interest in meteorology as a field of study began while studying for an MSci 
 
 
 Between finishing my PhD and starting at AFESP, I was a postdoctoral researcher at the Maxwell Institute for Mathematical Sciences in Edinburgh (2022-2023), I worked part-time for the Stockholm Environment Institute (2022-2023), and I did a postdoc in the group of Bernhard Schmitzer at the University of Göttingen, Germany (2024-2025).
-
+<P>

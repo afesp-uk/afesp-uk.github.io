@@ -1,11 +1,6 @@
 I am interested in applying software engineering, optimisation, HPC, and parallel programming, together with large‑scale data engineering, data analysis, data management, and AI/ML approaches, to accelerate modelling of the atmosphere, climate, oceans, land surface, Antarctica, and the Earth system.
 
 
-<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.3; margin: 0;">Education:</p>
-<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.3; margin: 0;">PhD in Computer Software Engineering, Amirkabir University of Technology (Tehran Polytechnic)</p>
-<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.3; margin: 0;">MSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
-<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.3; margin: 0;">BSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
-
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
 

@@ -1,9 +1,7 @@
 I am interested in applying software engineering, optimisation, HPC, and parallel programming, together with large‑scale data engineering, data analysis, data management, and AI/ML approaches, to accelerate modelling of the atmosphere, climate, oceans, land surface, Antarctica, and the Earth system.
 
 
-
-Education:
-
+<p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">Education:</p>
 <p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">PhD in Computer Software Engineering, Amirkabir University of Technology (Tehran Polytechnic)</p>
 <p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">MSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>
 <p style="white-space: nowrap; font-size: 0.9em; line-height: 1.1; margin: 0;">BSc in Computer Science, Amirkabir University of Technology (Tehran Polytechnic)</p>

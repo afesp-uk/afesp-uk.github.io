@@ -1,5 +1,5 @@
 <p style="text-align: justify;">
-Since September 2025, I have been a Postdoctoral Research Scientist on the project *Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction*. My academic background is in mathematics and my current research interests are in applications of mathematical analysis to problems in meteorology.
+Since September 2025, I have been a Postdoctoral Research Scientist on the project <a href="https://afesp-uk.github.io/projects/3_project/">Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction</a>. My academic background is in mathematics and my current research interests are in applications of mathematical analysis to problems in meteorology.
 <p>
 
 <p style="text-align: justify;">

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Isolating and Understanding the Most Predictable Components and Improving Their Representation in S2S Prediction
-description: a project that redirects to another website
+description:
+redirect:
 img: 
 importance: 2
 category: five-year projects

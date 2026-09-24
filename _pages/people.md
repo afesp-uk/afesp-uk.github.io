@@ -895,7 +895,7 @@ profiles:
     content: bios/about_Pier_Luigi_Vidale.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Prof Pier Luigi Vidale</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Pier Luigi Vidale</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>

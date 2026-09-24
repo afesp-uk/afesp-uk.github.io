@@ -616,7 +616,7 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/muetzelfeldt.jpg
+    image: profile_pics/markmuetz_headshot.jpg
     content: bios/about_Mark_Muetzelfeldt.md
     image_circular: false # crops the image to make it circular
     more_info: >

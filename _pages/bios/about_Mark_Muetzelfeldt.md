@@ -1,12 +1,5 @@
-<p style="text-align: justify;">
+I'm Mark Muetzelfeldt. I'm an AFESP research fellow, working on how we can use high-resolution models to improve convection parametrization schemes in coarser models. In my project [ALOFT]({% link _projects/ALOFT_project.md %}) (aligning organized features in coarse- and high-resolution simulations), I'm going to build a framework for identifying biases in parametrization schemes in atmospheric models compared to a high-resolution model "truth".
 
-<p>
+Instead of targeting all biases, I'm going to focus on the organization of convection -- mesoscale convective systems. These are well represented (well, at least <i>better</i> represented) by 5-km models than 20-km models, so they are an ideal phenomenon to use in this project. They are also challenging to parametrize, and this project should shed light on how to do this. Once I've built the framework, I'll use the information to improve the CoMorph parametrization scheme in the coarser model so that it can better represent organized convection.
 
-
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+I've been based at the [University of Reading](https://research.reading.ac.uk/meteorology/people/mark-muetzelfeldt/) since 2015, when I started my PhD on representing organized deep convection in atmospheric models. I like it so much that I've never left! Since finishing, I've worked on convection over China (COSMIC), parametrizing mesoscale convective systems in atmospheric models (MCS:PRIME) and understanding the links between updrafts and anvil clouds (AFESP project [UPFLO]({% link _projects/4_project.md %})).

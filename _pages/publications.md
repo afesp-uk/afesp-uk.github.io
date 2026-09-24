@@ -13,6 +13,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p id="publication-results-count" style="margin: 0.5rem 0 1rem 0; font-size: 0.95rem;"></p>
+
 <div class="publications">
 
 {% bibliography %}
@@ -26,6 +28,56 @@ nav_order: 2
 				link.textContent = "URL";
 				link.setAttribute("aria-label", "URL");
 			}
+		});
+
+		const container = document.querySelector(".publications");
+		const counter = document.getElementById("publication-results-count");
+
+		if (!container || !counter) {
+			return;
+		}
+
+		const isVisible = (el) => {
+			const style = window.getComputedStyle(el);
+			return style.display !== "none" && style.visibility !== "hidden" && el.offsetParent !== null;
+		};
+
+		const getEntries = () => {
+			const selectors = [
+				".publications .bibliography li",
+				".publications ol li",
+				".publications li",
+			];
+
+			for (const selector of selectors) {
+				const nodes = container.querySelectorAll(selector);
+				if (nodes.length > 0) {
+					return Array.from(nodes);
+				}
+			}
+
+			return [];
+		};
+
+		const updateCount = () => {
+			const entries = getEntries();
+			const total = entries.length;
+			const visible = entries.filter(isVisible).length;
+			counter.textContent = `Showing ${visible} of ${total} publications`;
+		};
+
+		updateCount();
+
+		const observer = new MutationObserver(updateCount);
+		observer.observe(container, {
+			subtree: true,
+			childList: true,
+			attributes: true,
+			attributeFilter: ["style", "class", "hidden"],
+		});
+
+		document.querySelectorAll('input[type="search"], input[type="text"]').forEach((input) => {
+			input.addEventListener("input", updateCount);
 		});
 	});
 </script>

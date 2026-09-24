@@ -17,7 +17,33 @@ nav_order: 2
 
 <div class="publications">
 
+## Sub-categories
+
+- [Accepted Papers](#accepted-papers)
+- [Preprints](#preprints)
+- [Datasets](#datasets)
+- [Technical Reports](#technical-reports)
+- [Abstracts](#abstracts)
+
+## Accepted Papers
+
 {% bibliography %}
+
+## Preprints
+
+{% bibliography --file preprints %}
+
+## Datasets
+
+{% bibliography --file datasets %}
+
+## Technical Reports
+
+{% bibliography --file technical_reports %}
+
+## Abstracts
+
+{% bibliography --file abstracts %}
 
 </div>
 

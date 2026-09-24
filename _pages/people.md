@@ -54,7 +54,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
-    - align: left
+  - align: left
     image: profile_pics/lewis_g.JPG
     content: bios/about_lewis_g.md
     image_circular: false # crops the image to make it circular

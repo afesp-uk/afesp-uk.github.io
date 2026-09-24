@@ -342,17 +342,6 @@ profiles:
       </div>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_lewis_g.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title lewis g</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
     content: bios/about_Alex_Gao.md
     image_circular: false # crops the image to make it circular
     more_info: >

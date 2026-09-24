@@ -17,33 +17,35 @@ nav_order: 2
 
 <div class="publications">
 
-## Sub-categories
+<details class="publication-section" open>
+	<summary><strong>Accepted Papers</strong></summary>
 
-- [Accepted Papers](#accepted-papers)
-- [Preprints](#preprints)
-- [Datasets](#datasets)
-- [Technical Reports](#technical-reports)
-- [Abstracts](#abstracts)
+	{% bibliography %}
+</details>
 
-## Accepted Papers
+<details class="publication-section">
+	<summary><strong>Preprints</strong></summary>
 
-{% bibliography %}
+	{% bibliography --file preprints %}
+</details>
 
-## Preprints
+<details class="publication-section">
+	<summary><strong>Datasets</strong></summary>
 
-{% bibliography --file preprints %}
+	{% bibliography --file datasets %}
+</details>
 
-## Datasets
+<details class="publication-section">
+	<summary><strong>Technical Reports</strong></summary>
 
-{% bibliography --file datasets %}
+	{% bibliography --file technical_reports %}
+</details>
 
-## Technical Reports
+<details class="publication-section">
+	<summary><strong>Abstracts</strong></summary>
 
-{% bibliography --file technical_reports %}
-
-## Abstracts
-
-{% bibliography --file abstracts %}
+	{% bibliography --file abstracts %}
+</details>
 
 </div>
 
@@ -99,7 +101,11 @@ nav_order: 2
 			subtree: true,
 			childList: true,
 			attributes: true,
-			attributeFilter: ["style", "class", "hidden"],
+			attributeFilter: ["style", "class", "hidden", "open"],
+		});
+
+		container.querySelectorAll("details").forEach((section) => {
+			section.addEventListener("toggle", updateCount);
 		});
 
 		document.querySelectorAll('input[type="search"], input[type="text"]').forEach((input) => {

@@ -7,7 +7,7 @@ Research Interests:
 - High-resolution Global Climate Modelling
 - Land Surface Processes and biosphere-atmosphere interactions
 
-This is a link to my [GitHub repository](https://https://github.com/pierluigividale), where you can find a couple of projects I have been working on: 
+This is a link to my [GitHub repository](https://github.com/pierluigividale), where you can find a couple of projects I have been working on: 
 
 I took on a new role in 2021, as first Director of the University of Reading - ECMWF Research Collaboration, which has now expanded to a new 15-year programme, called Advancing the Frotiers of Earth System Prediction, and broader partnership with ECMWF, Met Offfice and NCAS. Further particulars on this new activity are available here, including news: [AFESP](https://afesp-uk.github.io)
 

@@ -20,7 +20,7 @@ nav_order: 2
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-	{% bibliography %}
+	{% bibliography --file papers.bib%}
 </details>
 
 <details class="publication-section">

@@ -1,12 +1,9 @@
 <p style="text-align: justify;">
-
+Hello! I started my PhD at the University of Reading in September 2025 where I am researching the interaction between tropical cyclones and the Madden-Julian Oscillation in the Southern Indian Ocean. I'm interested in how km-scale models can improve the forecasts of high-impact weather, and in particular how advances in scientific understanding can be effectively translated into useful, usable forecast products. I collaborate on the <a href="https://acacia-climate.net/"> ACACIA (Horizon Europe) project</a> to co-produce sub-seasonal tropical cyclone forecast products for at risk communities in Madagascar. 
+</p>
+<p> 
+I am supervised by Dr Linda Hirons (National Centre for Atmospheric Science; NCAS), Dr Alex Baker (NCAS), Dr Steve Woolnough (NCAS) , and Dr Joshua Talib (European Centre for Medium-Range Weather Forecasts). 
+</p>
 <p>
-
-
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+Before starting my PhD I completed an MPhys degree at the University of Oxford (2021-2025), where I specialised in Atmospheric Physics and Condensed Matter Physics. 
+</p>

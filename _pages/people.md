@@ -155,43 +155,10 @@ profiles:
       </div>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_Marco_Burderi.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Marco Burderi</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
-    content: bios/about_charlie.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title charlie</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
-    content: bios/about_Gabrielle_Ching-Johnson.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Gabrielle Ching-Johnson</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
     content: bios/about_Leo_Chow.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Leo Chow</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Leo Chow</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -202,7 +169,7 @@ profiles:
     content: bios/about_Leong_Wang_Chung.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Leong Wang Chung</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Leong Wang Chung</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -246,7 +213,7 @@ profiles:
     content: bios/about_Deepti_Dahiya.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Deepti Dahiya</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Deepti Dahiya</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -301,7 +268,7 @@ profiles:
     content: bios/about_Ken_Rui_Fong.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Ken Rui Fong</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Ken Rui Fong</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -342,21 +309,10 @@ profiles:
       </div>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_Alex_Gao.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Alex Gao</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
     content: bios/about_Jesse_Gilbert.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Jesse Gilbert</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Jesse Gilbert</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -367,7 +323,7 @@ profiles:
     content: bios/about_Giacomo_Giuliani.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Giacomo Giuliani</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Giacomo Giuliani</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -389,22 +345,11 @@ profiles:
     content: bios/about_Piyali_Goswami.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Piyali Goswami</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Piyali Goswami</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/lewis_g.JPG
-    content: bios/about_Lewis_Grant.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Lewis Grant</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/blank.png
@@ -433,7 +378,7 @@ profiles:
     content: bios/about_Tom_Hill.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Tom Hill</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Tom Hill</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -499,7 +444,7 @@ profiles:
     content: bios/about_Kate_Huxtable.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Kate Huxtable</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Kate Huxtable</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -532,7 +477,7 @@ profiles:
     content: bios/about_Jake_Keller.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Jake Keller</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Jake Keller</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -543,22 +488,11 @@ profiles:
     content: bios/about_Andrew_Kenny.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Andrew Kenny</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Andrew Kenny</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/kukulies.jpg
-    content: bios/about_Julia_Kukulies.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Julia Kukulies</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">AFESP Research Fellow</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/blank.png
@@ -631,7 +565,7 @@ profiles:
     content: bios/about_Kaustubh_Mittal.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Kaustubh Mittal</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Kaustubh Mittal</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -649,22 +583,11 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
       </div>
   - align: left
-    image: profile_pics/muetzelfeldt.jpg
-    content: bios/about_Mark_Muetzelfeldt.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Mark Muetzelfeldt</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">AFESP Research Fellow</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
-      </div>
-  - align: left
     image: profile_pics/blank.png
     content: bios/about_Indrakshi_Mukherjee.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Indrakshi Mukherjee</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Indrakshi Mukherjee</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -675,7 +598,7 @@ profiles:
     content: bios/about_Ravi_Shankar_Nemani.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Ravi Shankar Nemani</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Ravi Shankar Nemani</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -708,7 +631,7 @@ profiles:
     content: bios/about_Mehzooz_Nizar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Mehzooz Nizar</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Mehzooz Nizar</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -730,7 +653,7 @@ profiles:
     content: bios/about_Sambit_Panda.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Sambit Panda</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Sambit Panda</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -741,7 +664,7 @@ profiles:
     content: bios/about_Fernanda_Pino.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Fernanda Pino</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Fernanda Pino</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -796,7 +719,7 @@ profiles:
     content: bios/about_Karan_Ruparell.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Karan Ruparell</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Karan Ruparell</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -928,7 +851,7 @@ profiles:
     content: bios/about_James_Todd.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">James Todd</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title James Todd</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -947,14 +870,14 @@ profiles:
       </div>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_Andy_Turner.md
+    content: bios/about_Andrew_Turner.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Andy Turner</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Andrew Turner</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        <!-- <p style="white-space: nowrap; margin: 0; display: block;">Role  </p> -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteology </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
     image: profile_pics/blank.png
@@ -968,7 +891,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/prof_pic_Pier_Luigi_Vidale.jpeg
     content: bios/about_Pier_Luigi_Vidale.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -1016,7 +939,7 @@ profiles:
     content: bios/about_Thomas_Bayliss_White.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Thomas Bayliss White</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Thomas Bayliss White</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -1027,7 +950,7 @@ profiles:
     content: bios/about_Amber_te_Winkle.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Amber te Winkle</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Amber te Winkle</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
@@ -1038,18 +961,7 @@ profiles:
     content: bios/about_Hei_Tung_Wu.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hei Tung Wu</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-      </div>
-  - align: left
-    image: profile_pics/blank.png
-    content: bios/about_template.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title FirstName SurName</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Hei Tung Wu</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>

@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: left
     image: profile_pics/ahmadi.jpg
-    content: bios/about_sharar.md
+    content: bios/about_Sharar_Ahmadi.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Sharar Ahmadi</p>
@@ -23,7 +23,7 @@ profiles:
       </div>
   - align: left
     image: profile_pics/egan.jpg
-    content: bios/about_charlie.md
+    content: bios/about_Charlie_Egan.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Charlie Egan</p>
@@ -34,7 +34,7 @@ profiles:
       </div>
   - align: left
     image: profile_pics/kukulies.jpg
-    content: bios/about_julia.md
+    content: bios/about_Julia_Kukulies.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Julia Kukulies</p>
@@ -45,7 +45,7 @@ profiles:
       </div>
   - align: left
     image: profile_pics/muetzelfeldt.jpg
-    content: bios/about_mark.md
+    content: bios/about_Mark_Muetzelfeldt.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Mark Muetzelfeldt</p>

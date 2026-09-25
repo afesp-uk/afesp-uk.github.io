@@ -170,7 +170,6 @@
 		const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 		const highlightAuthorsFromBios = (root) => {
-			const terms = [];
 			const patternTerms = [];
 
 			bioNames.forEach((fullName) => {
@@ -179,32 +178,36 @@
 					return;
 				}
 
-				terms.push(cleanName);
-
 				const parts = cleanName.split(/\s+/);
-				if (parts.length > 1) {
-					const firstInitial = parts[0].charAt(0);
-					const surname = parts.slice(1).join(" ");
-					if (surname.length >= 3) {
-						terms.push(surname);
-						const escapedSurname = escapeRegex(surname);
-						patternTerms.push(`${firstInitial}\\.?\\s+${escapedSurname}`);
-						patternTerms.push(`${firstInitial}\\.?${escapedSurname}`);
-					}
+				if (parts.length < 2) {
+					return;
 				}
+
+				const firstName = parts[0];
+				const surnameParts = parts.slice(1);
+				const surnamePattern = surnameParts.map((part) => escapeRegex(part)).join("\\s+");
+				const firstInitial = escapeRegex(firstName.charAt(0));
+				const middleNamePattern = "[A-Za-z][A-Za-z'\\-]*";
+				const middleInitialPattern = "[A-Za-z]\\.?";
+
+				// <firstname><surname>
+				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${surnamePattern}\\b`);
+				// <Initial of first name><surname>
+				patternTerms.push(`\\b${firstInitial}\\.?\\s*${surnamePattern}\\b`);
+				// <firstname><middle name><surname>
+				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${middleNamePattern}\\s+${surnamePattern}\\b`);
+				// <firstname><Initial of middle name><surname>
+				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${middleInitialPattern}\\s+${surnamePattern}\\b`);
+				// <initial of first name><initial of middle name><surname>
+				patternTerms.push(`\\b${firstInitial}\\.?\\s*${middleInitialPattern}\\s+${surnamePattern}\\b`);
 			});
 
-			const uniqueTerms = Array.from(new Set(terms.map((term) => term.toLowerCase())))
-				.map((term) => terms.find((original) => original.toLowerCase() === term))
-				.sort((a, b) => b.length - a.length);
-
-			if (uniqueTerms.length === 0) {
+			if (patternTerms.length === 0) {
 				return;
 			}
 
-			const literalPatterns = uniqueTerms.map((term) => escapeRegex(term));
-			const allPatterns = literalPatterns.concat(patternTerms);
-			const authorRegex = new RegExp(allPatterns.join("|"), "gi");
+			const uniquePatterns = Array.from(new Set(patternTerms));
+			const authorRegex = new RegExp(uniquePatterns.join("|"), "gi");
 			const scopes = root.querySelectorAll(".author, .authors");
 			const scanRoots = scopes.length > 0 ? Array.from(scopes) : [root];
 

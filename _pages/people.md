@@ -352,7 +352,7 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/lewis_g.PNG
+    image: profile_pics/lewis_g.JPG
     content: bios/about_Lewis_Grant.md
     image_circular: false # crops the image to make it circular
     more_info: >

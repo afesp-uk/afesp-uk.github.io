@@ -15,6 +15,13 @@ nav_order: 2
 
 <p id="publication-results-count" style="margin: 0.5rem 0 1rem 0; font-size: 0.95rem;"></p>
 
+<style>
+	.publications .highlight-author-sharar {
+		color: #1f9d55;
+		font-weight: 600;
+	}
+</style>
+
 <div class="publications">
 
 <details class="publication-section" open>
@@ -65,6 +72,55 @@ nav_order: 2
 			return;
 		}
 
+		const highlightShararAuthor = (root) => {
+			const authorRegex = /(Sharar Ahmadi|Ahmadi,\s*Sharar)/g;
+			const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+			const textNodes = [];
+
+			while (walker.nextNode()) {
+				const node = walker.currentNode;
+				if (node.nodeValue && authorRegex.test(node.nodeValue)) {
+					textNodes.push(node);
+				}
+				authorRegex.lastIndex = 0;
+			}
+
+			textNodes.forEach((node) => {
+				const text = node.nodeValue;
+				if (!text) {
+					return;
+				}
+
+				authorRegex.lastIndex = 0;
+				const fragment = document.createDocumentFragment();
+				let lastIndex = 0;
+				let match = authorRegex.exec(text);
+
+				while (match) {
+					const start = match.index;
+					const end = start + match[0].length;
+
+					if (start > lastIndex) {
+						fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
+					}
+
+					const span = document.createElement("span");
+					span.className = "highlight-author-sharar";
+					span.textContent = match[0];
+					fragment.appendChild(span);
+
+					lastIndex = end;
+					match = authorRegex.exec(text);
+				}
+
+				if (lastIndex < text.length) {
+					fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+				}
+
+				node.parentNode.replaceChild(fragment, node);
+			});
+		};
+
 		const isVisible = (el) => {
 			const style = window.getComputedStyle(el);
 			return style.display !== "none" && style.visibility !== "hidden" && el.offsetParent !== null;
@@ -94,6 +150,7 @@ nav_order: 2
 			counter.textContent = `Showing ${visible} of ${total} publications`;
 		};
 
+		highlightShararAuthor(container);
 		updateCount();
 
 		const observer = new MutationObserver(updateCount);

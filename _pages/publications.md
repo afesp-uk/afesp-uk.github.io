@@ -73,11 +73,14 @@ nav_order: 2
 		}
 
 		const bioNames = [
-			{% for p in site.pages %}
-				{% if p.path contains "bios/about_" %}
-					"{{ p.path | split: '/' | last | replace: 'about_', '' | replace: '.md', '' | replace: '_', ' ' }}",
-				{% endif %}
-			{% endfor %}
+			{% assign people_page = site.pages | where: "permalink", "/people/" | first %}
+			{% if people_page and people_page.profiles %}
+				{% for profile in people_page.profiles %}
+					{% if profile.content and profile.content contains "bios/about_" %}
+						"{{ profile.content | split: '/' | last | replace: 'about_', '' | replace: '.md', '' | replace: '_', ' ' }}",
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 		];
 
 		const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

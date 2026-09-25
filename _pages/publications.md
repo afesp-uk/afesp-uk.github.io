@@ -37,12 +37,6 @@ nav_order: 2
 </details>
 
 <details class="publication-section">
-	<summary><strong>Datasets</strong></summary>
-
-	{% bibliography --file datasets %}
-</details>
-
-<details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
 	{% bibliography --file technical_reports %}
@@ -52,6 +46,12 @@ nav_order: 2
 	<summary><strong>Abstracts</strong></summary>
 
 	{% bibliography --file abstracts %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Datasets</strong></summary>
+
+	{% bibliography --file datasets %}
 </details>
 
 </div>

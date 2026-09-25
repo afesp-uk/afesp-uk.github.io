@@ -16,7 +16,7 @@ nav_order: 2
 <p id="publication-results-count" style="margin: 0.5rem 0 1rem 0; font-size: 0.95rem;"></p>
 
 <style>
-	.publications .highlight-author-sharar {
+	.publications .highlight-author-target {
 		color: #1f9d55;
 		font-weight: 600;
 	}
@@ -72,52 +72,101 @@ nav_order: 2
 			return;
 		}
 
-		const highlightShararAuthor = (root) => {
-			const authorRegex = /(Sharar Ahmadi|Ahmadi,\s*Sharar)/g;
-			const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-			const textNodes = [];
+		const bioNames = [
+			{% for p in site.pages %}
+				{% if p.path contains "bios/about_" %}
+					"{{ p.path | split: '/' | last | replace: 'about_', '' | replace: '.md', '' | replace: '_', ' ' }}",
+				{% endif %}
+			{% endfor %}
+		];
 
-			while (walker.nextNode()) {
-				const node = walker.currentNode;
-				if (node.nodeValue && authorRegex.test(node.nodeValue)) {
-					textNodes.push(node);
-				}
-				authorRegex.lastIndex = 0;
-			}
+		const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-			textNodes.forEach((node) => {
-				const text = node.nodeValue;
-				if (!text) {
+		const highlightAuthorsFromBios = (root) => {
+			const terms = [];
+			const patternTerms = [];
+
+			bioNames.forEach((fullName) => {
+				const cleanName = fullName.trim();
+				if (!cleanName) {
 					return;
 				}
 
-				authorRegex.lastIndex = 0;
-				const fragment = document.createDocumentFragment();
-				let lastIndex = 0;
-				let match = authorRegex.exec(text);
+				terms.push(cleanName);
 
-				while (match) {
-					const start = match.index;
-					const end = start + match[0].length;
+				const parts = cleanName.split(/\s+/);
+				if (parts.length > 1) {
+					const firstInitial = parts[0].charAt(0);
+					const surname = parts.slice(1).join(" ");
+					if (surname.length >= 3) {
+						terms.push(surname);
+						const escapedSurname = escapeRegex(surname);
+						patternTerms.push(`${firstInitial}\\.?\\s+${escapedSurname}`);
+						patternTerms.push(`${firstInitial}\\.?${escapedSurname}`);
+					}
+				}
+			});
 
-					if (start > lastIndex) {
-						fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
+			const uniqueTerms = Array.from(new Set(terms.map((term) => term.toLowerCase())))
+				.map((term) => terms.find((original) => original.toLowerCase() === term))
+				.sort((a, b) => b.length - a.length);
+
+			if (uniqueTerms.length === 0) {
+				return;
+			}
+
+			const literalPatterns = uniqueTerms.map((term) => escapeRegex(term));
+			const allPatterns = literalPatterns.concat(patternTerms);
+			const authorRegex = new RegExp(allPatterns.join("|"), "gi");
+			const scopes = root.querySelectorAll(".author, .authors");
+			const scanRoots = scopes.length > 0 ? Array.from(scopes) : [root];
+
+			scanRoots.forEach((scanRoot) => {
+				const walker = document.createTreeWalker(scanRoot, NodeFilter.SHOW_TEXT);
+				const textNodes = [];
+
+				while (walker.nextNode()) {
+					const node = walker.currentNode;
+					if (node.nodeValue && authorRegex.test(node.nodeValue)) {
+						textNodes.push(node);
+					}
+					authorRegex.lastIndex = 0;
+				}
+
+				textNodes.forEach((node) => {
+					const text = node.nodeValue;
+					if (!text) {
+						return;
 					}
 
-					const span = document.createElement("span");
-					span.className = "highlight-author-sharar";
-					span.textContent = match[0];
-					fragment.appendChild(span);
+					authorRegex.lastIndex = 0;
+					const fragment = document.createDocumentFragment();
+					let lastIndex = 0;
+					let match = authorRegex.exec(text);
 
-					lastIndex = end;
-					match = authorRegex.exec(text);
-				}
+					while (match) {
+						const start = match.index;
+						const end = start + match[0].length;
 
-				if (lastIndex < text.length) {
-					fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
-				}
+						if (start > lastIndex) {
+							fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
+						}
 
-				node.parentNode.replaceChild(fragment, node);
+						const span = document.createElement("span");
+						span.className = "highlight-author-target";
+						span.textContent = match[0];
+						fragment.appendChild(span);
+
+						lastIndex = end;
+						match = authorRegex.exec(text);
+					}
+
+					if (lastIndex < text.length) {
+						fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+					}
+
+					node.parentNode.replaceChild(fragment, node);
+				});
 			});
 		};
 
@@ -150,7 +199,7 @@ nav_order: 2
 			counter.textContent = `Showing ${visible} of ${total} publications`;
 		};
 
-		highlightShararAuthor(container);
+		highlightAuthorsFromBios(container);
 		updateCount();
 
 		const observer = new MutationObserver(updateCount);

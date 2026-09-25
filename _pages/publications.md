@@ -72,23 +72,107 @@ nav_order: 2
 			return;
 		}
 
-		const bioNames = [
-			{% assign people_page = site.pages | where: "permalink", "/people/" | first %}
-			{% if people_page and people_page.profiles %}
-				{% for profile in people_page.profiles %}
-					{% if profile.content and profile.content contains "bios/about_" %}
-						"{{ profile.content | split: '/' | last | replace: 'about_', '' | replace: '.md', '' | replace: '_', ' ' }}",
-					{% endif %}
-				{% endfor %}
-			{% endif %}
+		const targetNames = [
+			"Alan Blyth",
+			"Alex Gao",
+			"Alison Fowler",
+			"Alison Stirling",
+			"Amber Winkle",
+			"Amos Lawless",
+			"Andrew Kenny",
+			"Andrew Turner",
+			"Anne Verhoef",
+			"Birgit Sutzl",
+			"Bob Plant",
+			"Bryan Lawrence",
+			"Cameron Southgate-As",
+			"Charlie Egan",
+			"Chris Holloway",
+			"Chris Merchant",
+			"Chris OReilly",
+			"Christel Prudhomme",
+			"Claire Bulgin",
+			"Deepak Gopalakrishnan",
+			"Deepti Dahiya",
+			"Elias Holm",
+			"Emily Black",
+			"Eviatar Bach",
+			"Fernanda Pino",
+			"Frederic Vitart",
+			"Gabrielle Ching-Johnson",
+			"Giacomo Giuliani",
+			"Gianpaolo Balsamo",
+			"Hamidreza Mosaffa",
+			"Hannah Cloke",
+			"Hei Tung Wu",
+			"Helen Dacre",
+			"Hilary Weller",
+			"Humphrey Lean",
+			"Indrakshi Mukherjee",
+			"Jake Keller",
+			"James Todd",
+			"Jennifer Scott",
+			"Jesse Gilbert",
+			"Joanne Waller",
+			"John Methven",
+			"Jon Shonk",
+			"Julia Kukulies",
+			"Karan Ruparell",
+			"Kate Huxtable",
+			"Kaustubh Mittal",
+			"Ken Rui Fong",
+			"Kieran Hunt",
+			"Leo Chow",
+			"Leong Chung",
+			"Lewis Blunn",
+			"Lewis Grant",
+			"Linda Hirons",
+			"Liz Stephens",
+			"Lorenzo Tomassini",
+			"Maarten Ambaum",
+			"Magdelena Balmaseda",
+			"Marco Burderi",
+			"Mark Muetzelfeldt",
+			"Massimo Bonavita",
+			"Mehzooz Nizar",
+			"Nancy Nichols",
+			"Niels Borman",
+			"Oscar Martinez-Alvarado",
+			"Patricia Rosnay",
+			"Peter Duben",
+			"Pier Vidale",
+			"Piyali Goswami",
+			"Rajsekhar Kandala",
+			"Ravi Nemani",
+			"Reinhard Schiemann",
+			"Richard Forbes",
+			"Rishabh Bhatt",
+			"Robin Hogan",
+			"Rosalind Cornforth",
+			"Ross Bannister",
+			"Sambit Panda",
+			"Sarah Dance",
+			"Sharar Ahmadi",
+			"Shovonol Roy",
+			"Steven Hardiman",
+			"Stuart Newman",
+			"Sue Grimmond",
+			"Ted Shepherd",
+			"Thomas White",
+			"Thorwald Stein",
+			"Todd Jones",
+			"Tom Frame",
+			"Tom Hill",
+			"Xiangbo Feng",
+			"Xiaocen Shen",
 		];
 
 		const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-		const highlightAuthorsFromBios = (root) => {
+		const highlightAuthorsFromList = (root) => {
 			const patternTerms = [];
 
-			bioNames.forEach((fullName) => {
+			targetNames.forEach((fullName) => {
 				const cleanName = fullName.trim();
 				if (!cleanName) {
 					return;
@@ -104,18 +188,20 @@ nav_order: 2
 				const surnamePattern = surnameParts.map((part) => escapeRegex(part)).join("\\s+");
 				const firstInitial = escapeRegex(firstName.charAt(0));
 				const middleNamePattern = "[A-Za-z][A-Za-z'\\-]*";
-				const middleInitialPattern = "[A-Za-z]\\.?";
+				const middleNameOrInitialPattern = "[A-Za-z][A-Za-z'\\-]*\\.?";
 
 				// <firstname><surname>
 				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${surnamePattern}\\b`);
 				// <Initial of first name><surname>
-				patternTerms.push(`\\b${firstInitial}\\.?\\s*${surnamePattern}\\b`);
+				patternTerms.push(`\\b${firstInitial}\\.?\\s+${surnamePattern}\\b`);
 				// <firstname><middle name><surname>
 				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${middleNamePattern}\\s+${surnamePattern}\\b`);
-				// <firstname><Initial of middle name><surname>
-				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+${middleInitialPattern}\\s+${surnamePattern}\\b`);
-				// <initial of first name><initial of middle name><surname>
-				patternTerms.push(`\\b${firstInitial}\\.?\\s*${middleInitialPattern}\\s+${surnamePattern}\\b`);
+				// <firstname><initial of middle name><surname>
+				patternTerms.push(`\\b${escapeRegex(firstName)}\\s+[A-Za-z]\\.?\\s+${surnamePattern}\\b`);
+				// <initial of firstname><middle name><surname>
+				patternTerms.push(`\\b${firstInitial}\\.?\\s+${middleNameOrInitialPattern}\\s+${surnamePattern}\\b`);
+				// <initial of firstname><initial of middle name><surname>
+				patternTerms.push(`\\b${firstInitial}\\.?\\s+[A-Za-z]\\.?\\s+${surnamePattern}\\b`);
 			});
 
 			if (patternTerms.length === 0) {
@@ -205,7 +291,7 @@ nav_order: 2
 			counter.textContent = `Showing ${visible} of ${total} publications`;
 		};
 
-		highlightAuthorsFromBios(container);
+		highlightAuthorsFromList(container);
 		updateCount();
 
 		const observer = new MutationObserver(updateCount);

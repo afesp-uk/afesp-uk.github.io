@@ -171,7 +171,6 @@ nav_order: 2
 
 		const highlightAuthorsFromList = (root) => {
 			const patternTerms = [];
-			const phrasePatterns = ["\\bThe\\s+RAMIP\\s+modeling\\s+team\\b", "\\bThe\\s+RAMIP\\s+modelling\\s+team\\b"];
 
 			targetNames.forEach((fullName) => {
 				const cleanName = fullName.trim();
@@ -209,9 +208,10 @@ nav_order: 2
 				return;
 			}
 
-			const uniquePatterns = Array.from(new Set(patternTerms.concat(phrasePatterns)));
+			const uniquePatterns = Array.from(new Set(patternTerms));
 			const authorRegex = new RegExp(uniquePatterns.join("|"), "gi");
-			const scanRoots = [root];
+			const scopes = root.querySelectorAll(".author, .authors");
+			const scanRoots = scopes.length > 0 ? Array.from(scopes) : [root];
 
 			scanRoots.forEach((scanRoot) => {
 				const walker = document.createTreeWalker(scanRoot, NodeFilter.SHOW_TEXT);

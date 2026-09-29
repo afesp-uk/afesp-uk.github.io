@@ -8,6 +8,7 @@ Some of the topics I plan on researching include:
 - Investigating whether satellite observations of both phytoplankton chlorophyll and carbon can effectively constrain forecasts of nutrient concentration.
 - Using ensemble data assimilation to estimate how biogeochemical parameter values vary seasonally and across different regions of the ocean.
 - Differentiating between harmful and non-harmful species of phytoplankton, and seeing whether data assimilation can improve forecasts of the concentration of toxins that harmful species produce.
+{: style="overflow: hidden;"}
 
 Before I started my PhD, I studied for an MSci in Mathematics (Climate Science) at the University of Exeter. My dissertation studied the development and characteristics of vegetation patterns in semi-arid regions. 
 From June-September 2023, I worked as a research intern at Mount Royal University in Calgary, AB, Canada through the Mitacs Globalink research internship scheme, studying data assimilation applied to epidemiological models. 

@@ -308,7 +308,7 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/Giacomo_Giuliani.jpg
     content: bios/about_Giacomo_Giuliani.md
     image_circular: false # crops the image to make it circular
     more_info: >

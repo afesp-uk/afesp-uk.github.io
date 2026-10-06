@@ -61,7 +61,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
 
-	{% bibliography --file datasets --query @*[author !~ Ahmadi] %}
+	{% comment %} Datasets are listed under AFESP Collaboration only. {% endcomment %}
 </details>
 
 {% comment %}
@@ -111,7 +111,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
 
-	{% bibliography --file datasets --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+	{% bibliography --file datasets %}
 </details>
 
 {% comment %}

@@ -11,7 +11,7 @@ nav_order: 2
 
 <p class="publication-intro">
 	Publications under <strong>AFESP Core</strong> are directly related to one of the main <a href="{{ '/projects/' | relative_url }}">projects</a> funded by AFESP.<br>
-	Publications under <strong>AFESP Collaboration</strong> are those on which AFESP members collaborated with other projects.
+	Publications under <strong>AFESP Collaboration</strong> are those funded by AFESP on which AFESP members collaborated with other projects.
 </p>
 
 <!-- Bibsearch Feature -->

@@ -7,6 +7,6 @@ importance: 1
 category: PhD projects
 ---
 
-**PhD Student**: Indrakshi Mukherjee
-
 **Supervisor**: Andrew Turner
+
+**PhD Student**: Indrakshi Mukherjee

@@ -20,6 +20,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  /* Hide the site title and subtitle on the about page. */
+  .post > .post-header {
+    display: none;
+  }
+</style>
+
+<img
+  src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
+  alt="AFESP logo"
+  style="float:right; width:160px; max-width:35%; margin:0 0 1rem 1.5rem;"
+/>
+
 # About
 
 The **Research Programme on Advancing the Frontiers of Earth System Prediction (AFESP)** is a **£30 million, 15-year research programme** led by the University

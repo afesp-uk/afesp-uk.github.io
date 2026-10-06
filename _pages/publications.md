@@ -312,7 +312,9 @@ nav_order: 2
 			];
 
 			for (const selector of selectors) {
-				const nodes = container.querySelectorAll(selector);
+				// Each publication is listed under both groups, so count one group only.
+				const countRoot = container.querySelector(".publication-group") || container;
+				const nodes = countRoot.querySelectorAll(selector.replace(/^\.publications /, ""));
 				if (nodes.length > 0) {
 					return Array.from(nodes);
 				}

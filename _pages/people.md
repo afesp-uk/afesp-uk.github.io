@@ -704,17 +704,17 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
-  #   - align: left
-  #     image: profile_pics/blank.png
-  #     content: bios/about_Bob_Plant.md
-  #     image_circular: false # crops the image to make it circular
-  #     more_info: >
-  #       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Bob Plant</p>
-  #       <div style="font-size: 0.8em; line-height: 1.15;">
-  #         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-  #         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-  #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-  #       </div>
+     - align: left
+       image: profile_pics/blank.png
+       content: bios/about_Bob_Plant.md
+       image_circular: false # crops the image to make it circular
+       more_info: >
+         <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Bob Plant</p>
+         <div style="font-size: 0.8em; line-height: 1.15;">
+           <p style="white-space: nowrap; margin: 0; display: block;">Role: PhD supervisor </p>
+           <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology </p>
+           <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
+         </div>
   #   - align: left
   #     image: profile_pics/blank.png
   #     content: bios/about_Christel_Prudhomme.md

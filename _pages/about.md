@@ -18,6 +18,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  /* The main page shows the full-width logo below, so skip the small header logo here. */
+  .post .post-header {
+    background: none;
+    min-height: 0;
+    padding-right: 0;
+  }
+</style>
+
 <img
   src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
   alt="AFESP logo"

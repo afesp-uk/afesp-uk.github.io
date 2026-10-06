@@ -21,9 +21,9 @@ latest_posts:
 <style>
   /* The main page shows the full-width logo below, so skip the small header logo here. */
   .post .post-header {
-    background: none;
-    min-height: 0;
-    padding-right: 0;
+    background: none !important;
+    min-height: 0 !important;
+    padding-right: 0 !important;
   }
 </style>
 

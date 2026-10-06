@@ -16,13 +16,20 @@ nav_order: 2
 <p id="publication-results-count" style="margin: 0.5rem 0 1rem 0; font-size: 0.95rem;"></p>
 
 <style>
+	.publications .publication-group > summary {
+		font-size: 1.15rem;
+		margin: 0.5rem 0;
+	}
+	.publications .publication-group > .publication-section {
+		margin-left: 1.25rem;
+	}
 	.publications .highlight-author-target {
 		color: #1f9d55;
 		font-weight: 600;
 	}
 </style>
 
-<div class="publications">
+{% capture publication_sections %}
 
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
@@ -64,6 +71,24 @@ nav_order: 2
 	<summary><strong>Books</strong></summary>
 
 	{% bibliography --file books %}
+</details>
+
+{% endcapture %}
+
+<div class="publications">
+
+<details class="publication-group" open>
+	<summary><strong>AFESP Core</strong></summary>
+
+{{ publication_sections }}
+
+</details>
+
+<details class="publication-group">
+	<summary><strong>AFESP Collaboration</strong></summary>
+
+{{ publication_sections }}
+
 </details>
 
 </div>

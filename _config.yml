@@ -10,12 +10,12 @@ contact_note: >
   j.kukulies@reading.ac.uk, mark.muetzelfeldt.reading.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-# The <style> block at the end of footer_text hides the "AFESP" title link in the top bar and lays the top menu out in two rows on every page.
+# The <style> block at the end of footer_text hides the "AFESP" title link in the top bar and lays the top menu out in two left-aligned rows on every page.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-  <style>.navbar .navbar-brand.title { display: none; } @media (min-width: 576px) { .navbar .navbar-menu-list { display: grid !important; grid-template-columns: repeat(7, auto); justify-content: end; justify-items: end; align-items: center; } .navbar .navbar-menu-list > .nav-item > .nav-link { padding-top: 0.2rem; padding-bottom: 0.2rem; } }</style>
+  <style>.navbar .navbar-brand.title { display: none; } @media (min-width: 576px) { .navbar .navbar-collapse-main { justify-content: flex-start; text-align: left; } .navbar .navbar-menu-list { display: grid !important; grid-template-columns: repeat(7, auto); justify-content: start; justify-items: start; align-items: center; margin-left: 0; } .navbar .navbar-menu-list > .nav-item > .nav-link { padding-top: 0.2rem; padding-bottom: 0.2rem; } }</style>
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

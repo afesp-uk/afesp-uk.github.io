@@ -29,7 +29,54 @@ nav_order: 2
 	}
 </style>
 
-{% capture publication_sections %}
+{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi; AFESP Collaboration lists everything. {% endcomment %}
+{% capture core_sections %}
+
+<details class="publication-section" open>
+	<summary><strong>Accepted Papers</strong></summary>
+
+	{% bibliography --file papers --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Preprints</strong></summary>
+
+	{% bibliography --file preprints --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Technical Reports</strong></summary>
+
+	{% bibliography --file technical_reports --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Abstracts</strong></summary>
+
+	{% bibliography --file abstracts --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Datasets</strong></summary>
+
+	{% bibliography --file datasets --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Manuals</strong></summary>
+
+	{% bibliography --file manuals --query @*[author !~ Ahmadi] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Books</strong></summary>
+
+	{% bibliography --file books --query @*[author !~ Ahmadi] %}
+</details>
+
+{% endcapture %}
+
+{% capture collaboration_sections %}
 
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
@@ -80,14 +127,14 @@ nav_order: 2
 <details class="publication-group" open>
 	<summary><strong>AFESP Core</strong></summary>
 
-{{ publication_sections }}
+{{ core_sections }}
 
 </details>
 
 <details class="publication-group">
 	<summary><strong>AFESP Collaboration</strong></summary>
 
-{{ publication_sections }}
+{{ collaboration_sections }}
 
 </details>
 
@@ -312,9 +359,11 @@ nav_order: 2
 			];
 
 			for (const selector of selectors) {
-				// Each publication is listed under both groups, so count one group only.
-				const countRoot = container.querySelector(".publication-group") || container;
-				const nodes = countRoot.querySelectorAll(selector.replace(/^\.publications /, ""));
+				// Publications repeat across groups, so count the fullest group only.
+				const sel = selector.replace(/^\.publications /, "");
+				const groups = Array.from(container.querySelectorAll(".publication-group"));
+				const countRoot = groups.reduce((best, g) => (!best || g.querySelectorAll(sel).length > best.querySelectorAll(sel).length ? g : best), null) || container;
+				const nodes = countRoot.querySelectorAll(sel);
 				if (nodes.length > 0) {
 					return Array.from(nodes);
 				}

@@ -1,7 +1,9 @@
 ---
 layout: about
-title: home
-permalink: /
+title: about
+permalink: /about/
+nav: true
+nav_order: 0
 subtitle: "Advancing the Frontiers of Earth System Prediction."
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -18,21 +20,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<img
-  src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
-  alt="AFESP logo"
-  style="display:block; width:100%; margin:0 auto 2rem auto;"
-/>
-
 # About
 
 The **Research Programme on Advancing the Frontiers of Earth System Prediction (AFESP)** is a **£30 million, 15-year research programme** led by the University
 of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the National Centre for Atmospheric
 Science (NCAS). AFESP addresses ambitious, long-term research challenges in Earth system prediction, with the goal of extending the practical predictability of
 weather and climate from around two weeks towards four weeks through advances in data assimilation, Earth system modelling, and scientific analysis.
-
-{% comment %} The sections below are hidden on the main page; they are shown on the about page (_pages/about_afesp.md). {% endcomment %}
-{% comment %}
 
 ## Official AFESP website
 
@@ -72,5 +65,3 @@ This site is intended for:
 
 As a living resource, this site will continue to grow alongside the programme, providing an evolving record of how AFESP is advancing the frontiers of
 Earth system prediction.
-
-{% endcomment %}

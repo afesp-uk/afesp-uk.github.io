@@ -974,7 +974,7 @@ profiles:
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Tom Bayliss White</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;"PhD Researcher</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">PhD Researcher</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Geography and</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Environmental Science</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>

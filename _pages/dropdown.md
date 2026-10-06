@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false # submenus hidden from the top menu; set to true to show it again
 nav_order: 9
 dropdown: true
 children:

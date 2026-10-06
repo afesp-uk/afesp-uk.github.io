@@ -1,5 +1,7 @@
 <p style="text-align: justify;">
+Hi! I am a PhD student at the University of Reading since September 2025, working on grey-zone convection parametrisation. I am supervised by Prof. Robert Plant and Prof. Chris Holloway from the University of Reading, and Dr. Ian Boutle from the Met Office. My project investigates the feasibility and possible benefits of coupling convection schemes to dynamics (and other parametrisations) across different grid resolutions - for example we may choose to run dynamics, microphysics, and turbulence at a O(1km) scale while keeping parametrised convection at the O(10km) scale outside the grey zone scale, therefore sidestepping or at least mitigating the convective grey zone problem. I primarily do idealised modelling with the CoMorph convection scheme, and the Met Office's next-generation atmospheric model LFRic  - particularly because LFRic's model architecture allows for computationally efficient coupling between nested grids at different resolutions. 
 
+Prior to my PhD, I did my Bachelors in Physics at the National University of Singapore (2021-2025). My honours project was completed under joint supervision with the Centre for Climate Research Singapore (CCRS) and investigated the nonlinear stochastic recharge oscillator model of ENSO as a possible diagnostic for nonlinear ENSO processes in CMIP6 simulations.
 <p>
 
 

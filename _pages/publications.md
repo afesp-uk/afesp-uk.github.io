@@ -37,7 +37,7 @@ nav_order: 2
 {% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi. AFESP Collaboration keeps only those co-authored by Sharar Ahmadi or the RAMIP modelling team. {% endcomment %}
 {% capture core_sections %}
 
-<details class="publication-section">
+<details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
 	{% bibliography --file papers --query @*[author !~ Ahmadi] %}

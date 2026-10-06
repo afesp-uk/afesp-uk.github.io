@@ -24,8 +24,6 @@ latest_posts:
   style="display:block; width:100%; margin:0 auto 2rem auto;"
 />
 
-# About
-
 The **Research Programme on Advancing the Frontiers of Earth System Prediction (AFESP)** is a **£30 million, 15-year research programme** led by the University
 of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the National Centre for Atmospheric
 Science (NCAS). AFESP addresses ambitious, long-term research challenges in Earth system prediction, with the goal of extending the practical predictability of

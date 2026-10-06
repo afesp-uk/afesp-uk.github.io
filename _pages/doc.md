@@ -1,6 +1,6 @@
 ---
 layout: page
-title: doc
+title: computational support
 permalink: /doc/
 nav: true
 nav_order: 8

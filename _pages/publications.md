@@ -50,11 +50,13 @@ nav_order: 2
 	{% bibliography --file technical_reports --query @*[author !~ Ahmadi] %}
 </details>
 
+{% comment %}
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
 	{% bibliography --file abstracts --query @*[author !~ Ahmadi] %}
 </details>
+{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
@@ -62,11 +64,13 @@ nav_order: 2
 	{% bibliography --file datasets --query @*[author !~ Ahmadi] %}
 </details>
 
+{% comment %}
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
 	{% bibliography --file manuals --query @*[author !~ Ahmadi] %}
 </details>
+{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
@@ -96,11 +100,13 @@ nav_order: 2
 	{% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
+{% comment %}
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
 	{% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
+{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
@@ -108,11 +114,13 @@ nav_order: 2
 	{% bibliography --file datasets --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
+{% comment %}
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
 	{% bibliography --file manuals --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
+{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>

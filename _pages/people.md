@@ -176,13 +176,13 @@ profiles:
   #       <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #     </div>
   - align: left
-    image: profile_pics/Prof_Hannah_Cloke.JPG
+    image: profile_pics/Prof_Hannah_Cloke_portrait.jpg
     content: bios/about_Hannah_Cloke.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Hannah Cloke</p>
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Hannah Cloke OBE</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;"> Professor Hannah Cloke </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Regius Professor in Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>

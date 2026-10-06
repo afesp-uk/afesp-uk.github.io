@@ -29,7 +29,7 @@ nav_order: 2
 	}
 </style>
 
-{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi; AFESP Collaboration lists everything. {% endcomment %}
+{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi. AFESP Collaboration keeps only those co-authored by Sharar Ahmadi or the RAMIP modelling team. {% endcomment %}
 {% capture core_sections %}
 
 <details class="publication-section" open>
@@ -81,43 +81,43 @@ nav_order: 2
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-	{% bibliography --file papers %}
+	{% bibliography --file papers --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-	{% bibliography --file preprints %}
+	{% bibliography --file preprints --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-	{% bibliography --file technical_reports %}
+	{% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-	{% bibliography --file abstracts %}
+	{% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
 
-	{% bibliography --file datasets %}
+	{% bibliography --file datasets --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-	{% bibliography --file manuals %}
+	{% bibliography --file manuals --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-	{% bibliography --file books %}
+	{% bibliography --file books --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 {% endcapture %}
@@ -359,11 +359,7 @@ nav_order: 2
 			];
 
 			for (const selector of selectors) {
-				// Publications repeat across groups, so count the fullest group only.
-				const sel = selector.replace(/^\.publications /, "");
-				const groups = Array.from(container.querySelectorAll(".publication-group"));
-				const countRoot = groups.reduce((best, g) => (!best || g.querySelectorAll(sel).length > best.querySelectorAll(sel).length ? g : best), null) || container;
-				const nodes = countRoot.querySelectorAll(sel);
+				const nodes = container.querySelectorAll(selector);
 				if (nodes.length > 0) {
 					return Array.from(nodes);
 				}
@@ -373,10 +369,18 @@ nav_order: 2
 		};
 
 		const updateCount = () => {
-			const entries = getEntries();
-			const total = entries.length;
-			const visible = entries.filter(isVisible).length;
-			counter.textContent = `Showing ${visible} of ${total} publications`;
+			// A publication can appear under more than one group, so count each one once.
+			const keyOf = (el) => el.querySelector("[id]")?.id || el.textContent.trim();
+			const all = new Set();
+			const shown = new Set();
+			getEntries().forEach((el) => {
+				const key = keyOf(el);
+				all.add(key);
+				if (isVisible(el)) {
+					shown.add(key);
+				}
+			});
+			counter.textContent = `Showing ${shown.size} of ${all.size} publications`;
 		};
 
 		highlightAuthorsFromList(container);

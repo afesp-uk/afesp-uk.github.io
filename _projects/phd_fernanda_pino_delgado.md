@@ -9,7 +9,7 @@ category: PhD projects
 
 **Supervisor**: Rosalind Cornforth
 
-**PhD Student**: Fernanda Pino
+**PhD Student**: Fernanda Pino Delgado
 
 **Description**: The project aims to improve sub-seasonal prediction of climate extremes in semi-arid transition zones, using a combination of physical process understanding and machine learning methods applied to ECMWF extended-range forecasts and reanalysis data for weak-signal detection, with the goal of strengthening early-warning systems for climate-sensitive livelihoods.
 

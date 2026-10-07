@@ -1,7 +1,10 @@
 <p style="text-align: justify;">
+I am a geophysicist interested in climate change research, extreme events, and how they affect people and their livelihoods. I am currently in the first year of my PhD, which combines machine learning and physical understanding to extract weak signals at weeks 3-4 from ECMWF's extended-range forecasts, with the aim of supporting early warning systems for adaptive social protection.
+</p>
 
-<p>
-
+<p style="text-align: justify;">
+Before starting my PhD, I completed a master's in Climate Change and AI. I have worked on Chile's National Adaptation Plan for Climate Change and carried out research supporting Lebanon's equivalent plan under a UNEP project. I am also passionate about science communication, which I have been doing for over five years. Outside of research, I am a keen nature enthusiast, and in my free time I enjoy learning about flora, fauna and funga.
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

@@ -833,7 +833,7 @@ profiles:
     anchor: chris-oreilly # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="chris-oreilly" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Chris OReilly</p>
+      <p id="chris-oreilly" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Chris O’Reilly</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>

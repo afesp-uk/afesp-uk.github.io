@@ -47,34 +47,3 @@ children:
     <a href="mailto:s.ahmadi@reading.ac.uk">s.ahmadi@reading.ac.uk</a>
   </div>
 </div>
-
-<style>
-  /* Keep the contact email at the very bottom of the page, just above the footer. */
-  .post > article {
-    display: flex;
-    flex-direction: column;
-    min-height: calc(100vh - var(--support-page-offset, 320px));
-  }
-  .post > article > .social {
-    margin-top: auto;
-  }
-</style>
-
-<script>
-  // Work out how much room the top menu, page title and footer take, so the email sits at the bottom of the window.
-  (() => {
-    const fit = () => {
-      const article = document.querySelector(".post > article");
-      const footer = document.querySelector("footer");
-      if (!article) {
-        return;
-      }
-      const top = article.getBoundingClientRect().top + window.scrollY;
-      const footerHeight = footer ? footer.getBoundingClientRect().height : 0;
-      article.style.setProperty("--support-page-offset", `${Math.ceil(top + footerHeight + 64)}px`);
-    };
-    document.addEventListener("DOMContentLoaded", fit);
-    window.addEventListener("load", fit);
-    window.addEventListener("resize", fit);
-  })();
-</script>

@@ -155,9 +155,33 @@
     }
   };
 
+  // On short pages, push the contact block (email icon and addresses) down so it sits at the
+  // very bottom of the window, just above the footer bar. Longer pages are left alone.
+  const pinContactToBottom = () => {
+    const blocks = document.querySelectorAll(".post .social, .post ~ .social");
+    const social = blocks[blocks.length - 1];
+    const footer = document.querySelector("footer");
+    if (!social) {
+      return;
+    }
+    social.style.marginTop = "";
+    const footerHeight = footer ? footer.getBoundingClientRect().height : 0;
+    const target = window.innerHeight - footerHeight - 24;
+    const bottom = social.getBoundingClientRect().bottom + window.scrollY;
+    if (bottom < target) {
+      const current = parseFloat(window.getComputedStyle(social).marginTop) || 0;
+      social.style.marginTop = `${current + target - bottom}px`;
+    }
+  };
+
   const start = () => {
     run();
     addEmailIcon();
+    pinContactToBottom();
+    window.addEventListener("load", pinContactToBottom);
+    window.addEventListener("resize", pinContactToBottom);
+    // Opening or closing a drop-down section changes the page height.
+    document.addEventListener("toggle", pinContactToBottom, true);
   };
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", start);

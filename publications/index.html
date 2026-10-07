@@ -218,6 +218,48 @@
 		document.querySelectorAll('input[type="search"], input[type="text"]').forEach((input) => {
 			input.addEventListener("input", updateCount);
 		});
+
+		// While a search is active, show only what matches: open the sections that contain
+		// matching publications and hide the sections and groups that contain none.
+		// Clearing the search puts every section back the way it was.
+		const searchInput = document.getElementById("bibsearch");
+		const foldables = Array.from(container.querySelectorAll(".publication-group, .publication-section"));
+		foldables.forEach((el) => {
+			el.dataset.defaultOpen = el.open ? "true" : "false";
+		});
+		let searchActive = false;
+		const syncSectionsWithSearch = () => {
+			const term = searchInput ? searchInput.value.trim() : "";
+			if (!term) {
+				if (searchActive) {
+					foldables.forEach((el) => {
+						el.hidden = false;
+						el.open = el.dataset.defaultOpen === "true";
+					});
+					searchActive = false;
+				}
+				updateCount();
+				return;
+			}
+			searchActive = true;
+			container.querySelectorAll(".publication-section").forEach((section) => {
+				const matches = section.querySelectorAll(".bibliography > li:not(.unloaded)").length;
+				section.hidden = matches === 0;
+				section.open = matches > 0;
+			});
+			container.querySelectorAll(".publication-group").forEach((group) => {
+				const hasMatches = group.querySelectorAll(".publication-section:not([hidden])").length > 0;
+				group.hidden = !hasMatches;
+				group.open = hasMatches;
+			});
+			updateCount();
+		};
+		if (searchInput) {
+			// The theme's own search marks non-matching entries first; run just after it.
+			searchInput.addEventListener("input", () => window.setTimeout(syncSectionsWithSearch, 50));
+			window.addEventListener("hashchange", () => window.setTimeout(syncSectionsWithSearch, 50));
+			window.setTimeout(syncSectionsWithSearch, 50);
+		}
 	});
 </script> <div class="social"> <div class="contact-note"> <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Advancing the Frontiers Frontiers of Earth System Prediction. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. <script defer src="/assets/js/afesp-members.js"></script> <style>.navbar .navbar-brand.title { display: none; } .post .afesp-member, .post a.afesp-member:hover { color: #1f9d55; font-weight: 600; } .post a.afesp-member:hover { text-decoration: underline; } .profile .more-info p[id] { scroll-margin-top: 480px; } @media (max-width: 575.98px) { .profile .more-info p[id] { scroll-margin-top: calc(127vw + 70px); } } .post .profile figure img { aspect-ratio: 3 / 4; object-fit: cover; object-position: center; } .post .post-header { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; min-height: 80px; padding-right: 176px; } .post > .header-bar { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; } @media (max-width: 575.98px) { .post .post-header { background-size: 100px auto; min-height: 52px; padding-right: 112px; } .post > .header-bar { background-size: 100px auto; } } @media (min-width: 576px) { .navbar .navbar-collapse-main { justify-content: flex-start; text-align: left; } .navbar .navbar-collapse-main { flex-grow: 1; } .navbar .navbar-menu-list { display: flex !important; flex-wrap: wrap !important; justify-content: flex-start; align-items: center; margin-left: 0; width: 100%; } .navbar .navbar-menu-list > .nav-item > .nav-link { padding-top: 0.2rem; padding-bottom: 0.2rem; } }</style> </div> </footer> <script>
   window.alFolio = {

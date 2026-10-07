@@ -264,7 +264,7 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/ken_rui_fong.png
+    image: profile_pics/ken_rui_fong.jpg
     content: bios/about_Ken_Rui_Fong.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -705,8 +705,8 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/robert_plant.jpg
-    content: bios/about_Robert_Plant.md
+    image: profile_pics/blank.png # placeholder until a photo is added as profile_pics/robert_plant.jpg
+    content: bios/about_Bob_Plant.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Robert Plant</p>

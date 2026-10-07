@@ -25,17 +25,14 @@ nav_order: 4
 
 - [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
-  EGU26, Vienna, Austria & Online | 3–8 May 2026
+  EGU26, Vienna, Austria & Online | 3–8 May 2026<br>
+  DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
 
 ## Contributions to workshops
 
 ## Contributions to seminars and talks
 
 ## Other presentations and outreach activities
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
 
 <style>
   .afesp-member {

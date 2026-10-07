@@ -56,12 +56,6 @@ nav_order: 2
 </details>
 
 <details class="publication-section">
-	<summary><strong>Abstracts</strong></summary>
-
-	{% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
-</details>
-
-<details class="publication-section">
 	<summary><strong>Datasets</strong></summary>
 
 	{% comment %} Datasets are listed under AFESP Collaboration only. {% endcomment %}
@@ -101,12 +95,6 @@ nav_order: 2
 	<summary><strong>Technical Reports</strong></summary>
 
 	{% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
-</details>
-
-<details class="publication-section">
-	<summary><strong>Abstracts</strong></summary>
-
-	{% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">

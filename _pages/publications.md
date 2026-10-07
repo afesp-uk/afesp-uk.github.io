@@ -34,31 +34,31 @@ nav_order: 2
 	}
 </style>
 
-{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi. AFESP Collaboration keeps only those co-authored by Sharar Ahmadi or the RAMIP modelling team. {% endcomment %}
+{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi or the RAMIP modelling team. AFESP Collaboration keeps only those co-authored by Sharar Ahmadi or the RAMIP modelling team. {% endcomment %}
 {% capture core_sections %}
 
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-	{% bibliography --file papers --query @*[author !~ Ahmadi] %}
+	{% bibliography --file papers --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-	{% bibliography --file preprints --query @*[author !~ Ahmadi] %}
+	{% bibliography --file preprints --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-	{% bibliography --file technical_reports --query @*[author !~ Ahmadi] %}
+	{% bibliography --file technical_reports --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-	{% bibliography --file abstracts --query @*[author !~ Ahmadi] %}
+	{% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 
 <details class="publication-section">
@@ -71,14 +71,14 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-	{% bibliography --file manuals --query @*[author !~ Ahmadi] %}
+	{% bibliography --file manuals --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 {% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-	{% bibliography --file books --query @*[author !~ Ahmadi] %}
+	{% bibliography --file books --query @*[author !~ Ahmadi && author !~ RAMIP] %}
 </details>
 
 {% endcapture %}

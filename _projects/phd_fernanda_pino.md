@@ -10,3 +10,14 @@ category: PhD projects
 **Supervisor**: Rosalind Cornforth
 
 **PhD Student**: Fernanda Pino
+
+**Description**: The project aims to improve sub-seasonal prediction of climate extremes in semi-arid transition zones, using a combination of physical process understanding and machine learning methods applied to ECMWF extended-range forecasts and reanalysis data for weak-signal detection, with the goal of strengthening early-warning systems for climate-sensitive livelihoods.
+
+**Supervisory Team**:
+
+- Prof. Rosalind Cornforth (Lead), The Pearl, University of Reading
+- Prof. Ted Shepherd, Department of Meteorology, University of Reading
+- Prof. Martín Jacques-Coper, Department of Geophysics, University of Concepción
+- Dr. Katherine Egan, ECMWF
+- Dr. Celia Petty, The Pearl, University of Reading
+- Prof. Abdou Ali, AGRHYMET

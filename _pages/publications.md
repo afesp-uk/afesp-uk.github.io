@@ -339,6 +339,48 @@ nav_order: 2
 		document.querySelectorAll('input[type="search"], input[type="text"]').forEach((input) => {
 			input.addEventListener("input", updateCount);
 		});
+
+		// While a search is active, show only what matches: open the sections that contain
+		// matching publications and hide the sections and groups that contain none.
+		// Clearing the search puts every section back the way it was.
+		const searchInput = document.getElementById("bibsearch");
+		const foldables = Array.from(container.querySelectorAll(".publication-group, .publication-section"));
+		foldables.forEach((el) => {
+			el.dataset.defaultOpen = el.open ? "true" : "false";
+		});
+		let searchActive = false;
+		const syncSectionsWithSearch = () => {
+			const term = searchInput ? searchInput.value.trim() : "";
+			if (!term) {
+				if (searchActive) {
+					foldables.forEach((el) => {
+						el.hidden = false;
+						el.open = el.dataset.defaultOpen === "true";
+					});
+					searchActive = false;
+				}
+				updateCount();
+				return;
+			}
+			searchActive = true;
+			container.querySelectorAll(".publication-section").forEach((section) => {
+				const matches = section.querySelectorAll(".bibliography > li:not(.unloaded)").length;
+				section.hidden = matches === 0;
+				section.open = matches > 0;
+			});
+			container.querySelectorAll(".publication-group").forEach((group) => {
+				const hasMatches = group.querySelectorAll(".publication-section:not([hidden])").length > 0;
+				group.hidden = !hasMatches;
+				group.open = hasMatches;
+			});
+			updateCount();
+		};
+		if (searchInput) {
+			// The theme's own search marks non-matching entries first; run just after it.
+			searchInput.addEventListener("input", () => window.setTimeout(syncSectionsWithSearch, 50));
+			window.addEventListener("hashchange", () => window.setTimeout(syncSectionsWithSearch, 50));
+			window.setTimeout(syncSectionsWithSearch, 50);
+		}
 	});
 </script>
 

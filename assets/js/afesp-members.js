@@ -1,5 +1,5 @@
 ---
-# Shows the names of AFESP members in green on the individual project pages and links each
+# Shows the names of AFESP members in green on the individual project pages and the events page, and links each
 # name to that person's profile on the people page.
 # Names come from _data/afesp_members.yml; a name is linked when the matching profile in
 # _pages/people.md has an `anchor`. Loaded on every page from footer_text in _config.yml.
@@ -10,6 +10,7 @@
   const profileAnchors = new Set({{ people_page.profiles | map: "anchor" | compact | jsonify }});
   const peoplePageUrl = "{{ '/people/' | relative_url }}";
   const projectsPath = "{{ '/projects/' | relative_url }}";
+  const eventsPath = "{{ '/conferences/' | relative_url }}";
 
   // Other spellings used on the site, mapped to the profile anchor of the same person.
   const aliases = {
@@ -26,8 +27,10 @@
 
   const run = () => {
     const path = window.location.pathname;
-    // Individual project pages only (for example /projects/phd_jamie_todd/).
-    if (!path.startsWith(projectsPath) || path === projectsPath) {
+    // Individual project pages (for example /projects/phd_jamie_todd/) and the events page.
+    const isProjectPage = path.startsWith(projectsPath) && path !== projectsPath;
+    const isEventsPage = path === eventsPath || path === eventsPath.replace(/\/$/, "");
+    if (!isProjectPage && !isEventsPage) {
       return;
     }
     const root = document.querySelector(".post article") || document.querySelector(".post");
@@ -46,8 +49,13 @@
       .forEach((parts) => {
         const first = escapeRegex(parts[0]);
         const surname = parts.slice(1).map(escapeRegex).join("\\s+");
-        // First name, an optional middle name or initial, then the surname.
-        entries.push({ pattern: `${first}(?:\\s+[A-Za-z][A-Za-z'’.\\-]*)?\\s+${surname}`, anchor: slugify(parts.join(" ")) });
+        const initial = escapeRegex(parts[0].charAt(0));
+        // Either: first name, an optional middle name or initial, then the surname;
+        // or: dotted initials then the surname (for example "S. K. Panda").
+        entries.push({
+          pattern: `${first}(?:\\s+[A-Za-z][A-Za-z'’.\\-]*)?\\s+${surname}|${initial}\\.\\s*(?:[A-Z]\\.\\s*)?${surname}`,
+          anchor: slugify(parts.join(" ")),
+        });
       });
     entries.forEach((entry) => {
       entry.exact = new RegExp(`^(?:${entry.pattern})$`);

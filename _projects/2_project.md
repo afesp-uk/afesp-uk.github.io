@@ -1,11 +1,10 @@
 ---
 layout: page
 title: "HiSCORE: High resolution data assimilation with Spatially and temporally Correlated ObseRvation Errors"
-description: a project with a background image and giscus comments
+description:
 img:
 importance: 2
 category: five-year projects
-giscus_comments: true
 ---
 
 **Principal Investigator**: Sarah Dance 

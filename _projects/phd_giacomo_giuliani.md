@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Understanding (and predicting) tropical cyclone genesis and evolution in the Indian Ocean at coupled km-scale. Project UPTICK"
+title: "Understanding (and predicting) tropical cyclone genesis and evolution in the Indian Ocean at coupled km-scale"
 description:
 img:
 importance: 19

@@ -121,7 +121,7 @@
     link.innerHTML = '<i class="fa-solid fa-envelope"></i>';
     icons.appendChild(link);
 
-    const note = post.querySelector(".social .contact-note");
+    const note = document.querySelector(".social .contact-note");
     if (note) {
       const addresses = Array.from(note.querySelectorAll('a[href^="mailto:"]')).map((a) => a.getAttribute("href").replace(/^mailto:/, ""));
       link.href = `mailto:${addresses.join(",")}`;

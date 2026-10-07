@@ -9,4 +9,4 @@ category: PhD projects
 
 **Supervisor**: Shovonol Roy
 
-**PhD Student**: Thomas Bayliss White
+**PhD Student**: Tom Bayliss White

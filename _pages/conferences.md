@@ -40,8 +40,6 @@ nav_order: 4
 
 ## Contributions to workshops
 
-## Contributions to seminars and talks
-
 ## Other presentations and outreach activities
 
 <div class="social">

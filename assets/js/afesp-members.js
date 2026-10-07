@@ -177,6 +177,8 @@
     addEmailIcon();
     pinContactToBottom();
     window.addEventListener("load", pinContactToBottom);
+    // The top menu and icon font settle shortly after loading and shift the page a little.
+    [300, 1000, 2500].forEach((delay) => window.setTimeout(pinContactToBottom, delay));
     window.addEventListener("resize", pinContactToBottom);
     // Opening or closing a drop-down section changes the page height.
     document.addEventListener("toggle", pinContactToBottom, true);

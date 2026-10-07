@@ -9,7 +9,7 @@ category: PhD projects
 
 **Supervisor**: Todd Jones
 
-**PhD Student**: Sambit Panda
+**PhD Student**: Sambit Kumar Panda
 
 **Description**: Large Eddy Simulation (LES) is an indispensable tool for advancing the understanding of turbulent geophysical flows, from atmospheric boundary layers to cloud dynamics. The fidelity of LES critically depends on the parameterization of subgrid-scale (SGS) turbulence, which accounts for the effects of unresolved eddies on the resolved flow. While dynamic SGS models, such as the one implemented in the UK Met Office NERC Cloud Model (MONC), provide a robust method for calculating SGS effects, their computational expense constitutes a significant bottleneck, limiting the scale and feasibility of high-resolution simulations. This is particularly restrictive for applications requiring large ensembles or near-real-time forecasting.
 

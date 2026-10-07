@@ -23,19 +23,19 @@ nav_order: 4
 
 ## Contributions to conferences
 
-- [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
-  Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
-  EGU General Assembly 2026, Vienna, Austria & Online | 3–8 May 2026<br>
-  DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | 2026
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>
   km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
+- [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
+  Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
+  EGU General Assembly 2026, Vienna, Austria & Online | 3–8 May 2026<br>
+  DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
 - **Physics-guided machine learning for subgrid-scale turbulence**<br>
   S. K. Panda, et al.<br>
-  EGU General Assembly 2025, Vienna, Austria | Oral presentation | 2025<br>
+  EGU General Assembly 2025, Vienna, Austria | Presentation | 2025<br>
   DOI: [10.5194/egusphere-egu25-13920](https://doi.org/10.5194/egusphere-egu25-13920)
 
 ## Contributions to workshops

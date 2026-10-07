@@ -96,9 +96,45 @@
     });
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", run);
-  } else {
+  // Email (envelope) icon at the bottom of every page. Pages that list their own contact
+  // addresses get an icon that writes to those addresses; all other pages write to the
+  // general AFESP address. The home and about pages already have the icon from the theme.
+  const addEmailIcon = () => {
+    if (document.querySelector(".contact-icons")) {
+      return;
+    }
+    const post = document.querySelector(".post");
+    if (!post) {
+      return;
+    }
+    const icons = document.createElement("div");
+    icons.className = "contact-icons";
+    const link = document.createElement("a");
+    link.title = "Email";
+    link.innerHTML = '<i class="fa-solid fa-envelope"></i>';
+    icons.appendChild(link);
+
+    const note = post.querySelector(".social .contact-note");
+    if (note) {
+      const addresses = Array.from(note.querySelectorAll('a[href^="mailto:"]')).map((a) => a.getAttribute("href").replace(/^mailto:/, ""));
+      link.href = `mailto:${addresses.join(",")}`;
+      note.parentNode.insertBefore(icons, note);
+    } else {
+      link.href = "mailto:afesp-rse@reading.ac.uk";
+      const social = document.createElement("div");
+      social.className = "social";
+      social.appendChild(icons);
+      post.appendChild(social);
+    }
+  };
+
+  const start = () => {
     run();
+    addEmailIcon();
+  };
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
   }
 })();

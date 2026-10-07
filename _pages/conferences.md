@@ -27,6 +27,9 @@ nav_order: 4
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
   EGU26, Vienna, Austria & Online | 3–8 May 2026<br>
   DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
+- **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
+  S. K. Panda<br>
+  ICCS Summer School 2026, Cambridge, UK | Poster presentation | 2026
 
 ## Contributions to workshops
 
@@ -56,8 +59,10 @@ nav_order: 4
       .map((parts) => {
         const first = escapeRegex(parts[0]);
         const surname = parts.slice(1).map(escapeRegex).join("\\s+");
-        // First name, an optional middle name or initial, then the surname.
-        return `${first}(?:\\s+[A-Z][A-Za-z'’.\\-]*)?\\s+${surname}`;
+        const initial = escapeRegex(parts[0].charAt(0));
+        // Either: first name, an optional middle name or initial, then the surname;
+        // or: dotted initials then the surname (for example "S. K. Panda").
+        return `${first}(?:\\s+[A-Z][A-Za-z'’.\\-]*)?\\s+${surname}|${initial}\\.\\s*(?:[A-Z]\\.\\s*)?${surname}`;
       });
     const memberRegex = new RegExp(`(?<![A-Za-z])(?:${patterns.join("|")})(?![A-Za-z])`, "g");
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {

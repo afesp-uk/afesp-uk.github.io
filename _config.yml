@@ -7,7 +7,7 @@ first_name: Advancing the Frontiers
 middle_name: Frontiers of
 last_name: Earth System Prediction
 contact_note: >
-  j.kukulies@reading.ac.uk, mark.muetzelfeldt.reading.ac.uk
+  <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 # The <style> block at the end of footer_text puts the small AFESP logo at the top right of every page header, shows every profile photo on the people page at a 3:4 (portrait) shape, hides the "AFESP" title link in the top bar and left-aligns the top menu and lets it wrap onto a second row when it does not fit on one.

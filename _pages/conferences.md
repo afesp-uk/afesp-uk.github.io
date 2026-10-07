@@ -33,6 +33,10 @@ nav_order: 4
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>
   km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
+- **Physics-guided machine learning for subgrid-scale turbulence**<br>
+  S. K. Panda, et al.<br>
+  EGU General Assembly 2025, Vienna, Austria | Oral presentation | 2025<br>
+  DOI: [10.5194/egusphere-egu25-13920](https://doi.org/10.5194/egusphere-egu25-13920)
 
 ## Contributions to workshops
 

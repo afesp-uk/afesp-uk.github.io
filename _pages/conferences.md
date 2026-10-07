@@ -27,8 +27,69 @@ nav_order: 4
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
   EGU26, Vienna, Austria & Online | 3–8 May 2026
 
+## Contributions to workshops
+
+## Contributions to seminars and talks
+
 ## Other presentations and outreach activities
 
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
+
+<style>
+  .afesp-member {
+    color: #1f9d55;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  // Show the names of AFESP members (listed in _data/afesp_members.yml) in green on this page.
+  document.addEventListener("DOMContentLoaded", () => {
+    const names = {{ site.data.afesp_members | jsonify }};
+    const root = document.querySelector(".post article") || document.querySelector(".post");
+    if (!root || !Array.isArray(names) || names.length === 0) {
+      return;
+    }
+    const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const patterns = names
+      .map((fullName) => fullName.trim().split(/\s+/))
+      .filter((parts) => parts.length >= 2)
+      .map((parts) => {
+        const first = escapeRegex(parts[0]);
+        const surname = parts.slice(1).map(escapeRegex).join("\\s+");
+        // First name, an optional middle name or initial, then the surname.
+        return `${first}(?:\\s+[A-Z][A-Za-z'’.\\-]*)?\\s+${surname}`;
+      });
+    const memberRegex = new RegExp(`(?<![A-Za-z])(?:${patterns.join("|")})(?![A-Za-z])`, "g");
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: (node) => (node.parentElement && node.parentElement.closest("script, style, .afesp-member") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT),
+    });
+    const textNodes = [];
+    while (walker.nextNode()) {
+      memberRegex.lastIndex = 0;
+      if (memberRegex.test(walker.currentNode.nodeValue)) {
+        textNodes.push(walker.currentNode);
+      }
+    }
+    textNodes.forEach((node) => {
+      const text = node.nodeValue;
+      const fragment = document.createDocumentFragment();
+      let last = 0;
+      memberRegex.lastIndex = 0;
+      let match = memberRegex.exec(text);
+      while (match) {
+        fragment.appendChild(document.createTextNode(text.slice(last, match.index)));
+        const span = document.createElement("span");
+        span.className = "afesp-member";
+        span.textContent = match[0];
+        fragment.appendChild(span);
+        last = match.index + match[0].length;
+        match = memberRegex.exec(text);
+      }
+      fragment.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(fragment, node);
+    });
+  });
+</script>

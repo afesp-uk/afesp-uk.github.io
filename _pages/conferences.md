@@ -28,7 +28,7 @@ nav_order: 4
   EGU26, Vienna, Austria & Online | 3–8 May 2026<br>
   DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
-  S. K. Panda<br>
+  S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | 2026
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>

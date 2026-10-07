@@ -20,6 +20,8 @@
     "Fernanda Pino Delgado": "fernanda-pino",
     "Chris O'Reilly": "chris-oreilly",
     "Chris O’Reilly": "chris-oreilly",
+    "Christopher O'Reilly": "chris-oreilly",
+    "Christopher O’Reilly": "chris-oreilly",
     "Andy Turner": "andrew-turner",
     "Robert Plant": "bob-plant",
     "Patricia de Rosnay": "patricia-rosnay",

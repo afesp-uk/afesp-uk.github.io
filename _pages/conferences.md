@@ -30,6 +30,9 @@ nav_order: 4
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | 2026
+- **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
+  S. K. Panda, et al.<br>
+  km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
 
 ## Contributions to workshops
 

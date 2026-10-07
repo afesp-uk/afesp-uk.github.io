@@ -2,7 +2,8 @@
 # Shows the names of AFESP members in green on the individual project pages and the events page, and links each
 # name to that person's profile on the people page.
 # Names come from _data/afesp_members.yml; a name is linked when the matching profile in
-# _pages/people.md has an `anchor`. Loaded on every page from footer_text in _config.yml.
+# _pages/people.md has an `anchor`. Also adds the email icon at the bottom of every page.
+# Loaded on every page from footer_text in _config.yml.
 ---
 {% assign people_page = site.pages | where: "permalink", "/people/" | first %}
 (() => {
@@ -102,9 +103,45 @@
     });
   };
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", run);
-  } else {
+  // Email (envelope) icon at the bottom of every page. Pages that list their own contact
+  // addresses get an icon that writes to those addresses; all other pages write to the
+  // general AFESP address. The home and about pages already have the icon from the theme.
+  const addEmailIcon = () => {
+    if (document.querySelector(".contact-icons")) {
+      return;
+    }
+    const post = document.querySelector(".post");
+    if (!post) {
+      return;
+    }
+    const icons = document.createElement("div");
+    icons.className = "contact-icons";
+    const link = document.createElement("a");
+    link.title = "Email";
+    link.innerHTML = '<i class="fa-solid fa-envelope"></i>';
+    icons.appendChild(link);
+
+    const note = post.querySelector(".social .contact-note");
+    if (note) {
+      const addresses = Array.from(note.querySelectorAll('a[href^="mailto:"]')).map((a) => a.getAttribute("href").replace(/^mailto:/, ""));
+      link.href = `mailto:${addresses.join(",")}`;
+      note.parentNode.insertBefore(icons, note);
+    } else {
+      link.href = "mailto:{{ site.data.socials.email }}";
+      const social = document.createElement("div");
+      social.className = "social";
+      social.appendChild(icons);
+      post.appendChild(social);
+    }
+  };
+
+  const start = () => {
     run();
+    addEmailIcon();
+  };
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", start);
+  } else {
+    start();
   }
 })();

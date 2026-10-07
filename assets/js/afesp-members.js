@@ -4,6 +4,7 @@
   const profileAnchors = new Set(["sharar-ahmadi","maarten-ambaum","eviatar-bach","magdelena-balmaseda","gianpaolo-balsamo","ross-bannister","rishabh-bhatt","emily-black","lewis-blunn","alan-blyth","massimo-bonavita","niels-borman","claire-bulgin","leo-chow","leong-chung","hannah-cloke","rosalind-cornforth","helen-dacre","deepti-dahiya","sarah-dance","peter-duben","charlie-egan","xiangbo-feng","ken-rui-fong","richard-forbes","alison-fowler","tom-frame","giacomo-giuliani","deepak-gopalakrishnan","piyali-goswami","lewis-grant","sue-grimmond","steven-hardiman","tom-hill","linda-hirons","robin-hogan","chris-holloway","elias-holm","kieran-hunt","kate-huxtable","jesse-gilbert","todd-jones","rajsekhar-kandala","jake-keller","andrew-kenny","julia-kukulies","amos-lawless","bryan-lawrence","humphrey-lean","oscar-martinez-alvarado","chris-merchant","john-methven","kaustubh-mittal","hamidreza-mosaffa","indrakshi-mukherjee","mark-muetzelfeldt","ravi-nemani","stuart-newman","nancy-nichols","mehzooz-nizar","chris-oreilly","sambit-panda","fernanda-pino","bob-plant","christel-prudhomme","patricia-rosnay","shovonol-roy","karan-ruparell","reinhard-schiemann","jennifer-scott","xiaocen-shen","ted-shepherd","jon-shonk","cameron-southgate-as","thorwald-stein","liz-stephens","alison-stirling","birgit-sutzl","jamie-todd","lorenzo-tomassini","andrew-turner","anne-verhoef","pier-vidale","frederic-vitart","joanne-waller","hilary-weller","thomas-white","amber-winkle","hei-tung-wu"]);
   const peoplePageUrl = "/people/";
   const projectsPath = "/projects/";
+  const eventsPath = "/conferences/";
 
   // Other spellings used on the site, mapped to the profile anchor of the same person.
   const aliases = {
@@ -20,8 +21,10 @@
 
   const run = () => {
     const path = window.location.pathname;
-    // Individual project pages only (for example /projects/phd_jamie_todd/).
-    if (!path.startsWith(projectsPath) || path === projectsPath) {
+    // Individual project pages (for example /projects/phd_jamie_todd/) and the events page.
+    const isProjectPage = path.startsWith(projectsPath) && path !== projectsPath;
+    const isEventsPage = path === eventsPath || path === eventsPath.replace(/\/$/, "");
+    if (!isProjectPage && !isEventsPage) {
       return;
     }
     const root = document.querySelector(".post article") || document.querySelector(".post");
@@ -40,8 +43,13 @@
       .forEach((parts) => {
         const first = escapeRegex(parts[0]);
         const surname = parts.slice(1).map(escapeRegex).join("\\s+");
-        // First name, an optional middle name or initial, then the surname.
-        entries.push({ pattern: `${first}(?:\\s+[A-Za-z][A-Za-z'’.\\-]*)?\\s+${surname}`, anchor: slugify(parts.join(" ")) });
+        const initial = escapeRegex(parts[0].charAt(0));
+        // Either: first name, an optional middle name or initial, then the surname;
+        // or: dotted initials then the surname (for example "S. K. Panda").
+        entries.push({
+          pattern: `${first}(?:\\s+[A-Za-z][A-Za-z'’.\\-]*)?\\s+${surname}|${initial}\\.\\s*(?:[A-Z]\\.\\s*)?${surname}`,
+          anchor: slugify(parts.join(" ")),
+        });
       });
     entries.forEach((entry) => {
       entry.exact = new RegExp(`^(?:${entry.pattern})$`);

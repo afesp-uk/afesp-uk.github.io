@@ -153,17 +153,15 @@
   const pinContactToBottom = () => {
     const blocks = document.querySelectorAll(".post .social, .post ~ .social");
     const social = blocks[blocks.length - 1];
-    const footer = document.querySelector("footer");
     if (!social) {
       return;
     }
     social.style.marginTop = "";
-    const footerHeight = footer ? footer.getBoundingClientRect().height : 0;
-    const target = window.innerHeight - footerHeight - 24;
-    const bottom = social.getBoundingClientRect().bottom + window.scrollY;
-    if (bottom < target) {
+    // Height of the whole page content; when it is shorter than the window there is room to spare.
+    const spare = window.innerHeight - document.documentElement.getBoundingClientRect().height;
+    if (spare > 0) {
       const current = parseFloat(window.getComputedStyle(social).marginTop) || 0;
-      social.style.marginTop = `${current + target - bottom}px`;
+      social.style.marginTop = `${current + spare}px`;
     }
   };
 

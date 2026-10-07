@@ -43,7 +43,8 @@ children:
 
 <div class="social">
   <div class="contact-note">
-    <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>
+    <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>,
+    <a href="mailto:s.ahmadi@reading.ac.uk">s.ahmadi@reading.ac.uk</a>
   </div>
 </div>
 

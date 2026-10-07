@@ -121,7 +121,27 @@
     link.innerHTML = '<i class="fa-solid fa-envelope"></i>';
     icons.appendChild(link);
 
-    const note = document.querySelector(".social .contact-note");
+    let note = document.querySelector(".social .contact-note");
+    // Pages listed in _data/page_contacts.yml get their addresses written out here.
+    const pageContacts = {{ site.data.page_contacts | jsonify }} || {};
+    const listed = pageContacts[window.location.pathname] || pageContacts[`${window.location.pathname}/`];
+    if (!note && Array.isArray(listed) && listed.length > 0) {
+      const social = document.createElement("div");
+      social.className = "social";
+      note = document.createElement("div");
+      note.className = "contact-note";
+      listed.forEach((address, index) => {
+        if (index > 0) {
+          note.appendChild(document.createTextNode(", "));
+        }
+        const a = document.createElement("a");
+        a.href = `mailto:${address}`;
+        a.textContent = address;
+        note.appendChild(a);
+      });
+      social.appendChild(note);
+      post.appendChild(social);
+    }
     if (note) {
       const addresses = Array.from(note.querySelectorAll('a[href^="mailto:"]')).map((a) => a.getAttribute("href").replace(/^mailto:/, ""));
       link.href = `mailto:${addresses.join(",")}`;

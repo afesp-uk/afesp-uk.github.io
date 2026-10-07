@@ -341,3 +341,9 @@ nav_order: 2
 		});
 	});
 </script>
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>
+  </div>
+</div>

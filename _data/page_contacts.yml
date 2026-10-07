@@ -1,0 +1,4 @@
+# Contact email addresses shown at the very bottom of pages whose layout cannot hold them in the page file.
+# Key: the page address; value: the list of addresses. Read by assets/js/afesp-members.js.
+/people/:
+  - afesp-rse@reading.ac.uk

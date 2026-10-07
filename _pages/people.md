@@ -885,7 +885,7 @@ profiles:
   #     content: bios/about_James_Todd.md
   #     image_circular: false # crops the image to make it circular
   #     more_info: >
-  #       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title James Todd</p>
+  #       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Jamie Todd</p>
   #       <div style="font-size: 0.8em; line-height: 1.15;">
   #         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
   #         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>

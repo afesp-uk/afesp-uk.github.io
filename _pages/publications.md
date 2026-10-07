@@ -207,7 +207,7 @@ nav_order: 2
 			"Humphrey Lean",
 			"Indrakshi Mukherjee",
 			"Jake Keller",
-			"James Todd",
+			"Jamie Todd",
 			"Jennifer Scott",
 			"Jesse Gilbert",
 			"Joanne Waller",

@@ -9,4 +9,4 @@ category: PhD projects
 
 **Supervisor**: Andrew Turner
 
-**PhD Student**: James Todd
+**PhD Student**: Jamie Todd

@@ -28,9 +28,13 @@ nav_order: 2
 	.publications .publication-group > .publication-section {
 		margin-left: 1.25rem;
 	}
-	.publications .highlight-author-target {
+	.publications .highlight-author-target,
+	.publications a.highlight-author-target:hover {
 		color: #1f9d55;
 		font-weight: 600;
+	}
+	.publications a.highlight-author-target:hover {
+		text-decoration: underline;
 	}
 </style>
 
@@ -158,6 +162,30 @@ nav_order: 2
 
 		const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+		// Green author names link to that person's profile on the people page.
+		// A profile is linkable when its entry in _pages/people.md has an `anchor`.
+		{% assign people_page = site.pages | where: "permalink", "/people/" | first %}
+		const peoplePageUrl = "{{ '/people/' | relative_url }}";
+		const profileAnchors = new Set({{ people_page.profiles | map: "anchor" | compact | jsonify }});
+		const slugify = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+		const memberMatchers = targetNames
+			.map((fullName) => fullName.trim().split(/\s+/))
+			.filter((parts) => parts.length >= 2)
+			.map((parts) => {
+				const first = escapeRegex(parts[0]);
+				const initial = escapeRegex(parts[0].charAt(0));
+				const surname = parts.slice(1).map((part) => escapeRegex(part)).join("\\s+");
+				const middle = "(?:\\s+[A-Za-z][A-Za-z'\\-]*\\.?)?";
+				return {
+					anchor: slugify(parts.join(" ")),
+					regex: new RegExp(`^(?:${first}|${initial}\\.?)${middle}\\s+${surname}$`, "i"),
+				};
+			});
+		const findProfileAnchor = (text) => {
+			const found = memberMatchers.find((member) => member.regex.test(text.trim()));
+			return found && profileAnchors.has(found.anchor) ? found.anchor : null;
+		};
+
 		const highlightAuthorsFromList = (root) => {
 			const patternTerms = [];
 
@@ -233,9 +261,14 @@ nav_order: 2
 							fragment.appendChild(document.createTextNode(text.slice(lastIndex, start)));
 						}
 
-						const span = document.createElement("span");
+						const anchor = findProfileAnchor(match[0]);
+						const span = document.createElement(anchor ? "a" : "span");
 						span.className = "highlight-author-target";
 						span.textContent = match[0];
+						if (anchor) {
+							span.href = `${peoplePageUrl}#${anchor}`;
+							span.title = "View profile on the people page";
+						}
 						fragment.appendChild(span);
 
 						lastIndex = end;

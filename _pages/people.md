@@ -990,15 +990,15 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
-  #   - align: left
-  #     image: profile_pics/blank.png
-  #     content: bios/about_Hei_Tung_Wu.md
-  #     image_circular: false # crops the image to make it circular
-  #     more_info: >
-  #       <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Title Hei Tung Wu</p>
-  #       <div style="font-size: 0.8em; line-height: 1.15;">
-  #         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-  #         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-  #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-  #       </div>
+  - align: left
+    image: profile_pics/blank.png
+    content: bios/about_Hei_Tung_Wu.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hei Tung Wu</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
+      </div>
 ---

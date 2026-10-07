@@ -2,10 +2,23 @@
 layout: page
 permalink: /conferences/
 title: events
-description: Conference contributions, presentations, and other forms of outreach.
+# description: Conference contributions, presentations, and other forms of outreach.
 nav: true
 nav_order: 4
 ---
+
+<style>
+  /* Hide the page title and subtitle on the events page. */
+  .post > .post-header {
+    display: none;
+  }
+</style>
+
+<img
+  src="{{ '/assets/img/AFESP_logo.jpg' | relative_url }}"
+  alt="AFESP logo"
+  style="float:right; width:160px; max-width:35%; margin:0 0 1rem 1.5rem;"
+/>
 
 ## Upcoming conferences
 

@@ -14,6 +14,8 @@ children:
     permalink: /link-and-doc/lfric/
   - title: RACC2
     permalink: /link-and-doc/racc2/
+  - title: CEDA
+    permalink: /link-and-doc/ceda/
 ---
 
 <style>
@@ -29,7 +31,7 @@ children:
   }
 </style>
 
-{% assign support_pages = "Jasmin|/link-and-doc/jasmin/,Archer2|/link-and-doc/archer2/,LFRic|/link-and-doc/lfric/,RACC2|/link-and-doc/racc2/" | split: "," %}
+{% assign support_pages = "Jasmin|/link-and-doc/jasmin/,Archer2|/link-and-doc/archer2/,LFRic|/link-and-doc/lfric/,RACC2|/link-and-doc/racc2/,CEDA|/link-and-doc/ceda/" | split: "," %}
 {% for entry in support_pages %}
 {% assign parts = entry | split: "|" %}
 {% assign support_page = site.pages | where: "permalink", parts[1] | first %}

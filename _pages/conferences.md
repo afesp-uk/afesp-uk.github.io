@@ -34,6 +34,8 @@ nav_order: 4
 - [**Transferring data from ARCHER2 (7 Oct, 2026, 15:00-16:00; online):**](https://www.archer2.ac.uk/training/courses/261007-archer2-data-transfer-vt/)
 - [**STEP-UP ByteSized dRTP, Episode 5: AI-assisted Coding (12 Oct, 2026, 15:00-16:30; online):**](https://step-up.ac.uk/events/bytesized-drtp/)
 
+<div style="height: 2.5rem;"></div>
+
 ## Contributions to conferences
 
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>

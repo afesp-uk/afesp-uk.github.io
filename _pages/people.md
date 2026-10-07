@@ -908,10 +908,10 @@ profiles:
   - align: left
     image: profile_pics/blank.png
     content: bios/about_Shovonol_Roy.md
-    anchor: shovonol-roy # link target used by the green author names on the publications page
+    anchor: shovonlal-roy # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="shovonol-roy" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Shovonol Roy</p>
+      <p id="shovonlal-roy" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Shovonlal Roy</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>

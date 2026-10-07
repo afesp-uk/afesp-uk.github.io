@@ -7,6 +7,6 @@ importance: 18
 category: PhD projects
 ---
 
-**Supervisor**: Shovonol Roy
+**Supervisor**: Shovonlal Roy
 
 **PhD Student**: Tom Bayliss White

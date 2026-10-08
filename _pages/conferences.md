@@ -36,12 +36,27 @@ nav_order: 4
 
 ## Contributions to conferences
 
+- **S2S2D Conference**<br>
+  Piyali Goswami<br>
+  Reading, UK | Oral presentation | September 2026
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026
+- **RMetS Early Career Student Conference**<br>
+  Piyali Goswami<br>
+  Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>
   km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
+- **AGU Ocean Sciences Meeting**<br>
+  Piyali Goswami<br>
+  Glasgow, UK | Oral presentation | 22–27 February 2026
+- **AFESP Conference**<br>
+  Piyali Goswami<br>
+  Reading, UK | Poster presentation | 4 November 2025
+- **RMetS Early Career Student Conference**<br>
+  Piyali Goswami<br>
+  Manchester, UK | Oral presentation | 30 June–2 July 2025
 {% comment %}
 - [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
@@ -50,12 +65,23 @@ nav_order: 4
 {% endcomment %}
 - **Physics-guided machine learning for subgrid-scale turbulence**<br>
   S. K. Panda, et al.<br>
-  EGU General Assembly 2025, Vienna, Austria | Presentation | 2025<br>
+  EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br>
   DOI: [10.5194/egusphere-egu25-13920](https://doi.org/10.5194/egusphere-egu25-13920)
 
 ## Contributions to workshops
 
+- **National Marine Heatwave Meeting**<br>
+  Piyali Goswami<br>
+  NOC Southampton, UK | Lightning talk | 19 May 2026
+- **National Marine Heatwave Meeting**<br>
+  Piyali Goswami<br>
+  Reading, UK | Lightning talk | 22 May 2025
+
 ## Other presentations and outreach activities
+
+- **NCAS Climate Modelling Summer School**<br>
+  Piyali Goswami<br>
+  Cambridge, UK | Summer school | 7–22 September 2025
 
 <div class="social">
   <div class="contact-note">

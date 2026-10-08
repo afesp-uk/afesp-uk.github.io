@@ -20,6 +20,28 @@ children:
     permalink: /link-and-doc/ecmwf/
   - title: Copernicus
     permalink: /link-and-doc/copernicus/
+  - title: cf-python
+    permalink: /link-and-doc/cf-python/
+  - title: cf-plot
+    permalink: /link-and-doc/cf-plot/
+  - title: cf-view
+    permalink: /link-and-doc/cf-view/
+  - title: xconv2
+    permalink: /link-and-doc/xconv2/
+  - title: cfdm
+    permalink: /link-and-doc/cfdm/
+  - title: cfunits
+    permalink: /link-and-doc/cfunits/
+  - title: CDO
+    permalink: /link-and-doc/cdo/
+  - title: CF Compliance Checker
+    permalink: /link-and-doc/cf-checker/
+  - title: NCO Tools
+    permalink: /link-and-doc/nco/
+  - title: xconv
+    permalink: /link-and-doc/xconv/
+  - title: xancil
+    permalink: /link-and-doc/xancil/
 ---
 
 <style>
@@ -35,7 +57,7 @@ children:
   }
 </style>
 
-{% assign support_pages = "Jasmin|/link-and-doc/jasmin/,Archer2|/link-and-doc/archer2/,LFRic|/link-and-doc/lfric/,RACC2|/link-and-doc/racc2/,CEDA|/link-and-doc/ceda/,ECMWF|/link-and-doc/ecmwf/,Copernicus|/link-and-doc/copernicus/" | split: "," %}
+{% assign support_pages = "Jasmin|/link-and-doc/jasmin/,Archer2|/link-and-doc/archer2/,LFRic|/link-and-doc/lfric/,RACC2|/link-and-doc/racc2/,CEDA|/link-and-doc/ceda/,ECMWF|/link-and-doc/ecmwf/,Copernicus|/link-and-doc/copernicus/,cf-python|/link-and-doc/cf-python/,cf-plot|/link-and-doc/cf-plot/,cf-view|/link-and-doc/cf-view/,xconv2|/link-and-doc/xconv2/,cfdm|/link-and-doc/cfdm/,cfunits|/link-and-doc/cfunits/,CDO|/link-and-doc/cdo/,CF Compliance Checker|/link-and-doc/cf-checker/,NCO Tools|/link-and-doc/nco/,xconv|/link-and-doc/xconv/,xancil|/link-and-doc/xancil/" | split: "," %}
 {% for entry in support_pages %}
 {% assign parts = entry | split: "|" %}
 {% assign support_page = site.pages | where: "permalink", parts[1] | first %}

@@ -9,7 +9,7 @@ category: fellowships
 
 **Fellow**: Julia Kukulies 
 
-**Project Partners**: Alison Stirling, Richard Forbed, Tobias Becker, Andreas Prein
+**Project Partners**: Alison Stirling, Richard Forbes, Tobias Becker, Andreas Prein
 
 **Additional Collaborators**: Richard Keane, Benoît Vannière
 

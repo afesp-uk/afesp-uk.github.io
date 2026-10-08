@@ -167,7 +167,7 @@ nav_order: 2
 		{% assign people_page = site.pages | where: "permalink", "/people/" | first %}
 		const peoplePageUrl = "{{ '/people/' | relative_url }}";
 		const profileAnchors = new Set({{ people_page.profiles | map: "anchor" | compact | jsonify }});
-		const slugify = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+		const slugify = (value) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 		const memberMatchers = targetNames
 			.map((fullName) => fullName.trim().split(/\s+/))
 			.filter((parts) => parts.length >= 2)

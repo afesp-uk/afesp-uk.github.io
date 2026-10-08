@@ -6,6 +6,8 @@ nav: true
 nav_order: 8
 dropdown: false # the menu button now opens this page; set to true to restore the drop-down menu in the top bar
 children:
+  - title: Ancillary Generation
+    permalink: /link-and-doc/ancil/
   - title: Archer2
     permalink: /link-and-doc/archer2/
   - title: CDO
@@ -239,6 +241,7 @@ The links shown in each entry come from that sub-page (_pages/<name>.md). Keep e
 To hide an entry, delete its line here and comment it out in the children list above.
 {% endcomment %}
 {% capture support_list %}
+Ancillary Generation|/link-and-doc/ancil/|tools|Met Office documentation for generating ancillary files for its models.
 Archer2|/link-and-doc/archer2/|compute|The UK national supercomputing service, run by EPCC.
 CDO|/link-and-doc/cdo/|tools|Climate Data Operators: command-line tools for processing climate and forecast model data.
 CEDA|/link-and-doc/ceda/|data|The UK Centre for Environmental Data Analysis, which archives atmospheric and Earth observation data.

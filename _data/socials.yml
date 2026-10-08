@@ -2,4 +2,4 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: afesp-rse@reading.ac.uk # contact email address
-# linkedin_username: # the part after linkedin.com/in/ in the profile address; uncomment and fill in to show the LinkedIn icon
+# linkedin_username: # only for personal profiles (linkedin.com/in/...). The AFESP LinkedIn group icon on the main page is added by assets/js/afesp-members.js (AFESP_LINKEDIN).

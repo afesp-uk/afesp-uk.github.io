@@ -1102,7 +1102,7 @@ profiles:
     anchor: xiaocen-shen # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="xiaocen-shen" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Xiaocen Shen</p>
+      <p id="xiaocen-shen" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Xiaocen Shen</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Independent Research Fellow</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>

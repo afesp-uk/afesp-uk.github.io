@@ -1097,7 +1097,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/xiaocen_shen.jpg
     content: bios/about_Xiaocen_Shen.md
     anchor: xiaocen-shen # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

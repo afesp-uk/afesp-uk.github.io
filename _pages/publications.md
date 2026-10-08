@@ -181,9 +181,12 @@ nav_order: 2
 					regex: new RegExp(`^(?:${first}|${initial}\\.?)${middle}\\s+${surname}$`, "i"),
 				};
 			});
+		// Other spellings of a member's name, mapped to the anchor of their profile.
+		const anchorAliases = { "theodore-shepherd": "ted-shepherd" };
 		const findProfileAnchor = (text) => {
 			const found = memberMatchers.find((member) => member.regex.test(text.trim()));
-			return found && profileAnchors.has(found.anchor) ? found.anchor : null;
+			const anchor = found ? anchorAliases[found.anchor] || found.anchor : null;
+			return anchor && profileAnchors.has(anchor) ? anchor : null;
 		};
 
 		const highlightAuthorsFromList = (root) => {

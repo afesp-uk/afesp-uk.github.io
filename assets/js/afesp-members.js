@@ -22,6 +22,8 @@
     "Chris O’Reilly": "chris-oreilly",
     "Andy Turner": "andrew-turner",
     "Robert Plant": "bob-plant",
+    "Theodore Shepherd": "ted-shepherd",
+    "Theodore G Shepherd": "ted-shepherd",
     "Patricia de Rosnay": "patricia-rosnay",
     "Cameron Southgate-Ash": "cameron-southgate-as",
   };

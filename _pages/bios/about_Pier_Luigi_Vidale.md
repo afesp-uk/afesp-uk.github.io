@@ -3,7 +3,7 @@ I am a Professor of Climate System Science at the UoR Meteorology Dept. and Seni
 </p>
 
 <p style="margin-bottom: 0;">Research Interests:</p>
-<ul>
+<ul style="display: flow-root;">
   <li>High-resolution Global Climate Modelling</li>
   <li>Land Surface Processes and biosphere-atmosphere interactions</li>
 </ul>

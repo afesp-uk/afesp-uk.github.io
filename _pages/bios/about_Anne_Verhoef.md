@@ -3,7 +3,7 @@ I am a Professor of Environmental Physics at the Department of Geography and Env
 </p>
 
 <p style="margin-bottom: 0;">Research Interests:</p>
-<ul>
+<ul style="display: flow-root;">
   <li>Interactions in the soil-vegetation-atmosphere system; implications for land-atmosphere feedbacks</li>
   <li>Development of improved below-ground process descriptions in Land Surface models, with a focus on soil water and heat (fluxes, stores, and hydraulic and thermal properties).</li>
 </ul>

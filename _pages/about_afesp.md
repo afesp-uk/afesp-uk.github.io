@@ -7,7 +7,7 @@ nav_order: 0
 subtitle: "Advancing the Frontiers of Earth System Prediction."
 
 selected_papers: false # hidden on the about page; set to true to show again. Was: includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # this page lists its own contact addresses at the bottom (see the end of this file)
 
 announcements:
   enabled: false # news list hidden on the about page; set to true to show it again
@@ -78,3 +78,12 @@ This site is intended for:
 
 As a living resource, this site will continue to grow alongside the programme, providing an evolving record of how AFESP is advancing the frontiers of
 Earth system prediction.
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>,
+    <a href="mailto:j.kukulies@reading.ac.uk">j.kukulies@reading.ac.uk</a>,
+    <a href="mailto:mark.muetzelfeldt@reading.ac.uk">mark.muetzelfeldt@reading.ac.uk</a>,
+    <a href="mailto:c.egan@reading.ac.uk">c.egan@reading.ac.uk</a>
+  </div>
+</div>

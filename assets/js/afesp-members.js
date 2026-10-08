@@ -1,5 +1,6 @@
 ---
-# Shows the names of AFESP members in green on the individual project pages and the events page, and links each
+# Shows the names of AFESP members in green on the individual project pages, the events page and the
+# selected publications on the main page, and links each
 # name to that person's profile on the people page.
 # Names come from _data/afesp_members.yml; a name is linked when the matching profile in
 # _pages/people.md has an `anchor`. Also adds the email icon at the bottom of every page.
@@ -33,11 +34,15 @@
     // Individual project pages (for example /projects/phd_jamie_todd/) and the events page.
     const isProjectPage = path.startsWith(projectsPath) && path !== projectsPath;
     const isEventsPage = path === eventsPath || path === eventsPath.replace(/\/$/, "");
-    if (!isProjectPage && !isEventsPage) {
+    // The main page: only the author lists of the selected publications.
+    const isHomePage = path === "{{ '/' | relative_url }}" || path === "{{ '/index.html' | relative_url }}";
+    if (!isProjectPage && !isEventsPage && !isHomePage) {
       return;
     }
-    const root = document.querySelector(".post article") || document.querySelector(".post");
-    if (!root) {
+    const roots = isHomePage
+      ? Array.from(document.querySelectorAll(".publications .author"))
+      : [document.querySelector(".post article") || document.querySelector(".post")].filter(Boolean);
+    if (roots.length === 0) {
       return;
     }
 
@@ -69,17 +74,19 @@
       return entry && profileAnchors.has(entry.anchor) ? entry.anchor : null;
     };
 
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-      acceptNode: (node) =>
-        node.parentElement && node.parentElement.closest("a, script, style, h1, h2, h3, .afesp-member") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
-    });
     const textNodes = [];
-    while (walker.nextNode()) {
-      memberRegex.lastIndex = 0;
-      if (memberRegex.test(walker.currentNode.nodeValue)) {
-        textNodes.push(walker.currentNode);
+    roots.forEach((root) => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+        acceptNode: (node) =>
+          node.parentElement && node.parentElement.closest("a, script, style, h1, h2, h3, .afesp-member") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
+      });
+      while (walker.nextNode()) {
+        memberRegex.lastIndex = 0;
+        if (memberRegex.test(walker.currentNode.nodeValue)) {
+          textNodes.push(walker.currentNode);
+        }
       }
-    }
+    });
     textNodes.forEach((node) => {
       const text = node.nodeValue;
       const fragment = document.createDocumentFragment();

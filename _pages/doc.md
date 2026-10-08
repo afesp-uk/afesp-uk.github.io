@@ -36,6 +36,8 @@ children:
     permalink: /link-and-doc/jasmin/
   - title: LFRic
     permalink: /link-and-doc/lfric/
+  - title: MOSRS
+    permalink: /link-and-doc/mosrs/
   - title: NCO Tools
     permalink: /link-and-doc/nco/
   - title: RACC2
@@ -255,6 +257,7 @@ ECMWF|/link-and-doc/ecmwf/|data|The European Centre for Medium-Range Weather For
 Iris|/link-and-doc/iris/|tools|A Python library from the Met Office for analysing and visualising Earth science data.
 Jasmin|/link-and-doc/jasmin/|compute|The UK data analysis platform for environmental science. Open a topic to see its guides.|wide
 LFRic|/link-and-doc/lfric/|models|The Met Office's next-generation modelling infrastructure.
+MOSRS|/link-and-doc/mosrs/|models|The Met Office Science Repository Service, which hosts the code and documentation for the Unified Model, LFRic and related software.
 NCO Tools|/link-and-doc/nco/|tools|netCDF Operators: command-line tools for manipulating netCDF files.
 RACC2|/link-and-doc/racc2/|compute|The University of Reading Academic Computing Cluster.
 SAFE|/link-and-doc/safe/|compute|EPCC's portal for ARCHER2 accounts, projects and usage.

@@ -854,6 +854,20 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
+    image: profile_pics/blank.png
+    content: bios/about_Florian_Pappenberger.md
+    anchor: florian-pappenberger # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="florian-pappenberger" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Florian Pappenberger</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
+        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        -->
+      </div>
+  - align: left
     image: profile_pics/fernanda_pino_delgado.jpg
     content: bios/about_Fernanda_Pino.md
     anchor: fernanda-pino # link target used by the green author names on the publications page

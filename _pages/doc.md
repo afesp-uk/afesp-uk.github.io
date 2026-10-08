@@ -12,8 +12,8 @@ children:
     permalink: /link-and-doc/cdo/
   - title: CEDA
     permalink: /link-and-doc/ceda/
-  - title: CF Compliance Checker
-    permalink: /link-and-doc/cf-checker/
+  # - title: CF Compliance Checker # hidden for now; uncomment here and in support_pages below to show it again
+  #   permalink: /link-and-doc/cf-checker/
   - title: cfdm
     permalink: /link-and-doc/cfdm/
   - title: cf-plot
@@ -57,7 +57,8 @@ children:
   }
 </style>
 
-{% assign support_pages = "Archer2|/link-and-doc/archer2/,CDO|/link-and-doc/cdo/,CEDA|/link-and-doc/ceda/,CF Compliance Checker|/link-and-doc/cf-checker/,cfdm|/link-and-doc/cfdm/,cf-plot|/link-and-doc/cf-plot/,cf-python|/link-and-doc/cf-python/,cfunits|/link-and-doc/cfunits/,cf-view|/link-and-doc/cf-view/,Copernicus|/link-and-doc/copernicus/,ECMWF|/link-and-doc/ecmwf/,Jasmin|/link-and-doc/jasmin/,LFRic|/link-and-doc/lfric/,NCO Tools|/link-and-doc/nco/,RACC2|/link-and-doc/racc2/,xancil|/link-and-doc/xancil/,xconv|/link-and-doc/xconv/,xconv2|/link-and-doc/xconv2/" | split: "," %}
+{% comment %} CF Compliance Checker is hidden; to show it again add "CF Compliance Checker|/link-and-doc/cf-checker/," after CEDA below. {% endcomment %}
+{% assign support_pages = "Archer2|/link-and-doc/archer2/,CDO|/link-and-doc/cdo/,CEDA|/link-and-doc/ceda/,cfdm|/link-and-doc/cfdm/,cf-plot|/link-and-doc/cf-plot/,cf-python|/link-and-doc/cf-python/,cfunits|/link-and-doc/cfunits/,cf-view|/link-and-doc/cf-view/,Copernicus|/link-and-doc/copernicus/,ECMWF|/link-and-doc/ecmwf/,Jasmin|/link-and-doc/jasmin/,LFRic|/link-and-doc/lfric/,NCO Tools|/link-and-doc/nco/,RACC2|/link-and-doc/racc2/,xancil|/link-and-doc/xancil/,xconv|/link-and-doc/xconv/,xconv2|/link-and-doc/xconv2/" | split: "," %}
 {% for entry in support_pages %}
 {% assign parts = entry | split: "|" %}
 {% assign support_page = site.pages | where: "permalink", parts[1] | first %}

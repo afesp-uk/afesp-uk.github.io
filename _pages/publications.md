@@ -60,7 +60,7 @@ nav_order: 2
 </details>
 
 <details class="publication-section">
-	<summary><strong>Datasets</strong></summary>
+	<summary><strong>Datasets and software codes</strong></summary>
 
 	{% comment %} Datasets are listed under AFESP Collaboration only. {% endcomment %}
 </details>
@@ -102,7 +102,7 @@ nav_order: 2
 </details>
 
 <details class="publication-section">
-	<summary><strong>Datasets</strong></summary>
+	<summary><strong>Datasets and software codes</strong></summary>
 
 	{% bibliography --file datasets %}
 </details>

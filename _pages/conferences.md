@@ -67,6 +67,12 @@ nav_order: 4
   S. K. Panda, et al.<br>
   EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br>
   DOI: [10.5194/egusphere-egu25-13920](https://doi.org/10.5194/egusphere-egu25-13920)
+- **Neural surrogates for turbulence closure in atmospheric models**<br>
+  S. K. Panda, et al.<br>
+  EXCLAIM Symposium 2025, ETH Zurich, Switzerland | Poster presentation | 2025
+- **Machine learning approaches to turbulence representation**<br>
+  S. K. Panda<br>
+  Royal Meteorological Society Early Career Scientists Conference 2024, United Kingdom | Oral presentation | 2024
 
 ## Contributions to workshops
 

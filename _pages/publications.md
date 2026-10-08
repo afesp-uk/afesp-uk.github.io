@@ -62,7 +62,8 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Datasets and software codes</strong></summary>
 
-	{% comment %} Datasets are listed under AFESP Collaboration only. {% endcomment %}
+	{% comment %} AFESP Core datasets and software: those by Sambit Kumar Panda. All other datasets are under AFESP Collaboration. {% endcomment %}
+	{% bibliography --file datasets --query @*[author ~= Panda] %}
 </details>
 
 {% comment %}
@@ -104,7 +105,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Datasets and software codes</strong></summary>
 
-	{% bibliography --file datasets %}
+	{% bibliography --file datasets --query @*[author !~ Panda] %}
 </details>
 
 {% comment %}

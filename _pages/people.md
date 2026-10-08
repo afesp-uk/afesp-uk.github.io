@@ -66,11 +66,11 @@ profiles:
       </div>
   - align: left
     image: profile_pics/blank.png
-    content: bios/about_Magdelena_Balmaseda.md
-    anchor: magdelena-balmaseda # link target used by the green author names on the publications page
+    content: bios/about_Magdalena_Balmaseda.md
+    anchor: magdalena-balmaseda # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="magdelena-balmaseda" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Magdelena Balmaseda</p>
+      <p id="magdalena-balmaseda" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Magdalena Balmaseda</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
@@ -113,6 +113,20 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p id="tobias-becker" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Tobias Becker</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
+        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        -->
+      </div>
+  - align: left
+    image: profile_pics/blank.png
+    content: bios/about_Segolene_Berthou.md
+    anchor: segolene-berthou # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="segolene-berthou" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Ségolène Berthou</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
@@ -1010,6 +1024,20 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p id="christel-prudhomme" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Christel Prudhomme</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
+        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        -->
+      </div>
+  - align: left
+    image: profile_pics/blank.png
+    content: bios/about_Regina_Rodrigues.md
+    anchor: regina-rodrigues # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="regina-rodrigues" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Regina Rodrigues</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
         <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>

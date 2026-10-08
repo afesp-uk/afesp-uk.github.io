@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ancillary Generation
+title: ANTS
 permalink: /link-and-doc/ancil/
 ---
 

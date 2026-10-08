@@ -992,7 +992,8 @@ profiles:
     more_info: >
       <p id="ted-shepherd" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Ted Shepherd FRS</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Grantham Professor of Climate Science</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Grantham Professor of</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Climate Science</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>

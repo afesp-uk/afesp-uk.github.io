@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: Short bios of AFESP members and partners
+description: Short bios of AFESP members, principal investigators, supervisors, and partners
 nav: true
 nav_order: 7
 

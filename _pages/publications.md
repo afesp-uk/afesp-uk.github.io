@@ -60,6 +60,12 @@ nav_order: 2
 </details>
 
 <details class="publication-section">
+	<summary><strong>Abstracts</strong></summary>
+
+	{% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+</details>
+
+<details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
 	{% comment %} AFESP Core datasets and software: those by Sambit Kumar Panda. All other datasets are under AFESP Collaboration. {% endcomment %}
@@ -100,6 +106,12 @@ nav_order: 2
 	<summary><strong>Technical Reports</strong></summary>
 
 	{% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+</details>
+
+<details class="publication-section">
+	<summary><strong>Abstracts</strong></summary>
+
+	{% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
 </details>
 
 <details class="publication-section">

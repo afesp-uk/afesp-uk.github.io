@@ -167,9 +167,42 @@
     }
   };
 
+  // AFESP LinkedIn group: icon next to the email icon at the bottom of the main page.
+  const AFESP_LINKEDIN = "https://www.linkedin.com/groups/13187660/";
+  const addLinkedInIcon = () => {
+    const path = window.location.pathname.replace(/index\.html$/, "");
+    if (path !== "/" || document.querySelector(".contact-icons .afesp-linkedin")) {
+      return;
+    }
+    const icons = document.querySelector(".post .contact-icons");
+    if (!icons) {
+      return;
+    }
+    const link = document.createElement("a");
+    link.className = "afesp-linkedin";
+    link.href = AFESP_LINKEDIN;
+    link.title = "AFESP on LinkedIn";
+    link.target = "_blank";
+    link.rel = "external nofollow noopener";
+    link.innerHTML = '<i class="fa-brands fa-linkedin"></i>';
+    icons.appendChild(link);
+    const note = document.querySelector(".post .social .contact-note");
+    if (note) {
+      const line = document.createElement("div");
+      const text = document.createElement("a");
+      text.href = AFESP_LINKEDIN;
+      text.target = "_blank";
+      text.rel = "external nofollow noopener";
+      text.textContent = "AFESP on LinkedIn";
+      line.appendChild(text);
+      note.appendChild(line);
+    }
+  };
+
   const start = () => {
     run();
     addEmailIcon();
+    addLinkedInIcon();
     pinContactToBottom();
     window.addEventListener("load", pinContactToBottom);
     // The top menu and icon font settle shortly after loading and shift the page a little.

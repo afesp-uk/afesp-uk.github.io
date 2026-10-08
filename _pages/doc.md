@@ -6,42 +6,42 @@ nav: true
 nav_order: 8
 dropdown: false # the menu button now opens this page; set to true to restore the drop-down menu in the top bar
 children:
-  - title: Jasmin
-    permalink: /link-and-doc/jasmin/
   - title: Archer2
     permalink: /link-and-doc/archer2/
-  - title: LFRic
-    permalink: /link-and-doc/lfric/
-  - title: RACC2
-    permalink: /link-and-doc/racc2/
-  - title: CEDA
-    permalink: /link-and-doc/ceda/
-  - title: ECMWF
-    permalink: /link-and-doc/ecmwf/
-  - title: Copernicus
-    permalink: /link-and-doc/copernicus/
-  - title: cf-python
-    permalink: /link-and-doc/cf-python/
-  - title: cf-plot
-    permalink: /link-and-doc/cf-plot/
-  - title: cf-view
-    permalink: /link-and-doc/cf-view/
-  - title: xconv2
-    permalink: /link-and-doc/xconv2/
-  - title: cfdm
-    permalink: /link-and-doc/cfdm/
-  - title: cfunits
-    permalink: /link-and-doc/cfunits/
   - title: CDO
     permalink: /link-and-doc/cdo/
+  - title: CEDA
+    permalink: /link-and-doc/ceda/
   - title: CF Compliance Checker
     permalink: /link-and-doc/cf-checker/
+  - title: cfdm
+    permalink: /link-and-doc/cfdm/
+  - title: cf-plot
+    permalink: /link-and-doc/cf-plot/
+  - title: cf-python
+    permalink: /link-and-doc/cf-python/
+  - title: cfunits
+    permalink: /link-and-doc/cfunits/
+  - title: cf-view
+    permalink: /link-and-doc/cf-view/
+  - title: Copernicus
+    permalink: /link-and-doc/copernicus/
+  - title: ECMWF
+    permalink: /link-and-doc/ecmwf/
+  - title: Jasmin
+    permalink: /link-and-doc/jasmin/
+  - title: LFRic
+    permalink: /link-and-doc/lfric/
   - title: NCO Tools
     permalink: /link-and-doc/nco/
-  - title: xconv
-    permalink: /link-and-doc/xconv/
+  - title: RACC2
+    permalink: /link-and-doc/racc2/
   - title: xancil
     permalink: /link-and-doc/xancil/
+  - title: xconv
+    permalink: /link-and-doc/xconv/
+  - title: xconv2
+    permalink: /link-and-doc/xconv2/
 ---
 
 <style>
@@ -57,7 +57,7 @@ children:
   }
 </style>
 
-{% assign support_pages = "Jasmin|/link-and-doc/jasmin/,Archer2|/link-and-doc/archer2/,LFRic|/link-and-doc/lfric/,RACC2|/link-and-doc/racc2/,CEDA|/link-and-doc/ceda/,ECMWF|/link-and-doc/ecmwf/,Copernicus|/link-and-doc/copernicus/,cf-python|/link-and-doc/cf-python/,cf-plot|/link-and-doc/cf-plot/,cf-view|/link-and-doc/cf-view/,xconv2|/link-and-doc/xconv2/,cfdm|/link-and-doc/cfdm/,cfunits|/link-and-doc/cfunits/,CDO|/link-and-doc/cdo/,CF Compliance Checker|/link-and-doc/cf-checker/,NCO Tools|/link-and-doc/nco/,xconv|/link-and-doc/xconv/,xancil|/link-and-doc/xancil/" | split: "," %}
+{% assign support_pages = "Archer2|/link-and-doc/archer2/,CDO|/link-and-doc/cdo/,CEDA|/link-and-doc/ceda/,CF Compliance Checker|/link-and-doc/cf-checker/,cfdm|/link-and-doc/cfdm/,cf-plot|/link-and-doc/cf-plot/,cf-python|/link-and-doc/cf-python/,cfunits|/link-and-doc/cfunits/,cf-view|/link-and-doc/cf-view/,Copernicus|/link-and-doc/copernicus/,ECMWF|/link-and-doc/ecmwf/,Jasmin|/link-and-doc/jasmin/,LFRic|/link-and-doc/lfric/,NCO Tools|/link-and-doc/nco/,RACC2|/link-and-doc/racc2/,xancil|/link-and-doc/xancil/,xconv|/link-and-doc/xconv/,xconv2|/link-and-doc/xconv2/" | split: "," %}
 {% for entry in support_pages %}
 {% assign parts = entry | split: "|" %}
 {% assign support_page = site.pages | where: "permalink", parts[1] | first %}

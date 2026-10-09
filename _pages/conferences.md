@@ -16,6 +16,13 @@ nav_order: 4
   .post > .post-header {
     margin-bottom: 2.5rem;
   }
+  /* Section headings in blue, matching the projects page. */
+  .post article h2 {
+    color: #1565c0;
+  }
+  html[data-theme="dark"] .post article h2 {
+    color: #64b5f6;
+  }
 </style>
 
 ## Upcoming conferences

@@ -5,7 +5,7 @@ Hi! My name is Leo Chow. I am a PhD Student in the Department of Meteorology in 
 My research interests are: tropical cyclones genesis and development, as well as their prediction skills and future projections; tropical circulations and climate variability; numerical modeling, super-parameterization, and machine-learning applications in atmospheric numerical models.
 <p>
 <p style="text-align: justify;">
-Before joining the Department of Meteorology in the University of Reading, I got my MPhil in the Earth and Atmospheric Science Programme in the Chinese University of Hong Kong (CUHK). I worked on the projection of tropical cyclone size and their spread in the future climate in the South China Sea by pseudo-global warming experiment. I was also a research assistant in the Department of Mathematics in CUHK, working on super-parameterized general circulation models and hybrid physics-machine learning general circulation models. See my <a href="www.linkedin.com/in/leo-tsun-ngai-chow-b99483311">LinkedIn</a> for a list of my publications.
+Before joining the Department of Meteorology in the University of Reading, I got my MPhil in the Earth and Atmospheric Science Programme in the Chinese University of Hong Kong (CUHK). I worked on the projection of tropical cyclone size and their spread in the future climate in the South China Sea by pseudo-global warming experiment. I was also a research assistant in the Department of Mathematics in CUHK, working on super-parameterized general circulation models and hybrid physics-machine learning general circulation models. See my <a href="https://www.linkedin.com/in/leo-tsun-ngai-chow-b99483311/">LinkedIn</a> for a list of my publications.
 <p>
 
 <!--

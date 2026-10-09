@@ -205,9 +205,21 @@
     }
   };
 
+  // Keep the contact block (email icon and addresses) at the very bottom of the page,
+  // after footnotes, reference lists and anything else the layout adds after the content.
+  const moveContactToEnd = () => {
+    const post = document.querySelector(".post");
+    const note = post && post.querySelector(".social .contact-note");
+    const block = note && note.closest(".social");
+    if (block && block.parentElement && post.lastElementChild !== block) {
+      post.appendChild(block);
+    }
+  };
+
   const start = () => {
     run();
     addEmailIcon();
+    moveContactToEnd();
     addLinkedInIcon();
     pinContactToBottom();
     window.addEventListener("load", pinContactToBottom);

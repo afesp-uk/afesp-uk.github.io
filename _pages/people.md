@@ -233,6 +233,18 @@ profiles:
         -->
       </div>
   - align: left
+    image: profile_pics/marco_burderi.jpg
+    content: bios/about_Marco_Burderi.md
+    anchor: marco-burderi # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="marco-burderi" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Marco Burderi</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
+      </div>
+  - align: left
     image: profile_pics/blank.png
     content: bios/about_Leo_Chow.md
     anchor: leo-chow # link target used by the green author names on the publications page

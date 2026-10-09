@@ -20,3 +20,10 @@ In UPFLO, we will combine regional and global km-scale modelling (and sub-km pro
 In addition to INCUS, data from the EarthCARE satellite mission (launching 2024 with cloudprofiling Doppler-capable radar to study clouds and aerosols) will also be utilised. In preparation for INCUS and EarthCARE, global km-scale ECMWF simulations and explicit convection global and regional simulations from the Met Office K-Scale project will provide large statistical samples of updrafts and related cloud properties with which to address our project objectives as well, and satellite simulators will be applied to model fields. Following launch, INCUS and EarthCARE retrievals will provide novel data sets to constrain updraft strength and cloud amounts in these simulations.  
 
 Through comparisons of km-scale models to observations and process models, we will study model biases in updrafts, anvil clouds and associated radiation fluxes and their sensitivity to parameterisation choices involving key processes including microphysics and turbulent mixing. We will work closely with model developers to facilitate improvement of the representation of convective updrafts and anvil clouds 
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:c.e.holloway@reading.ac.uk">c.e.holloway@reading.ac.uk</a>,
+    <a href="mailto:d.gopalakrishnan@reading.ac.uk">d.gopalakrishnan@reading.ac.uk</a>
+  </div>
+</div>

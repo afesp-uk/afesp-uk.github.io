@@ -23,3 +23,10 @@ This project aims to develop a novel hydrology-informed foundation model for lan
 3. Develop and evaluate fine-tuned models for Land surface – atmosphere feedbacks at the extended range/S2S 
 4. Develop and evaluate fine-tuned models for forecasting floods at different spatial scales and leadtimes
 5. Explore the potential of using ECFoundLand to improve process representation, parameterisation and optimisation in ECLand 6. Explore the potential to add a land surface hydrology foundation model to larger foundation model in weather and climate)
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:h.l.cloke@reading.ac.uk">h.l.cloke@reading.ac.uk</a>,
+    <a href="mailto:h.mosaffa@reading.ac.uk">h.mosaffa@reading.ac.uk</a>
+  </div>
+</div>

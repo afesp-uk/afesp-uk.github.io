@@ -57,3 +57,10 @@ Lipson, M. J., et al. (2024). *Evaluation of 30 urban land surface models in the
 [^10]: Morrison, W., et al. (2023). *Simulating satellite urban land surface temperatures: Sensitivity to sensor view angle and assumed landscape complexity.* https://doi.org/10.1016/j.rse.2023.113579
 
 Hall, C., et al. (2024). *Utility of thermal remote sensing for evaluation of a high-resolution weather model in a city.* https://doi.org/10.1002/qj.4669
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:c.s.grimmond@reading.ac.uk">c.s.grimmond@reading.ac.uk</a>,
+    <a href="mailto:c.g.southgate-ash@reading.ac.uk">c.g.southgate-ash@reading.ac.uk</a>
+  </div>
+</div>

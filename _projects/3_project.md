@@ -31,3 +31,9 @@ In this project, we will extract dynamical modes of variability from multi-level
 
 The proposed work aims to provide the underpinning for long-term development (>5 years ahead) of S2S prediction systems by finding out what modes of the atmosphere are predictable, why this is and how current prediction models represent the structure and time-dependence of those modes. This information will be used to determine why current systems achieve weak S2S signals and how best to improve S2S prediction systems including ensemble design. 
 
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:j.methven@reading.ac.uk">j.methven@reading.ac.uk</a>,
+    <a href="mailto:c.egan@reading.ac.uk">c.egan@reading.ac.uk</a>
+  </div>
+</div>

@@ -33,3 +33,10 @@ In particular, I will rely on the km-scale model's ability to represent MCSs mor
 </div>
 
 The novel information on MCS structure at different resolutions will allow me to improve the representation of organized deep convection in the target model. Working closely with the CoMorph developers, I will design and test changes to the convection parametrization that improve the scale interactions in the Met Office Unified Model (UM). The nudging increments will also facilitate this, as well as forming a rich dataset mapping the biases of the target model compared to the source, which will be ripe for machine learning applications. An innovative parameter estimation framework will allow us to automatically tune CoMorph to optimally match the high-resolution source. Improving the representation of MCSs in the sub-seasonal models could translate to a better forecast of extreme precipitation events. The enhanced scale interactions stand to improve the modelling of larger-scale phenomena such as the Indian Summer Monsoon (ISM) or the Madden-Julian Oscillation (MJO), leading to improved longer-term predictability.
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:mark.muetzelfeldt@reading.ac.uk">mark.muetzelfeldt@reading.ac.uk</a>,
+    <a href="mailto:e.bach@reading.ac.uk">e.bach@reading.ac.uk</a>
+  </div>
+</div>

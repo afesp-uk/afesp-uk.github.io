@@ -16,3 +16,10 @@ category: PhD projects
 The main research question is how to meaningfully evaluate and communicate MHW predictions on S2S timescales in a non-stationary climate. This project addresses the question by examining the physical mechanisms governing MHW development, persistence and decay, and the contributions of long-term warming, low-frequency variability and short-term atmospheric and oceanic processes to their predictability.
 
 The research focuses on the North Sea, where marine heatwave evolution is strongly influenced by atmospheric forcing and shallow shelf-sea processes. Using observations, reanalysis datasets and numerical model simulations, the project investigates the physical drivers of marine heatwaves and assesses their predictability through an event-based, process-oriented approach. The project also explores how marine heatwaves can influence compound hazards associated with extreme weather events. These findings will contribute towards developing a causal framework for interpreting MHW predictability and attribution, while examining how different climatological baselines and event definitions affect the identification and interpretation of MHWs in a changing climate.
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:theodore.shepherd@reading.ac.uk">theodore.shepherd@reading.ac.uk</a>,
+    <a href="mailto:p.goswami@pgr.reading.ac.uk">p.goswami@pgr.reading.ac.uk</a>
+  </div>
+</div>

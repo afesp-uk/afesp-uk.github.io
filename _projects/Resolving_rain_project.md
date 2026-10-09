@@ -41,3 +41,8 @@ A particular focus lies on **precipitation efficiency** as one potential factor 
     
 </div>
 
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:j.kukulies@reading.ac.uk">j.kukulies@reading.ac.uk</a>
+  </div>
+</div>

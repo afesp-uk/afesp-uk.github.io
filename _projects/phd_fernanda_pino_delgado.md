@@ -21,3 +21,11 @@ category: PhD projects
 - Dr. Katherine Egan, ECMWF
 - Dr. Celia Petty, The Pearl, University of Reading
 - Prof. Abdou Ali, AGRHYMET
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:r.j.cornforth@reading.ac.uk">r.j.cornforth@reading.ac.uk</a>,
+    <a href="mailto:f.a.pinodelgado@pgr.reading.ac.uk">f.a.pinodelgado@pgr.reading.ac.uk</a>,
+    <a href="mailto:theodore.shepherd@reading.ac.uk">theodore.shepherd@reading.ac.uk</a>
+  </div>
+</div>

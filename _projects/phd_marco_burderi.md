@@ -10,3 +10,10 @@ category: PhD projects
 **Supervisor**: Chris O'Reilly
 
 **PhD Student**: Marco Burderi
+
+<div class="social">
+  <div class="contact-note">
+    <a href="mailto:c.h.oreilly@reading.ac.uk">c.h.oreilly@reading.ac.uk</a>,
+    <a href="mailto:m.burderi@pgr.reading.ac.uk">m.burderi@pgr.reading.ac.uk</a>
+  </div>
+</div>

@@ -16,6 +16,8 @@ children:
     permalink: /link-and-doc/ceda/
   # - title: CF Compliance Checker # hidden for now; uncomment here and in support_pages below to show it again
   #   permalink: /link-and-doc/cf-checker/
+  - title: CF Conventions
+    permalink: /link-and-doc/cf-conventions/
   - title: cfdm
     permalink: /link-and-doc/cfdm/
   - title: cf-plot
@@ -249,6 +251,7 @@ ANTS|/link-and-doc/ancil/|tools|Met Office documentation for generating ancillar
 Archer2|/link-and-doc/archer2/|compute|The UK national supercomputing service, run by EPCC.
 CDO|/link-and-doc/cdo/|tools|Climate Data Operators: command-line tools for processing climate and forecast model data.
 CEDA|/link-and-doc/ceda/|data|The UK Centre for Environmental Data Analysis, which archives atmospheric and Earth observation data.
+CF Conventions|/link-and-doc/cf-conventions/|tools|The Climate and Forecast metadata conventions for describing data in netCDF files.
 cfdm|/link-and-doc/cfdm/|tools|A Python reference implementation of the CF data model.
 cf-plot|/link-and-doc/cf-plot/|tools|Python plotting for CF-compliant data.
 cf-python|/link-and-doc/cf-python/|tools|A Python library for reading, analysing and writing CF data.

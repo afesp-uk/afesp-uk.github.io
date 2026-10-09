@@ -304,13 +304,10 @@ profiles:
     anchor: helen-dacre # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="helen-dacre" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Helen Dacre</p>
+      <p id="helen-dacre" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Helen Dacre</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/blank.png

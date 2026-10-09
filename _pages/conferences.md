@@ -39,6 +39,9 @@ nav_order: 4
 - **S2S2D Conference**<br>
   Piyali Goswami<br>
   Reading, UK | Oral presentation | September 2026
+- **km-scale Global Modelling Summit 2026**<br>
+  Chris Holloway<br>
+  Hamburg, Germany | Poster presentation | 20–24 July 2026
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026
@@ -85,6 +88,9 @@ nav_order: 4
 
 ## Other presentations and outreach activities
 
+- **The effects of Anvil clouds on climate, and their representation in global km-scale models**<br>
+  Chris Holloway<br>
+  Met Office, Exeter, UK | Invited seminar | 2 December 2025
 - **NCAS Climate Modelling Summer School**<br>
   Piyali Goswami<br>
   Cambridge, UK | Summer school | 7–22 September 2025

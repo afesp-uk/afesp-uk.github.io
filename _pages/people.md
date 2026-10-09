@@ -299,7 +299,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/helen_dacre.jpg
     content: bios/about_Helen_Dacre.md
     anchor: helen-dacre # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

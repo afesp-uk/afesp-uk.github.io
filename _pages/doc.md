@@ -42,6 +42,8 @@ children:
     permalink: /link-and-doc/lfric/
   - title: MOSRS
     permalink: /link-and-doc/mosrs/
+  - title: NCAS CMS
+    permalink: /link-and-doc/ncas-cms/
   - title: NCO Tools
     permalink: /link-and-doc/nco/
   - title: RACC2
@@ -264,6 +266,7 @@ Iris|/link-and-doc/iris/|tools|A Python library from the Met Office for analysin
 Jasmin|/link-and-doc/jasmin/|compute|The UK data analysis platform for environmental science. Open a topic to see its guides.|wide
 LFRic|/link-and-doc/lfric/|models|The Met Office's next-generation modelling infrastructure.
 MOSRS|/link-and-doc/mosrs/|models|The Met Office Science Repository Service, which hosts the code and documentation for the Unified Model, LFRic and related software.
+NCAS CMS|/link-and-doc/ncas-cms/|compute|NCAS Computational Modelling Services: support for running weather and climate models, such as the Unified Model, on UK computing systems.
 NCO Tools|/link-and-doc/nco/|tools|netCDF Operators: command-line tools for manipulating netCDF files.
 RACC2|/link-and-doc/racc2/|compute|The University of Reading Academic Computing Cluster.
 SAFE|/link-and-doc/safe/|compute|EPCC's portal for ARCHER2 accounts, projects and usage.

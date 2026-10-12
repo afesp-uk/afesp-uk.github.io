@@ -1,7 +1,6 @@
 <p style="text-align: justify;">
-
-<p>
-
+Professor Reinhard Schiemann studies weather systems, such as atmospheric blocking and different kind of storms, and their impacts under climate change. He has also invested in the underpinning Earth system modelling capability producing community experiments with enhanced ensemble size, resolution, and complexity.
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

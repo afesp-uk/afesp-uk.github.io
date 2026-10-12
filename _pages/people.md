@@ -1099,18 +1099,15 @@ profiles:
   #         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
   #       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/reinhard_schiemann.jpg
     content: bios/about_Reinhard_Schiemann.md
     anchor: reinhard-schiemann # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="reinhard-schiemann" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Reinhard Schiemann</p>
+      <p id="reinhard-schiemann" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Reinhard Schiemann</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/blank.png

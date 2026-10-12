@@ -1,7 +1,6 @@
 <p style="text-align: justify;">
-
-<p>
-
+Mehzooz Nizar is a PhD researcher working on AI-based monsoon forecasting. He holds a Bachelor’s in Physics and a Master’s in Meteorology, and is mostly interested in machine learning-based weather forecasting and atmospheric physics. He has hands-on experience in machine learning, deep learning, and radar meteorology.
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

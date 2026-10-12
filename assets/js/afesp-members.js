@@ -223,7 +223,8 @@
     if (path !== "/people/" && path !== "/people") {
       return;
     }
-    const article = document.querySelector(".post article");
+    const firstProfile = document.querySelector(".profile");
+    const article = firstProfile && firstProfile.parentElement;
     if (!article || article.querySelector(".person-panel")) {
       return;
     }

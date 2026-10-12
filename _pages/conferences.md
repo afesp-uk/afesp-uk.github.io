@@ -58,6 +58,10 @@ nav_order: 4
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>
   km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
+- **How skilful are AI-based forecasts of 2023 Indian summer monsoon precipitation?**<br>
+  Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br>
+  EGU General Assembly 2026, Vienna, Austria | Oral presentation | 3–8 May 2026<br>
+  DOI: [10.5194/egusphere-egu26-7223](https://doi.org/10.5194/egusphere-egu26-7223)
 - **AGU Ocean Sciences Meeting**<br>
   Piyali Goswami<br>
   Glasgow, UK | Oral presentation | 22–27 February 2026
@@ -67,6 +71,9 @@ nav_order: 4
 - **RMetS Early Career Student Conference**<br>
   Piyali Goswami<br>
   Manchester, UK | Oral presentation | 30 June–2 July 2025
+- **Assessing the Skill of Global AI-Model Weather Predictions for the Indian Summer Monsoon 2023**<br>
+  Mehzooz Nizar<br>
+  RMetS Early Career and Student Conference 2025, Manchester, UK | Poster presentation | 30 June–2 July 2025
 {% comment %}
 - [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
@@ -86,6 +93,9 @@ nav_order: 4
 
 ## Contributions to workshops
 
+- **Ver-AI Workshop 2026**<br>
+  Mehzooz Nizar<br>
+  Oral presentation | 2026
 - **National Marine Heatwave Meeting**<br>
   Piyali Goswami<br>
   NOC Southampton, UK | Lightning talk | 19 May 2026

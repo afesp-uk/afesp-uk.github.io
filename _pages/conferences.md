@@ -49,9 +49,17 @@ nav_order: 4
 - **km-scale Global Modelling Summit 2026**<br>
   Chris Holloway<br>
   Hamburg, Germany | Poster presentation | 20–24 July 2026
+  - **km-scale Global Modelling Summit 2026**<br>
+  **Precipitation Efficiency Across Storm Regimes: A Satellite-Based Evaluation of Cloud-to-Rain Conversion in km-Scale Models**<br>
+  Julia Kukulies <br>
+  Hamburg, Germany | Oral presentation | 20–24 July 2026
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026
+- **ParaChute Conference  2026**<br>
+  **Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability**<br>
+  Julia Kukulies <br>
+  Reading, UK | Oral presentation | 13–16 July 2026
 - **RMetS Early Career Student Conference**<br>
   Piyali Goswami<br>
   Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026

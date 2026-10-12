@@ -217,7 +217,34 @@
     }
   };
 
+  // People page: give each person their own panel, alternating light blue and light cream.
+  const stripePeople = () => {
+    const path = window.location.pathname;
+    if (path !== "/people/" && path !== "/people") {
+      return;
+    }
+    const article = document.querySelector(".post article");
+    if (!article || article.querySelector(".person-panel")) {
+      return;
+    }
+    let panel = null;
+    let index = 0;
+    Array.from(article.children).forEach((child) => {
+      if (child.tagName === "HR") {
+        panel = document.createElement("div");
+        panel.className = `person-panel ${index % 2 === 0 ? "person-panel-blue" : "person-panel-cream"}`;
+        index += 1;
+        child.replaceWith(panel);
+        return;
+      }
+      if (panel) {
+        panel.appendChild(child);
+      }
+    });
+  };
+
   const start = () => {
+    stripePeople();
     run();
     addEmailIcon();
     moveContactToEnd();

@@ -815,18 +815,17 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/cyril_morcrette.jpg
     content: bios/about_Cyril_Morcrette.md
     anchor: cyril-morcrette # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
       <p id="cyril-morcrette" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Cyril Morcrette</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Senior Lecturer</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Mathematics and Statistics</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Exeter</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Met Office</p>
       </div>
   - align: left
     image: profile_pics/blank.png

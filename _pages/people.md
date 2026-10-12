@@ -820,7 +820,7 @@ profiles:
     anchor: cyril-morcrette # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="cyril-morcrette" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Cyril Morcrette</p>
+      <p id="cyril-morcrette" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Cyril Morcrette</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Senior Lecturer</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Mathematics and Statistics</p>

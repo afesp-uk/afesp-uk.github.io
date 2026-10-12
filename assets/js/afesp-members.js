@@ -27,6 +27,7 @@
     "Theodore G Shepherd": "ted-shepherd",
     "Patricia de Rosnay": "patricia-rosnay",
     "Cameron Southgate-Ash": "cameron-southgate-as",
+    "Leong Wang Chung": "leong-chung",
   };
 
   const run = () => {

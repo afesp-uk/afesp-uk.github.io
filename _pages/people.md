@@ -23,7 +23,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Abdou_Ali.md
     anchor: abdou-ali # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -37,7 +37,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Maarten_Ambaum.md
     anchor: maarten-ambaum # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -51,7 +51,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Eviatar_Bach.md
     anchor: eviatar-bach # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -65,7 +65,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Magdalena_Balmaseda.md
     anchor: magdalena-balmaseda # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -79,7 +79,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Gianpaolo_Balsamo.md
     anchor: gianpaolo-balsamo # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -104,7 +104,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Tobias_Becker.md
     anchor: tobias-becker # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -118,7 +118,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Segolene_Berthou.md
     anchor: segolene-berthou # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -132,7 +132,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Rishabh_Bhatt.md
     anchor: rishabh-bhatt # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -146,7 +146,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Emily_Black.md
     anchor: emily-black # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -160,7 +160,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Lewis_Blunn.md
     anchor: lewis-blunn # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -174,7 +174,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Alan_Blyth.md
     anchor: alan-blyth # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -188,7 +188,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Massimo_Bonavita.md
     anchor: massimo-bonavita # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -202,7 +202,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Niels_Borman.md
     anchor: niels-borman # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -216,7 +216,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Claire_Bulgin.md
     anchor: claire-bulgin # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -278,7 +278,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Rosalind_Cornforth.md
     anchor: rosalind-cornforth # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -303,7 +303,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Deepti_Dahiya.md
     anchor: deepti-dahiya # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -317,7 +317,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Sarah_Dance.md
     anchor: sarah-dance # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -331,7 +331,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Peter_Duben.md
     anchor: peter-duben # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -357,7 +357,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Katherine_Egan.md
     anchor: katherine-egan # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -371,7 +371,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Xiangbo_Feng.md
     anchor: xiangbo-feng # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -397,7 +397,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Richard_Forbes.md
     anchor: richard-forbes # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -411,7 +411,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Alison_Fowler.md
     anchor: alison-fowler # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -425,7 +425,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Tom_Frame.md
     anchor: tom-frame # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -451,7 +451,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Deepak_Gopalakrishnan.md
     anchor: deepak-gopalakrishnan # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -489,7 +489,7 @@ profiles:
           <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
         </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Sue_Grimmond.md
     anchor: sue-grimmond # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -503,7 +503,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Steven_Hardiman.md
     anchor: steven-hardiman # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -530,7 +530,7 @@ profiles:
           <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Linda_Hirons.md
     anchor: linda-hirons # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -544,7 +544,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Robin_Hogan.md
     anchor: robin-hogan # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -569,7 +569,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Elias_Holm.md
     anchor: elias-holm # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -583,7 +583,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Kieran_Hunt.md
     anchor: kieran-hunt # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -597,7 +597,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Kate_Huxtable.md
     anchor: kate-huxtable # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -611,7 +611,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Martin_Jacques-Coper.md
     anchor: martin-jacques-coper # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -637,7 +637,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Todd_Jones.md
     anchor: todd-jones # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -651,7 +651,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Rajsekhar_Kandala.md
     anchor: rajsekhar-kandala # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -665,7 +665,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Richard_Keane.md
     anchor: richard-keane # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -715,7 +715,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Amos_Lawless.md
     anchor: amos-lawless # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -729,7 +729,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Bryan_Lawrence.md
     anchor: bryan-lawrence # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -743,7 +743,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Humphrey_Lean.md
     anchor: humphrey-lean # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -757,7 +757,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Oscar_Martinez-Alvarado.md
     anchor: oscar-martinez-alvarado # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -771,7 +771,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Chris_Merchant.md
     anchor: chris-merchant # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -785,7 +785,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_John_Methven.md
     anchor: john-methven # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -799,7 +799,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Kaustubh_Mittal.md
     anchor: kaustubh-mittal # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -826,7 +826,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Met Office</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Hamidreza_Mosaffa.md
     anchor: hamidreza-mosaffa # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -840,7 +840,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Indrakshi_Mukherjee.md
     anchor: indrakshi-mukherjee # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -866,7 +866,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Ravi_Shankar_Nemani.md
     anchor: ravi-nemani # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -880,7 +880,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Stuart_Newman.md
     anchor: stuart-newman # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -894,7 +894,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Nancy_Nichols.md
     anchor: nancy-nichols # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -920,7 +920,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Chris_OReilly.md
     anchor: chris-oreilly # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -946,7 +946,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Florian_Pappenberger.md
     anchor: florian-pappenberger # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -960,7 +960,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Celia_Petty.md
     anchor: celia-petty # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -998,7 +998,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Andreas_Prein.md
     anchor: andreas-prein # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1012,7 +1012,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Christel_Prudhomme.md
     anchor: christel-prudhomme # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1026,7 +1026,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Regina_Rodrigues.md
     anchor: regina-rodrigues # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1040,7 +1040,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Patricia_de_Rosnay.md
     anchor: patricia-rosnay # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1054,7 +1054,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Shovonol_Roy.md
     anchor: shovonlal-roy # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1102,7 +1102,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Jennifer_Scott.md
     anchor: jennifer-scott # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1141,7 +1141,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Jon_Shonk.md
     anchor: jon-shonk # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1167,7 +1167,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Thorwald_Stein.md
     anchor: thorwald-stein # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1181,7 +1181,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Liz_Stephens.md
     anchor: liz-stephens # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1195,7 +1195,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Alison_Stirling.md
     anchor: alison-stirling # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1209,7 +1209,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Birgit_Sutzl.md
     anchor: birgit-sutzl # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1235,7 +1235,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Lorenzo_Tomassini.md
     anchor: lorenzo-tomassini # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1249,7 +1249,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Andrew_Turner.md
     anchor: andrew-turner # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1263,7 +1263,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Benoit_Vanniere.md
     anchor: benoit-vanniere # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1301,7 +1301,7 @@ profiles:
          <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
        </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Frederic_Vitart.md
     anchor: frederic-vitart # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1315,7 +1315,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Joanne_Waller.md
     anchor: joanne-waller # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1329,7 +1329,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Hilary_Weller.md
     anchor: hilary-weller # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1356,7 +1356,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    image: profile_pics/blank.png
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Amber_te_Winkle.md
     anchor: amber-winkle # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

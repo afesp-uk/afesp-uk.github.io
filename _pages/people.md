@@ -360,7 +360,7 @@ profiles:
     anchor: katherine-egan # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="katherine-egan" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Katherine Egan</p>
+      <p id="katherine-egan" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Katherine Egan</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Scientific Officer, SEWA</p>
         <p style="white-space: nowrap; margin: 0; display: block;">ECMWF</p>

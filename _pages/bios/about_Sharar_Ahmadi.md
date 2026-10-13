@@ -2,7 +2,6 @@
 	Dr Sharar Ahmadi is the AFESP computational support scientist. She holds a PhD in Computer Software Engineering and is a member of the National Centre for Atmospheric Science (<a href="https://people.ncas.ac.uk/people/view/699">NCAS profile</a>). Her research interests include the application of software engineering, optimisation, HPC, and parallel programming, together with large‑scale data engineering, data analysis, data management, and AI/ML approaches, to accelerate modelling of the atmosphere, climate, oceans, land surface, Antarctica, and the Earth system.
 </p>
 
-
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
 

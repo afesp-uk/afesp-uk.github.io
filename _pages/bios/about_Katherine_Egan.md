@@ -1,6 +1,10 @@
 <p style="text-align: justify;">
+Katherine (Katie) Egan is ECMWF’s Scientific Officer for SEWA (Space for Early Warning in Africa). She is interested in impact-based forecasting, warning, evaluation, and understanding how to support real-time decision making. She is also an operational flood-forecaster, providing guidance to the European Commission’s Emergency Response Coordination Centre.
+</p>
 
-<p>
+<p style="text-align: justify;">
+Before joining ECMWF, Katie spent 9 years at the UK Met Office where she trained and worked as an Operational Meteorologist and then Hydrometeorologist. She has a Master’s and a DPhil in Earth Sciences from the University of Oxford, and two year’s experiences as a post-doctoral research assistant in palaeo-climatology
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

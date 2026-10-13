@@ -1293,11 +1293,11 @@ profiles:
     anchor: pier-vidale # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-       <p id="pier-vidale" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Pier Luigi Vidale</p>
-       <div style="font-size: 0.8em; line-height: 1.15;">
-         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorogy </p>
-         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
-       </div>
+      <p id="pier-vidale" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Pier Luigi Vidale</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorogy </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
+      </div>
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Frederic_Vitart.md

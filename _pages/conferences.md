@@ -56,7 +56,7 @@ nav_order: 4
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026
-- **ParaChute Conference  2026**<br>
+- **ParaChute Conference 2026**<br>
   **Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability**<br>
   Julia Kukulies <br>
   Reading, UK | Oral presentation | 13–16 July 2026
@@ -82,12 +82,12 @@ nav_order: 4
 - **Assessing the Skill of Global AI-Model Weather Predictions for the Indian Summer Monsoon 2023**<br>
   Mehzooz Nizar<br>
   RMetS Early Career and Student Conference 2025, Manchester, UK | Poster presentation | 30 June–2 July 2025
-{% comment %}
+  {% comment %}
 - [**Strengthening of the East Asian Summer Monsoon in response to local and remote reductions in anthropogenic aerosol**](https://meetingorganizer.copernicus.org/EGU26/EGU26-12557.html)<br>
   Laura Wilcox, Ankit Bhandekar, Feifei Luo, Massimo Bollasina, Tianhui Zhou, Bjørn Samset, Robert Allen, and The RAMIP modelling team (Sharar Ahmadi and others)<br>
   EGU General Assembly 2026, Vienna, Austria & Online | 3–8 May 2026<br>
   DOI: [10.5194/egusphere-egu26-12557](https://doi.org/10.5194/egusphere-egu26-12557)
-{% endcomment %}
+  {% endcomment %}
 - **Physics-guided machine learning for subgrid-scale turbulence**<br>
   S. K. Panda, et al.<br>
   EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br>

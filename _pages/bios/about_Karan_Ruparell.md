@@ -1,4 +1,4 @@
-Hi! 
+Hi!
 
 I'm Karan Ruparell, and I'm a 4th year PhD student in the AFESP programme at the University of Reading.
 

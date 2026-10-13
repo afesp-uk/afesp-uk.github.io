@@ -14,7 +14,6 @@ ORCID.
 </a>
 <p>
 
-
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
 

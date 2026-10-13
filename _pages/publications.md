@@ -44,46 +44,53 @@ nav_order: 2
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-	{% bibliography --file papers --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file papers --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-	{% bibliography --file preprints --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file preprints --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-	{% bibliography --file technical_reports --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file technical_reports --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-	{% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-	{% comment %} AFESP Core datasets and software: those by Sambit Kumar Panda. All other datasets are under AFESP Collaboration. {% endcomment %}
-	{% bibliography --file datasets --query @*[author ~= Panda] %}
+    {% comment %} AFESP Core datasets and software: those by Sambit Kumar Panda. All other datasets are under AFESP Collaboration. {% endcomment %}
+    {% bibliography --file datasets --query @*[author ~= Panda] %}
+
 </details>
 
 {% comment %}
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-	{% bibliography --file manuals --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file manuals --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 {% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-	{% bibliography --file books --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file books --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+
 </details>
 
 {% endcapture %}
@@ -93,45 +100,52 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Accepted Papers</strong></summary>
 
-	{% bibliography --file papers --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file papers --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-	{% bibliography --file preprints --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file preprints --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-	{% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-	{% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-	{% bibliography --file datasets --query @*[author !~ Panda] %}
+    {% bibliography --file datasets --query @*[author !~ Panda] %}
+
 </details>
 
 {% comment %}
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-	{% bibliography --file manuals --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file manuals --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 {% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-	{% bibliography --file books --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file books --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+
 </details>
 
 {% endcapture %}

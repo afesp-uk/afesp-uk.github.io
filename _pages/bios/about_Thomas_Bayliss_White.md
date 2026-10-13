@@ -9,8 +9,8 @@ Some of the topics I plan on researching include:
 - Using ensemble data assimilation to estimate how biogeochemical parameter values vary seasonally and across different regions of the ocean.
 - Differentiating between harmful and non-harmful species of phytoplankton, and seeing whether data assimilation can improve forecasts of the concentration of toxins that harmful species produce.
 
-Before I started my PhD, I studied for an MSci in Mathematics (Climate Science) at the University of Exeter. My dissertation studied the development and characteristics of vegetation patterns in semi-arid regions. 
-From June-September 2023, I worked as a research intern at Mount Royal University in Calgary, AB, Canada through the Mitacs Globalink research internship scheme, studying data assimilation applied to epidemiological models. 
+Before I started my PhD, I studied for an MSci in Mathematics (Climate Science) at the University of Exeter. My dissertation studied the development and characteristics of vegetation patterns in semi-arid regions.
+From June-September 2023, I worked as a research intern at Mount Royal University in Calgary, AB, Canada through the Mitacs Globalink research internship scheme, studying data assimilation applied to epidemiological models.
 Through these experiences, I have developed an interest in working at the interface of applied mathematics, meteorology and ecology, which drew me to apply to the AFESP DTP.
 
 In addition to receiving funding from the University of Reading through the AFESP DTP, I am also sponsored by the Met Office through the CASE studentship scheme.

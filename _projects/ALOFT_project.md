@@ -20,8 +20,8 @@ I will explore this question by using newly developed km-scale models as a sourc
 target model with the km-scale source model.
 In particular, I will rely on the km-scale model's ability to represent MCSs more faithfully. Aligning the low- and high-resolution models will make it possible to compare MCSs between both resolutions in unprecedented detail:
 
-* **Structural comparison of MCSs:** The spectral nudging will mean that MCSs often occur at the same time and location in the source and target models. This will allow for a like-for-like comparison of MCSs under the same environmental conditions at two resolutions.
-* **Nudging increments:** The increments used to nudge the target closer to the source provide key information about how the models' representations of MCSs differ.
+- **Structural comparison of MCSs:** The spectral nudging will mean that MCSs often occur at the same time and location in the source and target models. This will allow for a like-for-like comparison of MCSs under the same environmental conditions at two resolutions.
+- **Nudging increments:** The increments used to nudge the target closer to the source provide key information about how the models' representations of MCSs differ.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

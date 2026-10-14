@@ -23,7 +23,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/abdou_ali.jpg
     content: bios/about_Abdou_Ali.md
     anchor: abdou-ali # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

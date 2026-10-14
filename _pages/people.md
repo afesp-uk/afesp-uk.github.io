@@ -30,7 +30,8 @@ profiles:
     more_info: >
       <p id="abdou-ali" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Abdou Ali</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Head of the Climate–Water–Meteorology Department</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Head of the Climate–</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Water–Meteorology Department</p>
         <p style="white-space: nowrap; margin: 0; display: block;">AGRHYMET RCC-WAS</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Niamey, Niger</p>
       </div>

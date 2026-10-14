@@ -30,7 +30,7 @@ National Centre for Atmospheric Science (NCAS).
 
 ## Other Collaborators
 
-Other institutions that AFESP members have been collaborating with on their projects and publications.
+Other institutions that AFESP members have been collaborating with so far.
 
 <div class="social">
   <div class="contact-note">

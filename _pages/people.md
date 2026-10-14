@@ -646,18 +646,16 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/rajsekhar_kandala.jpg
     content: bios/about_Rajsekhar_Kandala.md
     anchor: rajsekhar-kandala # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="rajsekhar-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Rajsekhar Kandala</p>
+      <p id="rajsekhar-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Raj Kandala</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Postdoctoral Research Associate</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Geography and Environmental Science</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   # - align: left
   #   # image: profile_pics/blank.png # placeholder hidden until a photo is added
@@ -1372,15 +1370,4 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
-  - align: left
-    image: profile_pics/Rajsekhar Kandala_photo.jpg  # replace with your exact filename
-    content: bios/about_Raj Kandala.md
-    anchor: raj-kandala
-    image_circular: false
-    more_info: >
-      <p id="raj-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Raj Kandala</p>
-      <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Postdoctoral Research Associate</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of Geography and Environmental Science</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
-      </div>
+---

@@ -113,6 +113,9 @@ nav_order: 4
 
 ## Other presentations and outreach activities
 
+- **Data and AI in Urban Climate Science**<br>
+  Sharar Ahmadi<br>
+  NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026
 - **The effects of Anvil clouds on climate, and their representation in global km-scale models**<br>
   Chris Holloway<br>
   Met Office, Exeter, UK | Invited seminar | 2 December 2025

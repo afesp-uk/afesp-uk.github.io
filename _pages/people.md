@@ -651,7 +651,7 @@ profiles:
     anchor: rajsekhar-kandala # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="rajsekhar-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Raj Kandala</p>
+      <p id="rajsekhar-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Rajsekhar (Raj) Kandala</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Postdoctoral Research Associate</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Geography and Environmental Science</p>

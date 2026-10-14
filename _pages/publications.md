@@ -38,42 +38,41 @@ nav_order: 2
 	}
 </style>
 
-{% comment %} AFESP Core leaves out publications co-authored by Sharar Ahmadi or the RAMIP modelling team. AFESP Collaboration keeps only those co-authored by Sharar Ahmadi or the RAMIP modelling team. {% endcomment %}
+{% comment %} Each entry can say where it goes with afesp = {core} or afesp = {collaboration} in the .bib file. Entries without it are placed automatically: AFESP Collaboration takes those co-authored by Sharar Ahmadi or the RAMIP modelling team (for datasets: those not by Panda), and AFESP Core takes the rest. {% endcomment %}
 {% capture core_sections %}
 
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-    {% bibliography --file papers --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file papers --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-    {% bibliography --file preprints --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file preprints --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-    {% bibliography --file technical_reports --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file technical_reports --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-    {% bibliography --file abstracts --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file abstracts --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-    {% comment %} AFESP Core datasets and software: those by Sambit Kumar Panda. All other datasets are under AFESP Collaboration. {% endcomment %}
-    {% bibliography --file datasets --query @*[author ~= Panda] %}
+    {% bibliography --file datasets --query @*[afesp ~= core || afesp !~ collaboration && author ~= Panda] %}
 
 </details>
 
@@ -81,7 +80,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-    {% bibliography --file manuals --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file manuals --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 {% endcomment %}
@@ -89,7 +88,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-    {% bibliography --file books --query @*[author !~ Ahmadi && author !~ RAMIP] %}
+    {% bibliography --file books --query @*[afesp ~= core || afesp !~ collaboration && author !~ Ahmadi && author !~ RAMIP] %}
 
 </details>
 
@@ -100,35 +99,35 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Accepted Papers</strong></summary>
 
-    {% bibliography --file papers --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file papers --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-    {% bibliography --file preprints --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file preprints --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-    {% bibliography --file technical_reports --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file technical_reports --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-    {% bibliography --file abstracts --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file abstracts --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-    {% bibliography --file datasets --query @*[author !~ Panda] %}
+    {% bibliography --file datasets --query @*[afesp ~= collaboration || afesp !~ core && author !~ Panda] %}
 
 </details>
 
@@ -136,7 +135,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-    {% bibliography --file manuals --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file manuals --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 {% endcomment %}
@@ -144,7 +143,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-    {% bibliography --file books --query @*[author ~= Ahmadi || author ~= RAMIP] %}
+    {% bibliography --file books --query @*[afesp ~= collaboration || afesp !~ core && author ~= Ahmadi || afesp !~ core && author ~= RAMIP] %}
 
 </details>
 

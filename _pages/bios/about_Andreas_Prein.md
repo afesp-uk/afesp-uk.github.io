@@ -1,6 +1,6 @@
 <p style="text-align: justify;">
-
-<p>
+Andreas F. Prein is a Professor of High-Resolution Weather and Climate Modeling at ETH Zürich. His research focuses on kilometer-scale weather and climate simulations, extreme weather events, and the physical processes that shape precipitation, heat, storms, and climate risks across scales. Before joining ETH Zürich, he worked at the National Center for Atmospheric Research in Boulder, Colorado, where he contributed to advancing convection-permitting climate modeling and the understanding of weather and climate extremes. His work combines numerical modeling, observations, and emerging AI methods to improve the prediction and interpretation of high-impact weather in a changing climate.
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

@@ -6,7 +6,24 @@ nav: true
 nav_order: 9
 ---
 
-Details of AFESP collaborators will be added here.
+<style>
+  .post article h2 {
+    color: #1565c0;
+  }
+  html[data-theme="dark"] .post article h2 {
+    color: #64b5f6;
+  }
+</style>
+
+## Main collaborators
+
+AFESP is led by the University of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the
+National Centre for Atmospheric Science (NCAS).
+
+- [**University of Reading**](https://www.reading.ac.uk/) (lead institution)
+- [**European Centre for Medium-Range Weather Forecasts (ECMWF)**](https://www.ecmwf.int/)
+- [**UK Met Office**](https://www.metoffice.gov.uk/)
+- [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)
 
 <div class="social">
   <div class="contact-note">

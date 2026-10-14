@@ -15,12 +15,15 @@ nav_order: 9
   }
 </style>
 
+## Lead Institution
+
+- [**University of Reading**](https://www.reading.ac.uk/)
+
 ## Main collaborators
 
 AFESP is led by the University of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the
 National Centre for Atmospheric Science (NCAS).
 
-- [**University of Reading**](https://www.reading.ac.uk/) (lead institution)
 - [**European Centre for Medium-Range Weather Forecasts (ECMWF)**](https://www.ecmwf.int/)
 - [**UK Met Office**](https://www.metoffice.gov.uk/)
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)

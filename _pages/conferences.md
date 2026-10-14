@@ -14,7 +14,26 @@ nav_order: 4
     line-height: 1.2;
   }
   .post > .post-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .ev {
+    --ev-blue: #1565c0;
+    --ev-talk: #1565c0;
+    --ev-poster: #b26a00;
+    --ev-lightning: #7b3fb0;
+    --ev-school: #00796b;
+    --ev-other: #5f6b7a;
+    --ev-line: var(--global-divider-color);
+    --ev-card: var(--global-card-bg-color);
+    --ev-muted: var(--global-text-color-light);
+  }
+  html[data-theme="dark"] .ev {
+    --ev-blue: #64b5f6;
+    --ev-talk: #64b5f6;
+    --ev-poster: #f0b35a;
+    --ev-lightning: #c39bea;
+    --ev-school: #5fd0bf;
+    --ev-other: #a9b4c2;
   }
   /* Section headings in blue, matching the projects page. */
   .post article h2 {
@@ -22,6 +41,226 @@ nav_order: 4
   }
   html[data-theme="dark"] .post article h2 {
     color: #64b5f6;
+  }
+  .ev h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-top: 2.25rem;
+  }
+  .ev h2 .ev-count {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  /* Upcoming events: cards with a large date. */
+  .ev ul.ev-upcoming {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.9rem;
+  }
+  .ev-upcoming > li > a.ev-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 1.1rem;
+    border-radius: 10px;
+    border: 1px solid var(--ev-line);
+    border-top: 4px solid var(--ev-blue);
+    background: var(--ev-card);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .ev-upcoming > li > a.ev-card:hover,
+  .ev-upcoming > li > a.ev-card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(21, 101, 192, 0.15);
+  }
+  .ev-card .ev-when {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--ev-blue);
+  }
+  .ev-card .ev-name {
+    font-weight: 600;
+    margin: 0.35rem 0 0.4rem 0;
+    line-height: 1.35;
+  }
+  .ev-card .ev-where {
+    margin-top: auto;
+    font-size: 0.88rem;
+    color: var(--ev-muted);
+  }
+  .ev-card .ev-more {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    color: var(--ev-blue);
+  }
+  /* Filters for contributions. */
+  .ev-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.5rem 0 0 0;
+  }
+  .ev-filter {
+    font: inherit;
+    font-size: 0.88rem;
+    padding: 0.28rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--ev-line);
+    background: transparent;
+    color: var(--global-text-color);
+    cursor: pointer;
+  }
+  .ev-filter[data-kind]::before {
+    content: "";
+    display: inline-block;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+    background: var(--dot);
+  }
+  .ev-filter[aria-pressed="true"] {
+    background: var(--global-text-color);
+    color: var(--global-bg-color);
+    border-color: var(--global-text-color);
+  }
+  .ev-filter:focus-visible,
+  .ev-card:focus-visible {
+    outline: 2px solid var(--ev-blue);
+    outline-offset: 2px;
+  }
+  /* Contributions: a timeline with the date on the left. */
+  .ev ul.ev-timeline {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    position: relative;
+  }
+  .ev ul.ev-timeline::before {
+    content: "";
+    position: absolute;
+    left: 5.6rem;
+    top: 0.4rem;
+    bottom: 0.4rem;
+    width: 2px;
+    background: var(--ev-line);
+  }
+  .ev-timeline > li.ev-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 1.4rem;
+    padding: 0 0 1.25rem 0;
+  }
+  .ev-timeline > li.ev-item[hidden] {
+    display: none;
+  }
+  .ev-item::after {
+    content: "";
+    position: absolute;
+    left: calc(5.6rem - 5px);
+    top: 0.45rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--kind);
+    box-shadow: 0 0 0 3px var(--global-bg-color);
+  }
+  .ev-item {
+    --kind: var(--ev-other);
+  }
+  .ev-item[data-kind="talk"] { --kind: var(--ev-talk); }
+  .ev-item[data-kind="poster"] { --kind: var(--ev-poster); }
+  .ev-item[data-kind="lightning"] { --kind: var(--ev-lightning); }
+  .ev-item[data-kind="school"] { --kind: var(--ev-school); }
+  .ev-date {
+    text-align: right;
+    line-height: 1.1;
+    padding-top: 0.1rem;
+  }
+  .ev-date .ev-month {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--kind);
+  }
+  .ev-date .ev-year {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--ev-muted);
+  }
+  .ev-body {
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--ev-line);
+    border-left: 4px solid var(--kind);
+    background: var(--ev-card);
+    min-width: 0;
+  }
+  .ev-type {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--kind);
+    margin-bottom: 0.2rem;
+  }
+  .ev-title {
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .ev-event {
+    font-size: 0.9rem;
+    color: var(--ev-muted);
+  }
+  .ev-authors {
+    margin-top: 0.25rem;
+  }
+  .ev-meta {
+    margin-top: 0.3rem;
+    font-size: 0.88rem;
+    color: var(--ev-muted);
+  }
+  .ev-extra {
+    margin-top: 0.25rem;
+    font-size: 0.88rem;
+  }
+  .ev-empty {
+    color: var(--ev-muted);
+    font-style: italic;
+  }
+  @media (max-width: 575.98px) {
+    .ev ul.ev-timeline::before {
+      left: 0.3rem;
+    }
+    .ev-timeline > li.ev-item {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+      padding-left: 1.4rem;
+    }
+    .ev-item::after {
+      left: calc(0.3rem - 5px);
+    }
+    .ev-date {
+      text-align: left;
+    }
+    .ev-date .ev-month,
+    .ev-date .ev-year {
+      display: inline;
+      margin-right: 0.3rem;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ev-upcoming > li > a.ev-card {
+      transition: none;
+    }
   }
 </style>
 
@@ -125,6 +364,194 @@ nav_order: 4
 - **NCAS Climate Modelling Summer School**<br>
   Piyali Goswami<br>
   Cambridge, UK | Summer school | 7–22 September 2025
+
+<script>
+  (() => {
+    const article = document.querySelector(".post article");
+    if (!article) return;
+    article.classList.add("ev");
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const short = (m) => m.slice(0, 3);
+    const kindOf = (type) => {
+      const t = type.toLowerCase();
+      if (t.includes("poster")) return "poster";
+      if (t.includes("lightning")) return "lightning";
+      if (t.includes("school") || t.includes("training") || t.includes("course")) return "school";
+      if (t.includes("oral") || t.includes("talk") || t.includes("seminar") || t.includes("speaker") || t.includes("presentation")) return "talk";
+      return "other";
+    };
+    // Split a list item into groups of nodes separated by <br>.
+    const groupsOf = (li) => {
+      const groups = [[]];
+      const walk = (nodes) =>
+        nodes.forEach((n) => {
+          if (n.nodeName === "BR") groups.push([]);
+          else if (n.nodeName === "P") {
+            walk(Array.from(n.childNodes));
+            groups.push([]);
+          } else groups[groups.length - 1].push(n);
+        });
+      walk(Array.from(li.childNodes));
+      return groups.filter((g) => g.some((n) => n.textContent.trim()));
+    };
+    const textOf = (g) => g.map((n) => n.textContent).join("").trim();
+    const isBold = (g) => {
+      const real = g.filter((n) => n.nodeType !== 3 || n.textContent.trim());
+      return real.length === 1 && real[0].nodeName === "STRONG";
+    };
+    const wrap = (cls, nodes, tag = "div") => {
+      const el = document.createElement(tag);
+      el.className = cls;
+      nodes.forEach((n) => el.appendChild(n));
+      return el;
+    };
+    const dateParts = (text) => {
+      const year = (text.match(/(20\d\d)/g) || []).pop() || "";
+      const month = months.find((m) => new RegExp(m.slice(0, 3), "i").test(text));
+      return { month: month ? short(month) : "", year };
+    };
+
+    // Upcoming sections: turn each linked item into a card.
+    article.querySelectorAll("h2").forEach((h2) => {
+      const list = h2.nextElementSibling;
+      if (!list || list.tagName !== "UL") return;
+      const upcoming = /^upcoming/i.test(h2.textContent.trim());
+      const items = Array.from(list.children);
+      const count = document.createElement("span");
+      count.className = "ev-count";
+      count.textContent = items.length;
+      h2.appendChild(count);
+      if (upcoming) {
+        list.classList.add("ev-upcoming");
+        items.forEach((li) => {
+          const a = li.querySelector("a");
+          if (!a) return;
+          const raw = a.textContent.trim().replace(/:$/, "");
+          const m = raw.match(/^(.*)\(([^()]*)\)\s*$/);
+          const name = m ? m[1].trim() : raw;
+          const inside = m ? m[2].split(/[;]/).map((x) => x.trim()) : [];
+          let when = inside[0] || "";
+          let where = inside.slice(1).join(", ");
+          // Training-style "(5-17 Sep 2027, Cambridge, UK)": date first, place after the year.
+          const y = when.match(/^(.*?\b20\d\d)\s*,\s*(.+)$/);
+          if (y && !/^\d{1,2}:\d\d/.test(y[2])) {
+            when = y[1];
+            where = [y[2], where].filter(Boolean).join(", ");
+          }
+          a.classList.add("ev-card");
+          a.innerHTML = "";
+          const w = document.createElement("span");
+          w.className = "ev-when";
+          w.textContent = when.replace(/,\s*(\d{1,2}:\d\d)/, " · $1");
+          const n = document.createElement("span");
+          n.className = "ev-name";
+          n.textContent = name;
+          a.append(w, n);
+          if (where) {
+            const p = document.createElement("span");
+            p.className = "ev-where";
+            p.textContent = where.charAt(0).toUpperCase() + where.slice(1);
+            a.append(p);
+          }
+          const more = document.createElement("span");
+          more.className = "ev-more";
+          more.textContent = "Details and registration";
+          a.append(more);
+        });
+        return;
+      }
+      // Contributions: timeline entries.
+      list.classList.add("ev-timeline");
+      items.forEach((li) => {
+        const groups = groupsOf(li);
+        let metaIdx = -1;
+        groups.forEach((g, i) => {
+          if (textOf(g).includes("|")) metaIdx = i;
+        });
+        if (metaIdx === -1) return;
+        const parts = textOf(groups[metaIdx]).split("|").map((x) => x.trim());
+        const [venue, type, date] = parts.length >= 3 ? [parts[0], parts[1], parts.slice(2).join(" ")] : ["", parts[0], parts[1] || ""];
+        const kind = kindOf(type);
+        const bolds = groups.slice(0, metaIdx).filter(isBold);
+        const plain = groups.slice(0, metaIdx).filter((g) => !isBold(g));
+        const extra = groups.slice(metaIdx + 1);
+        li.classList.add("ev-item");
+        li.dataset.kind = kind;
+        const d = dateParts(date);
+        const dateEl = document.createElement("div");
+        dateEl.className = "ev-date";
+        dateEl.innerHTML = `<span class="ev-month"></span><span class="ev-year"></span>`;
+        dateEl.querySelector(".ev-month").textContent = d.month || d.year;
+        dateEl.querySelector(".ev-year").textContent = d.month ? d.year : "";
+        const body = document.createElement("div");
+        body.className = "ev-body";
+        const typeEl = document.createElement("span");
+        typeEl.className = "ev-type";
+        typeEl.textContent = type;
+        body.appendChild(typeEl);
+        if (bolds.length >= 2) {
+          body.appendChild(wrap("ev-title", bolds[1]));
+          body.appendChild(wrap("ev-event", bolds[0]));
+        } else if (bolds.length === 1) {
+          body.appendChild(wrap("ev-title", bolds[0]));
+        }
+        plain.forEach((g) => body.appendChild(wrap("ev-authors", g)));
+        const meta = document.createElement("div");
+        meta.className = "ev-meta";
+        meta.textContent = [venue, date].filter(Boolean).join(" — ");
+        body.appendChild(meta);
+        extra.forEach((g) => body.appendChild(wrap("ev-extra", g)));
+        li.innerHTML = "";
+        li.append(dateEl, body);
+      });
+    });
+
+    // Filter chips above the first contributions section.
+    const firstTimeline = article.querySelector("ul.ev-timeline");
+    if (firstTimeline) {
+      const anchor = firstTimeline.previousElementSibling;
+      const kinds = [
+        ["", "All"],
+        ["talk", "Talks", "--ev-talk"],
+        ["poster", "Posters", "--ev-poster"],
+        ["lightning", "Lightning talks", "--ev-lightning"],
+        ["school", "Schools and training", "--ev-school"],
+      ].filter(([k]) => !k || article.querySelector(`.ev-item[data-kind="${k}"]`));
+      const bar = document.createElement("div");
+      bar.className = "ev-filters";
+      bar.setAttribute("role", "group");
+      bar.setAttribute("aria-label", "Show only");
+      kinds.forEach(([k, label, color]) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "ev-filter";
+        b.textContent = label;
+        b.setAttribute("aria-pressed", k ? "false" : "true");
+        if (k) {
+          b.dataset.kind = k;
+          b.style.setProperty("--dot", `var(${color})`);
+        }
+        b.addEventListener("click", () => {
+          bar.querySelectorAll(".ev-filter").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+          article.querySelectorAll("ul.ev-timeline").forEach((ul) => {
+            let shown = 0;
+            ul.querySelectorAll(":scope > li").forEach((li) => {
+              const match = !k || li.dataset.kind === k;
+              li.hidden = !match;
+              if (match) shown += 1;
+            });
+            let h2 = ul.previousElementSibling;
+            while (h2 && h2.tagName !== "H2") h2 = h2.previousElementSibling;
+            const c = h2 && h2.querySelector(".ev-count");
+            if (c) c.textContent = shown;
+          });
+        });
+        bar.appendChild(b);
+      });
+      anchor.after(bar);
+    }
+  })();
+</script>
 
 <div class="social">
   <div class="contact-note">

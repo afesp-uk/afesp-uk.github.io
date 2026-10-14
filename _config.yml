@@ -352,7 +352,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: "*/papers.bib" # accepted papers from both _bibliography/afesp_core/ and _bibliography/afesp_collaboration/
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.

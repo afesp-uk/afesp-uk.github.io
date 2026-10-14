@@ -38,41 +38,41 @@ nav_order: 2
 	}
 </style>
 
-{% comment %} Each entry chooses its group with afesp = {core} or afesp = {collaboration} in the .bib file. Entries without it appear under AFESP Core. {% endcomment %}
+{% comment %} AFESP Core lists the .bib files in _bibliography/afesp_core/, and AFESP Collaboration lists those in _bibliography/afesp_collaboration/. {% endcomment %}
 {% capture core_sections %}
 
 <details class="publication-section" open>
 	<summary><strong>Accepted Papers</strong></summary>
 
-    {% bibliography --file papers --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/papers %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-    {% bibliography --file preprints --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/preprints %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-    {% bibliography --file technical_reports --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/technical_reports %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-    {% bibliography --file abstracts --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/abstracts %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-    {% bibliography --file datasets --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/datasets %}
 
 </details>
 
@@ -80,7 +80,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-    {% bibliography --file manuals --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/manuals %}
 
 </details>
 {% endcomment %}
@@ -88,7 +88,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-    {% bibliography --file books --query @*[afesp !~ collaboration] %}
+    {% bibliography --file afesp_core/books %}
 
 </details>
 
@@ -99,35 +99,35 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Accepted Papers</strong></summary>
 
-    {% bibliography --file papers --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/papers %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Preprints</strong></summary>
 
-    {% bibliography --file preprints --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/preprints %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Technical Reports</strong></summary>
 
-    {% bibliography --file technical_reports --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/technical_reports %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Abstracts</strong></summary>
 
-    {% bibliography --file abstracts --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/abstracts %}
 
 </details>
 
 <details class="publication-section">
 	<summary><strong>Datasets and Software Codes</strong></summary>
 
-    {% bibliography --file datasets --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/datasets %}
 
 </details>
 
@@ -135,7 +135,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Manuals</strong></summary>
 
-    {% bibliography --file manuals --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/manuals %}
 
 </details>
 {% endcomment %}
@@ -143,7 +143,7 @@ nav_order: 2
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
 
-    {% bibliography --file books --query @*[afesp ~= collaboration] %}
+    {% bibliography --file afesp_collaboration/books %}
 
 </details>
 

@@ -28,7 +28,7 @@ National Centre for Atmospheric Science (NCAS).
 - [**UK Met Office**](https://www.metoffice.gov.uk/)
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)
 
-## Other Collaborators
+## Other collaborators
 
 Other institutions that AFESP members have been collaborating with so far.
 

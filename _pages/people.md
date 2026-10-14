@@ -1372,4 +1372,15 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
----
+  - align: left
+    image: profile_pics/Rajsekhar Kandala_photo.jpg  # replace with your exact filename
+    content: bios/about_Raj Kandala.md
+    anchor: raj-kandala
+    image_circular: false
+    more_info: >
+      <p id="raj-kandala" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Raj Kandala</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">Postdoctoral Research Associate</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Geography and Environmental Science</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
+      </div>

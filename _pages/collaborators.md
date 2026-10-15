@@ -46,6 +46,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
+- [**Institute for Infrastructure and Environment, School of Engineering, University of Edinburgh**](https://eng.ed.ac.uk/research/institutes/iie), Edinburgh, UK
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
 - [**Météo-France**](https://meteofrance.com/), France
@@ -53,7 +54,10 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/), Fukuoka, Japan
+- [**School of Atmospheric Sciences, Sun Yat-sen University, and Key Laboratory of Tropical Atmosphere-Ocean System, Ministry of Education**](https://atmos.sysu.edu.cn/), Zhuhai, China
+- [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
+- [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
 - [**University of Cambridge**](https://www.cam.ac.uk/), Cambridge, UK
 
 <div class="social">

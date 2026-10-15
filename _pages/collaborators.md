@@ -32,6 +32,7 @@ National Centre for Atmospheric Science (NCAS).
 
 Other institutions that AFESP members have been collaborating with so far on AFESP-funded publications/projects.
 
+- [**Canadian Centre for Climate Modelling and Analysis**](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis.html), Victoria, BC, Canada
 - [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
@@ -41,13 +42,17 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
+- [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
+- [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/), Fukuoka, Japan
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
+- [**University of Cambridge**](https://www.cam.ac.uk/), Cambridge, UK
+- [**The University of Texas at Austin**](https://www.utexas.edu/), Austin, TX, USA
 
 <div class="social">
   <div class="contact-note">

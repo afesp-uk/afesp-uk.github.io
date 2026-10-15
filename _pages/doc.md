@@ -63,6 +63,10 @@ children:
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..700&display=swap" rel="stylesheet">
 
 <style>
+  /* Capitalised page heading only; the top menu keeps "computational support" like the other menu items. */
+  .post > .post-header .post-title {
+    text-transform: capitalize;
+  }
   .sp {
     --sp-compute: #2f5d9e;
     --sp-data: #1d7a6e;

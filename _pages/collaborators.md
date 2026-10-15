@@ -7,6 +7,10 @@ nav_order: 9
 ---
 
 <style>
+  /* Capitalised page heading only; the top menu keeps "collaborators" like the other menu items. */
+  .post > .post-header .post-title {
+    text-transform: capitalize;
+  }
   .post article h2 {
     color: #1565c0;
   }

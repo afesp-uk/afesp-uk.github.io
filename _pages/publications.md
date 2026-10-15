@@ -9,10 +9,18 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<p class="publication-intro">
-	Publications under <strong>AFESP Core</strong> are directly related to one of the main <a href="{{ '/projects/' | relative_url }}">projects</a> funded by AFESP.<br>
-	Publications under <strong>AFESP Collaboration</strong> are those on which AFESP members collaborated with other projects.
-</p>
+<div class="pub-intro">
+	<div class="pub-kind pub-kind-core">
+		<span class="pub-kind-name">AFESP Core</span>
+		<span class="pub-kind-text">Publications directly related to one of the main <a href="{{ '/projects/' | relative_url }}">projects</a> funded by AFESP.</span>
+	</div>
+	<div class="pub-kind pub-kind-collab">
+		<span class="pub-kind-name">AFESP Collaboration</span>
+		<span class="pub-kind-text">Publications on which AFESP members collaborated with other projects.</span>
+	</div>
+</div>
+
+<div class="pub-stats" aria-live="polite"></div>
 
 <!-- Bibsearch Feature -->
 
@@ -35,6 +43,177 @@ nav_order: 2
 	}
 	.publications a.highlight-author-target:hover {
 		text-decoration: underline;
+	}
+	.pub-page {
+		--p-blue: #1565c0;
+		--p-teal: #00897b;
+		--p-amber: #e09a1a;
+		--p-sky: #4fa3e0;
+		--p-line: var(--global-divider-color);
+		--p-card: var(--global-card-bg-color);
+		--p-muted: var(--global-text-color-light);
+	}
+	html[data-theme="dark"] .pub-page {
+		--p-blue: #64b5f6;
+		--p-teal: #4fd1bf;
+		--p-amber: #f3be5e;
+		--p-sky: #81c7f5;
+	}
+	.pub-intro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.9rem;
+		margin: 0.25rem 0 1.25rem 0;
+	}
+	.pub-kind {
+		padding: 0.9rem 1.05rem;
+		border-radius: 12px;
+		border: 1px solid var(--p-line);
+		border-left: 5px solid var(--c);
+		background: var(--p-card);
+	}
+	.pub-kind-core { --c: var(--p-blue); }
+	.pub-kind-collab { --c: var(--p-teal); }
+	.pub-kind-name {
+		display: block;
+		font-weight: 700;
+		color: var(--c);
+		margin-bottom: 0.15rem;
+	}
+	.pub-kind-text {
+		font-size: 0.95rem;
+		line-height: 1.45;
+	}
+	.pub-stats {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 0.75rem;
+		margin-bottom: 1.25rem;
+	}
+	.pub-stat {
+		padding: 0.8rem 0.95rem;
+		border-radius: 12px;
+		border: 1px solid var(--p-line);
+		background: var(--p-card);
+	}
+	.pub-stat .n {
+		display: block;
+		font-size: 1.9rem;
+		font-weight: 800;
+		line-height: 1.05;
+		color: var(--c);
+		font-variant-numeric: tabular-nums;
+	}
+	.pub-stat .l {
+		display: block;
+		margin-top: 0.25rem;
+		font-size: 0.85rem;
+		color: var(--p-muted);
+	}
+	.pub-page #bibsearch {
+		border-radius: 999px;
+		padding: 0.55rem 1rem;
+		border: 1px solid var(--p-line);
+	}
+	.pub-page #bibsearch:focus {
+		outline: 2px solid var(--p-blue);
+		outline-offset: 1px;
+	}
+	#publication-results-count {
+		color: var(--p-muted);
+	}
+	/* Groups as cards, sections as rows with a count badge. */
+	.publications .publication-group {
+		border: 1px solid var(--p-line);
+		border-top: 5px solid var(--g, var(--p-blue));
+		border-radius: 14px;
+		background: var(--p-card);
+		padding: 0.4rem 1.1rem 0.6rem 1.1rem;
+		margin-bottom: 1.25rem;
+	}
+	.publications .publication-group.pub-group-collab {
+		--g: var(--p-teal);
+	}
+	.publications .publication-group > summary {
+		font-size: 1.35rem;
+		color: var(--g, var(--p-blue));
+		cursor: pointer;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+		padding: 0.35rem 0;
+	}
+	.publications details > summary::-webkit-details-marker {
+		display: none;
+	}
+	.publications details > summary::before {
+		content: "";
+		width: 0.55rem;
+		height: 0.55rem;
+		border-right: 2px solid currentColor;
+		border-bottom: 2px solid currentColor;
+		transform: rotate(-45deg);
+		transition: transform 0.15s ease;
+		flex: none;
+	}
+	.publications details[open] > summary::before {
+		transform: rotate(45deg);
+	}
+	.publications .publication-group > .publication-section {
+		margin-left: 0;
+		border-top: 1px solid var(--p-line);
+	}
+	.publications .publication-section > summary {
+		cursor: pointer;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 0.55rem;
+		padding: 0.6rem 0.2rem;
+		font-size: 1.02rem;
+	}
+	.publications .publication-section > summary:hover {
+		color: var(--g, var(--p-blue));
+	}
+	.pub-badge {
+		margin-left: auto;
+		font-size: 0.78rem;
+		font-weight: 700;
+		min-width: 1.8rem;
+		text-align: center;
+		padding: 0.1rem 0.5rem;
+		border-radius: 999px;
+		background: var(--g, var(--p-blue));
+		color: #fff;
+	}
+	html[data-theme="dark"] .pub-badge {
+		color: #0b1a2b;
+	}
+	.pub-badge.zero {
+		background: transparent;
+		color: var(--p-muted);
+		border: 1px solid var(--p-line);
+	}
+	.publications .publication-section .bibliography > li {
+		padding: 0.6rem 0;
+		border-top: 1px dashed var(--p-line);
+	}
+	.publications .publication-section .bibliography > li:first-child {
+		border-top: 0;
+	}
+	@media (max-width: 767.98px) {
+		.pub-intro {
+			grid-template-columns: 1fr;
+		}
+		.pub-stats {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.publications details > summary::before {
+			transition: none;
+		}
 	}
 </style>
 
@@ -151,14 +330,14 @@ nav_order: 2
 
 <div class="publications">
 
-<details class="publication-group" open>
+<details class="publication-group pub-group-core" open>
 	<summary><strong>AFESP Core</strong></summary>
 
 {{ core_sections }}
 
 </details>
 
-<details class="publication-group" open>
+<details class="publication-group pub-group-collab" open>
 	<summary><strong>AFESP Collaboration</strong></summary>
 
 {{ collaboration_sections }}
@@ -410,6 +589,59 @@ nav_order: 2
 			window.addEventListener("hashchange", () => window.setTimeout(syncSectionsWithSearch, 50));
 			window.setTimeout(syncSectionsWithSearch, 50);
 		}
+	});
+</script>
+
+<script>
+	// Publication statistics and per-section counts, worked out from the lists so they update whenever an entry is added.
+	document.addEventListener("DOMContentLoaded", () => {
+		const article = document.querySelector(".post article") || document.querySelector(".post");
+		if (article) article.classList.add("pub-page");
+		const box = document.querySelector(".pub-stats");
+		const entriesIn = (root) => Array.from(root.querySelectorAll(".bibliography > li"));
+		const keyOf = (li) => li.querySelector("[id]")?.id || li.textContent.trim();
+		const uniq = (lis) => new Set(lis.map(keyOf)).size;
+		document.querySelectorAll(".publications .publication-section").forEach((section) => {
+			const summary = section.querySelector(":scope > summary");
+			if (!summary || summary.querySelector(".pub-badge")) return;
+			const n = entriesIn(section).length;
+			const badge = document.createElement("span");
+			badge.className = "pub-badge" + (n ? "" : " zero");
+			badge.textContent = n;
+			summary.appendChild(badge);
+		});
+		document.querySelectorAll(".publications .publication-group").forEach((group) => {
+			const summary = group.querySelector(":scope > summary");
+			if (!summary || summary.querySelector(".pub-badge")) return;
+			const badge = document.createElement("span");
+			badge.className = "pub-badge";
+			badge.textContent = uniq(entriesIn(group));
+			summary.appendChild(badge);
+		});
+		if (!box) return;
+		const all = entriesIn(document.querySelector(".publications") || document);
+		const core = document.querySelector(".pub-group-core");
+		const collab = document.querySelector(".pub-group-collab");
+		const papers = Array.from(document.querySelectorAll(".publications .publication-section"))
+			.filter((s) => /accepted papers/i.test(s.querySelector("summary")?.textContent || ""))
+			.flatMap(entriesIn);
+		const tiles = [
+			[uniq(all), "outputs in total", "var(--p-blue)"],
+			[core ? uniq(entriesIn(core)) : 0, "AFESP Core", "var(--p-blue)"],
+			[collab ? uniq(entriesIn(collab)) : 0, "AFESP Collaboration", "var(--p-teal)"],
+			[uniq(papers), "accepted papers", "var(--p-amber)"],
+		];
+		box.innerHTML = tiles.map(([n, l, c]) => `<div class="pub-stat" style="--c:${c}"><span class="n" data-target="${n}">${n}</span><span class="l">${l}</span></div>`).join("");
+		if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+		const nums = box.querySelectorAll(".n");
+		const t0 = performance.now();
+		const step = (now) => {
+			const t = Math.min(1, (now - t0) / 1000);
+			const e = 1 - Math.pow(1 - t, 3);
+			nums.forEach((el) => (el.textContent = Math.round(e * Number(el.dataset.target))));
+			if (t < 1) requestAnimationFrame(step);
+		};
+		requestAnimationFrame(step);
 	});
 </script>
 

@@ -90,6 +90,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
+- [**Climate–Water–Meteorology Department, AGRHYMET Regional Climate Centre for West Africa and the Sahel (AGRHYMET RCC-WAS)**](https://agrhymet.cilss.int/), Niamey, Niger
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA

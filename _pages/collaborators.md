@@ -96,6 +96,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
 - [**Department of Earth and Planetary Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/), Austin, TX, USA
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
+- [**Department of Environmental Systems Science, ETH Zurich**](https://usys.ethz.ch/en/), Zurich, Switzerland
 - [**Department of Mathematics and Statistics, Global Systems Institute, University of Exeter**](https://www.exeter.ac.uk/research/gsi/), Exeter, UK
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada

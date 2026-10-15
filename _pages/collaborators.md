@@ -76,6 +76,8 @@ AFESP is led by the University of Reading in partnership with the European Centr
 National Centre for Atmospheric Science (NCAS).
 
 - [**European Centre for Medium-Range Weather Forecasts (ECMWF)**](https://www.ecmwf.int/)
+  - ECMWF Reading, UK
+  - ECMWF Bonn, Germany
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)
 - [**UK Met Office**](https://www.metoffice.gov.uk/)
 
@@ -113,6 +115,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
 - [**European Space Agency**](https://www.esa.int/), Frascati, Italy
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
+- [**Informatics Lab, Met Office**](https://informaticslab.co.uk/), Exeter, UK
 - [**Institut Franco-Argentin d’Études sur le Climat et ses Impacts (IRL IFAECI), CNRS–IRD–CONICET–UBA**](https://www.ifaeci.cnrs.fr/), Buenos Aires, Argentina
 - [**Institute for Infrastructure and Environment, School of Engineering, University of Edinburgh**](https://eng.ed.ac.uk/research/institutes/iie), Edinburgh, UK
 - [**Institute for Marine and Antarctic Studies, University of Tasmania**](https://www.imas.utas.edu.au/), Hobart, TAS, Australia

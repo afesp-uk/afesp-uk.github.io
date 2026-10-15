@@ -32,6 +32,10 @@ National Centre for Atmospheric Science (NCAS).
 
 Other institutions that AFESP members have been collaborating with so far.
 
+- [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
+- [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
+- [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
+
 <div class="social">
   <div class="contact-note">
     <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>,

@@ -750,7 +750,7 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/Oscar_Martinez-Alvarado.jpg # placeholder hidden until a photo is added
     content: bios/about_Oscar_Martinez-Alvarado.md
     anchor: oscar-martinez-alvarado # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

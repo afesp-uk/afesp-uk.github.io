@@ -78,6 +78,7 @@ National Centre for Atmospheric Science (NCAS).
 - [**European Centre for Medium-Range Weather Forecasts (ECMWF)**](https://www.ecmwf.int/)
   - ECMWF Reading, UK
   - ECMWF Bonn, Germany
+  - ECMWF Bologna, Italy
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)
 - [**UK Met Office**](https://www.metoffice.gov.uk/)
 

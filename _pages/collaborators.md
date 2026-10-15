@@ -13,7 +13,54 @@ nav_order: 9
   html[data-theme="dark"] .post article h2 {
     color: #64b5f6;
   }
+  .collab-stats {
+    --cs-blue: #1565c0;
+    --cs-teal: #00796b;
+    --cs-amber: #b26a00;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 0 0 2rem 0;
+  }
+  html[data-theme="dark"] .collab-stats {
+    --cs-blue: #64b5f6;
+    --cs-teal: #5fd0bf;
+    --cs-amber: #f0b35a;
+  }
+  .collab-stat {
+    padding: 1rem 1.1rem 0.9rem 1.1rem;
+    border-radius: 12px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-card-bg-color);
+    border-top: 4px solid var(--c);
+  }
+  .collab-stat .num {
+    display: block;
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--c);
+    font-variant-numeric: tabular-nums;
+  }
+  .collab-stat .label {
+    display: block;
+    margin-top: 0.35rem;
+    font-weight: 600;
+  }
+  .collab-stat .sub {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+  @media (max-width: 575.98px) {
+    .collab-stats {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
+
+<div class="collab-stats" aria-live="polite"></div>
 
 ## Lead Institution
 
@@ -70,6 +117,62 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
 - [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK
+
+<script>
+  (() => {
+    const box = document.querySelector(".collab-stats");
+    const article = box && box.closest("article");
+    if (!article) return;
+    // Count the top-level entries listed under each heading, so the numbers update whenever an entry is added.
+    const listUnder = (id) => {
+      const h = article.querySelector(`h2#${id}`);
+      let el = h && h.nextElementSibling;
+      while (el && el.tagName !== "UL" && el.tagName !== "H2") el = el.nextElementSibling;
+      return el && el.tagName === "UL" ? Array.from(el.children) : [];
+    };
+    const lead = listUnder("lead-institution");
+    const main = listUnder("main-collaborators");
+    const other = listUnder("other-collaborators");
+    const total = lead.length + main.length + other.length;
+    // Countries: the last part of each "City, Country" location; the lead and main partners are UK-based.
+    const alias = { "united kingdom": "UK", "united states of america": "USA", "united states": "USA" };
+    const countries = new Set(lead.length || main.length ? ["UK"] : []);
+    other.forEach((li) => {
+      const a = li.querySelector("a");
+      const rest = li.textContent.slice(a ? li.textContent.indexOf(a.textContent) + a.textContent.length : 0);
+      const parts = rest.split(",").map((x) => x.trim()).filter(Boolean);
+      if (!parts.length) return;
+      const c = parts[parts.length - 1];
+      countries.add(alias[c.toLowerCase()] || c);
+    });
+    const tiles = [
+      [total, "collaborating institutions", `${lead.length} lead, ${main.length} main and ${other.length} other`, "var(--cs-blue)"],
+      [countries.size, "countries", "where AFESP collaborators are based", "var(--cs-teal)"],
+      [main.length + lead.length, "programme partners", "the lead institution and main collaborators", "var(--cs-amber)"],
+    ];
+    box.innerHTML = tiles
+      .map(
+        ([n, label, sub, c]) =>
+          `<div class="collab-stat" style="--c:${c}"><span class="num" data-target="${n}">${n}</span><span class="label">${label}</span><span class="sub">${sub}</span></div>`
+      )
+      .join("");
+    // A short count-up when the page opens.
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const nums = box.querySelectorAll(".num");
+    const start = performance.now();
+    const duration = 1100;
+    const step = (now) => {
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      nums.forEach((el) => {
+        el.textContent = Math.round(eased * Number(el.dataset.target));
+      });
+      if (t < 1) requestAnimationFrame(step);
+    };
+    nums.forEach((el) => (el.textContent = "0"));
+    requestAnimationFrame(step);
+  })();
+</script>
 
 <div class="social">
   <div class="contact-note">

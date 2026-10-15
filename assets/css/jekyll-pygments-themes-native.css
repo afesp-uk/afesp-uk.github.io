@@ -71,7 +71,11 @@
 .highlight .kn {
   color: #6ab825;
   font-weight: bold;
-} /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */
+} /* Keyword.Namespace */ /* Keyword.Pseudo */
+.highlight .kr {
+  color: #6ab825;
+  font-weight: bold;
+} /* Keyword.Reserved */
 .highlight .kt {
   color: #6ab825;
   font-weight: bold;

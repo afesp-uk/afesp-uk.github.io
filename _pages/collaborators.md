@@ -44,6 +44,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
 - [**Department of Geological Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/dgs/), Austin, TX, USA
+- [**Department of Mathematics and Statistics, Global Systems Institute, University of Exeter**](https://www.exeter.ac.uk/research/gsi/), Exeter, UK
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
@@ -60,7 +61,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
-- [**University of Cambridge**](https://www.cam.ac.uk/), Cambridge, UK
+- [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK
 
 <div class="social">
   <div class="contact-note">

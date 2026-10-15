@@ -16,7 +16,7 @@ nav_order: 2
 	</div>
 	<div class="pub-kind pub-kind-collab">
 		<span class="pub-kind-name">AFESP Collaboration</span>
-		<span class="pub-kind-text">Publications on which AFESP-funded members collaborated with other projects.</span>
+		<span class="pub-kind-text">Publications on which AFESP members collaborated with other projects.</span>
 	</div>
 </div>
 

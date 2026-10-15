@@ -18,6 +18,8 @@ nav_order: 9
 ## Lead Institution
 
 - [**University of Reading**](https://www.reading.ac.uk/)
+  - [Department of Meteorology](https://www.reading.ac.uk/meteorology)
+  - [Department of Geography and Environmental Science](https://www.reading.ac.uk/ges)
 
 ## Main collaborators
 

@@ -67,6 +67,7 @@ nav_order: 9
 - [**University of Reading**](https://www.reading.ac.uk/)
   - [Department of Meteorology](https://www.reading.ac.uk/meteorology)
   - [Department of Geography and Environmental Science](https://www.reading.ac.uk/ges)
+  - [Department of Computer Science](https://www.reading.ac.uk/computer-science)
   - [The Pearl](https://pearl.reading.ac.uk/)
 
 ## Main collaborators
@@ -82,12 +83,14 @@ National Centre for Atmospheric Science (NCAS).
 
 Other institutions that have been involved in an AFESP-funded publication or project.
 
+- [**ARC Centre of Excellence for Weather of the 21st Century**](https://21centuryweather.org.au/), Clayton, VIC, Australia
 - [**British Antarctic Survey**](https://www.bas.ac.uk/), Cambridge, UK
 - [**California Air Resources Board**](https://ww2.arb.ca.gov/), Sacramento, CA, USA
 - [**Canadian Centre for Climate Modelling and Analysis**](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis.html), Victoria, BC, Canada
 - [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
+- [**Centro de Investigaciones del Mar y la Atmósfera (UBA-CONICET)**](https://www.cima.fcen.uba.ar/), Buenos Aires, Argentina
 - [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
@@ -102,24 +105,44 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Department of Geophysics, University of Concepción**](https://dgeo.udec.cl/), Concepción, Chile
 - [**Department of Mathematics and Statistics, Global Systems Institute, University of Exeter**](https://www.exeter.ac.uk/research/gsi/), Exeter, UK
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
+- [**Department of Oceanography, Federal University of Santa Catarina (UFSC)**](https://ufsc.br/), Florianópolis, Brazil
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
+- [**Deutsches Klimarechenzentrum (DKRZ)**](https://www.dkrz.de/), Hamburg, Germany
 - [**Earth Sciences New Zealand (formerly NIWA, National Institute of Water and Atmospheric Research)**](https://niwa.co.nz/), Wellington, New Zealand
+- [**Earth System Modelling and Observations International Project Office, World Climate Research Programme**](https://www.wcrp-esmo.org/), Hamburg, Germany
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
+- [**European Space Agency**](https://www.esa.int/), Frascati, Italy
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
+- [**Institut Franco-Argentin d’Études sur le Climat et ses Impacts (IRL IFAECI), CNRS–IRD–CONICET–UBA**](https://www.ifaeci.cnrs.fr/), Buenos Aires, Argentina
 - [**Institute for Infrastructure and Environment, School of Engineering, University of Edinburgh**](https://eng.ed.ac.uk/research/institutes/iie), Edinburgh, UK
+- [**Institute for Marine and Antarctic Studies, University of Tasmania**](https://www.imas.utas.edu.au/), Hobart, TAS, Australia
 - [**Institute for Meteorology, Leipzig University**](https://www.physes.uni-leipzig.de/en/institute-for-meteorology), Leipzig, Germany
+- [**Institute of Atmospheric Physics, Chinese Academy of Sciences**](http://english.iap.cas.cn/), Beijing, China
+- [**Korea Meteorological Administration**](https://www.kma.go.kr/eng/), Seoul, Republic of Korea
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
+- [**Lawrence Livermore National Laboratory**](https://www.llnl.gov/), Livermore, CA, USA
+- [**Max Planck Institute for Meteorology**](https://mpimet.mpg.de/), Hamburg, Germany
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
+- [**National Center for Atmospheric Research**](https://ncar.ucar.edu/), Boulder, CO, USA
 - [**National Oceanography Centre**](https://noc.ac.uk/), Southampton and Liverpool, UK
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
+- [**Pacific Northwest National Laboratory**](https://www.pnnl.gov/), Richland, WA, USA
+- [**Princeton University**](https://www.princeton.edu/), Princeton, NJ, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/en/index-e.html), Fukuoka, Japan
 - [**School of Atmospheric Sciences, Sun Yat-sen University, and Key Laboratory of Tropical Atmosphere-Ocean System, Ministry of Education**](https://atmos.sysu.edu.cn/), Zhuhai, China
 - [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
+- [**Tohoku University**](https://www.tohoku.ac.jp/en/), Sendai, Japan
+- [**Typhoon Science and Technology Research Center, Yokohama National University**](https://trc.ynu.ac.jp/en/), Yokohama, Japan
+- [**Université Grenoble Alpes, Inria, CNRS**](https://www.univ-grenoble-alpes.fr/), Grenoble, France
+- [**University of New South Wales**](https://www.unsw.edu.au/), Sydney, NSW, Australia
+- [**University of Oxford**](https://www.ox.ac.uk/), Oxford, UK
+- [**University of São Paulo**](https://www5.usp.br/), São Paulo, Brazil
+- [**The University of Tokyo**](https://www.u-tokyo.ac.jp/en/), Tokyo, Japan
 - [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK
 
 <script>

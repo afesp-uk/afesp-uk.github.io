@@ -25,13 +25,14 @@ AFESP is led by the University of Reading in partnership with the European Centr
 National Centre for Atmospheric Science (NCAS).
 
 - [**European Centre for Medium-Range Weather Forecasts (ECMWF)**](https://www.ecmwf.int/)
-- [**UK Met Office**](https://www.metoffice.gov.uk/)
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/)
+- [**UK Met Office**](https://www.metoffice.gov.uk/)
 
 ## Other collaborators
 
 Other institutions that AFESP members have been collaborating with so far on AFESP-funded publications/projects.
 
+- [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway

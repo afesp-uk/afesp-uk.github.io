@@ -36,6 +36,7 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
+- [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA

@@ -30,7 +30,7 @@ National Centre for Atmospheric Science (NCAS).
 
 ## Other collaborators
 
-Other institutions that AFESP members have been collaborating with so far.
+Other institutions that AFESP members have been collaborating with so far on AFESP-funded publications/projects.
 
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA

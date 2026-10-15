@@ -79,7 +79,7 @@ National Centre for Atmospheric Science (NCAS).
 
 ## Other collaborators
 
-Other institutions that AFESP members have been collaborating with so far on AFESP-funded publications/projects.
+Other institutions that have been involved in an AFESP-funded publication or project.
 
 - [**British Antarctic Survey**](https://www.bas.ac.uk/), Cambridge, UK
 - [**California Air Resources Board**](https://ww2.arb.ca.gov/), Sacramento, CA, USA

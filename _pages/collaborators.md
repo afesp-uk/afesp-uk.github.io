@@ -38,8 +38,10 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
+- [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
+- [**Department of Geological Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/dgs/), Austin, TX, USA
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
@@ -49,10 +51,10 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
+- [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/), Fukuoka, Japan
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**University of Cambridge**](https://www.cam.ac.uk/), Cambridge, UK
-- [**The University of Texas at Austin**](https://www.utexas.edu/), Austin, TX, USA
 
 <div class="social">
   <div class="contact-note">

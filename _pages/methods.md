@@ -8,6 +8,13 @@ nav_order: 6
 calendar: true
 ---
 
+<style>
+  /* Capital M for the page heading only; the top menu keeps "methods" like the other menu items. */
+  .post > .post-header .post-title {
+    text-transform: capitalize;
+  }
+</style>
+
 This page displays a collection of materials explaining methods applied and developed within AFESP.
 
 <div class="social">

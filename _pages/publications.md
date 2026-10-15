@@ -29,6 +29,10 @@ nav_order: 2
 <p id="publication-results-count" style="margin: 0.5rem 0 1rem 0; font-size: 0.95rem;"></p>
 
 <style>
+	/* Capital P for the page heading only; the top menu keeps "publications" like the other menu items. */
+	.post > .post-header .post-title {
+		text-transform: capitalize;
+	}
 	.publications .publication-group > summary {
 		font-size: 1.15rem;
 		margin: 0.5rem 0;

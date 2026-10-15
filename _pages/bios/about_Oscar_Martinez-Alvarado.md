@@ -1,7 +1,8 @@
-  Dr Oscar Martínez-Alvarado is an Associate Professor at the National Centre for Atmospheric Science and the Department of Meteorology in Reading.
-  Oscar has expertise in dynamical meteorology in the mid-latitudes with research on extratropical cyclones, diabatic processes, blocking and moisture transport.
-  Oscar currently co-lead the regional climate modelling component of the [CANARI](https://canari.ac.uk/) programme. CANARI aims at advancing our understanding of climate variability and change in the Arctic-North Atlantic sector and impact on the UK.
-  In AFESP Oscar is supervising the project "Downstream impacts of embedded convection in warm conveyor belts" conducted by Jake Keller.
+Dr Oscar Martínez-Alvarado is an Associate Professor at the National Centre for Atmospheric Science and the Department of Meteorology in Reading.
+Oscar has expertise in dynamical meteorology in the mid-latitudes with research on extratropical cyclones, diabatic processes, blocking and moisture transport.
+Oscar currently co-lead the regional climate modelling component of the [CANARI](https://canari.ac.uk/) programme. CANARI aims at advancing our understanding of climate variability and change in the Arctic-North Atlantic sector and impact on the UK.
+In AFESP Oscar is supervising the project "Downstream impacts of embedded convection in warm conveyor belts" conducted by Jake Keller.
+
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
 

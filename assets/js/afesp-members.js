@@ -252,8 +252,206 @@
     });
   };
 
+  // People page: summary tiles, a search box, filter chips and an A–Z bar above the profiles,
+  // plus the card styling. Everything is worked out from the profiles, so it updates by itself.
+  const peopleDirectory = () => {
+    const firstPanel = document.querySelector(".person-panel");
+    if (!firstPanel || document.querySelector(".people-tools")) {
+      return;
+    }
+    const style = document.createElement("style");
+    style.textContent = `
+      .post .post-header .post-title { font-weight: 800; letter-spacing: -0.02em; text-transform: capitalize; }
+      .people-tools { margin: 1.75rem 0 1.25rem; }
+      .people-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin-bottom: 1.1rem; }
+      .people-stat { position: relative; overflow: hidden; border-radius: 14px; padding: 0.9rem 1rem; color: #fff;
+        background: linear-gradient(135deg, var(--a), var(--b)); box-shadow: 0 6px 18px rgba(20, 60, 110, 0.18); }
+      .people-stat::after { content: ""; position: absolute; right: -24px; top: -24px; width: 90px; height: 90px; border-radius: 50%;
+        background: rgba(255, 255, 255, 0.14); }
+      .people-stat b { display: block; font-size: 2rem; line-height: 1.1; font-weight: 800; }
+      .people-stat span { font-size: 0.85rem; opacity: 0.92; }
+      .people-search { display: flex; align-items: center; gap: 0.6rem; border: 2px solid #c9dcf2; border-radius: 999px;
+        padding: 0.45rem 1rem; background: var(--global-bg-color, #fff); transition: border-color 0.2s, box-shadow 0.2s; }
+      .people-search:focus-within { border-color: #1565c0; box-shadow: 0 0 0 4px rgba(21, 101, 192, 0.12); }
+      .people-search input { flex: 1; border: 0; outline: 0; background: transparent; color: inherit; font-size: 1rem; }
+      .people-search svg { flex: none; opacity: 0.55; }
+      .people-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.85rem; }
+      .people-chip { border: 1px solid #c9dcf2; background: transparent; color: inherit; border-radius: 999px; padding: 0.25rem 0.85rem;
+        font-size: 0.88rem; cursor: pointer; transition: all 0.2s; }
+      .people-chip:hover { border-color: #1565c0; }
+      .people-chip.active { background: #1565c0; border-color: #1565c0; color: #fff; }
+      .people-count { margin-left: auto; font-size: 0.88rem; opacity: 0.7; }
+      .people-az { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.75rem; }
+      .people-az a, .people-az span { width: 1.9rem; height: 1.9rem; display: inline-flex; align-items: center; justify-content: center;
+        border-radius: 8px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+      .people-az a { background: #e8f1fb; color: #1565c0; transition: all 0.15s; }
+      .people-az a:hover { background: #1565c0; color: #fff; transform: translateY(-2px); }
+      .people-az span { opacity: 0.25; }
+      .people-empty { display: none; text-align: center; padding: 2rem 1rem; opacity: 0.7; }
+      .person-panel { position: relative; border-radius: 16px !important; padding: 1.4rem 1.5rem !important; margin-bottom: 1.1rem !important;
+        border: 1px solid rgba(21, 101, 192, 0.1); box-shadow: 0 2px 10px rgba(20, 50, 90, 0.06);
+        transition: transform 0.25s ease, box-shadow 0.25s ease; }
+      .person-panel::before { content: ""; position: absolute; left: 0; top: 18px; bottom: 18px; width: 5px; border-radius: 0 5px 5px 0;
+        background: #1565c0; }
+      .person-panel-cream::before { background: #e0a020; }
+      .person-panel-cream { border-color: rgba(224, 160, 32, 0.18); }
+      .person-panel:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(20, 50, 90, 0.13); }
+      .person-panel .profile figure img { border-radius: 14px !important; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+        transition: transform 0.35s ease; }
+      .person-panel:hover .profile figure img { transform: scale(1.02); }
+      .person-panel .more-info p[id] { font-size: 1.15rem !important; font-weight: 700; color: #0d47a1; margin-bottom: 0.3rem !important; }
+      .person-panel-cream .more-info p[id] { color: #8a5a00; }
+      .person-panel .more-info > div { opacity: 0.8; }
+      .person-tag { display: inline-block; margin-top: 0.5rem; padding: 0.1rem 0.6rem; border-radius: 999px; font-size: 0.72rem;
+        font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; background: rgba(21, 101, 192, 0.12); color: #1565c0; }
+      .person-tag.phd { background: rgba(31, 157, 85, 0.14); color: #1b7f46; }
+      .person-panel.reveal { opacity: 0; transform: translateY(18px); }
+      .person-panel.reveal.shown { opacity: 1; transform: none; transition: opacity 0.5s ease, transform 0.5s ease; }
+      html[data-theme="dark"] .person-panel { border-color: rgba(255, 255, 255, 0.08); }
+      html[data-theme="dark"] .person-panel .more-info p[id] { color: #90c2ff; }
+      html[data-theme="dark"] .person-panel-cream .more-info p[id] { color: #f0c46a; }
+      html[data-theme="dark"] .people-az a { background: #1d2a38; color: #90c2ff; }
+      html[data-theme="dark"] .people-search, html[data-theme="dark"] .people-chip { border-color: #2c4560; }
+      @media (prefers-reduced-motion: reduce) {
+        .person-panel, .person-panel.reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+      }
+    `;
+    document.head.appendChild(style);
+
+    const panels = Array.from(document.querySelectorAll(".person-panel"));
+    const titles = /^(dr|prof|professor|mr|mrs|ms|miss)\.?\s+/i;
+    const people = panels.map((panel) => {
+      const nameEl = panel.querySelector(".more-info p[id]");
+      const name = nameEl ? nameEl.textContent.trim() : "";
+      const role = Array.from(panel.querySelectorAll(".more-info > div p"))
+        .map((p) => p.textContent.trim())
+        .join(" ");
+      const words = name.replace(titles, "").replace(/\(.*?\)/g, "").trim().split(/\s+/);
+      const letter = (words[words.length - 1] || "").charAt(0).toUpperCase();
+      const phd = /phd/i.test(role) && !/^dr\b/i.test(name);
+      panel.dataset.letter = letter;
+      panel.dataset.kind = phd ? "phd" : "staff";
+      if (role && nameEl) {
+        const tag = document.createElement("span");
+        tag.className = `person-tag${phd ? " phd" : ""}`;
+        tag.textContent = phd ? "PhD researcher" : "Researcher & partner";
+        nameEl.parentElement.appendChild(tag);
+      }
+      return { panel, text: `${name} ${role} ${panel.textContent}`.toLowerCase(), phd };
+    });
+    const total = people.length;
+    const phdCount = people.filter((p) => p.phd).length;
+    const tools = document.createElement("div");
+    tools.className = "people-tools";
+    const tiles = [
+      [total, "people", "#1565c0", "#42a5f5"],
+      [phdCount, "PhD researchers", "#1b7f46", "#43b97a"],
+      [total - phdCount, "researchers & partners", "#c77700", "#f2b544"],
+    ];
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    const firstByLetter = {};
+    panels.forEach((panel) => {
+      if (!firstByLetter[panel.dataset.letter]) firstByLetter[panel.dataset.letter] = panel;
+    });
+    tools.innerHTML = `
+      <div class="people-stats">${tiles
+        .map(([n, label, a, b]) => `<div class="people-stat" style="--a:${a};--b:${b}"><b data-target="${n}">0</b><span>${label}</span></div>`)
+        .join("")}</div>
+      <label class="people-search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+        stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" placeholder="Search by name, role, department or research topic" aria-label="Search people"></label>
+      <div class="people-row">
+        <button type="button" class="people-chip active" data-kind="all">Everyone</button>
+        <button type="button" class="people-chip" data-kind="phd">PhD researchers</button>
+        <button type="button" class="people-chip" data-kind="staff">Researchers &amp; partners</button>
+        <span class="people-count" aria-live="polite"></span>
+      </div>
+      <nav class="people-az" aria-label="Jump to surname">${letters
+        .map((l) => (firstByLetter[l] ? `<a href="#" data-letter="${l}">${l}</a>` : `<span>${l}</span>`))
+        .join("")}</nav>`;
+    firstPanel.parentElement.insertBefore(tools, firstPanel);
+    const empty = document.createElement("p");
+    empty.className = "people-empty";
+    empty.textContent = "No one matches your search.";
+    panels[panels.length - 1].after(empty);
+
+    const input = tools.querySelector("input");
+    const countEl = tools.querySelector(".people-count");
+    let kind = "all";
+    const apply = () => {
+      const terms = input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      people.forEach((p) => {
+        const ok = (kind === "all" || p.panel.dataset.kind === kind) && terms.every((t) => p.text.includes(t));
+        p.panel.style.display = ok ? "" : "none";
+        if (ok) {
+          p.panel.classList.toggle("person-panel-blue", shown % 2 === 0);
+          p.panel.classList.toggle("person-panel-cream", shown % 2 === 1);
+          shown += 1;
+        }
+      });
+      countEl.textContent = `Showing ${shown} of ${total}`;
+      empty.style.display = shown ? "none" : "block";
+    };
+    input.addEventListener("input", apply);
+    tools.querySelectorAll(".people-chip").forEach((chip) =>
+      chip.addEventListener("click", () => {
+        tools.querySelectorAll(".people-chip").forEach((c) => c.classList.toggle("active", c === chip));
+        kind = chip.dataset.kind;
+        apply();
+      }),
+    );
+    tools.querySelectorAll(".people-az a").forEach((a) =>
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        input.value = "";
+        kind = "all";
+        tools.querySelectorAll(".people-chip").forEach((c) => c.classList.toggle("active", c.dataset.kind === "all"));
+        apply();
+        const target = firstByLetter[a.dataset.letter];
+        target.classList.add("shown");
+        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 130, behavior: "smooth" });
+      }),
+    );
+    apply();
+
+    // Count the numbers up, and fade each profile in as it scrolls into view.
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    tools.querySelectorAll(".people-stat b").forEach((el) => {
+      const target = Number(el.dataset.target);
+      if (reduce) {
+        el.textContent = target;
+        return;
+      }
+      const t0 = performance.now();
+      const step = (now) => {
+        const k = Math.min(1, (now - t0) / 1100);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - k, 3)));
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+    if (!reduce && "IntersectionObserver" in window && !window.location.hash) {
+      const io = new IntersectionObserver(
+        (entries) =>
+          entries.forEach((en) => {
+            if (en.isIntersecting) {
+              en.target.classList.add("shown");
+              io.unobserve(en.target);
+            }
+          }),
+        { rootMargin: "0px 0px -40px 0px" },
+      );
+      panels.forEach((panel) => {
+        panel.classList.add("reveal");
+        io.observe(panel);
+      });
+    }
+  };
+
   const start = () => {
     stripePeople();
+    peopleDirectory();
     run();
     addEmailIcon();
     moveContactToEnd();

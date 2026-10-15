@@ -7,6 +7,13 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+  /* Capital R for the page heading only; the top menu keeps "repositories" like the other menu items. */
+  .post > .post-header .post-title {
+    text-transform: capitalize;
+  }
+</style>
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users

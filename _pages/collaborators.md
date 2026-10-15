@@ -32,6 +32,7 @@ National Centre for Atmospheric Science (NCAS).
 
 Other institutions that AFESP members have been collaborating with so far on AFESP-funded publications/projects.
 
+- [**British Antarctic Survey**](https://www.bas.ac.uk/), Cambridge, UK
 - [**California Air Resources Board**](https://ww2.arb.ca.gov/), Sacramento, CA, USA
 - [**Canadian Centre for Climate Modelling and Analysis**](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis.html), Victoria, BC, Canada
 - [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
@@ -39,22 +40,27 @@ Other institutions that AFESP members have been collaborating with so far on AFE
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
 - [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
+- [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
+- [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
+- [**Department of Earth and Planetary Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/), Austin, TX, USA
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
-- [**Department of Geological Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/dgs/), Austin, TX, USA
 - [**Department of Mathematics and Statistics, Global Systems Institute, University of Exeter**](https://www.exeter.ac.uk/research/gsi/), Exeter, UK
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
+- [**Earth Sciences New Zealand (formerly NIWA, National Institute of Water and Atmospheric Research)**](https://niwa.co.nz/), Wellington, New Zealand
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
 - [**Institute for Infrastructure and Environment, School of Engineering, University of Edinburgh**](https://eng.ed.ac.uk/research/institutes/iie), Edinburgh, UK
+- [**Institute for Meteorology, Leipzig University**](https://www.physes.uni-leipzig.de/en/institute-for-meteorology), Leipzig, Germany
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
+- [**National Oceanography Centre**](https://noc.ac.uk/), Southampton and Liverpool, UK
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/), Fukuoka, Japan
 - [**School of Atmospheric Sciences, Sun Yat-sen University, and Key Laboratory of Tropical Atmosphere-Ocean System, Ministry of Education**](https://atmos.sysu.edu.cn/), Zhuhai, China

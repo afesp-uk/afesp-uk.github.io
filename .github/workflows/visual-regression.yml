@@ -1,6 +1,16 @@
 name: Visual regression checks
 
 on:
+  workflow_dispatch:
+    inputs:
+      baseline_ref:
+        description: 'Baseline tag/branch to use for al-folio baseline'
+        required: false
+        default: 'v0.16.3'
+      fallback_branch:
+        description: 'Fallback branch to clone if baseline ref is missing'
+        required: false
+        default: 'main'
   pull_request:
     branches: [main, master, v1.0-dev]
     paths:
@@ -38,6 +48,10 @@ jobs:
   visual-regression:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      # Use workflow_dispatch inputs when provided, otherwise defaults from inputs are used
+      BASELINE_REF: ${{ github.event.inputs.baseline_ref != '' && github.event.inputs.baseline_ref || 'v0.16.3' }}
+      FALLBACK_BRANCH: ${{ github.event.inputs.fallback_branch != '' && github.event.inputs.fallback_branch || 'main' }}
     steps:
       - name: Checkout candidate 🛎️
         uses: actions/checkout@v4
@@ -62,8 +76,8 @@ jobs:
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
           set -euo pipefail
-          # Baseline ref (change this value if you want a different baseline)
-          BASELINE_REF="v0.16.3"
+          echo "Using baseline ref: $BASELINE_REF"
+          echo "Using fallback branch: $FALLBACK_BRANCH"
 
           # Ensure we have remote refs and tags available locally
           git fetch --prune --tags origin || true
@@ -73,8 +87,8 @@ jobs:
             echo "Found baseline ref $BASELINE_REF — creating worktree"
             git worktree add ../al-folio-baseline "$BASELINE_REF"
           else
-            echo "Baseline ref $BASELINE_REF not found; falling back to cloning origin/main"
-            git clone --depth 1 "$(git config --get remote.origin.url)" ../al-folio-baseline
+            echo "Baseline ref $BASELINE_REF not found; falling back to cloning origin/$FALLBACK_BRANCH"
+            git clone --depth 1 --branch "$FALLBACK_BRANCH" "$(git config --get remote.origin.url)" ../al-folio-baseline
           fi
 
           (cd ../al-folio-baseline && bundle install && npm ci)

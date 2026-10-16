@@ -113,6 +113,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Department of Environmental Systems Science, ETH Zurich**](https://usys.ethz.ch/en/), Zurich, Switzerland
 - [**Department of Geophysics, University of Concepción**](https://dgeo.udec.cl/), Concepción, Chile
 - [**Department of Mathematics and Statistics, Global Systems Institute, University of Exeter**](https://www.exeter.ac.uk/research/gsi/), Exeter, UK
+- [**Department of Meteorology and Geophysics, University of Vienna**](https://img.univie.ac.at/en/), Vienna, Austria
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Oceanography, Federal University of Santa Catarina (UFSC)**](https://ufsc.br/), Florianópolis, Brazil
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
@@ -138,15 +139,18 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
 - [**National Center for Atmospheric Research**](https://ncar.ucar.edu/), Boulder, CO, USA
+- [**National Centre for Earth Observation (NCEO)**](https://www.nceo.ac.uk/), UK
 - [**National Oceanography Centre**](https://noc.ac.uk/), Southampton and Liverpool, UK
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Pacific Northwest National Laboratory**](https://www.pnnl.gov/), Richland, WA, USA
 - [**Princeton University**](https://www.princeton.edu/), Princeton, NJ, USA
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/en/index-e.html), Fukuoka, Japan
+- [**RIKEN Center for Computational Science (RIKEN R-CCS)**](https://www.r-ccs.riken.jp/en/), Kobe, Japan
 - [**School of Atmospheric Sciences, Sun Yat-sen University, and Key Laboratory of Tropical Atmosphere-Ocean System, Ministry of Education**](https://atmos.sysu.edu.cn/), Zhuhai, China
 - [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
+- [**Servicio Meteorológico Nacional (National Meteorological Service of Argentina)**](https://www.smn.gob.ar/), Buenos Aires, Argentina
 - [**Tohoku University**](https://www.tohoku.ac.jp/en/), Sendai, Japan
 - [**Typhoon Science and Technology Research Center, Yokohama National University**](https://trc.ynu.ac.jp/en/), Yokohama, Japan
 - [**Université Grenoble Alpes, Inria, CNRS**](https://www.univ-grenoble-alpes.fr/), Grenoble, France

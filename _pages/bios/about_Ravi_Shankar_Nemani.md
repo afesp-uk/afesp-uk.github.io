@@ -11,5 +11,5 @@ Before starting my PhD, I completed a Bachelor's in Computational Physics, follo
 </p>
 
 <p style="text-align: justify;">
-Feel free to connect or reach out for questions and collaboration at <a href="mailto:r.nemani@pgr.reading.ac.uk">r.nemani@pgr.reading.ac.uk</a> or follow my updates on <a href="https://bsky.app/profile/itsme-rsn.bsky.social">Bluesky (@itsme-rsn.bsky.social)</a>.
+Feel free to connect or reach out for questions and collaboration at <a href="mailto:r.nemani@pgr.reading.ac.uk">r.nemani@pgr.reading.ac.uk</a>, on <a href="https://www.linkedin.com/in/ravi-shankar-nemani/">LinkedIn</a>, or follow my updates on <a href="https://bsky.app/profile/itsme-rsn.bsky.social">Bluesky (@itsme-rsn.bsky.social)</a>.
 </p>

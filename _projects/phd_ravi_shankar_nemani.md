@@ -27,6 +27,7 @@ This research project explores whether machine learning can estimate flow-depend
 <div class="social">
   <div class="contact-note">
     <a href="mailto:r.n.bannister@reading.ac.uk">r.n.bannister@reading.ac.uk</a>,
-    <a href="mailto:r.nemani@pgr.reading.ac.uk">r.nemani@pgr.reading.ac.uk</a>
+    <a href="mailto:r.nemani@pgr.reading.ac.uk">r.nemani@pgr.reading.ac.uk</a>,
+    <a href="https://www.linkedin.com/in/ravi-shankar-nemani/" target="_blank" rel="external nofollow noopener">LinkedIn</a>
   </div>
 </div>

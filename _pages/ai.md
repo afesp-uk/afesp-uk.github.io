@@ -343,6 +343,30 @@ ai_projects:
     margin-top: 0.35rem;
     color: var(--ai-muted);
   }
+  /* Useful links */
+  .ai-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .ai-links li {
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--ai-line);
+    border-left: 4px solid var(--ai-b);
+    background: var(--ai-card);
+  }
+  .ai-links a {
+    display: block;
+    font-weight: 700;
+  }
+  .ai-links span {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--ai-muted);
+  }
   .ai-empty {
     color: var(--ai-muted);
     font-style: italic;
@@ -459,6 +483,16 @@ ai_projects:
       {% endif %}
     {% endfor %}
   </div>
+
+  <h2 class="ai-h" id="useful-links">Useful links</h2>
+  <ul class="ai-links">
+    {% for l in site.data.ai.links %}
+      <li class="ai-reveal">
+        <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a>
+        <span>{{ l.summary }}</span>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <script>

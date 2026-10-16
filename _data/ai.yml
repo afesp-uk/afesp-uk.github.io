@@ -143,3 +143,17 @@ news:
     source: ECMWF
     summary: The machine-learned AIFS Single and Ensemble move to version 2, adding a wave component and ECMWF's first data-driven snow cover forecasts.
     url: https://www.ecmwf.int/en/about/media-centre/news/2026/ifs-cycle-50r1-aifsv2-live
+
+# links: the "Useful links" section of the AI page, shown in this order.
+links:
+  - title: Responsible AI Risk Register
+    url: https://jshng-glasgow.github.io/Responsible-AI-Risk-Register/
+    summary: A community-maintained register of risks, and resources for managing them, when using AI in research software engineering.
+
+  - title: GenAI in Teaching, Learning & Assessment
+    url: https://www.reading.ac.uk/cqsd/artificial-intelligence
+    summary: The University of Reading's hub for generative AI in education, with its policy position, guidance for staff and students, and a community of practice.
+
+  - title: AI Policy — Simulation Systems documentation
+    url: https://metoffice.github.io/simulation-systems/FurtherDetails/ai.html
+    summary: The Met Office rules for contributing code written with generative AI tools to its simulation systems, including guardrails and how to attribute AI use.

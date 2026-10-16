@@ -30,6 +30,8 @@ children:
     permalink: /link-and-doc/cf-view/
   - title: Cirrus
     permalink: /link-and-doc/cirrus/
+  - title: Claude
+    permalink: /link-and-doc/claude/
   - title: Copernicus
     permalink: /link-and-doc/copernicus/
   - title: ECMWF
@@ -264,6 +266,7 @@ cf-python|/link-and-doc/cf-python/|tools|A Python library for reading, analysing
 cfunits|/link-and-doc/cfunits/|tools|Python units handling for CF data, built on UDUNITS-2.
 cf-view|/link-and-doc/cf-view/|tools|A graphical viewer for CF data, built on cf-plot.
 Cirrus|/link-and-doc/cirrus/|compute|A UK national high-performance computing service, run by EPCC.
+Claude|/link-and-doc/claude/|tools|Anthropic's AI assistant. Claude Code helps with writing, explaining and debugging code from the terminal or an editor.
 Copernicus|/link-and-doc/copernicus/|data|The EU Earth observation programme, including the Climate Data Store.
 ECMWF|/link-and-doc/ecmwf/|data|The European Centre for Medium-Range Weather Forecasts: forecasts, reanalyses and data services.
 Iris|/link-and-doc/iris/|tools|A Python library from the Met Office for analysing and visualising Earth science data.

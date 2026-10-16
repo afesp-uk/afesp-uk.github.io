@@ -103,6 +103,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
 - [**Climate–Water–Meteorology Department, AGRHYMET Regional Climate Centre for West Africa and the Sahel (AGRHYMET RCC-WAS)**](https://agrhymet.cilss.int/), Niamey, Niger
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
+- [**Data Assimilation Research Team, RIKEN Center for Computational Science**](https://data-assimilation.riken.jp/~miyoshi/index.html), Kobe, Japan
 - [**The Department of Applied Mathematics and Theoretical Physics, University of Cambridge**](https://www.damtp.cam.ac.uk/), Cambridge, UK
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
@@ -149,6 +150,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Tohoku University**](https://www.tohoku.ac.jp/en/), Sendai, Japan
 - [**Typhoon Science and Technology Research Center, Yokohama National University**](https://trc.ynu.ac.jp/en/), Yokohama, Japan
 - [**Université Grenoble Alpes, Inria, CNRS**](https://www.univ-grenoble-alpes.fr/), Grenoble, France
+- [**University Corporation for Atmospheric Research**](https://www.ucar.edu/), Boulder, CO, USA
 - [**University of New South Wales**](https://www.unsw.edu.au/), Sydney, NSW, Australia
 - [**University of Oxford**](https://www.ox.ac.uk/), Oxford, UK
 - [**University of São Paulo**](https://www5.usp.br/), São Paulo, Brazil

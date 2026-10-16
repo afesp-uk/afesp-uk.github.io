@@ -103,6 +103,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
 - [**Climate–Water–Meteorology Department, AGRHYMET Regional Climate Centre for West Africa and the Sahel (AGRHYMET RCC-WAS)**](https://agrhymet.cilss.int/), Niamey, Niger
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
+- [**The Department of Applied Mathematics and Theoretical Physics, University of Cambridge**](https://www.damtp.cam.ac.uk/), Cambridge, UK
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
@@ -126,6 +127,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Institute for Marine and Antarctic Studies, University of Tasmania**](https://www.imas.utas.edu.au/), Hobart, TAS, Australia
 - [**Institute for Meteorology, Leipzig University**](https://www.physes.uni-leipzig.de/en/institute-for-meteorology), Leipzig, Germany
 - [**Institute of Atmospheric Physics, Chinese Academy of Sciences**](http://english.iap.cas.cn/), Beijing, China
+- [**Institute of Computing for Climate Science, University of Cambridge**](https://iccs.cam.ac.uk/), Cambridge, UK
 - [**Korea Meteorological Administration**](https://www.kma.go.kr/eng/), Seoul, Republic of Korea
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK

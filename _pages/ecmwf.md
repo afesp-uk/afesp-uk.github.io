@@ -4,4 +4,4 @@ title: ECMWF
 permalink: /link-and-doc/ecmwf/
 ---
 
-ECMWF links and documentation will be added here.
+- [User Documentation - ECMWF Confluence Wiki](https://confluence.ecmwf.int/spaces/UDOC/pages/17531265/User+Documentation)

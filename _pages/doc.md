@@ -3,7 +3,7 @@ layout: page
 title: computational support
 permalink: /doc/
 nav: true
-nav_order: 8
+nav_order: 6
 dropdown: false # the menu button now opens this page; set to true to restore the drop-down menu in the top bar
 children:
   - title: ANTS

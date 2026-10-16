@@ -4,7 +4,7 @@ permalink: /teaching/
 title: methods
 description: Method developments
 nav: true
-nav_order: 6
+nav_order: 9
 calendar: true
 ---
 

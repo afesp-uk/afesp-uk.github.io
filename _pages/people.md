@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description: Short bios of AFESP members, principal investigators, supervisors, and partners
 nav: true
-nav_order: 7
+nav_order: 1
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

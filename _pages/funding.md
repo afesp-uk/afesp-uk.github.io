@@ -4,7 +4,7 @@ permalink: /funding/
 title: funding
 description: Acquired funding and funding opportunities
 nav: true
-nav_order: 6
+nav_order: 10
 calendar: true
 ---
 

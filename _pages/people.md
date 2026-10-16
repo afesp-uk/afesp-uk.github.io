@@ -1007,7 +1007,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/blank.png
+    image: profile_pics/regina_rodrigues.jpg
     content: bios/about_Regina_Rodrigues.md
     anchor: regina-rodrigues # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

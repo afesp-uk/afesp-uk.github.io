@@ -751,7 +751,7 @@ profiles:
     anchor: oscar-martinez-alvarado # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="oscar-martinez-alvarado" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Prof Oscar Martinez-Alvarado</p>
+      <p id="oscar-martinez-alvarado" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Oscar Martinez-Alvarado</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Associate Professor</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>

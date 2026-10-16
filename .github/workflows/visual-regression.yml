@@ -61,7 +61,22 @@ jobs:
 
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
-          git worktree add ../al-folio-baseline v0.16.3
+          set -euo pipefail
+          # Baseline ref (change this value if you want a different baseline)
+          BASELINE_REF="v0.16.3"
+
+          # Ensure we have remote refs and tags available locally
+          git fetch --prune --tags origin || true
+          git fetch origin "$BASELINE_REF" || true
+
+          if git rev-parse --verify --quiet "refs/tags/$BASELINE_REF" >/dev/null || git rev-parse --verify --quiet "$BASELINE_REF" >/dev/null; then
+            echo "Found baseline ref $BASELINE_REF — creating worktree"
+            git worktree add ../al-folio-baseline "$BASELINE_REF"
+          else
+            echo "Baseline ref $BASELINE_REF not found; falling back to cloning origin/main"
+            git clone --depth 1 "$(git config --get remote.origin.url)" ../al-folio-baseline
+          fi
+
           (cd ../al-folio-baseline && bundle install && npm ci)
 
       - name: Install Jupyter + ImageMagick runtime deps 🧰

@@ -3,7 +3,7 @@ I am an AFESP Doctoral Researcher at the University of Reading (Department of Me
 </p>
 
 <p style="text-align: justify;">
-Modern numerical weather prediction models are increasingly advancing towards sub-kilometre resolutions to better capture fine-scale atmospheric phenomena such as localized convection and sharp boundary-layer processes. At these scales, forecast errors become strongly localized and flow-dependent. However, representing this flow-dependence in data assimilation usually requires running large ensemble forecasts, which is computationally prohibitive for operational forecasting. My doctoral research investigates whether machine learning can estimate flow-dependent background error covariances directly from a single deterministic forecast, delivering the benefits of flow-dependent error information while remaining computationally efficient.
+My research focuses on improving data assimilation for high-resolution weather forecasting. As weather models move towards sub-kilometre scales, capturing fine details like localized storm convection and boundary-layer processes becomes crucial. However, accurately representing these weather-dependent forecast errors traditionally requires running large ensemble simulations, which is computationally expensive for operational forecasting. My project investigates using machine learning to predict flow-dependent error covariances directly from a single forecast, delivering the benefits of ensemble methods at a fraction of the computational cost.
 </p>
 
 <p style="text-align: justify;">

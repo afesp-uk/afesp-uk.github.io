@@ -18,9 +18,9 @@ category: PhD projects
 - Dr Christopher Thomas, Met Office@Reading
 - Dr Hong Wei, Department of Computer Science, University of Reading
 
-**Description**: Numerical weather prediction models are increasingly advancing towards sub-kilometre resolutions to better represent fine-scale atmospheric phenomena such as localized convection and sharp boundary-layer processes. At these scales, forecast errors become strongly flow-dependent and localized. However, representing this flow-dependence in operational data assimilation typically requires running large ensemble forecasts, which is computationally prohibitive within operational forecasting time windows.
+**Description**: As weather prediction models move towards sub-kilometre resolutions, capturing fine-scale atmospheric phenomena such as localized storm convection and boundary-layer processes becomes essential. In data assimilation, accurately representing how forecast errors depend on the prevailing weather traditionally requires running large ensemble simulations, which is computationally expensive for operational forecasting.
 
-This research project explores using machine learning to predict flow-dependent background error covariances directly from a single deterministic forecast, circumventing the need to run costly ensembles in real time. By training neural network architectures on high-resolution atmospheric models, the project aims to deliver flow-dependent error covariances to improve sub-kilometre data assimilation while maintaining operational computational efficiency.
+This project explores using machine learning to predict flow-dependent background error covariances directly from a single forecast, bypassing the heavy cost of running an ensemble. By training neural networks on high-resolution atmospheric models, the goal is to provide flow-dependent error information that enhances sub-kilometre data assimilation while maintaining operational efficiency.
 
 In parallel collaborative work, Ravi is also working as a Research Intern at the RIKEN Center for Computational Science (R-CCS) in Japan on modelling the background error covariance matrix with large ensemble models and deep learning, with PI Dr. Takemasa Miyoshi (Team Principal, Data Assimilation Research Team).
 

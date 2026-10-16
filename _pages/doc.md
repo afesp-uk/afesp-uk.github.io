@@ -36,6 +36,8 @@ children:
     permalink: /link-and-doc/copernicus/
   - title: ECMWF
     permalink: /link-and-doc/ecmwf/
+  - title: GitHub Copilot
+    permalink: /link-and-doc/github-copilot/
   - title: Iris
     permalink: /link-and-doc/iris/
   - title: Jasmin
@@ -269,6 +271,7 @@ Cirrus|/link-and-doc/cirrus/|compute|A UK national high-performance computing se
 Claude|/link-and-doc/claude/|tools|Anthropic's AI assistant. Claude Code helps with writing, explaining and debugging code from the terminal or an editor.
 Copernicus|/link-and-doc/copernicus/|data|The EU Earth observation programme, including the Climate Data Store.
 ECMWF|/link-and-doc/ecmwf/|data|The European Centre for Medium-Range Weather Forecasts: forecasts, reanalyses and data services.
+GitHub Copilot|/link-and-doc/github-copilot/|tools|GitHub's AI coding assistant, which suggests and explains code in your editor and on GitHub.
 Iris|/link-and-doc/iris/|tools|A Python library from the Met Office for analysing and visualising Earth science data.
 Jasmin|/link-and-doc/jasmin/|compute|The UK data analysis platform for environmental science. Open a topic to see its guides.|wide
 LFRic|/link-and-doc/lfric/|models|The Met Office's next-generation modelling infrastructure.

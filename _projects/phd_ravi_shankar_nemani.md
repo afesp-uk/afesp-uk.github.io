@@ -22,6 +22,8 @@ category: PhD projects
 
 This research project explores whether machine learning can estimate flow-dependent vertical background error covariances for sub-kilometre data assimilation directly from a single deterministic forecast—circumventing the need to run costly ensembles in real time. Using high-resolution model data from the Met Office Wessex model (WMV, 300 m, 70 levels), the project investigates neural network architectures trained offline to predict positive-definite vertical error covariance matrices. These machine learning-predicted covariances are evaluated against ensemble benchmarks and tested within variational data assimilation frameworks to enable ensemble-like covariance quality at deterministic computational cost.
 
+In parallel collaborative work, Ravi is also working as a Research Intern at the RIKEN Center for Computational Science (R-CCS) in Japan on modelling the background error covariance matrix with large ensemble models and deep learning, with PI Dr. Takemasa Miyoshi (Team Principal, Data Assimilation Research Team).
+
 **Acknowledgement**: This research is supported by the AFESP-DTP at the University of Reading, with additional funding and collaboration through the Met Office CASE Award and the National Centre for Earth Observation (NCEO), UK.
 
 <div class="social">

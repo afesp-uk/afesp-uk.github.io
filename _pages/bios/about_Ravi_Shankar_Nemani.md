@@ -7,6 +7,10 @@ As numerical weather prediction models move towards sub-kilometre grid scales (1
 </p>
 
 <p style="text-align: justify;">
+Currently, I am also working as a Research Intern at RIKEN Center for Computational Science (R-CCS) in Japan, focusing on modelling the background error covariance matrix with large ensemble models and deep learning, with PI Dr. Takemasa Miyoshi (Team Principal, Data Assimilation Research Team).
+</p>
+
+<p style="text-align: justify;">
 Before starting my PhD, I completed a Bachelor's in Computational Physics, followed by an MSc in Meteorology focusing on deep learning methods to detect cloud types from geostationary satellite imagery. I then completed an MTech in Remote Sensing & GIS (specialising in Marine and Atmospheric Sciences), where I worked on hyperspectral satellite data assimilation for regional weather prediction and tropical cyclone track and intensity forecasting. Across my research journey, the unifying thread has been bridging physics, satellite remote sensing, data assimilation, and machine learning.
 </p>
 

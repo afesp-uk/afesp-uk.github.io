@@ -114,12 +114,6 @@ events:
 
 news:
   - date: 2026-10-14
-    title: Machine learning improves extreme weather warnings up to six weeks ahead
-    source: Gizmodo, on a study in Nature
-    summary: Judah Cohen (MIT) and Lester Mackey (Microsoft Research) show that a machine-learning post-processing method, probabilistic bias correction, improves subseasonal forecasts of extreme weather.
-    url: https://gizmodo.com/forget-the-10-day-forecast-ai-just-improved-extreme-weather-warnings-up-to-6-weeks-2000825560
-
-  - date: 2026-10-14
     title: UC San Diego awarded $2.35 million from Google.org for AI-driven climate modelling
     source: UC San Diego
     summary: Duncan Watson-Parris and colleagues will use AI to improve climate models and guide new ocean observations, including adapted Argo floats, through the AI for Science Impact Challenge.

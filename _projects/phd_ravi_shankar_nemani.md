@@ -9,7 +9,7 @@ category: PhD projects
 
 **Supervisor**: Ross Bannister
 
-**PhD Student**: Ravi Shankar Nemani
+**Doctoral Researcher**: Ravi Shankar Nemani
 
 **Supervisory Team**:
 

@@ -13,10 +13,10 @@ category: PhD projects
 
 **Supervisory Team**:
 
-- Dr Ross N Bannister (Lead), University of Reading & NCEO
-- Prof Amos S Lawless, University of Reading & NCEO
+- Dr Ross N Bannister (Lead), Department of Meteorology, University of Reading
+- Prof Amos S Lawless, Department of Meteorology and Department of Mathematics and Statistics, University of Reading and National Center for Earth Observation (NCEO)
 - Dr Christopher Thomas, Met Office@Reading
-- Dr Hong Wei, University of Reading (Computer Science)
+- Dr Hong Wei, Department of Computer Science, University of Reading
 
 **Description**: Numerical weather prediction models are advancing towards sub-kilometre grid scales (100–300 m), where atmospheric convection and sharp boundary-layer inversions are explicitly resolved. At these scales, forecast errors become strongly flow-dependent, highly localised, and anisotropic. Traditional operational variational data assimilation (VarDA) models the background error covariance matrix **B** via control-variable transforms (**B** = **UU**ᵀ), where a static, climatological vertical transform **U**ᵥ blurs sharp gradients and risks unphysically spreading observational increments across capping inversions. While an Ensemble of Data Assimilations (EDA) can provide flow-dependent vertical error covariances, generating high-resolution ensembles is computationally prohibitive within operational forecasting time windows.
 

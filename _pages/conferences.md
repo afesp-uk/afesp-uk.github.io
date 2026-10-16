@@ -4,7 +4,7 @@ permalink: /conferences/
 title: events
 description: Conference contributions, presentations, and other forms of outreach.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>

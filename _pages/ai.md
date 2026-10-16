@@ -4,7 +4,7 @@ permalink: /ai/
 title: AI
 description: Workshops, conferences and news on artificial intelligence and machine learning in weather and climate science.
 nav: true
-nav_order: 7
+nav_order: 8
 # AFESP projects shown in the "AI in AFESP" section (file names in _projects/, without .md).
 ai_projects:
   - file: 1_project

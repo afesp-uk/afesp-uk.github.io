@@ -69,6 +69,8 @@ ai_projects:
   }
   .ai-hero p,
   .ai-hero .ai-stat,
+  .ai-hero .ai-stat b,
+  .ai-hero .ai-stat span,
   .ai-hero .ai-next {
     color: #fff !important;
   }

@@ -282,10 +282,11 @@ nav_order: 4
 <div style="height: 2.5rem;"></div>
 
 ## Contributions to conferences
+
 - **EMS2026**<br>
   **Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin**<br>
   Cameron Southgate-Ash, et al.<br>
-  Utrecht, Netherlands | Oral presentation | 6-11 September 2026 
+  Utrecht, Netherlands | Oral presentation | 6-11 September 2026
 - **S2S2D Conference**<br>
   Piyali Goswami<br>
   Reading, UK | Oral presentation | September 2026

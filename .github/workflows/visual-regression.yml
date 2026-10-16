@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       baseline_ref:
-        description: 'Baseline tag/branch to use for al-folio baseline'
+        description: "Baseline tag/branch to use for al-folio baseline"
         required: false
-        default: 'v0.16.3'
+        default: "v0.16.3"
       fallback_branch:
-        description: 'Fallback branch to clone if baseline ref is missing'
+        description: "Fallback branch to clone if baseline ref is missing"
         required: false
-        default: 'main'
+        default: "main"
   pull_request:
     branches: [main, master, v1.0-dev]
     paths:

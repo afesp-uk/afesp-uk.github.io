@@ -67,6 +67,11 @@ ai_projects:
   .ai-hero > *:not(canvas) {
     position: relative;
   }
+  .ai-hero p,
+  .ai-hero .ai-stat,
+  .ai-hero .ai-next {
+    color: #fff !important;
+  }
   .ai-hero h2 {
     color: #fff !important;
     font-size: 1.7rem;

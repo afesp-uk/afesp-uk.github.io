@@ -11,3 +11,5 @@ _posts/2015-10-20-math.md
 _data/citations.yml
 # Liquid-templated script (Jekyll front matter) that Prettier cannot parse
 assets/js/afesp-members.js
+# Kramdown attribute line {: ...} after a list must stay unindented; Prettier would indent it into the last list item.
+_pages/bios/about_Thomas_Bayliss_White.md

@@ -21,7 +21,7 @@ events:
     kind: Workshop
     start: 2026-11-23
     end: 2026-11-27
-    location: ECMWF
+    location: venue to be confirmed
     summary: Shared code, automated testing and open-source practice for Earth system models, including how to integrate machine learning components.
     url: https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwf-2026-events-programme
 
@@ -132,7 +132,7 @@ news:
     url: https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/
 
   - date: 2026-08-11
-    title: "AFESP: droughts unlikely to ease soon, AI models show"
+    title: Droughts unlikely to ease soon, AI models show
     source: University of Reading
     summary: AFESP PhD researcher Karan Ruparell, who builds AI river-flow forecasting models, comments on England's drought outlook.
     url: https://www.reading.ac.uk/news/2026/Expert-Comment/Droughts-unlikely-to-ease-soon-AI-models-show-expert-comments

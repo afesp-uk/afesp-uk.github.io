@@ -1,6 +1,22 @@
-<p style="text-align: justify;">
+**Responsibilities**
 
-<p>
+- Co-Director, Local Hazard Prediction Centre of Excellence
+
+**Research interests**
+
+- Mathematical aspects of data assimilation
+- Data assimilation for applications in high impact weather and flooding
+- Observation error correlations in data assimilation
+- Using crowdsourced data for quantitative applications
+
+**Research projects**
+
+- HiSCORE: High resolution data assimilation with Spatially and temporally Correlated ObseRvation Errors (part of the [Advancing the Frontiers of Earth System Prediction (AFESP) programme](https://research.reading.ac.uk/earth-system-prediction/))
+- [HydroJULES](https://hydro-jules.org/): Next generation land-surface and hydrological predictions
+- [CANARI](https://canari.ac.uk/): Climate Change in the Arctic and North Atlantic Region and Impacts on the UK
+- [NCEO](https://www.nceo.ac.uk/): Long term single-centre science
+- [EOCIS](https://eocis.org/): Earth Observation Climate Information Service
+- EA/DEFRA FCRIP project: [A FAIR approach to community flood risk](https://dev-app-staffs-fair.jbahosting.com/fair/what-is-fair/)
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

@@ -314,18 +314,16 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/sarah_dance.jpg
     content: bios/about_Sarah_Dance.md
     anchor: sarah-dance # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="sarah-dance" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Sarah Dance</p>
+      <p id="sarah-dance" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Sarah Dance</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Professor of Data Assimilation</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added

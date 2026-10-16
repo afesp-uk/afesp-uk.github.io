@@ -320,7 +320,7 @@
         .join(" ");
       const words = name.replace(titles, "").replace(/\(.*?\)/g, "").trim().split(/\s+/);
       const letter = (words[words.length - 1] || "").charAt(0).toUpperCase();
-      const phd = /phd/i.test(role) && !/^dr\b/i.test(name);
+      const phd = /phd|doctoral/i.test(role) && !/^dr\b/i.test(name);
       panel.dataset.letter = letter;
       panel.dataset.kind = phd ? "phd" : "staff";
       if (role && nameEl) {

@@ -106,6 +106,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Data Assimilation Research Team, RIKEN Center for Computational Science**](https://data-assimilation.riken.jp/~miyoshi/index.html), Kobe, Japan
 - [**The Department of Applied Mathematics and Theoretical Physics, University of Cambridge**](https://www.damtp.cam.ac.uk/), Cambridge, UK
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
+- [**Department of Atmospheric and Cryospheric Sciences, University of Innsbruck**](https://www.uibk.ac.at/en/acinn/), Innsbruck, Austria
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
 - [**Department of Earth and Planetary Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/), Austin, TX, USA
@@ -121,6 +122,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Earth Sciences New Zealand (formerly NIWA, National Institute of Water and Atmospheric Research)**](https://niwa.co.nz/), Wellington, New Zealand
 - [**Earth System Modelling and Observations International Project Office, World Climate Research Programme**](https://www.wcrp-esmo.org/), Hamburg, Germany
 - [**Environment and Climate Change Canada (formerly Environment Canada)**](https://www.canada.ca/en/environment-climate-change.html), Gatineau, QC, Canada
+- [**Environmental Meteorology, Faculty of Environment and Natural Resources, University of Freiburg**](https://www.meteo.uni-freiburg.de/en), Freiburg, Germany
 - [**European Space Agency**](https://www.esa.int/), Frascati, Italy
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
 - [**Informatics Lab, Met Office**](https://informaticslab.co.uk/), Exeter, UK
@@ -144,8 +146,10 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Pacific Northwest National Laboratory**](https://www.pnnl.gov/), Richland, WA, USA
 - [**Princeton University**](https://www.princeton.edu/), Princeton, NJ, USA
+- [**Remote Sensing Lab, Foundation for Research and Technology – Hellas (FORTH)**](http://rslab.gr/), Heraklion, Greece
 - [**Research Institute for Applied Mechanics, Kyushu University**](https://www.riam.kyushu-u.ac.jp/en/index-e.html), Fukuoka, Japan
 - [**RIKEN Center for Computational Science (RIKEN R-CCS)**](https://www.r-ccs.riken.jp/en/), Kobe, Japan
+- [**Risk and Disaster Reduction, University College London**](https://www.ucl.ac.uk/risk-disaster-reduction/), London, UK
 - [**School of Atmospheric Sciences, Sun Yat-sen University, and Key Laboratory of Tropical Atmosphere-Ocean System, Ministry of Education**](https://atmos.sysu.edu.cn/), Zhuhai, China
 - [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK

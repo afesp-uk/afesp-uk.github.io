@@ -832,11 +832,9 @@ profiles:
     more_info: >
       <p id="indrakshi-mukherjee" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Indrakshi Mukherjee</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/markmuetz_headshot.jpg

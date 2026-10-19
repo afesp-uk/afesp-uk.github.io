@@ -103,7 +103,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/tobias_becker.jpg
     content: bios/about_Tobias_Becker.md
     anchor: tobias-becker # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

@@ -127,6 +127,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
 - [**Informatics Lab, Met Office**](https://informaticslab.co.uk/), Exeter, UK
 - [**Institut Franco-Argentin d’Études sur le Climat et ses Impacts (IRL IFAECI), CNRS–IRD–CONICET–UBA**](https://www.ifaeci.cnrs.fr/), Buenos Aires, Argentina
+- [**Institute for Climate and Atmospheric Science, School of Earth and Environment, University of Leeds**](https://environment.leeds.ac.uk/institute-climate-atmospheric-science), Leeds, UK
 - [**Institute for Infrastructure and Environment, School of Engineering, University of Edinburgh**](https://eng.ed.ac.uk/research/institutes/iie), Edinburgh, UK
 - [**Institute for Marine and Antarctic Studies, University of Tasmania**](https://www.imas.utas.edu.au/), Hobart, TAS, Australia
 - [**Institute for Meteorology, Leipzig University**](https://www.physes.uni-leipzig.de/en/institute-for-meteorology), Leipzig, Germany

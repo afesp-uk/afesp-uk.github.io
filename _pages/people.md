@@ -818,13 +818,11 @@ profiles:
     anchor: hamidreza-mosaffa # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="hamidreza-mosaffa" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hamidreza Mosaffa</p>
+      <p id="hamidreza-mosaffa" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Hamidreza Mosaffa</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP Postdoctoral Researcher</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added

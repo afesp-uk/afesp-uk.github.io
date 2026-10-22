@@ -14,9 +14,9 @@ events:
     kind: Conference
     start: 2026-11-02
     end: 2026-11-03
-    location: Henley Business School, University of Reading, UK
-    summary: AFESP's annual conference, with a keynote from ECMWF's Chris Roberts on subseasonal prediction and machine learning, and talks on AI for turbulence, monsoon forecasts, data assimilation and river flow.
-    url: /about/
+    location: Henley Business School, Whiteknights Campus, University of Reading, RG6 6UD
+    summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Please register by Friday 16 October 2026.
+    url: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=xDv6T_zswEiQgPXkP_kOX0aqoeH7ZfNIkAYIKdUT0DFUQlBWMFhTNURKQkczNkxQNVRWWjVTSklGOS4u
     afesp: true
 
   - title: Workshop on Machine Learning for Land and Hydrology

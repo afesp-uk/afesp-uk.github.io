@@ -69,11 +69,12 @@ profiles:
     anchor: magdalena-balmaseda # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="magdalena-balmaseda" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Prof. Magdalena A. Balmaseda</p>
+      <p id="magdalena-balmaseda" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Prof. Magdalena Balmaseda</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">ECMWF</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Visiting Professor, School of Mathematics,</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Physics and Computational Science</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Visiting Professor</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">School of Mathematics, Physics</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">and Computational Science</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left

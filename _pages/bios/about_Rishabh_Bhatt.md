@@ -1,5 +1,11 @@
 <p style="text-align: justify;">
 
+I am a postdoctoral researcher at the University of Reading working on the AFESP project <a href="/projects/2_project/">HiSCORE: High resolution data assimilation with Spatially and temporally Correlated ObseRvation Errors</a>. This project is a collaboration with ECMWF and the UK Met Office, with the broader aim of making greater use of satellite observations in operational forecasting systems to improve forecast skill. My research focuses on estimating spatial observation error correlations and on computationally feasible approaches for incorporating them in operational data assimilation, a long-standing challenge for the numerical weather prediction (NWP) community.  
+
+I have a background in Applied Mathematics and obtained my PhD from Université Grenoble Alpes and [INRIA](https://www.inria.fr/en), France. During my PhD, I worked on introducing time parallelisation to incremental 4D-Var, a data assimilation method that is inherently sequential. I developed a numerical framework that runs tangent-linear integrations parallel-in-time using the Parareal algorithm.
+
+My current research interests include data assimilation, numerical optimisation, high performance computing, and machine learning methods for NWP.
+
 <p>
 
 <!--

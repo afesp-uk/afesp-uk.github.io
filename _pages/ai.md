@@ -250,6 +250,19 @@ ai_projects:
       opacity: 0.65;
     }
   }
+  /* AFESP's own events (afesp: true in _data/ai.yml) stand out from the rest. */
+  .ai-card.ai-card-afesp {
+    border: 2px solid #1f9d55;
+    background: linear-gradient(180deg, rgba(31, 157, 85, 0.1), transparent 70%), var(--ai-card);
+    box-shadow: 0 6px 18px rgba(31, 157, 85, 0.18);
+  }
+  .ai-card.ai-card-afesp::before {
+    height: 6px;
+    background: linear-gradient(90deg, #1f9d55, var(--ai-c));
+  }
+  .ai-card-afesp .ai-tag {
+    margin: 0 0.35rem 0 0;
+  }
   .ai-recent .ai-card {
     opacity: 0.88;
   }
@@ -429,7 +442,14 @@ ai_projects:
         data-end="{{ e_end | date: '%Y-%m-%d' }}"
         data-kind="{{ e.kind }}"
       >
-        <a class="ai-card" href="{{ e.url }}" target="_blank" rel="noopener">
+        {%- assign e_external = e.url | slice: 0, 4 -%}
+        <a
+          class="ai-card{% if e.afesp %} ai-card-afesp{% endif %}"
+          href="{% if e_external == 'http' %}{{ e.url }}{% else %}{{ e.url | relative_url }}{% endif %}"
+          {% if e_external == 'http' %}
+            target="_blank" rel="noopener"
+          {% endif %}
+        >
           <div class="ai-top">
             <span class="ai-date">
               {%- if e.end and e.end != e.start -%}
@@ -438,7 +458,10 @@ ai_projects:
                 {{ e.start | date: '%-d %b %Y' }}
               {%- endif -%}
             </span>
-            <span class="ai-kind">{{ e.kind }}</span>
+            <span>
+              {%- if e.afesp %}<span class="ai-tag">AFESP</span>{% endif -%}
+              <span class="ai-kind">{{ e.kind }}</span>
+            </span>
           </div>
           <div class="ai-title">{{ e.title }}</div>
           <div class="ai-meta">{{ e.organiser }} · {{ e.location }}</div>

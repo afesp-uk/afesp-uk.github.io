@@ -4,9 +4,21 @@
 #   - start and end are YYYY-MM-DD (end can be left out for a one-day event).
 #   - The page sorts them by date and moves an event from "Upcoming" to "Recent" by itself once it has finished.
 #   - kind is one of: Workshop, Conference, Webinar, Seminar
+#   - afesp: true highlights the card as an AFESP event (green border and an AFESP badge).
+#   - url can be an external link or a page on this site (e.g. /about/).
 # news: short news items, newest first is not required (the page sorts them by date).
 
 events:
+  - title: AFESP 2026 Conference
+    organiser: AFESP, with ECMWF, the Met Office and NCAS
+    kind: Conference
+    start: 2026-11-02
+    end: 2026-11-03
+    location: Henley Business School, University of Reading, UK
+    summary: AFESP's annual conference, with a keynote from ECMWF's Chris Roberts on subseasonal prediction and machine learning, and talks on AI for turbulence, monsoon forecasts, data assimilation and river flow.
+    url: /about/
+    afesp: true
+
   - title: Workshop on Machine Learning for Land and Hydrology
     organiser: ECMWF
     kind: Workshop
@@ -15,6 +27,15 @@ events:
     location: ECMWF, Reading, UK (in person)
     summary: Machine-learning-based and machine-learning-enhanced forecasting of streamflow, floods, soil moisture and other land-surface processes. Registration is closed (fully subscribed).
     url: https://events.ecmwf.int/event/530/
+
+  - title: "Training course: Machine Learning-based weather forecasting"
+    organiser: ECMWF
+    kind: Workshop
+    start: 2026-11-16
+    end: 2026-11-20
+    location: ECMWF, Reading, UK (in person)
+    summary: An advanced training course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications closed on 28 June.
+    url: https://events.ecmwf.int/event/546/registrations/
 
   - title: Workshop on software strategies for sustainable physical modelling
     organiser: ECMWF
@@ -113,6 +134,12 @@ events:
     url: https://www.ecmwf.int/en/about/media-centre/2026/workshop-ai-and-earth-observation
 
 news:
+  - date: 2026-10-14
+    title: Machine learning improves weather forecasts two to six weeks ahead
+    source: MIT News
+    summary: Judah Cohen, Lester Mackey and colleagues built a Probabilistic Bias Correction model, a machine-learning layer on top of existing forecasting systems that improves subseasonal forecasts. Published in Nature.
+    url: https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014
+
   - date: 2026-10-14
     title: UC San Diego awarded $2.35 million from Google.org for AI-driven climate modelling
     source: UC San Diego

@@ -5,7 +5,7 @@
 #   - The page sorts them by date and moves an event from "Upcoming" to "Recent" by itself once it has finished.
 #   - kind is one of: Workshop, Conference, Webinar, Seminar
 #   - afesp: true highlights the card as an AFESP event (green border and an AFESP badge).
-#   - url can be an external link or a page on this site (e.g. /about/).
+#   - url can be an external link or a page on this site (e.g. /about/); leave it out for a card with no link.
 # news: short news items, newest first is not required (the page sorts them by date).
 
 events:
@@ -15,8 +15,7 @@ events:
     start: 2026-11-02
     end: 2026-11-03
     location: Henley Business School, Whiteknights Campus, University of Reading, RG6 6UD
-    summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Please register by Friday 16 October 2026.
-    url: https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=xDv6T_zswEiQgPXkP_kOX0aqoeH7ZfNIkAYIKdUT0DFUQlBWMFhTNURKQkczNkxQNVRWWjVTSklGOS4u
+    summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Registration is now closed.
     afesp: true
 
   - title: Workshop on Machine Learning for Land and Hydrology

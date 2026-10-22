@@ -443,9 +443,12 @@ ai_projects:
         data-kind="{{ e.kind }}"
       >
         {%- assign e_external = e.url | slice: 0, 4 -%}
-        <a
+        {%- if e.url -%}{%- assign e_tag = 'a' -%}{%- else -%}{%- assign e_tag = 'div' -%}{%- endif -%}
+        <{{ e_tag }}
           class="ai-card{% if e.afesp %} ai-card-afesp{% endif %}"
-          href="{% if e_external == 'http' %}{{ e.url }}{% else %}{{ e.url | relative_url }}{% endif %}"
+          {% if e.url %}
+            href="{% if e_external == 'http' %}{{ e.url }}{% else %}{{ e.url | relative_url }}{% endif %}"
+          {% endif %}
           {% if e_external == 'http' %}
             target="_blank" rel="noopener"
           {% endif %}
@@ -466,7 +469,7 @@ ai_projects:
           <div class="ai-title">{{ e.title }}</div>
           <div class="ai-meta">{{ e.organiser }} · {{ e.location }}</div>
           <div class="ai-sum">{{ e.summary }}</div>
-        </a>
+        </{{ e_tag }}>
       </li>
     {% endfor %}
   </ul>
@@ -584,11 +587,19 @@ ai_projects:
     if (next) {
       const box = root.querySelector(".ai-next");
       const title = next.li.querySelector(".ai-title").textContent;
-      const href = next.li.querySelector("a").href;
+      const link = next.li.querySelector("a.ai-card");
       const when = next.days <= 0 ? "happening now" : next.days === 1 ? "tomorrow" : `in ${next.days} days`;
-      box.innerHTML = `Next up, ${when}: <a target="_blank" rel="noopener"></a>`;
-      box.querySelector("a").textContent = title;
-      box.querySelector("a").href = href;
+      // Events without a url have no link; show the title as plain text.
+      box.innerHTML = link ? `Next up, ${when}: <a></a>` : `Next up, ${when}: <b></b>`;
+      const out = box.querySelector(link ? "a" : "b");
+      out.textContent = title;
+      if (link) {
+        out.href = link.href;
+        if (link.target) {
+          out.target = link.target;
+          out.rel = "noopener";
+        }
+      }
       box.hidden = false;
     }
 

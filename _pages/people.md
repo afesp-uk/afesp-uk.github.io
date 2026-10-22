@@ -128,7 +128,7 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/rishabh_bhatt.jpg
     content: bios/about_Rishabh_Bhatt.md
     anchor: rishabh-bhatt # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

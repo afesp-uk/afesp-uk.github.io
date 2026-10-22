@@ -85,7 +85,6 @@ National Centre for Atmospheric Science (NCAS).
   - ECMWF Bologna, Italy
 - [**National Centre for Atmospheric Science (NCAS)**](https://ncas.ac.uk/), UK
 - [**UK Met Office**](https://www.metoffice.gov.uk/)
-  - Met Office@Reading, University of Reading, UK
 
 ## Other collaborators
 

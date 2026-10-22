@@ -64,7 +64,7 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/magdalena_balmaseda.jpg
     content: bios/about_Magdalena_Balmaseda.md
     anchor: magdalena-balmaseda # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

@@ -115,6 +115,11 @@ nav_order: 6
     font-size: 0.88rem;
     color: var(--ev-muted);
   }
+  .ev-card .ev-desc {
+    font-size: 0.88rem;
+    line-height: 1.45;
+    margin-top: 0.5rem;
+  }
   .ev-card .ev-more {
     font-size: 0.85rem;
     margin-top: 0.5rem;
@@ -292,7 +297,8 @@ nav_order: 6
 
 ## Upcoming workshops
 
-- [**Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):**](https://forms.cloud.microsoft/pages/responsepage.aspx?id=xDv6T_zswEiQgPXkP_kOX0PHjIrPhgVEiKb02piQNMRURExGSlUxRkFNVDUwQkRTTlc5WFo2SU45Ui4u&route=shorturl)
+- [**Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):**](https://forms.cloud.microsoft/pages/responsepage.aspx?id=xDv6T_zswEiQgPXkP_kOX0PHjIrPhgVEiKb02piQNMRURExGSlUxRkFNVDUwQkRTTlc5WFo2SU45Ui4u&route=shorturl)<br>
+  With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.
 - [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
 
 ## Upcoming training courses
@@ -456,11 +462,13 @@ nav_order: 6
           const src = a || li.querySelector("strong");
           if (!src) return;
           const raw = src.textContent.trim().replace(/:$/, "");
-          if (!a) {
-            a = document.createElement("div");
-            li.innerHTML = "";
-            li.appendChild(a);
-          }
+          // Any text written under the item (after a <br>) becomes the card's description.
+          const rest = li.cloneNode(true);
+          rest.querySelector(a ? "a" : "strong").remove();
+          const desc = rest.textContent.trim();
+          if (!a) a = document.createElement("div");
+          li.innerHTML = "";
+          li.appendChild(a);
           const m = raw.match(/^(.*)\(([^()]*)\)\s*$/);
           const name = m ? m[1].trim() : raw;
           const inside = m ? m[2].split(/[;]/).map((x) => x.trim()) : [];
@@ -493,6 +501,12 @@ nav_order: 6
             p.className = "ev-where";
             p.textContent = where.charAt(0).toUpperCase() + where.slice(1);
             a.append(p);
+          }
+          if (desc) {
+            const d = document.createElement("span");
+            d.className = "ev-desc";
+            d.textContent = desc;
+            a.append(d);
           }
           if (a.tagName === "A") {
             const more = document.createElement("span");

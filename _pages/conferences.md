@@ -64,7 +64,7 @@ nav_order: 6
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 0.9rem;
   }
-  .ev-upcoming > li > a.ev-card {
+  .ev-upcoming > li > .ev-card {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -81,6 +81,24 @@ nav_order: 6
   .ev-upcoming > li > a.ev-card:focus-visible {
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(21, 101, 192, 0.15);
+  }
+  /* AFESP's own events stand out from the rest (same green as the AI page). */
+  .ev-upcoming > li > .ev-card.ev-afesp {
+    border: 2px solid #1f9d55;
+    border-top: 6px solid #1f9d55;
+    background: linear-gradient(180deg, rgba(31, 157, 85, 0.1), transparent 70%), var(--ev-card);
+    box-shadow: 0 6px 18px rgba(31, 157, 85, 0.18);
+  }
+  .ev-card .ev-tag {
+    align-self: flex-start;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 0.05rem 0.45rem;
+    margin-bottom: 0.35rem;
+    border-radius: 999px;
+    background: #1f9d55;
+    color: #fff;
   }
   .ev-card .ev-when {
     font-size: 1.05rem;
@@ -267,6 +285,9 @@ nav_order: 6
 
 ## Upcoming conferences
 
+<!-- Items whose name starts with "AFESP" are highlighted as AFESP's own events. An item without a link is shown as a plain card. -->
+
+- **AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):**
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
 
 ## Upcoming workshops
@@ -429,9 +450,16 @@ nav_order: 6
       if (upcoming) {
         list.classList.add("ev-upcoming");
         items.forEach((li) => {
-          const a = li.querySelector("a");
-          if (!a) return;
-          const raw = a.textContent.trim().replace(/:$/, "");
+          // Linked items become link cards; items with only bold text become plain cards.
+          let a = li.querySelector("a");
+          const src = a || li.querySelector("strong");
+          if (!src) return;
+          const raw = src.textContent.trim().replace(/:$/, "");
+          if (!a) {
+            a = document.createElement("div");
+            li.innerHTML = "";
+            li.appendChild(a);
+          }
           const m = raw.match(/^(.*)\(([^()]*)\)\s*$/);
           const name = m ? m[1].trim() : raw;
           const inside = m ? m[2].split(/[;]/).map((x) => x.trim()) : [];
@@ -445,6 +473,13 @@ nav_order: 6
           }
           a.classList.add("ev-card");
           a.innerHTML = "";
+          if (/^AFESP\b/.test(name)) {
+            a.classList.add("ev-afesp");
+            const tag = document.createElement("span");
+            tag.className = "ev-tag";
+            tag.textContent = "AFESP";
+            a.append(tag);
+          }
           const w = document.createElement("span");
           w.className = "ev-when";
           w.textContent = when.replace(/,\s*(\d{1,2}:\d\d)/, " · $1");
@@ -458,10 +493,12 @@ nav_order: 6
             p.textContent = where.charAt(0).toUpperCase() + where.slice(1);
             a.append(p);
           }
-          const more = document.createElement("span");
-          more.className = "ev-more";
-          more.textContent = "Details and registration";
-          a.append(more);
+          if (a.tagName === "A") {
+            const more = document.createElement("span");
+            more.className = "ev-more";
+            more.textContent = "Details and registration";
+            a.append(more);
+          }
         });
         return;
       }

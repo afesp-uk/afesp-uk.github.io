@@ -18,6 +18,13 @@ events:
     summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Registration is now closed.
     afesp: true
 
+  - title: "Informal workshop: AI as a research method"
+    organiser: Statistics Community of Practice
+    kind: Workshop
+    start: 2026-11-04
+    location: In person and online
+    summary: With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.
+
   - title: Workshop on Machine Learning for Land and Hydrology
     organiser: ECMWF
     kind: Workshop

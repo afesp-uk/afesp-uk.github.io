@@ -22,8 +22,9 @@ events:
     organiser: Statistics Community of Practice
     kind: Workshop
     start: 2026-11-04
-    location: In person and online
+    location: Palmer 106, University of Reading, and online
     summary: With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.
+    url: https://forms.cloud.microsoft/pages/responsepage.aspx?id=xDv6T_zswEiQgPXkP_kOX0PHjIrPhgVEiKb02piQNMRURExGSlUxRkFNVDUwQkRTTlc5WFo2SU45Ui4u&route=shorturl
 
   - title: Workshop on Machine Learning for Land and Hydrology
     organiser: ECMWF

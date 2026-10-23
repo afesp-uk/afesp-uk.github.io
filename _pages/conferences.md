@@ -292,7 +292,7 @@ nav_order: 6
 
 ## Upcoming workshops
 
-- **Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; in person and online):**
+- [**Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):**](https://forms.cloud.microsoft/pages/responsepage.aspx?id=xDv6T_zswEiQgPXkP_kOX0PHjIrPhgVEiKb02piQNMRURExGSlUxRkFNVDUwQkRTTlc5WFo2SU45Ui4u&route=shorturl)
 - [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
 
 ## Upcoming training courses

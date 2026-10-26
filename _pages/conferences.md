@@ -390,7 +390,7 @@ nav_order: 6
   NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026
 - **Top AI Agent Programming Tools**<br>
   Sharar Ahmadi<br>
-  CMS Away Day, Penta Hotel, Reading, UK | Presentation | 2025
+  CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025
 - **The effects of Anvil clouds on climate, and their representation in global km-scale models**<br>
   Chris Holloway<br>
   Met Office, Exeter, UK | Invited seminar | 2 December 2025

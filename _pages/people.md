@@ -57,11 +57,10 @@ profiles:
     more_info: >
       <p id="eviatar-bach" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Eviatar Bach</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Lecturer in Mathematics of Environmental Data Science</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">UKRI Future Leaders Fellow (from Nov. 2026)</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology & Department of Mathematics and Statistics</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/magdalena_balmaseda.jpg

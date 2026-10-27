@@ -92,6 +92,8 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 
 - [**ARC Centre of Excellence for Weather of the 21st Century**](https://21centuryweather.org.au/), Clayton, VIC, Australia
 - [**British Antarctic Survey**](https://www.bas.ac.uk/), Cambridge, UK
+- [**Brookhaven National Laboratory**](https://www.bnl.gov/), Upton, NY, USA
+- [**Bureau of Meteorology**](https://www.bom.gov.au/), Sydney, NSW, Australia
 - [**California Air Resources Board**](https://ww2.arb.ca.gov/), Sacramento, CA, USA
 - [**California Institute of Technology**](https://www.caltech.edu/), Pasadena, CA, USA
 - [**Canadian Centre for Climate Modelling and Analysis**](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis.html), Victoria, BC, Canada
@@ -99,11 +101,14 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
 - [**Centre National de Recherches Météorologiques**](https://www.umr-cnrm.fr/), Toulouse, France
 - [**Centro de Investigaciones del Mar y la Atmósfera (UBA-CONICET)**](https://www.cima.fcen.uba.ar/), Buenos Aires, Argentina
+- [**CEREA, Institut Polytechnique de Paris**](https://www.cerea-lab.fr/), Paris, France
+- [**CERFACS**](https://cerfacs.fr/en/), Toulouse, France
 - [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
 - [**Climate and Ecosystem Sciences Division, Lawrence Berkeley National Laboratory**](https://eesa.lbl.gov/divisions/climate-ecosystem-sciences/), Berkeley, CA, USA
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
 - [**Climate–Water–Meteorology Department, AGRHYMET Regional Climate Centre for West Africa and the Sahel (AGRHYMET RCC-WAS)**](https://agrhymet.cilss.int/), Niamey, Niger
+- [**Colorado State University**](https://www.colostate.edu/), Fort Collins, CO, USA
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
 - [**Data Assimilation Research Team, RIKEN Center for Computational Science**](https://data-assimilation.riken.jp/~miyoshi/index.html), Kobe, Japan
 - [**The Department of Applied Mathematics and Theoretical Physics, University of Cambridge**](https://www.damtp.cam.ac.uk/), Cambridge, UK
@@ -129,6 +134,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Environmental Meteorology, Faculty of Environment and Natural Resources, University of Freiburg**](https://www.meteo.uni-freiburg.de/en), Freiburg, Germany
 - [**European Space Agency**](https://www.esa.int/), Frascati, Italy
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
+- [**Imperial College London**](https://www.imperial.ac.uk/), London, UK
 - [**Informatics Lab, Met Office**](https://informaticslab.co.uk/), Exeter, UK
 - [**Institut Franco-Argentin d’Études sur le Climat et ses Impacts (IRL IFAECI), CNRS–IRD–CONICET–UBA**](https://www.ifaeci.cnrs.fr/), Buenos Aires, Argentina
 - [**Institute for Climate and Atmospheric Science, School of Earth and Environment, University of Leeds**](https://environment.leeds.ac.uk/institute-climate-atmospheric-science), Leeds, UK
@@ -146,9 +152,13 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Max Planck Institute for Meteorology**](https://mpimet.mpg.de/), Hamburg, Germany
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
+- [**Nanjing University**](https://www.nju.edu.cn/en/), Nanjing, China
+- [**NASA Earth Science Division (ESD)**](https://science.nasa.gov/earth-science/), Washington, DC, USA
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
 - [**National Center for Atmospheric Research**](https://ncar.ucar.edu/), Boulder, CO, USA
 - [**National Centre for Earth Observation (NCEO)**](https://www.nceo.ac.uk/), UK
+- [**National Institute for Space Research (INPE)**](https://www.gov.br/inpe/), Belém, Brazil
+- [**National Oceanic and Atmospheric Administration (NOAA)**](https://www.noaa.gov/), Washington, DC, USA
 - [**National Oceanography Centre**](https://noc.ac.uk/), Southampton and Liverpool, UK
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
 - [**Northern Arizona University**](https://nau.edu/), Flagstaff, AZ, USA
@@ -168,10 +178,16 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Typhoon Science and Technology Research Center, Yokohama National University**](https://trc.ynu.ac.jp/en/), Yokohama, Japan
 - [**Université Grenoble Alpes, Inria, CNRS**](https://www.univ-grenoble-alpes.fr/), Grenoble, France
 - [**University Corporation for Atmospheric Research**](https://www.ucar.edu/), Boulder, CO, USA
+- [**University of Bologna**](https://www.unibo.it/en), Bologna, Italy
+- [**University of Buenos Aires**](https://www.uba.ar/), Buenos Aires, Argentina
+- [**University of California Santa Cruz**](https://www.ucsc.edu/), Santa Cruz, CA, USA
+- [**University of Hamburg**](https://www.uni-hamburg.de/en.html), Hamburg, Germany
 - [**University of New South Wales**](https://www.unsw.edu.au/), Sydney, NSW, Australia
+- [**University of Oklahoma**](https://www.ou.edu/), Norman, OK, USA
 - [**University of Oxford**](https://www.ox.ac.uk/), Oxford, UK
 - [**University of São Paulo**](https://www5.usp.br/), São Paulo, Brazil
 - [**The University of Tokyo**](https://www.u-tokyo.ac.jp/en/), Tokyo, Japan
+- [**World Meteorological Organization**](https://wmo.int/), Geneva, Switzerland
 - [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK
 
 <script>

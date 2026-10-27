@@ -1,11 +1,15 @@
 <p style="text-align: justify;">
+Professor Ros Cornforth is the founding Director of <a href="https://pearl.reading.ac.uk">The Pearl</a> (People &amp; Place: Evidence-based Adaptation for Resilient Livelihoods) and former Director of the Walker Institute (2015–2025). She is an internationally recognised climate and development scientist whose work bridges research, policy and practice to strengthen resilience in climate-vulnerable regions.
+</p>
 
-<p>
+<p style="text-align: justify;">
+With a PhD in Tropical Meteorology and more than two decades of experience, Ros leads a global research group dedicated to connecting climate science with real-world decisions, co-creating solutions with governments, communities and international partners across Africa, the Middle East and Asia. She has pioneered approaches that integrate climate, livelihood and economic data to inform adaptation planning and finance - from household vulnerability assessments to national adaptation frameworks.
+</p>
 
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
+<p style="text-align: justify;">
+Her work has shaped UNEP-led National Adaptation Plans, World Bank resilience programmes, and evidence for UNFCCC Adaptation Gap Reports, influencing policy and investment decisions in some of the world’s most fragile contexts.
+</p>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<p style="text-align: justify;">
+Ros also founded the Africa Climate Exchange (AfClix) in 2011 to connect scientists, policymakers and practitioners across Africa - an ethos that continues through The Pearl’s mission today: building equitable partnerships and actionable evidence to support people and places on the frontline of climate change. She also leads the WCRP My Climate Risk Global Regional Hub. You can find her on <a href="https://www.linkedin.com/in/rosalind-cornforth-4809927/">LinkedIn</a>.
+</p>

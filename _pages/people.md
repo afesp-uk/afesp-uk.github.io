@@ -50,17 +50,17 @@ profiles:
         -->
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/eviatar_bach.jpg # placeholder hidden until a photo is added
     content: bios/about_Eviatar_Bach.md
     anchor: eviatar-bach # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
       <p id="eviatar-bach" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Eviatar Bach</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <p style="white-space: nowrap; margin: 0; display: block;">Lecturer in Mathematics of Environmental Data Science</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">UKRI Future Leaders Fellow (from Nov. 2026)</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology & Department of Mathematics and Statistics</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
+        <p style="margin: 0; display: block;">Lecturer in Mathematics of Environmental Data Science</p>
+        <p style="margin: 0; display: block;">UKRI Future Leaders Fellow (from Nov. 2026)</p>
+        <p style="margin: 0; display: block;">Department of Meteorology & Department of Mathematics and Statistics</p>
+        <p style="margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/magdalena_balmaseda.jpg

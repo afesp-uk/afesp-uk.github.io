@@ -1,5 +1,5 @@
 <p style="text-align: justify;">
-Eviatar Bach is a Lecturer in Environmental Data Science at the University of Reading, in the Department of Meteorology and the Department of Mathematics and Statistics. She received her PhD at the University of Maryland, followed by postdoctoral positions at École Normale Supérieure and the California Institute of Technology.
+Eviatar Bach is a Lecturer in Environmental Data Science and UKRI Future Leaders Fellow (from November 2026) at the University of Reading, in the Department of Meteorology and the Department of Mathematics and Statistics. She received her PhD at the University of Maryland, followed by postdoctoral positions at École Normale Supérieure and the California Institute of Technology.
 
 Her current research focuses on the integration of machine learning and data assimilation, the predictability of the Earth system, and applications of dynamical systems theory to climate. She is the co-author of the book *Machine Learning for Inverse Problems and Data Assimilation*, which will be published by Cambridge University Press in 2027.
   

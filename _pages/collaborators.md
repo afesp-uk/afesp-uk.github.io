@@ -161,7 +161,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**NASA Earth Science Division (ESD)**](https://science.nasa.gov/earth-science/), Washington, DC, USA
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
 - [**NASA Goddard Space Flight Center**](https://www.nasa.gov/goddard/), Greenbelt, MD, USA
-- [**National Center for Atmospheric Research**](https://ncar.ucar.edu/), Boulder, CO, USA
+- [**National Center for Atmospheric Research (NCAR)**](https://ncar.ucar.edu/), Boulder, CO, USA
 - [**National Centre for Earth Observation (NCEO)**](https://www.nceo.ac.uk/), UK
 - [**National Institute for Space Research (INPE)**](https://www.gov.br/inpe/), Belém, Brazil
 - [**National Oceanic and Atmospheric Administration (NOAA)**](https://www.noaa.gov/), Washington, DC, USA

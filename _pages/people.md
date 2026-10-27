@@ -1351,4 +1351,6 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
+  # "Former members" section heading (not a person). Profiles listed after this entry appear under it.
+  - content: bios/section_former_members.md
 ---

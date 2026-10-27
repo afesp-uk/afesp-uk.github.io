@@ -1,5 +1,5 @@
 <p style="text-align: justify;">
-Professor Ros Cornforth is the founding Director of <a href="https://pearl.reading.ac.uk">The Pearl</a> (People &amp; Place: Evidence-based Adaptation for Resilient Livelihoods) and former Director of the Walker Institute (2015–2025). She is an internationally recognised climate and development scientist whose work bridges research, policy and practice to strengthen resilience in climate-vulnerable regions.
+Professor Rosalind (Ros) Cornforth is the founding Director of <a href="https://pearl.reading.ac.uk">The Pearl</a> (People &amp; Place: Evidence-based Adaptation for Resilient Livelihoods) and former Director of the Walker Institute (2015–2025). She is an internationally recognised climate and development scientist whose work bridges research, policy and practice to strengthen resilience in climate-vulnerable regions.
 </p>
 
 <p style="text-align: justify;">

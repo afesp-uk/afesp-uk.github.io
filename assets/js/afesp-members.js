@@ -242,6 +242,25 @@
         panel.appendChild(child);
       }
     });
+    // Section headings (such as "Former members") are profile entries whose bio is a .people-section.
+    // Show them as plain headings, not person cards, so they are left out of the counts, filters and A–Z bar.
+    article.querySelectorAll(".person-panel").forEach((p) => {
+      const section = p.querySelector(".people-section");
+      if (!section) return;
+      p.className = "people-section-panel";
+      p.replaceChildren(section);
+    });
+    if (!document.getElementById("people-section-style")) {
+      const style = document.createElement("style");
+      style.id = "people-section-style";
+      style.textContent = `
+        .people-section-panel { margin: 2.75rem 0 1.1rem; padding-top: 1.25rem; border-top: 2px solid rgba(21, 101, 192, 0.15); }
+        .people-section-panel h2 { margin: 0; font-weight: 800; color: #1565c0; }
+        html[data-theme="dark"] .people-section-panel { border-top-color: rgba(255, 255, 255, 0.12); }
+        html[data-theme="dark"] .people-section-panel h2 { color: #90c2ff; }
+      `;
+      document.head.appendChild(style);
+    }
   };
 
   // People page: summary tiles, a search box, filter chips and an A–Z bar above the profiles,

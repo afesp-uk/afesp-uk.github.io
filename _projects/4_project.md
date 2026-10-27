@@ -1,15 +1,24 @@
 ---
 layout: page
 title: "UPFLO: Improving understanding and modelling convective UPdraFts and anvil cLOuds"
-description: another without an image
-img:
+description: Convective updrafts and anvil clouds in observations and km-scale models
+img: assets/img/upflo_card.jpg
 importance: 2
 category: five-year projects
 ---
 
 **Principal Investigator**: Chris Holloway
 
-**Postdoctoral Research Scientist**: Deepak Gopalakrishnan
+**Postdoctoral Research Scientists**: Deepak Gopalakrishnan, Mark Muetzelfeldt (2024–2026)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/upflo_img.jpg" title="Deep convective clouds and anvils seen from the ISS" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Deep convective clouds with spreading anvils, seen from the International Space Station. Image: Alex Gerst, ISS
+</div>
 
 Changes in anvil cloud with warming are one of the largest current sources of uncertainty in climate sensitivity (Sherwood et al 2020). Anvil cloud (including latent heating and radiative effects) also plays a key role in large-scale tropical convective organisation such as the MJO (Benedict et al 2020), the ITCZ (Talib et al 2018), and monsoons (Cetrone and Houze 2009), as well as mesoscale organisation including tropical cyclones (Ruppert et al 2020) and mesoscale convective systems (MCSs, Yuan et al 2011). While Cloud-system Resolving Models (CRMs, ~1-5-km grid spacing with explicit convection) improve the location and timing of deep convection, they often have biases in updraft strength, cloud amount (including anvil life cycle) and organisation. Observations to constrain these biases are not routinely available and therefore are the primary objective of the satellite mission INvestigation of Convective UpdraftS (INCUS), which is led by project partner Sue van den Heever at Colorado State University. INCUS will provide the first tropics-wide investigation of the evolution of convective updrafts and mass flux from its launch date in August 2026 (Kim et al 2023, Prasanth et al 2023).
 

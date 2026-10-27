@@ -325,6 +325,10 @@ nav_order: 6
   **Precipitation Efficiency Across Storm Regimes: A Satellite-Based Evaluation of Cloud-to-Rain Conversion in km-Scale Models**<br>
   Julia Kukulies <br>
   Hamburg, Germany | Oral presentation | 20–24 July 2026
+- **km-scale Global Modelling Summit 2026**<br>
+  **ALOFT: Aligning organized features in coarse- and high-resolution simulations**<br>
+  Mark Muetzelfeldt<br>
+  Hamburg, Germany | Poster presentation | 20–24 July 2026
 - **Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch**<br>
   S. K. Panda, et al.<br>
   ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026
@@ -332,6 +336,10 @@ nav_order: 6
   **Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability**<br>
   Julia Kukulies <br>
   Reading, UK | Oral presentation | 13–16 July 2026
+- **ParaChute Conference 2026**<br>
+  **Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns**<br>
+  Mark Muetzelfeldt, et al.<br>
+  Reading, UK | Poster presentation | 13–16 July 2026
 - **RMetS Early Career Student Conference**<br>
   Piyali Goswami<br>
   Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026
@@ -348,6 +356,10 @@ nav_order: 6
 - **AFESP Conference**<br>
   Piyali Goswami<br>
   Reading, UK | Poster presentation | 4 November 2025
+- **CFMIP-CloudSense Meeting 2025**<br>
+  **Using changes in reflectivity over short time periods to estimate updraft strength**<br>
+  Mark Muetzelfeldt, et al.<br>
+  Exeter, UK | Poster presentation | 7–10 July 2025
 - **RMetS Early Career Student Conference**<br>
   Piyali Goswami<br>
   Manchester, UK | Oral presentation | 30 June–2 July 2025
@@ -379,15 +391,45 @@ nav_order: 6
 - **National Marine Heatwave Meeting**<br>
   Piyali Goswami<br>
   NOC Southampton, UK | Lightning talk | 19 May 2026
+- **Global-to-regional km-scale hackathon 2026 (hk26)**<br>
+  **UK Hackathon 2026** (opening talk; organiser and data lead)<br>
+  Mark Muetzelfeldt<br>
+  Met Office, Exeter, UK | Oral presentation | 18 May 2026
+- **Early Career Cloud Physics Meeting, AOPP**<br>
+  **How should we parametrize MCSs?**<br>
+  Mark Muetzelfeldt<br>
+  University of Oxford, UK | Poster presentation and flash talk | 19 March 2026
+- **5th Workshop on Convective Organization (WCO5), ICTP**<br>
+  **Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns**<br>
+  Mark Muetzelfeldt, et al.<br>
+  INPE, São José dos Campos, Brazil | Oral presentation | 9–12 March 2026
+- **5th Workshop on Convective Organization (WCO5), ICTP**<br>
+  **Targeted probabilistic trigger for the representation of organized deep convection in a global forecasting ensemble**<br>
+  Mark Muetzelfeldt, et al.<br>
+  INPE, São José dos Campos, Brazil | Poster presentation | 9–12 March 2026
+- **INCUS Science Team Meeting**<br>
+  **KASBEX (Ka- and S-band Experiment): Implications for INCUS**<br>
+  Mark Muetzelfeldt, Thorwald Stein, Chris Holloway, Brian Lo, Rob Thompson, Chris Walden, Graham Marshall<br>
+  Oral presentation | 6 November 2025
 - **National Marine Heatwave Meeting**<br>
   Piyali Goswami<br>
   Reading, UK | Lightning talk | 22 May 2025
+- **WCRP Global km-scale Hackathon 2025, UK node**<br>
+  **UK node data access** (opening talk; UK data processing lead)<br>
+  Mark Muetzelfeldt<br>
+  St Hugh's College, Oxford, UK | Oral presentation | 12–16 May 2025
 
 ## Other presentations and outreach activities
 
+- **Advancing the Frontiers of Earth System Prediction**<br>
+  Mark Muetzelfeldt<br>
+  Institute of Climate Change (IPI) Seminar Series, Universiti Kebangsaan Malaysia | Invited seminar | November 2026
 - **Data and AI in Urban Climate Science**<br>
   Sharar Ahmadi<br>
   NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026
+- **Applying delta-Z analysis to the WesCon field campaign**<br>
+  Mark Muetzelfeldt, Brian Lo<br>
+  INCUS Calibration/Validation meeting, Online | Invited talk | 9 February 2026
 - **Top AI Agent Programming Tools**<br>
   Sharar Ahmadi<br>
   CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025
@@ -397,6 +439,9 @@ nav_order: 6
 - **NCAS Climate Modelling Summer School**<br>
   Piyali Goswami<br>
   Cambridge, UK | Summer school | 7–22 September 2025
+- **UPFLO: Improving understanding and modelling of convective UPdraFts and anvil cLOuds**<br>
+  Mark Muetzelfeldt<br>
+  Colorado State University, Fort Collins, USA | Invited talk | 2 December 2024
 
 <script>
   (() => {

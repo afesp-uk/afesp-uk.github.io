@@ -17,6 +17,13 @@ calendar: true
 
 ## Funding acquirements
 
+- **KASBEX: Ka- and S-band Experiment**<br>
+  Mark Muetzelfeldt (lead), Thorwald Stein, Chris Holloway, Brian Lo<br>
+  8 days of coordinated observations with the CAMRa (S-band) and Kepler (Ka-band) radars at Chilbolton Observatory, summer 2025. Facility charge £10.5k (full cost about £32k). The campaign scanned the same convective cells with both radars at 30–120 s intervals, to test the delta-Z method of measuring updraft strength planned for the INCUS satellite mission. Part of [UPFLO]({% link _projects/4_project.md %}).
+- **Monsoon3 HPC allocation for ALOFT (2026–2029)**<br>
+  Mark Muetzelfeldt (PI); Alison Stirling, Cyril Morcrette (Met Office), Eviatar Bach (University of Reading/NCEO)<br>
+  70,500 node-hours in the first year on the Met Office/NERC Monsoon3 supercomputer, to run the Met Office Unified Model for [ALOFT]({% link _projects/ALOFT_project.md %}).
+
 ## Future funding opportunities
 
 <div class="social">

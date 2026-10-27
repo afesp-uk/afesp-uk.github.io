@@ -44,6 +44,8 @@ children:
     permalink: /link-and-doc/jasmin/
   - title: LFRic
     permalink: /link-and-doc/lfric/
+  - title: Monsoon
+    permalink: /link-and-doc/monsoon/
   - title: MOSRS
     permalink: /link-and-doc/mosrs/
   - title: NCAS CMS
@@ -275,6 +277,7 @@ GitHub Copilot|/link-and-doc/github-copilot/|tools|GitHub's AI coding assistant,
 Iris|/link-and-doc/iris/|tools|A Python library from the Met Office for analysing and visualising Earth science data.
 Jasmin|/link-and-doc/jasmin/|compute|The UK data analysis platform for environmental science. Open a topic to see its guides.|wide
 LFRic|/link-and-doc/lfric/|models|The Met Office's next-generation modelling infrastructure.
+Monsoon|/link-and-doc/monsoon/|compute|Monsoon3, the Met Office and NERC supercomputer for collaborative weather and climate research. The user guide is hosted on the Met Office Science Repository Service (MOSRS), so you need to be able to log in with a MOSRS account to read it.
 MOSRS|/link-and-doc/mosrs/|models|The Met Office Science Repository Service, which hosts the code and documentation for the Unified Model, LFRic and related software.
 NCAS CMS|/link-and-doc/ncas-cms/|compute|NCAS Computational Modelling Services: support for running weather and climate models, such as the Unified Model, on UK computing systems.
 NCO Tools|/link-and-doc/nco/|tools|netCDF Operators: command-line tools for manipulating netCDF files.

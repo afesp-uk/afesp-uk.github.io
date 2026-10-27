@@ -244,9 +244,7 @@ latest_posts:
 
 <h2>Here you will find</h2>
 <div class="ab-find">
-{% comment %} Blog link hidden while the blog page is hidden; move it out of this comment to show it again.
 <a href="{{ '/blog/' | relative_url }}"><i class="fa-solid fa-star" style="--c: var(--a-amber)" aria-hidden="true"></i><span>Research highlights and scientific achievements</span></a>
-{% endcomment %}
 <a href="{{ '/projects/' | relative_url }}"><i class="fa-solid fa-diagram-project" style="--c: var(--a-blue)" aria-hidden="true"></i><span>Work package activities and project milestones</span></a>
 <a href="{{ '/publications/' | relative_url }}"><i class="fa-solid fa-book-open" style="--c: var(--a-teal)" aria-hidden="true"></i><span>Publications, preprints, software, datasets, and other research outputs</span></a>
 <a href="{{ '/people/' | relative_url }}"><i class="fa-solid fa-users" style="--c: var(--a-sky)" aria-hidden="true"></i><span>Researcher profiles and collaborations</span></a>

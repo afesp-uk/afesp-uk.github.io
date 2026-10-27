@@ -272,18 +272,18 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/rosalind_cornforth.jpg
     content: bios/about_Rosalind_Cornforth.md
     anchor: rosalind-cornforth # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="rosalind-cornforth" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Rosalind Cornforth</p>
+      <p id="rosalind-cornforth" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Professor Ros Cornforth</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Director, The Pearl</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Professor of Climate</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">and Development</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     image: profile_pics/helen_dacre.jpg

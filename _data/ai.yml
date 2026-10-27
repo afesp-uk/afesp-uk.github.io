@@ -141,6 +141,12 @@ events:
     url: https://www.ecmwf.int/en/about/media-centre/2026/workshop-ai-and-earth-observation
 
 news:
+  - date: 2026-09-03
+    title: Google DeepMind introduces WeatherNext 3
+    source: Google
+    summary: Google DeepMind and Google Research's newest global AI weather model learns directly from live geostationary satellite data, not only from supercomputer simulations, and produces hourly forecasts at up to 5 km resolution.
+    url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+
   - date: 2026-10-14
     title: Machine learning improves weather forecasts two to six weeks ahead
     source: MIT News

@@ -114,6 +114,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**The Department of Applied Mathematics and Theoretical Physics, University of Cambridge**](https://www.damtp.cam.ac.uk/), Cambridge, UK
 - [**Department of Atmospheric and Climate Science, University of Washington**](https://atmos.uw.edu/), Seattle, WA, USA
 - [**Department of Atmospheric and Cryospheric Sciences, University of Innsbruck**](https://www.uibk.ac.at/en/acinn/), Innsbruck, Austria
+- [**Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles**](https://atmos.ucla.edu/), Los Angeles, CA, USA
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
 - [**Department of Earth and Environmental Engineering, Columbia University**](https://www.eee.columbia.edu/), New York, NY, USA
@@ -127,6 +128,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Department of Oceanography, Federal University of Santa Catarina (UFSC)**](https://ufsc.br/), Florianópolis, Brazil
 - [**Department of Physics, Stanford University**](https://physics.stanford.edu/), Stanford, CA, USA
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
+- [**Department of Statistical Sciences, University of Toronto**](https://www.statistics.utoronto.ca/), Toronto, ON, Canada
 - [**Deutsches Klimarechenzentrum (DKRZ)**](https://www.dkrz.de/), Hamburg, Germany
 - [**Earth Sciences New Zealand (formerly NIWA, National Institute of Water and Atmospheric Research)**](https://niwa.co.nz/), Wellington, New Zealand
 - [**Earth System Modelling and Observations International Project Office, World Climate Research Programme**](https://www.wcrp-esmo.org/), Hamburg, Germany
@@ -146,15 +148,19 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Jet Propulsion Laboratory, California Institute of Technology**](https://www.jpl.nasa.gov/), Pasadena, CA, USA
 - [**Joint Institute for Regional Earth System Science and Engineering, University of California, Los Angeles**](https://jifresse.ucla.edu/), Los Angeles, CA, USA
 - [**Korea Meteorological Administration**](https://www.kma.go.kr/eng/), Seoul, Republic of Korea
+- [**Laboratoire de Météorologie Dynamique, École Normale Supérieure – PSL University**](https://www.lmd.ipsl.fr/), Paris, France
+- [**Laboratoire d’Océanographie Physique et Spatiale (LOPS), CNRS–Ifremer–IRD–Université de Bretagne Occidentale**](https://www.umr-lops.fr/en/), Plouzané, France
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
 - [**Lawrence Livermore National Laboratory**](https://www.llnl.gov/), Livermore, CA, USA
+- [**Marine Meteorology Division, Naval Research Laboratory**](https://www.nrlmry.navy.mil/), Monterey, CA, USA
 - [**Max Planck Institute for Meteorology**](https://mpimet.mpg.de/), Hamburg, Germany
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**Nanjing University**](https://www.nju.edu.cn/en/), Nanjing, China
 - [**NASA Earth Science Division (ESD)**](https://science.nasa.gov/earth-science/), Washington, DC, USA
 - [**NASA Goddard Institute for Space Studies**](https://www.giss.nasa.gov/), New York, NY, USA
+- [**NASA Goddard Space Flight Center**](https://www.nasa.gov/goddard/), Greenbelt, MD, USA
 - [**National Center for Atmospheric Research**](https://ncar.ucar.edu/), Boulder, CO, USA
 - [**National Centre for Earth Observation (NCEO)**](https://www.nceo.ac.uk/), UK
 - [**National Institute for Space Research (INPE)**](https://www.gov.br/inpe/), Belém, Brazil
@@ -187,6 +193,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**University of Oxford**](https://www.ox.ac.uk/), Oxford, UK
 - [**University of São Paulo**](https://www5.usp.br/), São Paulo, Brazil
 - [**The University of Tokyo**](https://www.u-tokyo.ac.jp/en/), Tokyo, Japan
+- [**Vector Institute for Artificial Intelligence**](https://vectorinstitute.ai/), Toronto, ON, Canada
 - [**World Meteorological Organization**](https://wmo.int/), Geneva, Switzerland
 - [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK
 

@@ -259,14 +259,12 @@ nav_order: 5
 
 </details>
 
-{% comment %}
 <details class="publication-section">
-	<summary><strong>Manuals</strong></summary>
+	<summary><strong>Manuals and Documentations</strong></summary>
 
     {% bibliography --file afesp_core/manuals %}
 
 </details>
-{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>
@@ -314,14 +312,12 @@ nav_order: 5
 
 </details>
 
-{% comment %}
 <details class="publication-section">
-	<summary><strong>Manuals</strong></summary>
+	<summary><strong>Manuals and Documentations</strong></summary>
 
     {% bibliography --file afesp_collaboration/manuals %}
 
 </details>
-{% endcomment %}
 
 <details class="publication-section">
 	<summary><strong>Books</strong></summary>

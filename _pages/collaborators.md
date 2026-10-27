@@ -93,6 +93,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**ARC Centre of Excellence for Weather of the 21st Century**](https://21centuryweather.org.au/), Clayton, VIC, Australia
 - [**British Antarctic Survey**](https://www.bas.ac.uk/), Cambridge, UK
 - [**California Air Resources Board**](https://ww2.arb.ca.gov/), Sacramento, CA, USA
+- [**California Institute of Technology**](https://www.caltech.edu/), Pasadena, CA, USA
 - [**Canadian Centre for Climate Modelling and Analysis**](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/modeling-projections-analysis/centre-modelling-analysis.html), Victoria, BC, Canada
 - [**The CEDA Archive, Centre for Environmental Data Analysis**](https://archive.ceda.ac.uk/), Didcot, UK
 - [**Center for Climate Systems Research, Columbia University**](https://ccsr.columbia.edu/), New York, NY, USA
@@ -100,6 +101,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Centro de Investigaciones del Mar y la Atmósfera (UBA-CONICET)**](https://www.cima.fcen.uba.ar/), Buenos Aires, Argentina
 - [**Chengdu University of Information Technology**](https://www.cuit.edu.cn/), Chengdu, China
 - [**CICERO Center for International Climate Research**](https://cicero.oslo.no/en), Oslo, Norway
+- [**Climate and Ecosystem Sciences Division, Lawrence Berkeley National Laboratory**](https://eesa.lbl.gov/divisions/climate-ecosystem-sciences/), Berkeley, CA, USA
 - [**Climate and Environmental Research Institute, Korea Institute of Science and Technology**](https://www.kist.re.kr/eng/research/climate-greetings.do), Seoul, Republic of Korea
 - [**Climate–Water–Meteorology Department, AGRHYMET Regional Climate Centre for West Africa and the Sahel (AGRHYMET RCC-WAS)**](https://agrhymet.cilss.int/), Niamey, Niger
 - [**Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder**](https://cires.colorado.edu/), Boulder, CO, USA
@@ -109,6 +111,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Department of Atmospheric and Cryospheric Sciences, University of Innsbruck**](https://www.uibk.ac.at/en/acinn/), Innsbruck, Austria
 - [**Department of Atmospheric and Oceanic Sciences, University of Colorado Boulder**](https://www.colorado.edu/atoc/), Boulder, CO, USA
 - [**Department of Climate and Energy Systems Engineering, Ewha Womans University**](https://www.ewha.ac.kr/), Seoul, Republic of Korea
+- [**Department of Earth and Environmental Engineering, Columbia University**](https://www.eee.columbia.edu/), New York, NY, USA
 - [**Department of Earth and Planetary Sciences, The University of Texas at Austin**](https://www.jsg.utexas.edu/), Austin, TX, USA
 - [**Department of Earth and Planetary Sciences, University of California Riverside**](https://eps.ucr.edu/), Riverside, CA, USA
 - [**Department of Environmental Systems Science, ETH Zurich**](https://usys.ethz.ch/en/), Zurich, Switzerland
@@ -117,6 +120,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Department of Meteorology and Geophysics, University of Vienna**](https://img.univie.ac.at/en/), Vienna, Austria
 - [**Department of Meteorology, Bolin Centre for Climate Research, Stockholm University**](https://www.su.se/english/divisions/department-of-meteorology), Stockholm, Sweden
 - [**Department of Oceanography, Federal University of Santa Catarina (UFSC)**](https://ufsc.br/), Florianópolis, Brazil
+- [**Department of Physics, Stanford University**](https://physics.stanford.edu/), Stanford, CA, USA
 - [**Department of Physics, University of Toronto**](https://www.physics.utoronto.ca/), Toronto, ON, Canada
 - [**Deutsches Klimarechenzentrum (DKRZ)**](https://www.dkrz.de/), Hamburg, Germany
 - [**Earth Sciences New Zealand (formerly NIWA, National Institute of Water and Atmospheric Research)**](https://niwa.co.nz/), Wellington, New Zealand
@@ -133,6 +137,8 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Institute for Meteorology, Leipzig University**](https://www.physes.uni-leipzig.de/en/institute-for-meteorology), Leipzig, Germany
 - [**Institute of Atmospheric Physics, Chinese Academy of Sciences**](http://english.iap.cas.cn/), Beijing, China
 - [**Institute of Computing for Climate Science, University of Cambridge**](https://iccs.cam.ac.uk/), Cambridge, UK
+- [**Jet Propulsion Laboratory, California Institute of Technology**](https://www.jpl.nasa.gov/), Pasadena, CA, USA
+- [**Joint Institute for Regional Earth System Science and Engineering, University of California, Los Angeles**](https://jifresse.ucla.edu/), Los Angeles, CA, USA
 - [**Korea Meteorological Administration**](https://www.kma.go.kr/eng/), Seoul, Republic of Korea
 - [**Lamont-Doherty Earth Observatory, Columbia Climate School**](https://lamont.columbia.edu/), New York, NY, USA
 - [**Lancaster Environment Centre, Lancaster University**](https://www.lancaster.ac.uk/lec/), Lancaster, UK
@@ -145,6 +151,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**National Centre for Earth Observation (NCEO)**](https://www.nceo.ac.uk/), UK
 - [**National Oceanography Centre**](https://noc.ac.uk/), Southampton and Liverpool, UK
 - [**NOAA Geophysical Fluid Dynamics Laboratory**](https://www.gfdl.noaa.gov/), Princeton, NJ, USA
+- [**Northern Arizona University**](https://nau.edu/), Flagstaff, AZ, USA
 - [**Pacific Northwest National Laboratory**](https://www.pnnl.gov/), Richland, WA, USA
 - [**Princeton University**](https://www.princeton.edu/), Princeton, NJ, USA
 - [**Remote Sensing Lab, Foundation for Research and Technology – Hellas (FORTH)**](http://rslab.gr/), Heraklion, Greece
@@ -155,6 +162,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**School of Biological and Environmental Sciences, Liverpool John Moores University**](https://www.ljmu.ac.uk/), Liverpool, UK
 - [**School of Chemistry, University of Bristol**](https://www.bristol.ac.uk/chemistry/), Bristol, UK
 - [**School of GeoSciences, University of Edinburgh**](https://www.ed.ac.uk/geosciences), Edinburgh, UK
+- [**Scripps Institution of Oceanography**](https://scripps.ucsd.edu/), La Jolla, CA, USA
 - [**Servicio Meteorológico Nacional (National Meteorological Service of Argentina)**](https://www.smn.gob.ar/), Buenos Aires, Argentina
 - [**Tohoku University**](https://www.tohoku.ac.jp/en/), Sendai, Japan
 - [**Typhoon Science and Technology Research Center, Yokohama National University**](https://trc.ynu.ac.jp/en/), Yokohama, Japan

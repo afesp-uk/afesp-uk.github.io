@@ -1,6 +1,15 @@
 <p style="text-align: justify;">
+Eviatar Bach is a Lecturer in Environmental Data Science at the University of Reading, in the Department of Meteorology and the Department of Mathematics and Statistics. She received her PhD at the University of Maryland, followed by postdoctoral positions at École Normale Supérieure and the California Institute of Technology.
 
-<p>
+Her current research focuses on the integration of machine learning and data assimilation, the predictability of the Earth system, and applications of dynamical systems theory to climate. She is the co-author of the book *Machine Learning for Inverse Problems and Data Assimilation*, which will be published by Cambridge University Press in 2027.
+  
+**Research interests**:
+  - Machine learning in data assimilation
+  - Predictability of weather and climate
+  - Inverse problems in climate
+  - Application of dynamical systems theory to weather and climate
+  - Forecast verification
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

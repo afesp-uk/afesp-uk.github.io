@@ -11,5 +11,9 @@ Her work has shaped UNEP-led National Adaptation Plans, World Bank resilience pr
 </p>
 
 <p style="text-align: justify;">
-Ros also founded the Africa Climate Exchange (AfClix) in 2011 to connect scientists, policymakers and practitioners across Africa - an ethos that continues through The Pearl’s mission today: building equitable partnerships and actionable evidence to support people and places on the frontline of climate change. She also leads the WCRP My Climate Risk Global Regional Hub. You can find her on <a href="https://www.linkedin.com/in/rosalind-cornforth-4809927/">LinkedIn</a>.
+Ros also founded the Africa Climate Exchange (AfClix) in 2011 to connect scientists, policymakers and practitioners across Africa - an ethos that continues through The Pearl’s mission today: building equitable partnerships and actionable evidence to support people and places on the frontline of climate change.
+</p>
+
+<p style="text-align: justify;">
+Ros is the director of The Pearl (<a href="https://pearl.reading.ac.uk">pearl.reading.ac.uk</a>) and lead of the WCRP My Climate Risk Global Regional Hub. She works with governments, communities and partners to develop science-based, evidence-led climate-livelihoods insights and grounded adaptation decisions across Africa, the Middle East and Asia, with a focus on fragile and climate-stressed contexts. You can find her on <a href="https://www.linkedin.com/in/rosalind-cornforth-4809927/">LinkedIn</a>.
 </p>

@@ -263,6 +263,48 @@ ai_projects:
   .ai-card-afesp .ai-tag {
     margin: 0 0.35rem 0 0;
   }
+  /* AFESP conferences and workshops: their own column on the right on wide screens, first on narrow ones. */
+  .ai-side {
+    padding: 0.2rem 1.1rem 0.8rem;
+    margin-top: 1.5rem;
+    border-radius: 14px;
+    border: 1px solid rgba(31, 157, 85, 0.35);
+    background: linear-gradient(180deg, rgba(31, 157, 85, 0.07), transparent 60%);
+  }
+  .ai .ai-side > h2.ai-h:first-child {
+    margin-top: 0.9rem;
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+  .ai .ai-main > h2.ai-h:first-child {
+    margin-top: 1.5rem;
+  }
+  .ai-side .ai-grid {
+    grid-template-columns: 1fr;
+  }
+  .ai-side .ai-year-group {
+    margin-left: 0.25rem;
+  }
+  @media (min-width: 992px) {
+    .ai-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 290px;
+      gap: 1.75rem;
+      align-items: start;
+    }
+    .ai-layout > .ai-main {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .ai-layout > .ai-side {
+      grid-column: 2;
+      grid-row: 1;
+      position: sticky;
+      top: 5rem;
+      max-height: calc(100vh - 6rem);
+      overflow-y: auto;
+    }
+  }
   /* Past AFESP conferences and workshops: one collapsible archive, then a collapsible block per year. */
   .ai-archive {
     margin-top: 1rem;
@@ -528,6 +570,10 @@ target="_blank" rel="noopener"
 {%- endif -%}
 {%- endfor %}
 
+  <!-- Below the banner: AFESP conferences and workshops in their own column on the right (wide screens),
+       everything else in the main column on the left. On narrow screens the AFESP column comes first. -->
+  <div class="ai-layout">
+  <aside class="ai-side" aria-label="AFESP conferences and workshops">
   <h2 class="ai-h" id="afesp-events">AFESP conferences and workshops <span class="ai-count" data-count="afesp"></span></h2>
   <ul class="ai-grid ai-afesp-upcoming">
     {{ afesp_cards }}
@@ -537,6 +583,8 @@ target="_blank" rel="noopener"
     <summary><span>Past AFESP conferences and workshops</span><span class="ai-year-count" data-count="afesp-past"></span></summary>
     <div class="ai-archive-years"></div>
   </details>
+  </aside>
+  <div class="ai-main">
 
   <h2 class="ai-h" id="upcoming">Upcoming workshops &amp; conferences <span class="ai-count" data-count="upcoming"></span></h2>
   <div class="ai-chips" role="group" aria-label="Filter events by type">
@@ -594,6 +642,8 @@ target="_blank" rel="noopener"
       </li>
     {% endfor %}
   </ul>
+  </div>
+  </div>
 </div>
 
 <script>

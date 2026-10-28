@@ -29,6 +29,11 @@
     "Cameron Southgate-Ash": "cameron-southgate-as",
     "Leong Wang Chung": "leong-chung",
   };
+  // Members whose list spellings give a different anchor from their profile (for example "Amber te Winkel").
+  const anchorAliases = {
+    "amber-te-winkel": "amber-winkle",
+    "amber-te-winkle": "amber-winkle",
+  };
 
   const run = () => {
     const path = window.location.pathname;
@@ -63,7 +68,7 @@
         // or: dotted initials then the surname (for example "S. K. Panda").
         entries.push({
           pattern: `${first}(?:\\s+[A-Za-z][A-Za-z'’.\\-]*)?\\s+${surname}|${initial}\\.\\s*(?:[A-Z]\\.\\s*)?${surname}`,
-          anchor: slugify(parts.join(" ")),
+          anchor: anchorAliases[slugify(parts.join(" "))] || slugify(parts.join(" ")),
         });
       });
     entries.forEach((entry) => {

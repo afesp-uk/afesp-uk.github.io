@@ -387,7 +387,11 @@ nav_order: 5
 				};
 			});
 		// Other spellings of a member's name, mapped to the anchor of their profile.
-		const anchorAliases = { "theodore-shepherd": "ted-shepherd" };
+		const anchorAliases = {
+			"theodore-shepherd": "ted-shepherd",
+			"amber-te-winkel": "amber-winkle",
+			"amber-te-winkle": "amber-winkle",
+		};
 		const findProfileAnchor = (text) => {
 			const found = memberMatchers.find((member) => member.regex.test(text.trim()));
 			const anchor = found ? anchorAliases[found.anchor] || found.anchor : null;

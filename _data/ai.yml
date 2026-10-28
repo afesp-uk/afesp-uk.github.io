@@ -10,13 +10,21 @@
 # news: short news items, newest first is not required (the page sorts them by date).
 
 events:
-  - title: AFESP 2026 Conference
+  - title: AFESP Conference 2026
     organiser: AFESP, with ECMWF, the Met Office and NCAS
     kind: Conference
     start: 2026-11-02
     end: 2026-11-03
     location: Henley Business School, Whiteknights Campus, University of Reading, RG6 6UD
     summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Registration is now closed.
+    afesp: true
+
+  - title: AFESP Conference 2025
+    organiser: AFESP, with ECMWF, the Met Office and NCAS
+    kind: Conference
+    start: 2025-11-04
+    location: Meadow Suite, Whiteknights Campus, University of Reading, RG6 6UR
+    summary: The AFESP programme's 2025 conference.
     afesp: true
 
   - title: "Informal workshop: AI as a research method"

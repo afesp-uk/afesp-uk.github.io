@@ -159,6 +159,47 @@
   .ev-year-group > ul.ev-timeline {
     margin-top: 0.75rem;
   }
+  /* AFESP events: their own column on the right on wide screens, at the top on narrow ones. */
+  .ev-side {
+    padding: 1rem 1.1rem 0.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(31, 157, 85, 0.35);
+    background: linear-gradient(180deg, rgba(31, 157, 85, 0.07), transparent 60%);
+  }
+  .ev .ev-side > h2:first-child {
+    margin-top: 0;
+  }
+  .ev-side ul.ev-upcoming {
+    grid-template-columns: 1fr;
+  }
+  .ev-side .ev-archive .ev-year-group {
+    margin-left: 0.25rem;
+  }
+  @media (min-width: 992px) {
+    .ev-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 290px;
+      gap: 1.75rem;
+      align-items: start;
+    }
+    .ev-layout > .ev-main {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .ev-layout > .ev-side {
+      grid-column: 2;
+      grid-row: 1;
+      position: sticky;
+      top: 5rem;
+      max-height: calc(100vh - 6rem);
+      overflow-y: auto;
+      margin-bottom: 0;
+    }
+    .ev .ev-main > h2:first-child {
+      margin-top: 0;
+    }
+  }
   /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
   .ev-archive {
     margin: 1rem 0 0.5rem;
@@ -680,6 +721,35 @@
         bar.appendChild(b);
       });
       anchor.after(bar);
+    }
+
+    // AFESP events get their own column on the right of the page (on wide screens);
+    // everything else stays in the main column on the left. On narrow screens AFESP events stay at the top.
+    const afespH2 = Array.from(article.querySelectorAll(":scope > h2")).find((h) => /^afesp events/i.test(h.textContent.trim()));
+    if (afespH2) {
+      const side = document.createElement("aside");
+      side.className = "ev-side";
+      side.setAttribute("aria-label", "AFESP events");
+      const sideNodes = [afespH2];
+      let n = afespH2.nextSibling;
+      while (n && !(n.nodeType === 1 && n.tagName === "H2")) {
+        sideNodes.push(n);
+        n = n.nextSibling;
+      }
+      const main = document.createElement("div");
+      main.className = "ev-main";
+      const layout = document.createElement("div");
+      layout.className = "ev-layout";
+      afespH2.before(layout);
+      sideNodes.forEach((node) => side.appendChild(node));
+      // The main column takes the rest of the page content, up to the contact addresses at the bottom.
+      let m = layout.nextSibling;
+      while (m && !(m.nodeType === 1 && (m.classList.contains("social") || m.tagName === "SCRIPT"))) {
+        const nextNode = m.nextSibling;
+        main.appendChild(m);
+        m = nextNode;
+      }
+      layout.append(side, main);
     }
   })();
 </script> <div class="social"> <div class="contact-note"> <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>, <a href="mailto:s.ahmadi@reading.ac.uk">s.ahmadi@reading.ac.uk</a>, <a href="mailto:j.kukulies@reading.ac.uk">j.kukulies@reading.ac.uk</a>, <a href="mailto:mark.muetzelfeldt@reading.ac.uk">mark.muetzelfeldt@reading.ac.uk</a>, <a href="mailto:c.egan@reading.ac.uk">c.egan@reading.ac.uk</a> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Advancing the Frontiers Frontiers of Earth System Prediction. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. <script>(function () { var s = document.createElement("script"); s.src = "/assets/js/afesp-members.js?t=" + Date.now(); document.body.appendChild(s); })();</script> <style>.navbar .navbar-brand.title { display: none; } .post .afesp-member, .post a.afesp-member:hover { color: #1f9d55; font-weight: 600; } .post a.afesp-member:hover { text-decoration: underline; } .profile .more-info p[id] { scroll-margin-top: 480px; } @media (max-width: 575.98px) { .profile .more-info p[id] { scroll-margin-top: calc(127vw + 70px); } } .profile:not(:has(figure)) .more-info p[id] { scroll-margin-top: 110px !important; } .person-panel { display: flow-root; padding: 1rem 1.25rem; margin: 0 0 0.75rem 0; border-radius: 8px; } .person-panel-blue { background: #e8f1fb; } .person-panel-cream { background: #fbf5e4; } html[data-theme="dark"] .person-panel-blue { background: #1d2a38; } html[data-theme="dark"] .person-panel-cream { background: #2f2a1d; } .person-panel > .clearfix > :last-child { margin-bottom: 0; } .person-panel:first-of-type { margin-top: 2rem; } .post:has(.more-info) > .post-header .post-description { margin-top: 0.9rem; } .post .profile figure img { aspect-ratio: 3 / 4; object-fit: cover; object-position: center; } .post .post-header { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; min-height: 80px; padding-right: 176px; } .post > .header-bar { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; } @media (max-width: 575.98px) { .post .post-header { background-size: 100px auto; min-height: 52px; padding-right: 112px; } .post > .header-bar { background-size: 100px auto; } } @media (min-width: 576px) { .navbar .navbar-collapse-main { justify-content: flex-start; text-align: left; } .navbar .navbar-collapse-main { flex-grow: 1; } .navbar .navbar-menu-list { display: flex !important; flex-wrap: wrap !important; justify-content: flex-start; align-items: center; margin-left: 0; width: 100%; } .navbar .navbar-menu-list > .nav-item > .nav-link { padding-top: 0.2rem; padding-bottom: 0.2rem; } }</style> </div> </footer> <script>

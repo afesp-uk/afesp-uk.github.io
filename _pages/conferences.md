@@ -372,6 +372,7 @@ nav_order: 6
      Upcoming events show as cards. Once an event's last day has passed it moves by itself into "Past AFESP events", grouped by year. -->
 
 - **AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):**
+- **AFESP Conference 2025 (Tuesday 4 Nov, 2025; Meadow Suite, Whiteknights Campus, University of Reading, RG6 6UR):**
 
 ## Upcoming conferences
 

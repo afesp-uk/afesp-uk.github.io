@@ -391,6 +391,7 @@ nav_order: 5
 			"theodore-shepherd": "ted-shepherd",
 			"amber-te-winkel": "amber-winkle",
 			"amber-te-winkle": "amber-winkle",
+			"amber-winkel": "amber-winkle",
 		};
 		const findProfileAnchor = (text) => {
 			const found = memberMatchers.find((member) => member.regex.test(text.trim()));

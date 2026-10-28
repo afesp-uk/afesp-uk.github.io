@@ -159,6 +159,47 @@
   .ev-year-group > ul.ev-timeline {
     margin-top: 0.75rem;
   }
+  /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
+  .ev-archive {
+    margin: 1rem 0 0.5rem;
+  }
+  .ev-archive > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.4rem 0.25rem;
+    font-weight: 700;
+    color: var(--ev-muted);
+    cursor: pointer;
+    list-style: none;
+  }
+  .ev-archive > summary::-webkit-details-marker {
+    display: none;
+  }
+  .ev-archive > summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .ev-archive[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .ev-archive > summary .ev-year-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .ev-archive .ev-year-group {
+    margin-left: 1rem;
+  }
+  .ev-archive ul.ev-past {
+    margin-top: 0.75rem;
+  }
+  .ev-archive ul.ev-past .ev-card {
+    opacity: 0.85;
+  }
   /* Filters for contributions. */
   .ev-filters {
     display: flex;
@@ -320,7 +361,7 @@
       transition: none;
     }
   }
-</style> <h2 id="upcoming-conferences">Upcoming conferences</h2> <ul> <li><strong>AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):</strong></li> <li><a href="https://conference.unsw.edu.au/en/CPCM2027" rel="external nofollow noopener" target="_blank"><strong>Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):</strong></a></li> </ul> <h2 id="upcoming-workshops">Upcoming workshops</h2> <ul> <li> <a href="https://forms.cloud.microsoft/e/WGvKZecDdF" rel="external nofollow noopener" target="_blank"><strong>Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):</strong></a><br> With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.</li> <li><a href="https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/" rel="external nofollow noopener" target="_blank"><strong>NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):</strong></a></li> </ul> <h2 id="upcoming-training-courses">Upcoming training courses</h2> <ul> <li><a href="https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/" rel="external nofollow noopener" target="_blank"><strong>NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)</strong></a></li> <li><a href="https://www.archer2.ac.uk/training/courses/261007-archer2-data-transfer-vt/" rel="external nofollow noopener" target="_blank"><strong>Transferring data from ARCHER2 (7 Oct, 2026, 15:00-16:00; online):</strong></a></li> <li><a href="https://step-up.ac.uk/events/bytesized-drtp/" rel="external nofollow noopener" target="_blank"><strong>STEP-UP ByteSized dRTP, Episode 5: AI-assisted Coding (12 Oct, 2026, 15:00-16:30; online):</strong></a></li> </ul> <div style="height: 2.5rem;"></div> <h2 id="contributions-to-conferences">Contributions to conferences</h2> <ul> <li> <strong>EMS2026</strong><br> <strong>Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin</strong><br> Cameron Southgate-Ash, et al.<br> Utrecht, Netherlands | Oral presentation | 6-11 September 2026</li> <li> <strong>S2S2D Conference</strong><br> Piyali Goswami<br> Reading, UK | Oral presentation | September 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> Chris Holloway<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>Precipitation Efficiency Across Storm Regimes: A Satellite-Based Evaluation of Cloud-to-Rain Conversion in km-Scale Models</strong><br> Julia Kukulies <br> Hamburg, Germany | Oral presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>ALOFT: Aligning organized features in coarse- and high-resolution simulations</strong><br> Mark Muetzelfeldt<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch</strong><br> S. K. Panda, et al.<br> ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability</strong><br> Julia Kukulies <br> Reading, UK | Oral presentation | 13–16 July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> Reading, UK | Poster presentation | 13–16 July 2026</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026</li> <li> <strong>Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES</strong><br> S. K. Panda, et al.<br> km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026</li> <li> <strong>How skilful are AI-based forecasts of 2023 Indian summer monsoon precipitation?</strong><br> Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br> EGU General Assembly 2026, Vienna, Austria | Oral presentation | 3–8 May 2026<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu26-7223" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu26-7223</a> </li> <li> <strong>AGU Ocean Sciences Meeting</strong><br> Piyali Goswami<br> Glasgow, UK | Oral presentation | 22–27 February 2026</li> <li> <strong>AFESP Conference</strong><br> Piyali Goswami<br> Reading, UK | Poster presentation | 4 November 2025</li> <li> <strong>CFMIP-CloudSense Meeting 2025</strong><br> <strong>Using changes in reflectivity over short time periods to estimate updraft strength</strong><br> Mark Muetzelfeldt, et al.<br> Exeter, UK | Poster presentation | 7–10 July 2025</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Manchester, UK | Oral presentation | 30 June–2 July 2025</li> <li> <p><strong>Assessing the Skill of Global AI-Model Weather Predictions for the Indian Summer Monsoon 2023</strong><br> Mehzooz Nizar<br> RMetS Early Career and Student Conference 2025, Manchester, UK | Poster presentation | 30 June–2 July 2025</p> </li> <li> <strong>Physics-guided machine learning for subgrid-scale turbulence</strong><br> S. K. Panda, et al.<br> EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu25-13920" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu25-13920</a> </li> <li> <strong>Neural surrogates for turbulence closure in atmospheric models</strong><br> S. K. Panda, et al.<br> EXCLAIM Symposium 2025, ETH Zurich, Switzerland | Poster presentation | 2025</li> <li> <strong>Machine learning approaches to turbulence representation</strong><br> S. K. Panda<br> Royal Meteorological Society Early Career Scientists Conference 2024, United Kingdom | Oral presentation | 2024</li> </ul> <h2 id="contributions-to-workshops">Contributions to workshops</h2> <ul> <li> <strong>Ver-AI Workshop 2026</strong><br> Mehzooz Nizar<br> Oral presentation | 2026</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> NOC Southampton, UK | Lightning talk | 19 May 2026</li> <li> <strong>Global-to-regional km-scale hackathon 2026 (hk26)</strong><br> <strong>UK Hackathon 2026</strong> (opening talk; organiser and data lead)<br> Mark Muetzelfeldt<br> Met Office, Exeter, UK | Oral presentation | 18 May 2026</li> <li> <strong>Early Career Cloud Physics Meeting, AOPP</strong><br> <strong>How should we parametrize MCSs?</strong><br> Mark Muetzelfeldt<br> University of Oxford, UK | Poster presentation and flash talk | 19 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Oral presentation | 9–12 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Targeted probabilistic trigger for the representation of organized deep convection in a global forecasting ensemble</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Poster presentation | 9–12 March 2026</li> <li> <strong>INCUS Science Team Meeting</strong><br> <strong>KASBEX (Ka- and S-band Experiment): Implications for INCUS</strong><br> Mark Muetzelfeldt, Thorwald Stein, Chris Holloway, Brian Lo, Rob Thompson, Chris Walden, Graham Marshall<br> Oral presentation | 6 November 2025</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> Reading, UK | Lightning talk | 22 May 2025</li> <li> <strong>WCRP Global km-scale Hackathon 2025, UK node</strong><br> <strong>UK node data access</strong> (opening talk; UK data processing lead)<br> Mark Muetzelfeldt<br> St Hugh’s College, Oxford, UK | Oral presentation | 12–16 May 2025</li> </ul> <h2 id="other-presentations-and-outreach-activities">Other presentations and outreach activities</h2> <ul> <li> <strong>Advancing the Frontiers of Earth System Prediction</strong><br> Mark Muetzelfeldt<br> Institute of Climate Change (IPI) Seminar Series, Universiti Kebangsaan Malaysia | Invited seminar | November 2026</li> <li> <strong>Data and AI in Urban Climate Science</strong><br> Sharar Ahmadi<br> NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026</li> <li> <strong>Applying delta-Z analysis to the WesCon field campaign</strong><br> Mark Muetzelfeldt, Brian Lo<br> INCUS Calibration/Validation meeting, Online | Invited talk | 9 February 2026</li> <li> <strong>Top AI Agent Programming Tools</strong><br> Sharar Ahmadi<br> CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025</li> <li> <strong>The effects of Anvil clouds on climate, and their representation in global km-scale models</strong><br> Chris Holloway<br> Met Office, Exeter, UK | Invited seminar | 2 December 2025</li> <li> <strong>NCAS Climate Modelling Summer School</strong><br> Piyali Goswami<br> Cambridge, UK | Summer school | 7–22 September 2025</li> <li> <strong>UPFLO: Improving understanding and modelling of convective UPdraFts and anvil cLOuds</strong><br> Mark Muetzelfeldt<br> Colorado State University, Fort Collins, USA | Invited talk | 2 December 2024</li> </ul> <script>
+</style> <h2 id="afesp-events">AFESP events</h2> <ul> <li><strong>AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):</strong></li> </ul> <h2 id="upcoming-conferences">Upcoming conferences</h2> <ul> <li><a href="https://conference.unsw.edu.au/en/CPCM2027" rel="external nofollow noopener" target="_blank"><strong>Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):</strong></a></li> </ul> <h2 id="upcoming-workshops">Upcoming workshops</h2> <ul> <li> <a href="https://forms.cloud.microsoft/e/WGvKZecDdF" rel="external nofollow noopener" target="_blank"><strong>Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):</strong></a><br> With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.</li> <li><a href="https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/" rel="external nofollow noopener" target="_blank"><strong>NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):</strong></a></li> </ul> <h2 id="upcoming-training-courses">Upcoming training courses</h2> <ul> <li><a href="https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/" rel="external nofollow noopener" target="_blank"><strong>NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)</strong></a></li> <li><a href="https://www.archer2.ac.uk/training/courses/261007-archer2-data-transfer-vt/" rel="external nofollow noopener" target="_blank"><strong>Transferring data from ARCHER2 (7 Oct, 2026, 15:00-16:00; online):</strong></a></li> <li><a href="https://step-up.ac.uk/events/bytesized-drtp/" rel="external nofollow noopener" target="_blank"><strong>STEP-UP ByteSized dRTP, Episode 5: AI-assisted Coding (12 Oct, 2026, 15:00-16:30; online):</strong></a></li> </ul> <div style="height: 2.5rem;"></div> <h2 id="contributions-to-conferences">Contributions to conferences</h2> <ul> <li> <strong>EMS2026</strong><br> <strong>Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin</strong><br> Cameron Southgate-Ash, et al.<br> Utrecht, Netherlands | Oral presentation | 6-11 September 2026</li> <li> <strong>S2S2D Conference</strong><br> Piyali Goswami<br> Reading, UK | Oral presentation | September 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> Chris Holloway<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>Precipitation Efficiency Across Storm Regimes: A Satellite-Based Evaluation of Cloud-to-Rain Conversion in km-Scale Models</strong><br> Julia Kukulies <br> Hamburg, Germany | Oral presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>ALOFT: Aligning organized features in coarse- and high-resolution simulations</strong><br> Mark Muetzelfeldt<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch</strong><br> S. K. Panda, et al.<br> ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability</strong><br> Julia Kukulies <br> Reading, UK | Oral presentation | 13–16 July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> Reading, UK | Poster presentation | 13–16 July 2026</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026</li> <li> <strong>Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES</strong><br> S. K. Panda, et al.<br> km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026</li> <li> <strong>How skilful are AI-based forecasts of 2023 Indian summer monsoon precipitation?</strong><br> Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br> EGU General Assembly 2026, Vienna, Austria | Oral presentation | 3–8 May 2026<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu26-7223" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu26-7223</a> </li> <li> <strong>AGU Ocean Sciences Meeting</strong><br> Piyali Goswami<br> Glasgow, UK | Oral presentation | 22–27 February 2026</li> <li> <strong>AFESP Conference</strong><br> Piyali Goswami<br> Reading, UK | Poster presentation | 4 November 2025</li> <li> <strong>CFMIP-CloudSense Meeting 2025</strong><br> <strong>Using changes in reflectivity over short time periods to estimate updraft strength</strong><br> Mark Muetzelfeldt, et al.<br> Exeter, UK | Poster presentation | 7–10 July 2025</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Manchester, UK | Oral presentation | 30 June–2 July 2025</li> <li> <p><strong>Assessing the Skill of Global AI-Model Weather Predictions for the Indian Summer Monsoon 2023</strong><br> Mehzooz Nizar<br> RMetS Early Career and Student Conference 2025, Manchester, UK | Poster presentation | 30 June–2 July 2025</p> </li> <li> <strong>Physics-guided machine learning for subgrid-scale turbulence</strong><br> S. K. Panda, et al.<br> EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu25-13920" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu25-13920</a> </li> <li> <strong>Neural surrogates for turbulence closure in atmospheric models</strong><br> S. K. Panda, et al.<br> EXCLAIM Symposium 2025, ETH Zurich, Switzerland | Poster presentation | 2025</li> <li> <strong>Machine learning approaches to turbulence representation</strong><br> S. K. Panda<br> Royal Meteorological Society Early Career Scientists Conference 2024, United Kingdom | Oral presentation | 2024</li> </ul> <h2 id="contributions-to-workshops">Contributions to workshops</h2> <ul> <li> <strong>Ver-AI Workshop 2026</strong><br> Mehzooz Nizar<br> Oral presentation | 2026</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> NOC Southampton, UK | Lightning talk | 19 May 2026</li> <li> <strong>Global-to-regional km-scale hackathon 2026 (hk26)</strong><br> <strong>UK Hackathon 2026</strong> (opening talk; organiser and data lead)<br> Mark Muetzelfeldt<br> Met Office, Exeter, UK | Oral presentation | 18 May 2026</li> <li> <strong>Early Career Cloud Physics Meeting, AOPP</strong><br> <strong>How should we parametrize MCSs?</strong><br> Mark Muetzelfeldt<br> University of Oxford, UK | Poster presentation and flash talk | 19 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Oral presentation | 9–12 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Targeted probabilistic trigger for the representation of organized deep convection in a global forecasting ensemble</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Poster presentation | 9–12 March 2026</li> <li> <strong>INCUS Science Team Meeting</strong><br> <strong>KASBEX (Ka- and S-band Experiment): Implications for INCUS</strong><br> Mark Muetzelfeldt, Thorwald Stein, Chris Holloway, Brian Lo, Rob Thompson, Chris Walden, Graham Marshall<br> Oral presentation | 6 November 2025</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> Reading, UK | Lightning talk | 22 May 2025</li> <li> <strong>WCRP Global km-scale Hackathon 2025, UK node</strong><br> <strong>UK node data access</strong> (opening talk; UK data processing lead)<br> Mark Muetzelfeldt<br> St Hugh’s College, Oxford, UK | Oral presentation | 12–16 May 2025</li> </ul> <h2 id="other-presentations-and-outreach-activities">Other presentations and outreach activities</h2> <ul> <li> <strong>Advancing the Frontiers of Earth System Prediction</strong><br> Mark Muetzelfeldt<br> Institute of Climate Change (IPI) Seminar Series, Universiti Kebangsaan Malaysia | Invited seminar | November 2026</li> <li> <strong>Data and AI in Urban Climate Science</strong><br> Sharar Ahmadi<br> NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026</li> <li> <strong>Applying delta-Z analysis to the WesCon field campaign</strong><br> Mark Muetzelfeldt, Brian Lo<br> INCUS Calibration/Validation meeting, Online | Invited talk | 9 February 2026</li> <li> <strong>Top AI Agent Programming Tools</strong><br> Sharar Ahmadi<br> CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025</li> <li> <strong>The effects of Anvil clouds on climate, and their representation in global km-scale models</strong><br> Chris Holloway<br> Met Office, Exeter, UK | Invited seminar | 2 December 2025</li> <li> <strong>NCAS Climate Modelling Summer School</strong><br> Piyali Goswami<br> Cambridge, UK | Summer school | 7–22 September 2025</li> <li> <strong>UPFLO: Improving understanding and modelling of convective UPdraFts and anvil cLOuds</strong><br> Mark Muetzelfeldt<br> Colorado State University, Fort Collins, USA | Invited talk | 2 December 2024</li> </ul> <script>
   (() => {
     const article = document.querySelector(".post article");
     if (!article) return;
@@ -366,12 +407,84 @@
       return { month: month ? short(month) : "", year };
     };
 
+    // The last day of an event from its date text, for example "2-3 Nov, 2026", "Nov 2-3, 2026",
+    // "30 June–2 July 2026" or "Sep 2027". Returns the end of that day, or null without a year.
+    const endOf = (text) => {
+      const year = (text.match(/20\d\d/g) || []).pop();
+      if (!year) return null;
+      const re = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?/gi;
+      let m;
+      let last = null;
+      while ((m = re.exec(text))) last = m;
+      if (!last) return new Date(Number(year), 11, 31, 23, 59, 59);
+      const month = months.findIndex((x) => x.slice(0, 3).toLowerCase() === last[1].toLowerCase());
+      const after = text.slice(last.index + last[0].length).match(/^\s*(\d{1,2})(?:\s*[-–]\s*(\d{1,2}))?(?!\d)/);
+      const before = text.slice(0, last.index).match(/(\d{1,2})\s*$/);
+      const day = after ? Number(after[2] || after[1]) : before ? Number(before[1]) : new Date(Number(year), month + 1, 0).getDate();
+      return new Date(Number(year), month, day, 23, 59, 59);
+    };
+
+    // AFESP events: keep upcoming events as cards and move past ones into a collapsible
+    // "Past AFESP events" archive, grouped by year (newest first; only the newest year starts open).
+    const archivePast = (h2, list, items) => {
+      const now = new Date();
+      const past = items.filter((li) => li.dataset.end && new Date(li.dataset.end) < now);
+      // Upcoming ones soonest first (events without a readable date go last).
+      items
+        .filter((li) => !past.includes(li))
+        .sort((a, b) => (a.dataset.end ? new Date(a.dataset.end) : Infinity) - (b.dataset.end ? new Date(b.dataset.end) : Infinity))
+        .forEach((li) => list.appendChild(li));
+      const count = h2.querySelector(".ev-count");
+      if (count) count.textContent = items.length - past.length;
+      if (past.length === items.length) {
+        const none = document.createElement("p");
+        none.className = "ev-empty";
+        none.textContent = "No upcoming AFESP events at the moment.";
+        list.before(none);
+      }
+      if (!past.length) return;
+      const byYear = new Map();
+      past.forEach((li) => {
+        const y = li.dataset.year;
+        if (!byYear.has(y)) byYear.set(y, []);
+        byYear.get(y).push(li);
+      });
+      const archive = document.createElement("details");
+      archive.className = "ev-archive";
+      const head = document.createElement("summary");
+      head.innerHTML = `<span>Past AFESP events</span><span class="ev-year-count"></span>`;
+      head.querySelector(".ev-year-count").textContent = past.length;
+      archive.appendChild(head);
+      Array.from(byYear.keys())
+        .sort((a, b) => Number(b) - Number(a))
+        .forEach((y, i) => {
+          const det = document.createElement("details");
+          det.className = "ev-year-group";
+          det.open = i === 0;
+          const sum = document.createElement("summary");
+          sum.innerHTML = `<span class="ev-year-label"></span><span class="ev-year-count"></span>`;
+          sum.querySelector(".ev-year-label").textContent = y;
+          sum.querySelector(".ev-year-count").textContent = byYear.get(y).length;
+          const ul = document.createElement("ul");
+          ul.className = "ev-upcoming ev-past";
+          byYear
+            .get(y)
+            .sort((a, b) => new Date(b.dataset.end) - new Date(a.dataset.end))
+            .forEach((li) => ul.appendChild(li));
+          det.append(sum, ul);
+          archive.appendChild(det);
+        });
+      (list.children.length ? list : list.previousElementSibling || list).after(archive);
+      if (!list.children.length) list.remove();
+    };
+
     // Upcoming sections: turn each linked item into a card.
     const timelines = [];
     article.querySelectorAll("h2").forEach((h2) => {
       const list = h2.nextElementSibling;
       if (!list || list.tagName !== "UL") return;
-      const upcoming = /^upcoming/i.test(h2.textContent.trim());
+      const afespEvents = /^afesp events/i.test(h2.textContent.trim());
+      const upcoming = afespEvents || /^upcoming/i.test(h2.textContent.trim());
       const items = Array.from(list.children);
       const count = document.createElement("span");
       count.className = "ev-count";
@@ -412,6 +525,11 @@
             tag.textContent = "AFESP";
             a.append(tag);
           }
+          const end = endOf(when);
+          if (end) {
+            li.dataset.end = end.toISOString();
+            li.dataset.year = String(end.getFullYear());
+          }
           const w = document.createElement("span");
           w.className = "ev-when";
           w.textContent = when.replace(/,\s*(\d{1,2}:\d\d)/, " · $1");
@@ -438,6 +556,7 @@
             a.append(more);
           }
         });
+        if (afespEvents) archivePast(h2, list, items);
         return;
       }
       // Contributions: timeline entries.

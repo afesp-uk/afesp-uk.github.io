@@ -4,8 +4,8 @@
 #   - start and end are YYYY-MM-DD (end can be left out for a one-day event).
 #   - The page sorts them by date and moves an event from "Upcoming" to "Recent" by itself once it has finished.
 #   - kind is one of: Workshop, Conference, Webinar, Seminar
-#   - afesp: true lists the event under "AFESP events" at the top of the page (green border and an AFESP badge);
-#     once it has finished it moves to "Past AFESP events", grouped by year.
+#   - afesp: true lists the event under "AFESP conferences and workshops" at the top of the page (green border and an AFESP badge);
+#     once it has finished it moves to "Past AFESP conferences and workshops", grouped by year.
 #   - url can be an external link or a page on this site (e.g. /about/); leave it out for a card with no link.
 # news: short news items, newest first is not required (the page sorts them by date).
 

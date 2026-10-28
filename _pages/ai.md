@@ -263,7 +263,7 @@ ai_projects:
   .ai-card-afesp .ai-tag {
     margin: 0 0.35rem 0 0;
   }
-  /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
+  /* Past AFESP conferences and workshops: one collapsible archive, then a collapsible block per year. */
   .ai-archive {
     margin-top: 1rem;
   }
@@ -478,7 +478,7 @@ ai_projects:
   </div>
 
 {%- comment -%}
-Each event card is built once; events with afesp: true go to the AFESP events section, the rest to
+Each event card is built once; events with afesp: true go to the AFESP conferences and workshops section, the rest to
 Upcoming workshops & conferences. The script below moves finished events to their archive.
 {%- endcomment -%}
 {%- assign afesp_cards = "" -%}
@@ -528,13 +528,13 @@ target="_blank" rel="noopener"
 {%- endif -%}
 {%- endfor %}
 
-  <h2 class="ai-h" id="afesp-events">AFESP events <span class="ai-count" data-count="afesp"></span></h2>
+  <h2 class="ai-h" id="afesp-events">AFESP conferences and workshops <span class="ai-count" data-count="afesp"></span></h2>
   <ul class="ai-grid ai-afesp-upcoming">
     {{ afesp_cards }}
   </ul>
-  <p class="ai-empty" data-empty="afesp" hidden>No upcoming AFESP events at the moment.</p>
+  <p class="ai-empty" data-empty="afesp" hidden>No upcoming AFESP conferences or workshops at the moment.</p>
   <details class="ai-archive" hidden>
-    <summary><span>Past AFESP events</span><span class="ai-year-count" data-count="afesp-past"></span></summary>
+    <summary><span>Past AFESP conferences and workshops</span><span class="ai-year-count" data-count="afesp-past"></span></summary>
     <div class="ai-archive-years"></div>
   </details>
 
@@ -617,7 +617,7 @@ target="_blank" rel="noopener"
       .sort((a, b) => parse(b.dataset.end) - parse(a.dataset.end))
       .forEach((li) => recent.appendChild(li));
 
-    // AFESP events: finished ones go into the collapsible "Past AFESP events" archive, grouped into
+    // AFESP conferences and workshops: finished ones go into the collapsible "Past AFESP conferences and workshops" archive, grouped into
     // collapsible years (newest first; only the newest year starts open).
     const afesp = root.querySelector(".ai-afesp-upcoming");
     const archive = root.querySelector(".ai-archive");

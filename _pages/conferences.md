@@ -162,6 +162,47 @@ nav_order: 6
   .ev-year-group > ul.ev-timeline {
     margin-top: 0.75rem;
   }
+  /* AFESP events: their own column on the right on wide screens, at the top on narrow ones. */
+  .ev-side {
+    padding: 1rem 1.1rem 0.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(31, 157, 85, 0.35);
+    background: linear-gradient(180deg, rgba(31, 157, 85, 0.07), transparent 60%);
+  }
+  .ev .ev-side > h2:first-child {
+    margin-top: 0;
+  }
+  .ev-side ul.ev-upcoming {
+    grid-template-columns: 1fr;
+  }
+  .ev-side .ev-archive .ev-year-group {
+    margin-left: 0.25rem;
+  }
+  @media (min-width: 992px) {
+    .ev-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 290px;
+      gap: 1.75rem;
+      align-items: start;
+    }
+    .ev-layout > .ev-main {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .ev-layout > .ev-side {
+      grid-column: 2;
+      grid-row: 1;
+      position: sticky;
+      top: 5rem;
+      max-height: calc(100vh - 6rem);
+      overflow-y: auto;
+      margin-bottom: 0;
+    }
+    .ev .ev-main > h2:first-child {
+      margin-top: 0;
+    }
+  }
   /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
   .ev-archive {
     margin: 1rem 0 0.5rem;
@@ -847,6 +888,35 @@ nav_order: 6
         bar.appendChild(b);
       });
       anchor.after(bar);
+    }
+
+    // AFESP events get their own column on the right of the page (on wide screens);
+    // everything else stays in the main column on the left. On narrow screens AFESP events stay at the top.
+    const afespH2 = Array.from(article.querySelectorAll(":scope > h2")).find((h) => /^afesp events/i.test(h.textContent.trim()));
+    if (afespH2) {
+      const side = document.createElement("aside");
+      side.className = "ev-side";
+      side.setAttribute("aria-label", "AFESP events");
+      const sideNodes = [afespH2];
+      let n = afespH2.nextSibling;
+      while (n && !(n.nodeType === 1 && n.tagName === "H2")) {
+        sideNodes.push(n);
+        n = n.nextSibling;
+      }
+      const main = document.createElement("div");
+      main.className = "ev-main";
+      const layout = document.createElement("div");
+      layout.className = "ev-layout";
+      afespH2.before(layout);
+      sideNodes.forEach((node) => side.appendChild(node));
+      // The main column takes the rest of the page content, up to the contact addresses at the bottom.
+      let m = layout.nextSibling;
+      while (m && !(m.nodeType === 1 && (m.classList.contains("social") || m.tagName === "SCRIPT"))) {
+        const nextNode = m.nextSibling;
+        main.appendChild(m);
+        m = nextNode;
+      }
+      layout.append(side, main);
     }
   })();
 </script>

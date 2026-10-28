@@ -1304,11 +1304,9 @@ profiles:
     anchor: hilary-weller # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="hilary-weller" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hilary Weller</p>
+      <p id="hilary-weller" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Hilary Weller</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Role placeholder, hidden until filled in. To show it, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">Associate Professor</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>

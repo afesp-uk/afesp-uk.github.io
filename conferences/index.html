@@ -122,6 +122,43 @@
     margin-top: 0.5rem;
     color: var(--ev-blue);
   }
+  /* Contributions grouped by year: each year folds open and closed; the newest year starts open. */
+  .ev-year-group {
+    margin: 0.35rem 0 0.9rem;
+  }
+  .ev-year-group > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.35rem 0.25rem;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--ev-blue);
+    cursor: pointer;
+    list-style: none;
+    border-bottom: 1px solid var(--ev-line);
+  }
+  .ev-year-group > summary::-webkit-details-marker {
+    display: none;
+  }
+  .ev-year-group > summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .ev-year-group[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .ev-year-group > summary .ev-year-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .ev-year-group > ul.ev-timeline {
+    margin-top: 0.75rem;
+  }
   /* Filters for contributions. */
   .ev-filters {
     display: flex;
@@ -330,6 +367,7 @@
     };
 
     // Upcoming sections: turn each linked item into a card.
+    const timelines = [];
     article.querySelectorAll("h2").forEach((h2) => {
       const list = h2.nextElementSibling;
       if (!list || list.tagName !== "UL") return;
@@ -405,6 +443,7 @@
       // Contributions: timeline entries.
       list.classList.add("ev-timeline");
       items.forEach((li) => {
+        li.dataset.year = ((li.textContent.match(/(20\d\d)/g) || []).pop() || "");
         const groups = groupsOf(li);
         let metaIdx = -1;
         groups.forEach((g, i) => {
@@ -420,6 +459,7 @@
         li.classList.add("ev-item");
         li.dataset.kind = kind;
         const d = dateParts(date);
+        if (d.year) li.dataset.year = d.year;
         const dateEl = document.createElement("div");
         dateEl.className = "ev-date";
         dateEl.innerHTML = `<span class="ev-month"></span><span class="ev-year"></span>`;
@@ -446,12 +486,38 @@
         li.innerHTML = "";
         li.append(dateEl, body);
       });
+
+      // Group the entries by year, newest year first; only the newest year starts open.
+      const byYear = new Map();
+      items.forEach((li) => {
+        const y = li.dataset.year || "Other";
+        if (!byYear.has(y)) byYear.set(y, []);
+        byYear.get(y).push(li);
+      });
+      const years = Array.from(byYear.keys()).sort((a, b) => (a === "Other") - (b === "Other") || Number(b) - Number(a));
+      const box = document.createElement("div");
+      box.className = "ev-years";
+      years.forEach((y, i) => {
+        const det = document.createElement("details");
+        det.className = "ev-year-group";
+        det.open = i === 0;
+        const sum = document.createElement("summary");
+        sum.innerHTML = `<span class="ev-year-label"></span><span class="ev-year-count"></span>`;
+        sum.querySelector(".ev-year-label").textContent = y;
+        sum.querySelector(".ev-year-count").textContent = byYear.get(y).length;
+        const ul = document.createElement("ul");
+        ul.className = "ev-timeline";
+        byYear.get(y).forEach((li) => ul.appendChild(li));
+        det.append(sum, ul);
+        box.appendChild(det);
+      });
+      list.replaceWith(box);
+      timelines.push({ h2, box });
     });
 
     // Filter chips above the first contributions section.
-    const firstTimeline = article.querySelector("ul.ev-timeline");
-    if (firstTimeline) {
-      const anchor = firstTimeline.previousElementSibling;
+    if (timelines.length) {
+      const anchor = timelines[0].h2;
       const kinds = [
         ["", "All"],
         ["talk", "Talks", "--ev-talk"],
@@ -475,16 +541,20 @@
         }
         b.addEventListener("click", () => {
           bar.querySelectorAll(".ev-filter").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-          article.querySelectorAll("ul.ev-timeline").forEach((ul) => {
+          timelines.forEach(({ h2, box }) => {
             let shown = 0;
-            ul.querySelectorAll(":scope > li").forEach((li) => {
-              const match = !k || li.dataset.kind === k;
-              li.hidden = !match;
-              if (match) shown += 1;
+            box.querySelectorAll(".ev-year-group").forEach((det) => {
+              let n = 0;
+              det.querySelectorAll("ul.ev-timeline > li").forEach((li) => {
+                const match = !k || li.dataset.kind === k;
+                li.hidden = !match;
+                if (match) n += 1;
+              });
+              det.hidden = n === 0;
+              det.querySelector(".ev-year-count").textContent = n;
+              shown += n;
             });
-            let h2 = ul.previousElementSibling;
-            while (h2 && h2.tagName !== "H2") h2 = h2.previousElementSibling;
-            const c = h2 && h2.querySelector(".ev-count");
+            const c = h2.querySelector(".ev-count");
             if (c) c.textContent = shown;
           });
         });

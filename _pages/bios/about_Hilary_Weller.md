@@ -1,11 +1,3 @@
 <p style="text-align: justify;">
-
-<p>
-
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+Hilary Weller is an expert in numerical methods for models of the atmosphere. With her PhD students Amber te Winkel, Hannah Southall and James Woodfield, Hilary has pioneered adaptively implicit transport schemes that enable long time steps on arbitrary grids of the sphere. Working on the Paracon project with students Dan Shipley and Will McIntyre, Hilary created multi-fluid models to represent atmospheric convection, aimed at removing some of the long-standing restrictions of mass-flux parameterisation of convection. Hilary led a NERC funded project on “Moving Meshes for Global Atmospheric Modelling” which led to the first solutions of optimal transport problems on the sphere. Hilary also worked on the Met Office/NERC/STFC <a href="https://www.metoffice.gov.uk/research/foundation/dynamics/next-generation">Gung Ho project</a> to design and build the UK's next generation model of the global atmosphere.
+</p>

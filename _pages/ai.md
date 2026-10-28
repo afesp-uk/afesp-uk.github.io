@@ -263,6 +263,57 @@ ai_projects:
   .ai-card-afesp .ai-tag {
     margin: 0 0.35rem 0 0;
   }
+  /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
+  .ai-archive {
+    margin-top: 1rem;
+  }
+  .ai-archive > summary,
+  .ai-year-group > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.4rem 0.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+  }
+  .ai-archive > summary {
+    color: var(--ai-muted);
+  }
+  .ai-year-group > summary {
+    color: var(--ai-a);
+    border-bottom: 1px solid var(--ai-line);
+  }
+  .ai-archive > summary::-webkit-details-marker,
+  .ai-year-group > summary::-webkit-details-marker {
+    display: none;
+  }
+  .ai-archive > summary::before,
+  .ai-year-group > summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .ai-archive[open] > summary::before,
+  .ai-year-group[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .ai-year-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .ai-year-group {
+    margin: 0.3rem 0 0.8rem 1rem;
+  }
+  .ai-year-group > .ai-grid {
+    margin-top: 0.75rem;
+  }
+  .ai-past .ai-card {
+    opacity: 0.88;
+  }
   .ai-recent .ai-card {
     opacity: 0.88;
   }
@@ -426,16 +477,15 @@ ai_projects:
     <div class="ai-next" hidden></div>
   </div>
 
-  <h2 class="ai-h" id="upcoming">Upcoming workshops &amp; conferences <span class="ai-count" data-count="upcoming"></span></h2>
-  <div class="ai-chips" role="group" aria-label="Filter events by type">
-    <button type="button" class="ai-chip active" data-kind="all">All</button>
-    <button type="button" class="ai-chip" data-kind="Workshop">Workshops</button>
-    <button type="button" class="ai-chip" data-kind="Conference">Conferences</button>
-    <button type="button" class="ai-chip" data-kind="Webinar">Webinars &amp; seminars</button>
-  </div>
-  <ul class="ai-grid ai-upcoming">
-    {% for e in ai_events %}
-      {% assign e_end = e.end | default: e.start %}
+  {%- comment -%}
+    Each event card is built once; events with afesp: true go to the AFESP events section, the rest to
+    Upcoming workshops & conferences. The script below moves finished events to their archive.
+  {%- endcomment -%}
+  {%- assign afesp_cards = "" -%}
+  {%- assign other_cards = "" -%}
+  {%- for e in ai_events -%}
+    {% assign e_end = e.end | default: e.start %}
+    {%- capture card -%}
       <li
         class="ai-reveal"
         data-start="{{ e.start | date: '%Y-%m-%d' }}"
@@ -471,7 +521,33 @@ ai_projects:
           <div class="ai-sum">{{ e.summary }}</div>
         </{{ e_tag }}>
       </li>
-    {% endfor %}
+    {%- endcapture -%}
+    {%- if e.afesp -%}
+      {%- assign afesp_cards = afesp_cards | append: card -%}
+    {%- else -%}
+      {%- assign other_cards = other_cards | append: card -%}
+    {%- endif -%}
+  {%- endfor %}
+
+  <h2 class="ai-h" id="afesp-events">AFESP events <span class="ai-count" data-count="afesp"></span></h2>
+  <ul class="ai-grid ai-afesp-upcoming">
+    {{ afesp_cards }}
+  </ul>
+  <p class="ai-empty" data-empty="afesp" hidden>No upcoming AFESP events at the moment.</p>
+  <details class="ai-archive" hidden>
+    <summary><span>Past AFESP events</span><span class="ai-year-count" data-count="afesp-past"></span></summary>
+    <div class="ai-archive-years"></div>
+  </details>
+
+  <h2 class="ai-h" id="upcoming">Upcoming workshops &amp; conferences <span class="ai-count" data-count="upcoming"></span></h2>
+  <div class="ai-chips" role="group" aria-label="Filter events by type">
+    <button type="button" class="ai-chip active" data-kind="all">All</button>
+    <button type="button" class="ai-chip" data-kind="Workshop">Workshops</button>
+    <button type="button" class="ai-chip" data-kind="Conference">Conferences</button>
+    <button type="button" class="ai-chip" data-kind="Webinar">Webinars &amp; seminars</button>
+  </div>
+  <ul class="ai-grid ai-upcoming">
+    {{ other_cards }}
   </ul>
   <p class="ai-empty" data-empty="upcoming" hidden>No upcoming events listed yet.</p>
 
@@ -541,8 +617,48 @@ ai_projects:
       .filter((li) => parse(li.dataset.end) < today)
       .sort((a, b) => parse(b.dataset.end) - parse(a.dataset.end))
       .forEach((li) => recent.appendChild(li));
+
+    // AFESP events: finished ones go into the collapsible "Past AFESP events" archive, grouped into
+    // collapsible years (newest first; only the newest year starts open).
+    const afesp = root.querySelector(".ai-afesp-upcoming");
+    const archive = root.querySelector(".ai-archive");
+    const pastAfesp = Array.from(afesp.children).filter((li) => parse(li.dataset.end) < today);
+    if (pastAfesp.length) {
+      const byYear = new Map();
+      pastAfesp
+        .sort((a, b) => parse(b.dataset.end) - parse(a.dataset.end))
+        .forEach((li) => {
+          const y = li.dataset.end.slice(0, 4);
+          if (!byYear.has(y)) byYear.set(y, []);
+          byYear.get(y).push(li);
+        });
+      const years = archive.querySelector(".ai-archive-years");
+      Array.from(byYear.keys())
+        .sort((a, b) => Number(b) - Number(a))
+        .forEach((y, i) => {
+          const det = document.createElement("details");
+          det.className = "ai-year-group";
+          det.open = i === 0;
+          const sum = document.createElement("summary");
+          sum.innerHTML = `<span class="ai-year-label"></span><span class="ai-year-count"></span>`;
+          sum.querySelector(".ai-year-label").textContent = y;
+          sum.querySelector(".ai-year-count").textContent = byYear.get(y).length;
+          const ul = document.createElement("ul");
+          ul.className = "ai-grid ai-past";
+          byYear.get(y).forEach((li) => ul.appendChild(li));
+          det.append(sum, ul);
+          years.appendChild(det);
+        });
+      archive.querySelector('[data-count="afesp-past"]').textContent = pastAfesp.length;
+      archive.hidden = false;
+    }
+    root.querySelector('[data-count="afesp"]').textContent = afesp.children.length;
+    root.querySelector('[data-empty="afesp"]').hidden = afesp.children.length > 0;
+
     let next = null;
-    Array.from(upcoming.children).forEach((li) => {
+    [...afesp.children, ...upcoming.children]
+      .sort((a, b) => parse(a.dataset.start) - parse(b.dataset.start))
+      .forEach((li) => {
       const start = parse(li.dataset.start);
       const days = Math.round((start - today) / day);
       const badge = document.createElement("span");
@@ -571,7 +687,7 @@ ai_projects:
 
     // Count-up for the number of upcoming events, and a "next up" line in the banner.
     const stat = root.querySelector('[data-stat="upcoming"]');
-    const total = upcoming.children.length;
+    const total = upcoming.children.length + afesp.children.length;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) {
       stat.textContent = total;
@@ -608,7 +724,7 @@ ai_projects:
       chip.addEventListener("click", () => {
         root.querySelectorAll(".ai-chip").forEach((c) => c.classList.toggle("active", c === chip));
         const kind = chip.dataset.kind;
-        root.querySelectorAll(".ai-grid > li").forEach((li) => {
+        root.querySelectorAll(".ai-upcoming > li, .ai-recent > li").forEach((li) => {
           const k = li.dataset.kind;
           li.hidden = !(kind === "all" || k === kind || (kind === "Webinar" && k === "Seminar"));
         });

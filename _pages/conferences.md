@@ -162,6 +162,47 @@ nav_order: 6
   .ev-year-group > ul.ev-timeline {
     margin-top: 0.75rem;
   }
+  /* Past AFESP events: one collapsible archive, then a collapsible block per year. */
+  .ev-archive {
+    margin: 1rem 0 0.5rem;
+  }
+  .ev-archive > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.4rem 0.25rem;
+    font-weight: 700;
+    color: var(--ev-muted);
+    cursor: pointer;
+    list-style: none;
+  }
+  .ev-archive > summary::-webkit-details-marker {
+    display: none;
+  }
+  .ev-archive > summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .ev-archive[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .ev-archive > summary .ev-year-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .ev-archive .ev-year-group {
+    margin-left: 1rem;
+  }
+  .ev-archive ul.ev-past {
+    margin-top: 0.75rem;
+  }
+  .ev-archive ul.ev-past .ev-card {
+    opacity: 0.85;
+  }
   /* Filters for contributions. */
   .ev-filters {
     display: flex;
@@ -325,11 +366,17 @@ nav_order: 6
   }
 </style>
 
+## AFESP events
+
+<!-- AFESP's own events, written like the upcoming items below: "Name (date; place)", with an optional link and an optional description after a <br>.
+     Upcoming events show as cards. Once an event's last day has passed it moves by itself into "Past AFESP events", grouped by year. -->
+
+- **AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):**
+
 ## Upcoming conferences
 
 <!-- Items whose name starts with "AFESP" are highlighted as AFESP's own events. An item without a link is shown as a plain card. -->
 
-- **AFESP 2026 Conference (2-3 Nov, 2026; Henley Business School, University of Reading):**
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
 
 ## Upcoming workshops
@@ -526,12 +573,84 @@ nav_order: 6
       return { month: month ? short(month) : "", year };
     };
 
+    // The last day of an event from its date text, for example "2-3 Nov, 2026", "Nov 2-3, 2026",
+    // "30 June–2 July 2026" or "Sep 2027". Returns the end of that day, or null without a year.
+    const endOf = (text) => {
+      const year = (text.match(/20\d\d/g) || []).pop();
+      if (!year) return null;
+      const re = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?/gi;
+      let m;
+      let last = null;
+      while ((m = re.exec(text))) last = m;
+      if (!last) return new Date(Number(year), 11, 31, 23, 59, 59);
+      const month = months.findIndex((x) => x.slice(0, 3).toLowerCase() === last[1].toLowerCase());
+      const after = text.slice(last.index + last[0].length).match(/^\s*(\d{1,2})(?:\s*[-–]\s*(\d{1,2}))?(?!\d)/);
+      const before = text.slice(0, last.index).match(/(\d{1,2})\s*$/);
+      const day = after ? Number(after[2] || after[1]) : before ? Number(before[1]) : new Date(Number(year), month + 1, 0).getDate();
+      return new Date(Number(year), month, day, 23, 59, 59);
+    };
+
+    // AFESP events: keep upcoming events as cards and move past ones into a collapsible
+    // "Past AFESP events" archive, grouped by year (newest first; only the newest year starts open).
+    const archivePast = (h2, list, items) => {
+      const now = new Date();
+      const past = items.filter((li) => li.dataset.end && new Date(li.dataset.end) < now);
+      // Upcoming ones soonest first (events without a readable date go last).
+      items
+        .filter((li) => !past.includes(li))
+        .sort((a, b) => (a.dataset.end ? new Date(a.dataset.end) : Infinity) - (b.dataset.end ? new Date(b.dataset.end) : Infinity))
+        .forEach((li) => list.appendChild(li));
+      const count = h2.querySelector(".ev-count");
+      if (count) count.textContent = items.length - past.length;
+      if (past.length === items.length) {
+        const none = document.createElement("p");
+        none.className = "ev-empty";
+        none.textContent = "No upcoming AFESP events at the moment.";
+        list.before(none);
+      }
+      if (!past.length) return;
+      const byYear = new Map();
+      past.forEach((li) => {
+        const y = li.dataset.year;
+        if (!byYear.has(y)) byYear.set(y, []);
+        byYear.get(y).push(li);
+      });
+      const archive = document.createElement("details");
+      archive.className = "ev-archive";
+      const head = document.createElement("summary");
+      head.innerHTML = `<span>Past AFESP events</span><span class="ev-year-count"></span>`;
+      head.querySelector(".ev-year-count").textContent = past.length;
+      archive.appendChild(head);
+      Array.from(byYear.keys())
+        .sort((a, b) => Number(b) - Number(a))
+        .forEach((y, i) => {
+          const det = document.createElement("details");
+          det.className = "ev-year-group";
+          det.open = i === 0;
+          const sum = document.createElement("summary");
+          sum.innerHTML = `<span class="ev-year-label"></span><span class="ev-year-count"></span>`;
+          sum.querySelector(".ev-year-label").textContent = y;
+          sum.querySelector(".ev-year-count").textContent = byYear.get(y).length;
+          const ul = document.createElement("ul");
+          ul.className = "ev-upcoming ev-past";
+          byYear
+            .get(y)
+            .sort((a, b) => new Date(b.dataset.end) - new Date(a.dataset.end))
+            .forEach((li) => ul.appendChild(li));
+          det.append(sum, ul);
+          archive.appendChild(det);
+        });
+      (list.children.length ? list : list.previousElementSibling || list).after(archive);
+      if (!list.children.length) list.remove();
+    };
+
     // Upcoming sections: turn each linked item into a card.
     const timelines = [];
     article.querySelectorAll("h2").forEach((h2) => {
       const list = h2.nextElementSibling;
       if (!list || list.tagName !== "UL") return;
-      const upcoming = /^upcoming/i.test(h2.textContent.trim());
+      const afespEvents = /^afesp events/i.test(h2.textContent.trim());
+      const upcoming = afespEvents || /^upcoming/i.test(h2.textContent.trim());
       const items = Array.from(list.children);
       const count = document.createElement("span");
       count.className = "ev-count";
@@ -572,6 +691,11 @@ nav_order: 6
             tag.textContent = "AFESP";
             a.append(tag);
           }
+          const end = endOf(when);
+          if (end) {
+            li.dataset.end = end.toISOString();
+            li.dataset.year = String(end.getFullYear());
+          }
           const w = document.createElement("span");
           w.className = "ev-when";
           w.textContent = when.replace(/,\s*(\d{1,2}:\d\d)/, " · $1");
@@ -598,6 +722,7 @@ nav_order: 6
             a.append(more);
           }
         });
+        if (afespEvents) archivePast(h2, list, items);
         return;
       }
       // Contributions: timeline entries.

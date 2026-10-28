@@ -477,57 +477,56 @@ ai_projects:
     <div class="ai-next" hidden></div>
   </div>
 
-  {%- comment -%}
-    Each event card is built once; events with afesp: true go to the AFESP events section, the rest to
-    Upcoming workshops & conferences. The script below moves finished events to their archive.
-  {%- endcomment -%}
-  {%- assign afesp_cards = "" -%}
-  {%- assign other_cards = "" -%}
-  {%- for e in ai_events -%}
-    {% assign e_end = e.end | default: e.start %}
-    {%- capture card -%}
-      <li
+{%- comment -%}
+Each event card is built once; events with afesp: true go to the AFESP events section, the rest to
+Upcoming workshops & conferences. The script below moves finished events to their archive.
+{%- endcomment -%}
+{%- assign afesp_cards = "" -%}
+{%- assign other_cards = "" -%}
+{%- for e in ai_events -%}
+{% assign e_end = e.end | default: e.start %}
+{%- capture card -%}
+<li
         class="ai-reveal"
         data-start="{{ e.start | date: '%Y-%m-%d' }}"
         data-end="{{ e_end | date: '%Y-%m-%d' }}"
         data-kind="{{ e.kind }}"
       >
-        {%- assign e_external = e.url | slice: 0, 4 -%}
-        {%- if e.url -%}{%- assign e_tag = 'a' -%}{%- else -%}{%- assign e_tag = 'div' -%}{%- endif -%}
-        <{{ e_tag }}
-          class="ai-card{% if e.afesp %} ai-card-afesp{% endif %}"
-          {% if e.url %}
-            href="{% if e_external == 'http' %}{{ e.url }}{% else %}{{ e.url | relative_url }}{% endif %}"
-          {% endif %}
-          {% if e_external == 'http' %}
-            target="_blank" rel="noopener"
-          {% endif %}
-        >
-          <div class="ai-top">
-            <span class="ai-date">
-              {%- if e.end and e.end != e.start -%}
-                {{ e.start | date: '%-d %b' }} – {{ e.end | date: '%-d %b %Y' }}
-              {%- else -%}
-                {{ e.start | date: '%-d %b %Y' }}
-              {%- endif -%}
-            </span>
-            <span>
-              {%- if e.afesp %}<span class="ai-tag">AFESP</span>{% endif -%}
-              <span class="ai-kind">{{ e.kind }}</span>
-            </span>
-          </div>
-          <div class="ai-title">{{ e.title }}</div>
-          <div class="ai-meta">{{ e.organiser }} · {{ e.location }}</div>
-          <div class="ai-sum">{{ e.summary }}</div>
-        </{{ e_tag }}>
-      </li>
-    {%- endcapture -%}
-    {%- if e.afesp -%}
-      {%- assign afesp_cards = afesp_cards | append: card -%}
-    {%- else -%}
-      {%- assign other_cards = other_cards | append: card -%}
-    {%- endif -%}
-  {%- endfor %}
+{%- assign e_external = e.url | slice: 0, 4 -%}
+{%- if e.url -%}{%- assign e_tag = 'a' -%}{%- else -%}{%- assign e_tag = 'div' -%}{%- endif -%}
+<{{ e_tag }}
+class="ai-card{% if e.afesp %} ai-card-afesp{% endif %}"
+{% if e.url %}
+href="{% if e_external == 'http' %}{{ e.url }}{% else %}{{ e.url | relative_url }}{% endif %}"
+{% endif %}
+{% if e_external == 'http' %}
+target="_blank" rel="noopener"
+{% endif %} >
+<div class="ai-top">
+<span class="ai-date">
+{%- if e.end and e.end != e.start -%}
+{{ e.start | date: '%-d %b' }} – {{ e.end | date: '%-d %b %Y' }}
+{%- else -%}
+{{ e.start | date: '%-d %b %Y' }}
+{%- endif -%}
+</span>
+<span>
+{%- if e.afesp %}<span class="ai-tag">AFESP</span>{% endif -%}
+<span class="ai-kind">{{ e.kind }}</span>
+</span>
+</div>
+<div class="ai-title">{{ e.title }}</div>
+<div class="ai-meta">{{ e.organiser }} · {{ e.location }}</div>
+<div class="ai-sum">{{ e.summary }}</div>
+</{{ e_tag }}>
+</li>
+{%- endcapture -%}
+{%- if e.afesp -%}
+{%- assign afesp_cards = afesp_cards | append: card -%}
+{%- else -%}
+{%- assign other_cards = other_cards | append: card -%}
+{%- endif -%}
+{%- endfor %}
 
   <h2 class="ai-h" id="afesp-events">AFESP events <span class="ai-count" data-count="afesp"></span></h2>
   <ul class="ai-grid ai-afesp-upcoming">

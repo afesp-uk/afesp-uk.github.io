@@ -1,5 +1,5 @@
 <p style="text-align: justify;">
-
+Sue's research focuses on urban environments. In particular, how cities modify energy, water and carbon exchanges and then a cascade of other variables and processes.
 <p>
 
 <!--

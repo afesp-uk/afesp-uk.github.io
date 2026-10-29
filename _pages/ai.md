@@ -449,6 +449,31 @@ ai_projects:
     margin-top: 0.35rem;
     color: var(--ai-muted);
   }
+  /* Project cards with outputs (posters, papers, talks, data sets) get a highlight and a row of counts. */
+  .ai-proj a.ai-proj-has-outputs {
+    border-color: rgba(0, 137, 123, 0.45);
+    border-left-color: var(--ai-c);
+    background: linear-gradient(135deg, rgba(0, 137, 123, 0.08), transparent 70%), var(--ai-card);
+    box-shadow: 0 4px 14px rgba(0, 137, 123, 0.12);
+  }
+  .ai-proj-outputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.55rem;
+  }
+  .ai-out {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.08rem 0.5rem;
+    border-radius: 999px;
+    background: rgba(21, 101, 192, 0.1);
+    color: var(--ai-a);
+  }
+  .ai-out.ai-out-poster {
+    background: var(--ai-c);
+    color: #fff;
+  }
   /* Useful links */
   .ai-links {
     list-style: none;
@@ -621,13 +646,31 @@ target="_blank" rel="noopener"
       {% assign proj_path = "_projects/" | append: item.file | append: ".md" %}
       {% assign proj = site.projects | where: "relative_path", proj_path | first %}
       {% if proj %}
-        <a href="{{ proj.url | relative_url }}" class="ai-reveal">
+        {%- comment -%}
+          Count the outputs listed on the project page: posters ("Poster (PDF)" links), talk slides
+          ("slides (PDF)" links), data sets (Zenodo DOIs) and papers (other DOIs).
+        {%- endcomment -%}
+        {%- assign n_posters = proj.content | split: "Poster (PDF)" | size | minus: 1 -%}
+        {%- assign n_slides = proj.content | split: "slides (PDF)" | size | minus: 1 -%}
+        {%- assign n_data = proj.content | split: "doi.org/10.5281/zenodo" | size | minus: 1 -%}
+        {%- assign n_dois = proj.content | split: "doi.org/" | size | minus: 1 -%}
+        {%- assign n_papers = n_dois | minus: n_data -%}
+        {%- assign n_outputs = n_posters | plus: n_slides | plus: n_dois -%}
+        <a href="{{ proj.url | relative_url }}" class="ai-reveal{% if n_outputs > 0 %} ai-proj-has-outputs{% endif %}">
           {{ proj.title }}
           {% if item.student %}
             <small>PhD project · {{ item.student }}</small>
           {% else %}
             <small>{{ proj.category | capitalize }}</small>
           {% endif %}
+          {%- if n_outputs > 0 %}
+            <span class="ai-proj-outputs">
+              {%- if n_posters > 0 %}<span class="ai-out ai-out-poster">{{ n_posters }} poster{% if n_posters > 1 %}s{% endif %}</span>{% endif -%}
+              {%- if n_papers > 0 %}<span class="ai-out">{{ n_papers }} paper{% if n_papers > 1 %}s{% endif %}</span>{% endif -%}
+              {%- if n_slides > 0 %}<span class="ai-out">{{ n_slides }} talk{% if n_slides > 1 %}s{% endif %}</span>{% endif -%}
+              {%- if n_data > 0 %}<span class="ai-out">{{ n_data }} data set{% if n_data > 1 %}s{% endif %}</span>{% endif -%}
+            </span>
+          {%- endif %}
         </a>
       {% endif %}
     {% endfor %}

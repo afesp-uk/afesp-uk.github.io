@@ -475,7 +475,7 @@ profiles:
           <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
         </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    image: profile_pics/Sue_Grimmond.jpg # placeholder hidden until a photo is added
     content: bios/about_Sue_Grimmond.md
     anchor: sue-grimmond # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

@@ -20,7 +20,7 @@ This research project addresses this critical challenge of SGS turbulence parame
 **Papers**
 
 - **IJCNN 2026:** Physics-guided multi-task learning for subgrid scale turbulence parameterization: a comparative study of physics integration strategies. DOI: [10.1109/IJCNN69854.2026.11728747](https://doi.org/10.1109/IJCNN69854.2026.11728747) · [Presentation slides (PDF)]({{ '/assets/pdf/panda_ijcnn2026_slides.pdf' | relative_url }})
-- **PASC 2026:** Physics-aware multi-task learning for atmospheric turbulence parameterization: auxiliary tasks versus architectural conditioning. DOI: [10.1145/3815572.3815750](https://doi.org/10.1145/3815572.3815750)
+- **PASC 2026:** Physics-aware multi-task learning for atmospheric turbulence parameterization: auxiliary tasks versus architectural conditioning. DOI: [10.1145/3815572.3815750](https://doi.org/10.1145/3815572.3815750) · [Presentation slides (PDF)]({{ '/assets/pdf/panda_pasc2026_slides.pdf' | relative_url }})
 
 **Datasets**
 

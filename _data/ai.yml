@@ -150,6 +150,12 @@ events:
     url: https://www.ecmwf.int/en/about/media-centre/2026/workshop-ai-and-earth-observation
 
 news:
+  - date: 2026-10-28
+    title: AI for Science expands to foundations and research institutions
+    source: Anthropic
+    summary: Anthropic's AI for Science programme, which gives free Claude credits to researchers on high-impact scientific projects, now works with 20 foundations, institutions and research groups worldwide, including Schmidt Sciences and the US National Science Foundation. Among them is LEAP at Columbia University, which combines machine learning and physics to improve Earth system and climate models.
+    url: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
+
   - date: 2026-09-03
     title: Google DeepMind introduces WeatherNext 3
     source: Google

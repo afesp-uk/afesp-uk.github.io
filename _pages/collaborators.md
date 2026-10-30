@@ -155,6 +155,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Lawrence Livermore National Laboratory**](https://www.llnl.gov/), Livermore, CA, USA
 - [**Marine Meteorology Division, Naval Research Laboratory**](https://www.nrlmry.navy.mil/), Monterey, CA, USA
 - [**Max Planck Institute for Meteorology**](https://mpimet.mpg.de/), Hamburg, Germany
+- [**Maxwell Institute for Mathematical Sciences and Department of Mathematics, Heriot-Watt University**](https://www.hw.ac.uk/research/institutes/maxwell-institute), Edinburgh, UK
 - [**Météo-France**](https://meteofrance.com/), France
 - [**Meteorological Research Institute, Japan Meteorological Agency**](https://www.mri-jma.go.jp/), Ibaraki, Japan
 - [**Nanjing University**](https://www.nju.edu.cn/en/), Nanjing, China

@@ -6,10 +6,6 @@ My doctorate (University of Canterbury, NZ, 1990) was in the climatology of the 
 Currently I am a Senior Scientist in the UK National Centre for Atmospheric Science (NCAS), based at the University of Reading. I am responsible for the strategic direction of, and the research funding for, the NCAS Computational Modelling Services (CMS) group. CMS develop, deploy, and support climate models for the UK academic community, with activities ranging from developing data tools, workflow, and deep engineering for high performance computing (HPC), all alongside direct involvement in a range of research projects.
 </p>
 
-<p style="text-align: justify;">
-My own research interests currently focus on data standards and delivery systems, land-surface modelling, the impacts of aerosol on regional climate change, and next generation high resolution modelling (including interesting new configurations of ocean/atmosphere models).
-</p>
-
 <p><strong>Research interests:</strong></p>
 <ul>
   <li>Storage and I/O at Petascale and beyond</li>

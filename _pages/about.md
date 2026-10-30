@@ -383,6 +383,14 @@ latest_posts:
 <div class="stat" style="--c: var(--h-sky)"><span class="n" data-count="{{ current_people }}">{{ current_people }}</span><span class="l">people in the AFESP community</span></div>
 </div>
 
+<h2 class="home-h">Partners</h2>
+<div class="partners">
+<a class="lead" href="https://www.reading.ac.uk/">University of Reading (lead)</a>
+<a href="https://www.ecmwf.int/">ECMWF</a>
+<a href="https://www.metoffice.gov.uk/">UK Met Office</a>
+<a href="https://ncas.ac.uk/">NCAS</a>
+</div>
+
 {% if home_highlights.size > 0 %}
 <h2 class="home-h" id="highlights">Highlights</h2>
 <div class="hl-home">
@@ -422,14 +430,6 @@ latest_posts:
 <a href="{{ '/conferences/' | relative_url }}"><span class="t">Events</span><span class="d">Upcoming events, talks, posters and outreach.</span></a>
 <a href="{{ '/collaborators/' | relative_url }}"><span class="t">Collaborators</span><span class="d">Partner institutions around the world.</span></a>
 <a href="{{ '/doc/' | relative_url }}"><span class="t">Computational support</span><span class="d">Guides for computers, data services, models and tools.</span></a>
-</div>
-
-<h2 class="home-h">Partners</h2>
-<div class="partners">
-<a class="lead" href="https://www.reading.ac.uk/">University of Reading (lead)</a>
-<a href="https://www.ecmwf.int/">ECMWF</a>
-<a href="https://www.metoffice.gov.uk/">UK Met Office</a>
-<a href="https://ncas.ac.uk/">NCAS</a>
 </div>
 
 </div>

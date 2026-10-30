@@ -172,82 +172,102 @@ latest_posts:
     color: var(--h-muted);
   }
   /* Explore the site. */
-  /* Highlights: feature cards with the figure on the left (wide screens) or on top (narrow screens). */
+  /* Highlights: compact cards, all shown here; "Read more" opens the full text in place. */
   .hl-home {
     display: grid;
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.9rem;
+    align-items: start;
   }
   .hl-card {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.9rem;
-    padding: 1rem;
-    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
     border: 1px solid var(--h-line);
     border-top: 4px solid var(--h-amber);
     background: var(--h-card);
-    color: var(--global-text-color) !important;
-    text-decoration: none !important;
-    box-shadow: 0 4px 16px rgba(20, 50, 90, 0.06);
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(20, 50, 90, 0.06);
+    scroll-margin-top: 5rem;
   }
-  .hl-card:hover,
-  .hl-card:focus-visible {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 24px rgba(20, 50, 90, 0.12);
-  }
-  .hl-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  .hl-card-fig {
+    display: block;
     background: #fff;
-    align-self: center;
+    border-bottom: 1px solid var(--h-line);
+  }
+  .hl-card-fig img {
+    display: block;
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+    padding: 0.4rem;
   }
   .hl-card-body {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0.25rem;
+    padding: 0.7rem 0.85rem 0.8rem;
   }
   .hl-card-date {
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     font-weight: 700;
     color: var(--h-amber);
   }
-  .hl-card-title {
-    font-size: 1.15rem;
+  .home h3.hl-card-title {
+    margin: 0;
+    font-size: 0.98rem;
     font-weight: 700;
     line-height: 1.3;
   }
   .hl-card-people {
-    font-size: 0.85rem;
+    font-size: 0.76rem;
     color: var(--h-muted);
   }
-  .hl-card-text {
-    font-size: 0.92rem;
-    line-height: 1.5;
+  .hl-card-text,
+  .hl-more p {
+    margin: 0.2rem 0 0;
+    font-size: 0.82rem;
+    line-height: 1.45;
   }
-  .hl-card-more {
-    margin-top: auto;
-    padding-top: 0.3rem;
-    font-size: 0.88rem;
+  .hl-more p {
+    margin-top: 0.45rem;
+  }
+  .hl-more .hl-close,
+  .hl-more[open] .hl-open {
+    display: none;
+  }
+  .hl-more[open] .hl-close {
+    display: inline;
+  }
+  .hl-card:has(.hl-more[open]) .hl-card-text {
+    display: none;
+  }
+  .hl-more > summary {
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--h-blue);
+    cursor: pointer;
   }
-  .hl-all {
-    margin: 0.6rem 0 0;
-    text-align: right;
-    font-size: 0.92rem;
+  .hl-more[open] > summary {
+    margin-bottom: 0.1rem;
   }
-  @media (min-width: 768px) {
-    .hl-card {
-      grid-template-columns: 1.15fr 1fr;
-      gap: 1.25rem;
-    }
-    .hl-card.hl-card-wide {
-      grid-template-columns: 1fr;
-    }
+  .hl-more .hl-card-caption {
+    font-style: italic;
+    color: var(--h-muted);
+  }
+  .hl-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.55rem;
+  }
+  .hl-card-links a {
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid var(--h-line);
+    font-size: 0.75rem;
+    text-decoration: none;
   }
   .explore {
     display: grid;
@@ -364,27 +384,34 @@ latest_posts:
 </div>
 
 {% if home_highlights.size > 0 %}
-<h2 class="home-h">Highlights</h2>
+<h2 class="home-h" id="highlights">Highlights</h2>
 <div class="hl-home">
-{% for h in home_highlights limit: 3 %}
-<a class="hl-card{% if h.image_wide %} hl-card-wide{% endif %}" href="{{ '/highlights/' | relative_url }}#{{ h.title | slugify }}">
-{% if h.image %}<img src="{{ '/assets/img/' | append: h.image | relative_url }}" alt="{{ h.image_alt | escape }}" loading="lazy">{% endif %}
-<span class="hl-card-body">
+{% for h in home_highlights %}
+<article class="hl-card" id="{{ h.title | slugify }}">
+{% if h.image %}<a class="hl-card-fig" href="{{ '/assets/img/' | append: h.image | relative_url }}" target="_blank" rel="noopener" title="Open the full-size figure"><img src="{{ '/assets/img/' | append: h.image | relative_url }}" alt="{{ h.image_alt | escape }}" loading="lazy"></a>{% endif %}
+<div class="hl-card-body">
 <span class="hl-card-date">{{ h.date | date: '%-d %B %Y' }}</span>
-<span class="hl-card-title">{{ h.title }}</span>
-<span class="hl-card-people">{% for p in h.people %}{{ p.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-<span class="hl-card-text">{{ h.text | first | truncatewords: 45 }}</span>
-<span class="hl-card-more">Read the highlight →</span>
-</span>
-</a>
+<h3 class="hl-card-title">{{ h.title }}</h3>
+<span class="hl-card-people">{% for p in h.people %}{% if p.anchor %}<a href="{{ '/people/' | relative_url }}#{{ p.anchor }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+<p class="hl-card-text">{{ h.text | first | truncatewords: 32 }}</p>
+<details class="hl-more">
+<summary><span class="hl-open">Read more</span><span class="hl-close">Show less</span></summary>
+{% if h.caption %}<p class="hl-card-caption">{{ h.caption }}</p>{% endif %}
+{% for para in h.text %}<p>{{ para }}</p>{% endfor %}
+<div class="hl-card-links">
+{% if h.project %}<a href="{{ h.project | relative_url }}">Project</a>{% endif %}
+{% for l in h.links %}<a href="{{ l.url | relative_url }}"{% unless l.url contains "/assets/" %} target="_blank" rel="noopener"{% endunless %}>{{ l.title }}</a>{% endfor %}
+</div>
+</details>
+</div>
+</article>
 {% endfor %}
 </div>
-<p class="hl-all"><a href="{{ '/highlights/' | relative_url }}">All research highlights →</a></p>
 {% endif %}
 
 <h2 class="home-h">Explore AFESP</h2>
 <div class="explore">
-<a href="{{ '/highlights/' | relative_url }}"><span class="t">Highlights</span><span class="d">Research highlights and scientific achievements.</span></a>
+<a href="#highlights"><span class="t">Highlights</span><span class="d">Research highlights and scientific achievements.</span></a>
 <a href="{{ '/projects/' | relative_url }}"><span class="t">Projects</span><span class="d">Five-year projects, fellowships and PhD projects.</span></a>
 <a href="{{ '/publications/' | relative_url }}"><span class="t">Publications</span><span class="d">Papers, preprints, abstracts, datasets and software.</span></a>
 <a href="{{ '/people/' | relative_url }}"><span class="t">People</span><span class="d">Members, investigators, supervisors and partners.</span></a>

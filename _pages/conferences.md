@@ -422,12 +422,18 @@ nav_order: 6
 - [**Health at COP31, World Health Organization (9-20 Nov, 2026; Antalya, Türkiye, with live streaming):**](https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31)<br>
   WHO's programme at the UN Climate Change Conference (COP31), putting climate-resilient health systems at the centre of the talks: a Health Day on 9 November, a Health Pavilion with over 60 events across the two weeks (live-streamed), and side events including a UN high-level event on 14 November.
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
+- [**WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):**](https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies)<br>
+  The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.
 
 ## Upcoming workshops
 
 - [**Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):**](https://forms.cloud.microsoft/e/WGvKZecDdF)<br>
   With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.
 - [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
+- [**CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):**](https://ncar.github.io/CMIP7_hackathon_2027/#about)<br>
+  A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.
+- [**7th WGNE Workshop on Systematic Errors in Weather and Earth System Models (15-19 Feb, 2027; IITM, Pune, India):**](https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027)<br>
+  Understanding and reducing systematic errors in physics-based and machine-learning-based models across timescales: diagnosing and attributing errors, scale interactions and resolution, parameterisation deficiencies, coupled feedbacks, predictability, and uncertainty and ensembles, including AI/ML-assisted attribution and AI versus physics-based model intercomparison. The call for abstracts has closed.
 
 ## Upcoming talks and seminars
 

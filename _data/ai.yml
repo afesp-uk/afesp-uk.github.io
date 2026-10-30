@@ -88,6 +88,15 @@ events:
     summary: AI for weather prediction, climate and subseasonal forecasting, satellite and radar data, data assimilation, disaster response and large language models in the weather sector.
     url: https://annual.ametsoc.org/2027/program-events/conferences-and-symposia/26th-conference-on-artificial-intelligence-for-environmental-science/
 
+  - title: 7th WGNE Workshop on Systematic Errors in Weather and Earth System Models
+    organiser: WCRP Earth System Modelling and Observations (ESMO) and WGNE
+    kind: Workshop
+    start: 2027-02-15
+    end: 2027-02-19
+    location: IITM, Pune, India
+    summary: Understanding and reducing systematic errors in physics-based and machine-learning-based weather and Earth system models, including explainability and AI/ML-assisted error attribution and intercomparison of AI and physics-based model outputs. The call for abstracts has closed.
+    url: https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027
+
   - title: EGU General Assembly 2027
     organiser: European Geosciences Union
     kind: Conference

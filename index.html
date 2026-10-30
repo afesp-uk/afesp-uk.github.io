@@ -158,6 +158,80 @@
     color: var(--h-muted);
   }
   /* Explore the site. */
+  /* Highlights: feature cards with the figure on the left (wide screens) or on top (narrow screens). */
+  .hl-home {
+    display: grid;
+    gap: 1rem;
+  }
+  .hl-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1px solid var(--h-line);
+    border-top: 4px solid var(--h-amber);
+    background: var(--h-card);
+    color: var(--global-text-color) !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(20, 50, 90, 0.06);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .hl-card:hover,
+  .hl-card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(20, 50, 90, 0.12);
+  }
+  .hl-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #fff;
+    align-self: center;
+  }
+  .hl-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .hl-card-date {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--h-amber);
+  }
+  .hl-card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .hl-card-people {
+    font-size: 0.85rem;
+    color: var(--h-muted);
+  }
+  .hl-card-text {
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+  .hl-card-more {
+    margin-top: auto;
+    padding-top: 0.3rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--h-blue);
+  }
+  .hl-all {
+    margin: 0.6rem 0 0;
+    text-align: right;
+    font-size: 0.92rem;
+  }
+  @media (min-width: 768px) {
+    .hl-card {
+      grid-template-columns: 1.15fr 1fr;
+      gap: 1.25rem;
+    }
+  }
   .explore {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -235,7 +309,7 @@
       transition: none;
     }
   }
-</style> <div class="home"> <img class="home-logo" src="/assets/img/AFESP_logo.jpg" alt="AFESP logo"> <p class="home-lead">The <strong>Research Programme on Advancing the Frontiers of Earth System Prediction (AFESP)</strong> is a <strong>£30 million, 15-year research programme</strong> led by the University of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the National Centre for Atmospheric Science (NCAS). AFESP addresses ambitious, long-term research challenges in Earth system prediction, with the goal of extending the practical predictability of weather and climate from around two weeks towards four weeks through advances in data assimilation, Earth system modelling, and scientific analysis.</p> <div class="horizon" role="img" aria-label="Forecast range: practical predictability today is around two weeks; AFESP aims to extend it towards four weeks."> <p class="horizon-title">Pushing the predictability horizon</p> <p class="horizon-sub">How far ahead weather and climate can usefully be predicted, in days.</p> <div class="horizon-track"> <div class="horizon-fill goal"></div> <div class="horizon-fill now"></div> </div> <div class="horizon-axis"> <span style="left: 0">0</span><span style="left: calc(7 / 30 * 100%)">7</span><span style="left: calc(14 / 30 * 100%)">14</span><span style="left: calc(21 / 30 * 100%)">21</span><span style="left: calc(28 / 30 * 100%)">28 days</span> </div> <div class="horizon-marks"> <div class="horizon-mark now" style="left: calc(14 / 30 * 100%)"> <b>~2 weeks</b><span>today</span> </div> <div class="horizon-mark goal" style="left: calc(28 / 30 * 100%)"> <b>~4 weeks</b><span>AFESP goal</span> </div> </div> </div> <h2 class="home-h">The programme in numbers</h2> <div class="stats"> <div class="stat" style="--c: var(--h-blue)"> <span class="n">£30m</span><span class="l">research investment</span> </div> <div class="stat" style="--c: var(--h-teal)"> <span class="n">15</span><span class="l">years of research</span> </div> <div class="stat" style="--c: var(--h-amber)"> <span class="n" data-count="34">34</span><span class="l">projects, including 26 PhD projects</span> </div> <div class="stat" style="--c: var(--h-sky)"> <span class="n" data-count="106">106</span><span class="l">people in the AFESP community</span> </div> </div> <h2 class="home-h">Explore AFESP</h2> <div class="explore"> <a href="/projects/"><span class="t">Projects</span><span class="d">Five-year projects, fellowships and PhD projects.</span></a> <a href="/publications/"><span class="t">Publications</span><span class="d">Papers, preprints, abstracts, datasets and software.</span></a> <a href="/people/"><span class="t">People</span><span class="d">Members, investigators, supervisors and partners.</span></a> <a href="/conferences/"><span class="t">Events</span><span class="d">Upcoming events, talks, posters and outreach.</span></a> <a href="/collaborators/"><span class="t">Collaborators</span><span class="d">Partner institutions around the world.</span></a> <a href="/doc/"><span class="t">Computational support</span><span class="d">Guides for computers, data services, models and tools.</span></a> </div> <h2 class="home-h">Partners</h2> <div class="partners"> <a class="lead" href="https://www.reading.ac.uk/" rel="external nofollow noopener" target="_blank">University of Reading (lead)</a> <a href="https://www.ecmwf.int/" rel="external nofollow noopener" target="_blank">ECMWF</a> <a href="https://www.metoffice.gov.uk/" rel="external nofollow noopener" target="_blank">UK Met Office</a> <a href="https://ncas.ac.uk/" rel="external nofollow noopener" target="_blank">NCAS</a> </div> </div> <script>
+</style> <div class="home"> <img class="home-logo" src="/assets/img/AFESP_logo.jpg" alt="AFESP logo"> <p class="home-lead">The <strong>Research Programme on Advancing the Frontiers of Earth System Prediction (AFESP)</strong> is a <strong>£30 million, 15-year research programme</strong> led by the University of Reading in partnership with the European Centre for Medium-Range Weather Forecasts (ECMWF), the UK Met Office, and the National Centre for Atmospheric Science (NCAS). AFESP addresses ambitious, long-term research challenges in Earth system prediction, with the goal of extending the practical predictability of weather and climate from around two weeks towards four weeks through advances in data assimilation, Earth system modelling, and scientific analysis.</p> <div class="horizon" role="img" aria-label="Forecast range: practical predictability today is around two weeks; AFESP aims to extend it towards four weeks."> <p class="horizon-title">Pushing the predictability horizon</p> <p class="horizon-sub">How far ahead weather and climate can usefully be predicted, in days.</p> <div class="horizon-track"> <div class="horizon-fill goal"></div> <div class="horizon-fill now"></div> </div> <div class="horizon-axis"> <span style="left: 0">0</span><span style="left: calc(7 / 30 * 100%)">7</span><span style="left: calc(14 / 30 * 100%)">14</span><span style="left: calc(21 / 30 * 100%)">21</span><span style="left: calc(28 / 30 * 100%)">28 days</span> </div> <div class="horizon-marks"> <div class="horizon-mark now" style="left: calc(14 / 30 * 100%)"> <b>~2 weeks</b><span>today</span> </div> <div class="horizon-mark goal" style="left: calc(28 / 30 * 100%)"> <b>~4 weeks</b><span>AFESP goal</span> </div> </div> </div> <h2 class="home-h">The programme in numbers</h2> <div class="stats"> <div class="stat" style="--c: var(--h-blue)"> <span class="n">£30m</span><span class="l">research investment</span> </div> <div class="stat" style="--c: var(--h-teal)"> <span class="n">15</span><span class="l">years of research</span> </div> <div class="stat" style="--c: var(--h-amber)"> <span class="n" data-count="34">34</span><span class="l">projects, including 26 PhD projects</span> </div> <div class="stat" style="--c: var(--h-sky)"> <span class="n" data-count="100">100</span><span class="l">people in the AFESP community</span> </div> </div> <h2 class="home-h">Highlights</h2> <div class="hl-home"> <a class="hl-card" href="/highlights/#adhimex-long-accurate-time-steps-for-transport-on-any-grid"> <img src="/assets/img/highlights/adhimex_comparison.png" alt="Two panels show the same deformed tracer field: an explicit reference run on a uniform grid and an AdHImEx run on a nonuniform grid with an identical time step. The fields look the same, with errors (l2) of 0.2284 and 0.2264." loading="lazy"> <span class="hl-card-body"> <span class="hl-card-date">30 October 2026</span> <span class="hl-card-title">AdHImEx: long, accurate time steps for transport on any grid</span> <span class="hl-card-people">Amber te Winkel, Hilary Weller, Christian Kühnlein (ECMWF), James Kent (Met Office)</span> <span class="hl-card-text">Weather and climate models carry moisture, heat and pollutants with the wind. With conventional explicit methods, a few small grid cells (e.g., near the poles of a latitude–longitude grid or in a nested high-resolution region) or a patch of fast flow (e.g., in strong updrafts...</span> <span class="hl-card-more">Read the highlight →</span> </span> </a> </div> <p class="hl-all"><a href="/highlights/">All research highlights →</a></p> <h2 class="home-h">Explore AFESP</h2> <div class="explore"> <a href="/highlights/"><span class="t">Highlights</span><span class="d">Research highlights and scientific achievements.</span></a> <a href="/projects/"><span class="t">Projects</span><span class="d">Five-year projects, fellowships and PhD projects.</span></a> <a href="/publications/"><span class="t">Publications</span><span class="d">Papers, preprints, abstracts, datasets and software.</span></a> <a href="/people/"><span class="t">People</span><span class="d">Members, investigators, supervisors and partners.</span></a> <a href="/conferences/"><span class="t">Events</span><span class="d">Upcoming events, talks, posters and outreach.</span></a> <a href="/collaborators/"><span class="t">Collaborators</span><span class="d">Partner institutions around the world.</span></a> <a href="/doc/"><span class="t">Computational support</span><span class="d">Guides for computers, data services, models and tools.</span></a> </div> <h2 class="home-h">Partners</h2> <div class="partners"> <a class="lead" href="https://www.reading.ac.uk/" rel="external nofollow noopener" target="_blank">University of Reading (lead)</a> <a href="https://www.ecmwf.int/" rel="external nofollow noopener" target="_blank">ECMWF</a> <a href="https://www.metoffice.gov.uk/" rel="external nofollow noopener" target="_blank">UK Met Office</a> <a href="https://ncas.ac.uk/" rel="external nofollow noopener" target="_blank">NCAS</a> </div> </div> <script>
   (() => {
     const horizon = document.querySelector(".horizon");
     if (!horizon) return;

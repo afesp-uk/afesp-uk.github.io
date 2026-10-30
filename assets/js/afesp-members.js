@@ -264,12 +264,19 @@
       p.className = "people-section-panel";
       p.replaceChildren(section);
     });
+    // Profiles without a photo: keep the bio in its own column to the right of the name block,
+    // instead of letting it wrap underneath the short name block on the left.
+    article.querySelectorAll(".person-panel").forEach((p) => {
+      if (!p.querySelector(".profile figure")) p.classList.add("person-no-photo");
+    });
     if (!document.getElementById("people-section-style")) {
       const style = document.createElement("style");
       style.id = "people-section-style";
       style.textContent = `
         .people-section-panel { margin: 2.75rem 0 1.1rem; padding-top: 1.25rem; border-top: 2px solid rgba(21, 101, 192, 0.15); }
         .people-section-panel h2 { margin: 0; font-weight: 800; color: #1565c0; }
+        .person-no-photo > .clearfix { overflow: hidden; }
+        .person-panel .more-info p[id] { white-space: normal !important; }
         html[data-theme="dark"] .people-section-panel { border-top-color: rgba(255, 255, 255, 0.12); }
         html[data-theme="dark"] .people-section-panel h2 { color: #90c2ff; }
       `;

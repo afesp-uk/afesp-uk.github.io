@@ -1401,6 +1401,5 @@ profiles:
       <p id="fiona-spuler" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Fiona Spuler</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Former AFESP PhD Student</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">From Autumn 2022</p>
       </div>
 ---

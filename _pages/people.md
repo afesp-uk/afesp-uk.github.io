@@ -1349,6 +1349,31 @@ profiles:
   - content: bios/section_former_members.md
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    content: bios/about_Meryl_Anil.md
+    anchor: meryl-anil # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="meryl-anil" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Meryl Chittethazhathu Anil</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">from January 2022</p>
+      </div>
+  - align: left
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    content: bios/about_Hannah_Croad.md
+    anchor: hannah-croad # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="hannah-croad" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hannah Croad</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
+        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        -->
+      </div>
+  - align: left
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
     content: bios/about_Yiqing_Liu.md
     anchor: yiqing-liu # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
@@ -1360,5 +1385,30 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
         -->
+      </div>
+  - align: left
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    content: bios/about_Silvia_Rognone.md
+    anchor: silvia-rognone # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="silvia-rognone" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Silvia Rognone</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
+        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
+        -->
+      </div>
+  - align: left
+    # image: profile_pics/blank.png # placeholder hidden until a photo is added
+    content: bios/about_Fiona_Spuler.md
+    anchor: fiona-spuler # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="fiona-spuler" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Fiona Spuler</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">from Autumn 2022</p>
       </div>
 ---

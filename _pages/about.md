@@ -245,6 +245,9 @@ latest_posts:
       grid-template-columns: 1.15fr 1fr;
       gap: 1.25rem;
     }
+    .hl-card.hl-card-wide {
+      grid-template-columns: 1fr;
+    }
   }
   .explore {
     display: grid;
@@ -364,7 +367,7 @@ latest_posts:
 <h2 class="home-h">Highlights</h2>
 <div class="hl-home">
 {% for h in home_highlights limit: 3 %}
-<a class="hl-card" href="{{ '/highlights/' | relative_url }}#{{ h.title | slugify }}">
+<a class="hl-card{% if h.image_wide %} hl-card-wide{% endif %}" href="{{ '/highlights/' | relative_url }}#{{ h.title | slugify }}">
 {% if h.image %}<img src="{{ '/assets/img/' | append: h.image | relative_url }}" alt="{{ h.image_alt | escape }}" loading="lazy">{% endif %}
 <span class="hl-card-body">
 <span class="hl-card-date">{{ h.date | date: '%-d %B %Y' }}</span>

@@ -1,11 +1,11 @@
 # Research highlights shown on the Highlights page (_pages/highlights.md), newest first by date.
 #   - date: YYYY-MM-DD
 #     title, people (who did the work; names link to profiles via the anchors below), project (a page on this site),
-#     image (in assets/img/highlights/) with alt text and an optional caption, text (one or more paragraphs),
+#     image (in assets/img/highlights/) with alt text and an optional caption (image_wide: true for very wide figures), text (one or more paragraphs),
 #     links (title + url).
 
 - date: 2026-10-30
-  title: "AdHImEx: long, accurate time steps for transport on any grid"
+  title: "AdHImEx: accurate transport for long time steps on any grid"
   people:
     - name: Amber te Winkel
       anchor: amber-winkle
@@ -23,3 +23,30 @@
   links:
     - title: "Preprint: AdHImEx: Adaptively High-Order Implicit-Explicit Transport for Large Time Steps"
       url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537214
+
+- date: 2026-10-30
+  title: Neural networks that emulate turbulence in the MONC cloud model
+  people:
+    - name: Sambit Kumar Panda
+      anchor: sambit-panda
+    - name: Todd R. Jones
+      anchor: todd-jones
+    - name: Muhammad Shahzad
+    - name: Bryan N. Lawrence
+      anchor: bryan-lawrence
+    - name: Anna-Louise Ellis (Met Office)
+  project: /projects/phd_sambit_kumar_panda/
+  image: highlights/panda_monc_clouds.jpg
+  image_wide: true # very wide figure: shown across the full card width on the main page
+  image_alt: "Three rows of 3-D cloud renders over a month of simulation, one row each for MONC's original turbulence scheme and the two neural-network emulators; the cloud fields look alike in all three rows."
+  caption: "Simulated clouds over a month (left to right) with MONC’s original turbulence scheme (top) and the two neural-network emulators; 64 × 64 km domain, 1 km grid."
+  text:
+    - "Sambit Kumar Panda develops neural-network emulators of turbulence in the Met Office NERC Cloud Model (MONC). Using physics-guided multi-task learning, the networks learn MONC’s Smagorinsky–Lilly subgrid turbulence scheme with atmospheric stability built in. This year the work was published and presented at IJCNN 2026 and PASC ’26. The emulators now run inside MONC in place of the original scheme, and the model stays stable for month-long simulations, including on grids and in warmer climates the networks never saw. His poster at the ICCS Summer School 2026 won the Best Poster award (runner-up) and he also presented his work at the km-scale Global Modelling Summit 2026 in Hamburg this year."
+    - "Presented at: IJCNN 2026, Maastricht (oral); PASC 2026, Bern (oral); km-scale Global Modelling Summit 2026, Hamburg (poster); EXCLAIM 2025, ETH Zurich (poster); EGU General Assembly 2025 (oral)."
+  links:
+    - title: "IJCNN 2026 paper (IEEE)"
+      url: https://doi.org/10.1109/IJCNN69854.2026.11728747
+    - title: "PASC 2026 paper (ACM)"
+      url: https://doi.org/10.1145/3815572.3815750
+    - title: "Highlight slide (PDF)"
+      url: /assets/pdf/panda_afesp2026_highlight_slide.pdf

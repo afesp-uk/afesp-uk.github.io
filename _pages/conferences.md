@@ -427,6 +427,11 @@ nav_order: 6
   With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.
 - [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
 
+## Upcoming talks and seminars
+
+- [**From Antarctica to the Arctic: Airborne Science with the British Antarctic Survey (2 Nov, 2026, 18:15-19:15; University of East Anglia, Norwich, and online):**](https://www.rmets.org/event/antarctica-arctic-airborne-science-british-antarctic-survey)<br>
+  Royal Meteorological Society East Anglia Local Centre talk by Daniel Beeden, Flight Operations Manager at the British Antarctic Survey Air Unit, on BAS airborne science campaigns, Antarctic flight operations and ferry flights between Canada and Antarctica. Free; registration required, non-members welcome.
+
 ## Upcoming training courses
 
 - [**NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)**](https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/)

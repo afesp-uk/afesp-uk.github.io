@@ -1357,7 +1357,6 @@ profiles:
       <p id="meryl-anil" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Meryl Chittethazhathu Anil</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Former AFESP PhD Student</p>
-        <p style="white-space: nowrap; margin: 0; display: block;">From January 2022</p>
       </div>
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added

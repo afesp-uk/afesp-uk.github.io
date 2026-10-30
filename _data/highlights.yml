@@ -49,3 +49,15 @@
       url: https://doi.org/10.1145/3815572.3815750
     - title: "Highlight slide (PDF)"
       url: /assets/pdf/panda_afesp2026_highlight_slide.pdf
+
+- date: 2026-10-30
+  title: HiSCORE progress presented to ECMWF's Scientific Advisory Committee pre-meeting
+  people:
+    - name: Rishabh Bhatt
+      anchor: rishabh-bhatt
+  project: /projects/2_project/
+  text:
+    - "In September, Rishabh Bhatt presented the progress of the HiSCORE project to ECMWF at the pre-SAC (Scientific Advisory Committee) meeting, representing one of ECMWF's external collaborations in data assimilation. His talk highlighted the objectives achieved so far, including a recent paper in QJRMS special issue on estimating the spatial observation-error correlations in AMSU-A observations at ECMWF and the UK Met Office. Rishabh's presentation also set out a vision for representing correlated observation errors in the IFS, along with developments in the pipeline to get there. The presentation was given for the benefit of ECMWF's Director of Science and Innovation, Irina Sandu, who guides their future science strategy."
+  links:
+    - title: "QJRMS paper: AMSU-A observation-error correlations"
+      url: https://doi.org/10.1002/qj.70238

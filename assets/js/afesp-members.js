@@ -378,16 +378,20 @@
         tag.textContent = (former ? "Former " : "") + (phd ? "PhD researcher" : former ? "researcher & partner" : "Researcher & partner");
         nameEl.parentElement.appendChild(tag);
       }
-      return { panel, text: `${name} ${role} ${panel.textContent}`.toLowerCase(), phd };
+      return { panel, text: `${name} ${role} ${panel.textContent}`.toLowerCase(), phd, former: panel.dataset.former === "1" };
     });
     const total = people.length;
-    const phdCount = people.filter((p) => p.phd).length;
+    // The tiles count current and former members separately.
+    const current = people.filter((p) => !p.former);
+    const formerCount = total - current.length;
+    const phdCount = current.filter((p) => p.phd).length;
     const tools = document.createElement("div");
     tools.className = "people-tools";
     const tiles = [
-      [total, "people", "#1565c0", "#42a5f5"],
+      [current.length, "current members", "#1565c0", "#42a5f5"],
       [phdCount, "PhD researchers", "#1b7f46", "#43b97a"],
-      [total - phdCount, "researchers & partners", "#c77700", "#f2b544"],
+      [current.length - phdCount, "researchers & partners", "#c77700", "#f2b544"],
+      [formerCount, "former members", "#5e35b1", "#9575cd"],
     ];
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
     const firstByLetter = {};

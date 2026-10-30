@@ -136,6 +136,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**Environmental Meteorology, Faculty of Environment and Natural Resources, University of Freiburg**](https://www.meteo.uni-freiburg.de/en), Freiburg, Germany
 - [**European Space Agency**](https://www.esa.int/), Frascati, Italy
 - [**Finnish Meteorological Institute**](https://en.ilmatieteenlaitos.fi/), Helsinki, Finland
+- [**Forschungszentrum Jülich**](https://www.fz-juelich.de/en), Jülich, Germany
 - [**Imperial College London**](https://www.imperial.ac.uk/), London, UK
 - [**Informatics Lab, Met Office**](https://informaticslab.co.uk/), Exeter, UK
 - [**Institut Franco-Argentin d’Études sur le Climat et ses Impacts (IRL IFAECI), CNRS–IRD–CONICET–UBA**](https://www.ifaeci.cnrs.fr/), Buenos Aires, Argentina
@@ -194,6 +195,7 @@ Other institutions that have been involved in an AFESP-funded publication or pro
 - [**University of Oxford**](https://www.ox.ac.uk/), Oxford, UK
 - [**University of São Paulo**](https://www5.usp.br/), São Paulo, Brazil
 - [**The University of Tokyo**](https://www.u-tokyo.ac.jp/en/), Tokyo, Japan
+- [**University of Wuppertal**](https://www.uni-wuppertal.de/en/), Wuppertal, Germany
 - [**Vector Institute for Artificial Intelligence**](https://vectorinstitute.ai/), Toronto, ON, Canada
 - [**World Meteorological Organization**](https://wmo.int/), Geneva, Switzerland
 - [**Yusuf Hamied Department of Chemistry, University of Cambridge**](https://www.ch.cam.ac.uk/), Cambridge, UK

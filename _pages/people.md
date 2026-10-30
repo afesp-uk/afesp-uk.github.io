@@ -1322,18 +1322,16 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
-    # image: profile_pics/blank.png # placeholder hidden until a photo is added
-    content: bios/about_Amber_te_Winkle.md
+    image: profile_pics/amber_te_winkel.jpg
+    content: bios/about_Amber_te_Winkel.md
     anchor: amber-winkle # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="amber-winkle" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Amber te Winkle</p>
+      <p id="amber-winkle" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Amber te Winkel</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
-        <!-- Placeholders, hidden until filled in. To show a line, replace the dashes and move it out of this comment.
-        <p style="white-space: nowrap; margin: 0; display: block;">Role  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">Department of  --- </p>
-        <p style="white-space: nowrap; margin: 0; display: block;">University of --- </p>
-        -->
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
     # image: profile_pics/blank.png # placeholder hidden until a photo is added

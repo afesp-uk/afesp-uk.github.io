@@ -172,6 +172,80 @@ latest_posts:
     color: var(--h-muted);
   }
   /* Explore the site. */
+  /* Highlights: feature cards with the figure on the left (wide screens) or on top (narrow screens). */
+  .hl-home {
+    display: grid;
+    gap: 1rem;
+  }
+  .hl-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    padding: 1rem;
+    border-radius: 14px;
+    border: 1px solid var(--h-line);
+    border-top: 4px solid var(--h-amber);
+    background: var(--h-card);
+    color: var(--global-text-color) !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(20, 50, 90, 0.06);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .hl-card:hover,
+  .hl-card:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(20, 50, 90, 0.12);
+  }
+  .hl-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #fff;
+    align-self: center;
+  }
+  .hl-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .hl-card-date {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--h-amber);
+  }
+  .hl-card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .hl-card-people {
+    font-size: 0.85rem;
+    color: var(--h-muted);
+  }
+  .hl-card-text {
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+  .hl-card-more {
+    margin-top: auto;
+    padding-top: 0.3rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--h-blue);
+  }
+  .hl-all {
+    margin: 0.6rem 0 0;
+    text-align: right;
+    font-size: 0.92rem;
+  }
+  @media (min-width: 768px) {
+    .hl-card {
+      grid-template-columns: 1.15fr 1fr;
+      gap: 1.25rem;
+    }
+  }
   .explore {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -253,6 +327,13 @@ latest_posts:
 
 {% assign people_page = site.pages | where: "permalink", "/people/" | first %}
 {% assign phd_projects = site.projects | where: "category", "PhD projects" %}
+{%- comment -%} Count current members: profiles with an anchor, before the "Former members" heading. {%- endcomment -%}
+{%- assign current_people = 0 -%}
+{%- for prof in people_page.profiles -%}
+{%- if prof.content == "bios/section_former_members.md" -%}{%- break -%}{%- endif -%}
+{%- if prof.anchor -%}{%- assign current_people = current_people | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{% assign home_highlights = site.data.highlights | sort: "date" | reverse %}
 
 <div class="home">
 
@@ -276,11 +357,31 @@ latest_posts:
 <div class="stat" style="--c: var(--h-blue)"><span class="n">£30m</span><span class="l">research investment</span></div>
 <div class="stat" style="--c: var(--h-teal)"><span class="n">15</span><span class="l">years of research</span></div>
 <div class="stat" style="--c: var(--h-amber)"><span class="n" data-count="{{ site.projects | size }}">{{ site.projects | size }}</span><span class="l">projects, including {{ phd_projects | size }} PhD projects</span></div>
-<div class="stat" style="--c: var(--h-sky)"><span class="n" data-count="{{ people_page.profiles | size }}">{{ people_page.profiles | size }}</span><span class="l">people in the AFESP community</span></div>
+<div class="stat" style="--c: var(--h-sky)"><span class="n" data-count="{{ current_people }}">{{ current_people }}</span><span class="l">people in the AFESP community</span></div>
 </div>
+
+{% if home_highlights.size > 0 %}
+<h2 class="home-h">Highlights</h2>
+<div class="hl-home">
+{% for h in home_highlights limit: 3 %}
+<a class="hl-card" href="{{ '/highlights/' | relative_url }}#{{ h.title | slugify }}">
+{% if h.image %}<img src="{{ '/assets/img/' | append: h.image | relative_url }}" alt="{{ h.image_alt | escape }}" loading="lazy">{% endif %}
+<span class="hl-card-body">
+<span class="hl-card-date">{{ h.date | date: '%-d %B %Y' }}</span>
+<span class="hl-card-title">{{ h.title }}</span>
+<span class="hl-card-people">{% for p in h.people %}{{ p.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+<span class="hl-card-text">{{ h.text | first | truncatewords: 45 }}</span>
+<span class="hl-card-more">Read the highlight →</span>
+</span>
+</a>
+{% endfor %}
+</div>
+<p class="hl-all"><a href="{{ '/highlights/' | relative_url }}">All research highlights →</a></p>
+{% endif %}
 
 <h2 class="home-h">Explore AFESP</h2>
 <div class="explore">
+<a href="{{ '/highlights/' | relative_url }}"><span class="t">Highlights</span><span class="d">Research highlights and scientific achievements.</span></a>
 <a href="{{ '/projects/' | relative_url }}"><span class="t">Projects</span><span class="d">Five-year projects, fellowships and PhD projects.</span></a>
 <a href="{{ '/publications/' | relative_url }}"><span class="t">Publications</span><span class="d">Papers, preprints, abstracts, datasets and software.</span></a>
 <a href="{{ '/people/' | relative_url }}"><span class="t">People</span><span class="d">Members, investigators, supervisors and partners.</span></a>

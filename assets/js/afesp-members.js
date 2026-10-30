@@ -253,6 +253,14 @@
     article.querySelectorAll(".person-panel").forEach((p) => {
       const section = p.querySelector(".people-section");
       if (!section) return;
+      // Everyone listed after the "Former members" heading is a former member.
+      if (section.id === "former-members") {
+        let next = p.nextElementSibling;
+        while (next) {
+          if (next.classList.contains("person-panel")) next.dataset.former = "1";
+          next = next.nextElementSibling;
+        }
+      }
       p.className = "people-section-panel";
       p.replaceChildren(section);
     });
@@ -358,7 +366,8 @@
       if (role && nameEl) {
         const tag = document.createElement("span");
         tag.className = `person-tag${phd ? " phd" : ""}`;
-        tag.textContent = phd ? "PhD researcher" : "Researcher & partner";
+        const former = panel.dataset.former === "1";
+        tag.textContent = (former ? "Former " : "") + (phd ? "PhD researcher" : former ? "researcher & partner" : "Researcher & partner");
         nameEl.parentElement.appendChild(tag);
       }
       return { panel, text: `${name} ${role} ${panel.textContent}`.toLowerCase(), phd };

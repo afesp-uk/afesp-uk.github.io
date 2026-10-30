@@ -56,6 +56,9 @@
     - name: Rishabh Bhatt
       anchor: rishabh-bhatt
   project: /projects/2_project/
+  image: highlights/hiscore_observation_thinning.jpg
+  image_alt: "Three maps of the British Isles and north-west Europe showing observation locations as dots at three thinning resolutions: (a) N80, 125 km, 147 observations; (b) N200 diamond, 71 km, 333 observations; (c) N320, 31 km, 735 observations."
+  caption: "Observations used over the British Isles when thinned to (a) 125 km (147 observations), (b) 71 km (333) and (c) 31 km (735). Observations are normally thinned to keep their errors uncorrelated; HiSCORE aims to let operational forecasting centres use many more observations by accounting for their spatial observation-error correlations."
   text:
     - "In September, Rishabh Bhatt presented the progress of the HiSCORE project to ECMWF at the pre-SAC (Scientific Advisory Committee) meeting, representing one of ECMWF's external collaborations in data assimilation. His talk highlighted the objectives achieved so far, including a recent paper in QJRMS special issue on estimating the spatial observation-error correlations in AMSU-A observations at ECMWF and the UK Met Office. Rishabh's presentation also set out a vision for representing correlated observation errors in the IFS, along with developments in the pipeline to get there. The presentation was given for the benefit of ECMWF's Director of Science and Innovation, Irina Sandu, who guides their future science strategy."
   links:

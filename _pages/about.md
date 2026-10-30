@@ -4,7 +4,7 @@ title: home
 permalink: /
 subtitle: "Advancing the Frontiers of Earth System Prediction."
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # shown in the page content instead, under Highlights (see "Selected publications" below)
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -408,6 +408,10 @@ latest_posts:
 {% endfor %}
 </div>
 {% endif %}
+
+<h2 class="home-h" id="selected-publications"><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a></h2>
+{%- comment -%} Papers marked selected={true} in _bibliography/afesp_core/papers.bib (the theme's own list). {%- endcomment -%}
+{% include selected_papers.liquid %}
 
 <h2 class="home-h">Explore AFESP</h2>
 <div class="explore">

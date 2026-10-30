@@ -1,0 +1,25 @@
+# Research highlights shown on the Highlights page (_pages/highlights.md), newest first by date.
+#   - date: YYYY-MM-DD
+#     title, people (who did the work; names link to profiles via the anchors below), project (a page on this site),
+#     image (in assets/img/highlights/) with alt text and an optional caption, text (one or more paragraphs),
+#     links (title + url).
+
+- date: 2026-10-30
+  title: "AdHImEx: long, accurate time steps for transport on any grid"
+  people:
+    - name: Amber te Winkel
+      anchor: amber-winkle
+    - name: Hilary Weller
+      anchor: hilary-weller
+    - name: Christian Kühnlein (ECMWF)
+    - name: James Kent (Met Office)
+  project: /projects/phd_amber_te_winkle/
+  image: highlights/adhimex_comparison.png
+  image_alt: "Two panels show the same deformed tracer field: an explicit reference run on a uniform grid and an AdHImEx run on a nonuniform grid with an identical time step. The fields look the same, with errors (l2) of 0.2284 and 0.2264."
+  caption: "With the same time step, AdHImEx on a nonuniform grid (right) matches an explicit reference on a uniform grid (left): ℓ₂ error 0.2264 against 0.2284."
+  text:
+    - "Weather and climate models carry moisture, heat and pollutants with the wind. With conventional explicit methods, a few small grid cells (e.g., near the poles of a latitude–longitude grid or in a nested high-resolution region) or a patch of fast flow (e.g., in strong updrafts or a mountain valley) can force short, costly time steps everywhere. Adaptively Implicit-Explicit (AdImEx) time stepping methods avoid this by blending a cheap explicit method with a robust implicit method where needed. The new high-order AdHImEx method is more accurate at long time steps than previous AdImEx methods and can reduce computing time compared with explicit methods. This frees kilometre-scale models from a strict time-step limit, regardless of the grid they use."
+    - "AdHImEx was tested for vertical transport in the Met Office’s next-generation model, LFRic. It produced a weather forecast essentially identical to the one using the existing advection scheme – a promising first step towards high-order AdImEx time stepping in operational models."
+  links:
+    - title: "Preprint: AdHImEx: Adaptively High-Order Implicit-Explicit Transport for Large Time Steps"
+      url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537214

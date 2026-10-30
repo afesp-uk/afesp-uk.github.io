@@ -419,6 +419,8 @@ nav_order: 6
 
 <!-- Items whose name starts with "AFESP" are highlighted as AFESP's own events. An item without a link is shown as a plain card. -->
 
+- [**Health at COP31, World Health Organization (9-20 Nov, 2026; Antalya, Türkiye, with live streaming):**](https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31)<br>
+  WHO's programme at the UN Climate Change Conference (COP31), putting climate-resilient health systems at the centre of the talks: a Health Day on 9 November, a Health Pavilion with over 60 events across the two weeks (live-streamed), and side events including a UN high-level event on 14 November.
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
 
 ## Upcoming workshops

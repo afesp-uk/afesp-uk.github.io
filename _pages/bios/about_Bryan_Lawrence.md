@@ -1,11 +1,15 @@
 <p style="text-align: justify;">
+I am an NCAS Senior Scientist, based at the University of Reading.
+</p>
 
-<p>
-
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<p><strong>Research interests:</strong></p>
+<ul>
+  <li>Storage and I/O at Petascale and beyond</li>
+  <li>Problems in Data Analysis for Atmospheric Science</li>
+  <li>Scientific Data Description and Publication</li>
+  <li>High Resolution and Coupled Climate Computing</li>
+  <li>Performance of Earth System Models</li>
+  <li>Land surface representation in climate models</li>
+  <li>Next generation modelling systems</li>
+  <li>Gravity Wave and Physical Parameterisations in models</li>
+</ul>

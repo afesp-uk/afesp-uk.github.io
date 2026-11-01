@@ -781,7 +781,7 @@ profiles:
         -->
       </div>
   - align: left
-    image: profile_pics/Kaustubh_Mittal.png # placeholder hidden until a photo is added
+    image: profile_pics/Kaustubh_Mittal.jpg # placeholder hidden until a photo is added
     content: bios/about_Kaustubh_Mittal.md
     anchor: kaustubh-mittal # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular

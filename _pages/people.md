@@ -791,6 +791,7 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
+       </div>
         -->
       </div>
   - align: left

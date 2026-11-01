@@ -792,8 +792,6 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology </p>
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading </p>
        </div>
-        -->
-      </div>
   - align: left
     image: profile_pics/cyril_morcrette.jpg
     content: bios/about_Cyril_Morcrette.md

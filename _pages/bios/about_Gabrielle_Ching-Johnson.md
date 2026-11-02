@@ -1,6 +1,9 @@
 <p style="text-align: justify;">
-
+Hi, I started my PhD at the University of Reading in September 2024 researching the coupling of a variable resolution ocean to the atmosphere. I am interested in how a two-way mesh refinement (nested grid) ocean coupled to the atmosphere compares to a uniform coupled model and whether the resolved mesoscale in the nested grid is seen by the atmosphere and impacts atmospheric variability. 
+</p>
 <p>
+I am supervised by Bryan Lawrence (National Centre for Atmospheric Science; NCAS), Annette Osprey (NCAS), Anna Sommer (NCAS), Diego Bruciaferri (Met Office) and Thomas Rackow (ECMWF).
+</p>
 
 <!--
 Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.

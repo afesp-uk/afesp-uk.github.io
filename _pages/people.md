@@ -235,6 +235,18 @@ profiles:
         <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
       </div>
   - align: left
+    image: profile_pics/Gabrielle-Ching-Johnson.jpg
+    content: bios/about_Gabrielle_Ching-Johnson.md
+    anchor: gabrielle-ching-johnson # link target used by the green author names on the publications page
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p id="leo-chow" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Gabrielle Ching-Johnson</p>
+      <div style="font-size: 0.8em; line-height: 1.15;">
+        <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>
+        <p style="white-space: nowrap; margin: 0; display: block;">University of Reading</p>
+      </div>
+  - align: left
     image: profile_pics/prof_pic_Leo_Chow.jpg
     content: bios/about_Leo_Chow.md
     anchor: leo-chow # link target used by the green author names on the publications page

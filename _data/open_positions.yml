@@ -2,6 +2,7 @@
 #
 # The page sorts these entries by `advertised`, most recent first, so they can be listed here in any order.
 # AFESP's own positions (afesp: true) come first in a highlighted section.
+# Always keep AFESP's own positions on the page; the rules below about third-party links apply to positions elsewhere.
 #   title:          job title, shown as the heading
 #   afesp:          true for AFESP's own positions; these are highlighted at the top of the page.
 #                   Everything else is listed under "Open positions elsewhere".
@@ -10,7 +11,8 @@
 #   advertised_label: optional text to show instead of the exact date (e.g. when only the month is known)
 #   closes:         closing date as it should read on the page
 #   details:        short facts shown in the grey line under the title (salary, contract, location, ...)
-#   url:            the employer's own advert
+#   url:            the employer's own advert, on the hiring institution's own site or official
+#                   application system. Don't link to third-party job boards (AGU, EGU, Academic Positions, ...).
 #   body:           Markdown description
 #
 # Only list positions that are still open. Don't add adverts that have already closed,
@@ -190,6 +192,69 @@
   body: |
     A postdoctoral fellowship open across Earth and planetary science, for PhDs within the last three years or 2027 degree candidates. You'll need a cover letter, CV, a 2–3 page research statement, three reference letters and a faculty sponsor letter.
 
+- title: Machine Learning Engineer (RE1-2) – AI Factory, Earth Sciences Department
+  organisation: Barcelona Supercomputing Center (BSC), Spain
+  advertised: 2026-11-02
+  closes: 2 December 2026
+  details: Full-time · Contract tied to project funding · Barcelona
+  url: https://www.bsc.es/join-us/job-opportunities/50026escesre1
+  body: |
+    Support AI services for climate-change use cases and manage AI software on the MareNostrum 5 AI partition. You'll design machine-learning pipelines for environmental applications. Strong Python and deep-learning skills, plus experience with Earth system data and high-performance computing, are needed.
+
+- title: Postdoc – modelling organic carbon under climate change
+  organisation: CNRS, LISA (Laboratoire Interuniversitaire des Systèmes Atmosphériques), France
+  advertised: 2026-10-30
+  closes: Open until filled
+  details: From €37,500 per year · Fixed-term · Créteil, near Paris
+  url: https://emploi.cnrs.fr/Offres/CDD/UMR7583-ISALAM-007/Default.aspx
+  body: |
+    Test whether the reduced chemical mechanisms in the CHIMERE model correctly represent VOCs, radicals, ozone and nitrogen oxides under future climate conditions, comparing them in a box model against the detailed GECKO-A reference. France's 2022 summer heatwaves are used as an analogue for a future climate. Contacts: <a href="mailto:Marie.Camredon@lisa.ipsl.fr">Marie Camredon</a> and <a href="mailto:Matthias.Beekmann@lisa.ipsl.fr">Matthias Beekmann</a>.
+
+- title: Research Fellow in Biomineralization and Geochemistry
+  organisation: University of St Andrews
+  advertised: 2026-10-28
+  closes: 13 November 2026
+  details: NERC-funded · St Andrews · Ref AR3356
+  url: https://www.vacancies.st-andrews.ac.uk/Vacancies/W/5162/0/475750/889/research-fellow-ar3356
+  body: |
+    Investigate how amorphous calcium carbonate precursors affect the chemical records in calcite and aragonite used as palaeoclimate proxies, and where these precursors form in marine organisms. This is mainly geochemistry, with a palaeoclimate application. Led by Dr Nicola Allison.
+
+- title: "PhD studentship: foraminifera palaeoproxy calibrations for glacial–interglacial timescales"
+  organisation: University of St Andrews and University of Stirling (NERC IAPETUS2)
+  advertised: 2026-10-28
+  closes: 5 January 2027 (non-UK applicants must register interest by 7 December 2026)
+  details: Fully funded for UK and international applicants · Starts October 2027 · St Andrews
+  url: https://iapetus.ac.uk/studentships/development-of-foraminifera-palaeoproxy-calibrations-for-application-over-glacial-interglacial-time-scales/
+  body: |
+    Develop calibrations for foraminifera-based palaeoproxies so they can be applied across glacial and interglacial timescales. Supervised by Dr Nicola Allison (St Andrews) and Dr Clare Bird (Stirling). This is mainly geochemistry, with a palaeoclimate application.
+
+- title: Postdoctoral researcher in aerosol emissions from streams
+  organisation: Swedish University of Agricultural Sciences (SLU), Department of Forest Ecology and Management, Sweden
+  advertised: 2026-10-19
+  closes: 16 November 2026
+  details: About SEK 39,000 per month · 24 months, possibly extended · Starts 1 January 2027 · Umeå
+  url: https://www.slu.se/en/about-slu/work-at-slu/jobs-and-vacancies/postdoktor-inom-aerosolutslapp-fran-vattendrag/
+  body: |
+    Test whether streams emit aerosols to the atmosphere and find out what mechanisms and conditions control these emissions, by building a flux chamber and combining field deployments with laboratory measurements. You need a recent PhD and experience with aerosol or air–water exchange measurements.
+
+- title: PhD in AI-enabled prediction of pollen season magnitude for next-generation forecasting
+  organisation: University of Birmingham (CENTA doctoral training partnership)
+  advertised: 2026-10-19
+  closes: 6 January 2027, 23:59 GMT
+  details: Fully funded, UKRI stipend (£21,805 in 2026/27) plus fees and £8,000 research budget · 3.5 years · Ref CENTA 2027-B12
+  url: https://admissions.bham.ac.uk/course-finder-landing-page/?code=LES068
+  body: |
+    Use the Met Office's UK pollen reanalysis (2000–2025) to build interpretable machine-learning models that predict how severe the pollen season will be months ahead, and help improve the Met Office NAME pollen forecast. Apply for the PhD in Geography (CENTA) 2027 entry, with the CENTA studentship application form and a CV.
+
+- title: Postdoctoral Research Associate in Urban Climatology (Humboldt Fellowship)
+  organisation: University of Münster, Institute of Landscape Ecology, Germany
+  advertised: 2026-10-12
+  closes: 30 November 2026
+  details: 2 years, full-time · Starts 1 April 2027 · Münster · Open only to women who haven't studied or worked in Germany before
+  url: https://www.uni-muenster.de/BAI/en/openpositions.html
+  body: |
+    A fully funded Alexander von Humboldt postdoctoral fellowship to quantify greenhouse gas fluxes in the city of Münster. You need a PhD in an environmental, atmospheric, climate or related field and experience with eddy covariance or mechanistic modelling. Email a single PDF (cover letter, CV with publications, two referees) to Prof. Mana Gharun (<a href="mailto:mana.gharun@uni-muenster.de">mana.gharun@uni-muenster.de</a>).
+
 - title: Research Fellow in Climate Simulation
   organisation: University of Southampton, School of Ocean and Earth Science
   advertised: 2026-10-30
@@ -217,23 +282,6 @@
   body: |
     Join the Climate Processes Group at the frontier of aerosol–cloud–climate research and next-generation km-scale Earth system modelling, working closely with leading groups across Europe. You need a PhD in atmospheric physics or a related field, or to be close to finishing one.
 
-- title: Tenure-Track Assistant Professor of Mathematics and Atmosphere Ocean Science (Fall 2027)
-  organisation: New York University, Courant Institute of Mathematical Sciences, USA
-  advertised: 2026-10-29
-  details: Tenure-track · New York, NY
-  url: https://findajob.agu.org/job/8028944/tenure-track-assistant-professor-of-mathematics-and-atmosphere-ocean-science-for-fall-2027/
-  body: |
-    A tenure-track assistant professorship in mathematics and atmosphere ocean science, starting in fall 2027.
-
-- title: "Fully funded PhD: How will future weather reshape phytoplankton blooms at oceanic fronts? (Physical Oceanography)"
-  organisation: University of Otago, Department of Marine Science, New Zealand
-  advertised: 2026-10-29
-  closes: 30 November 2026
-  details: NZ$35,000 per year tax-free stipend for 3 years, plus tuition · Open to all nationalities · Dunedin
-  url: https://www.egu.eu/jobs/8689/
-  body: |
-    Use the CROCO regional ocean model coupled with PISCES biogeochemistry to simulate the submesoscale processes that drive phytoplankton blooms at Southern Ocean fronts after passing weather systems, and predict how blooms may change in a stormier future climate. There may be research voyages to collect validating observations. The project is supported by the Marsden Fund, in collaboration with Earth Sciences New Zealand. You need an MSc or BSc (Hons) in oceanography, physics, mathematics or computer science. Contact Dr Robert Smith (<a href="mailto:robert.smith@otago.ac.nz">robert.smith@otago.ac.nz</a>).
-
 - title: Scientist – tropical cyclone research and product development
   organisation: University of Wisconsin–Madison, Space Science and Engineering Center (SSEC), USA
   advertised: 2026-10-29
@@ -243,15 +291,6 @@
   body: |
     Join the CIMSS tropical cyclone team to develop satellite-based intensity and other products from GOES, JPSS and other geostationary and commercial satellite data, and combine them with radar, airborne measurements and NWP models to improve tropical storm forecasts. Machine-learning experience and Python are required.
 
-- title: PhD position in hurricane risk
-  organisation: Florida International University, Environmental Risk and Finance Lab, USA
-  advertised: 2026-10-24
-  closes: 26 November 2026
-  details: Fully funded (stipend and tuition) · Starts fall 2027 · Miami, FL
-  url: https://findajob.agu.org/job/8028885/phd-position-in-hurricane-risk-/
-  body: |
-    Study how hurricane winds and rain damage buildings and turn into economic and household financial losses, using FIU's public hurricane and flood loss models, property data and insurance claims records. Email Dr Dan Li (<a href="mailto:dali@fiu.edu">dali@fiu.edu</a>) a single PDF with your CV, a short research statement, unofficial transcripts and 2–3 references, then complete FIU's formal graduate application.
-
 - title: Assistant / Associate / Full Professor (Open Rank) – Climate Systems Engineering
   organisation: University of Chicago, Climate Systems Engineering initiative (CSEi), USA
   advertised: 2026-10-21
@@ -259,7 +298,7 @@
   details: "9-month base salary: Assistant $120,000–$150,000 · Associate $130,000–$165,000 · Professor $155,000–$210,000 · Chicago, IL"
   url: https://apply.interfolio.com/195850
   body: |
-    Tenure-track and tenured faculty to lead research in climate systems engineering, including carbon removal, sunlight reflection and interventions to slow glacial ice loss. Applicants from any relevant discipline are welcome. Apply for the [Assistant Professor post](https://apply.interfolio.com/195850) or the [Associate Professor / Professor post](https://apply.interfolio.com/195886). There's also a separate open-rank post in [Geochemistry and Climate Systems Engineering](https://findajob.agu.org/job/8028741/assistant-professor-associate-professor-professor-geochemistry-and-climate-systems-engineering/).
+    Tenure-track and tenured faculty to lead research in climate systems engineering, including carbon removal, sunlight reflection and interventions to slow glacial ice loss. Applicants from any relevant discipline are welcome. Apply for the [Assistant Professor post](https://apply.interfolio.com/195850) or the [Associate Professor / Professor post](https://apply.interfolio.com/195886).
 
 - title: CICOES Postdoctoral Scholar Program 2027 (2 positions)
   organisation: University of Washington, Cooperative Institute for Climate, Ocean, and Ecosystem Studies (CICOES), USA
@@ -278,14 +317,6 @@
   url: https://insidecires.colorado.edu/visitingfellow/
   body: |
     Two-year postdoctoral fellowships and shorter sabbatical fellowships at CU Boulder and NOAA laboratories in Boulder. Postdocs must have finished their PhD no more than four years before applying. Every application needs a sponsoring CIRES Fellow or Senior Research Scientist.
-
-- title: Assistant or Associate Professor of Earth and Atmospheric Sciences
-  organisation: City College of New York (CUNY), USA
-  advertised: 2026-10-16
-  details: Assistant $105,588–$114,091 · Associate $117,971–$134,808 · New York, NY
-  url: https://findajob.agu.org/job/8028743/assistant-or-associate-professor-of-earth-and-atmospheric-sciences/
-  body: |
-    A faculty position in the Department of Earth and Atmospheric Sciences at City College of New York.
 
 - title: Assistant Professor of Meteorology – Social and/or Behavioral Sciences Applied to Weather and Climate Studies
   organisation: University of Oklahoma, School of Meteorology, USA

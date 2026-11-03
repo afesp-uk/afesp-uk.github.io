@@ -410,9 +410,10 @@ nav_order: 6
 ## AFESP events
 
 <!-- AFESP's own events, written like the upcoming items below: "Name (date; place)", with an optional link and an optional description after a <br>.
-     Upcoming events show as cards. Once an event's last day has passed it moves by itself into "Past AFESP events", grouped by year. -->
+     Upcoming events show as cards. Once an event's last day has passed it moves by itself into "Past AFESP events", grouped by year.
+     To move an event there earlier, add <span class="ev-mark-past"></span> at the end of its line. -->
 
-- **AFESP Conference 2026 (2-3 Nov, 2026; Henley Business School, University of Reading):**
+- **AFESP Conference 2026 (2-3 Nov, 2026; Henley Business School, University of Reading):** <span class="ev-mark-past"></span>
 - **AFESP Conference 2025 (Tuesday 4 Nov, 2025; Meadow Suite, Whiteknights Campus, University of Reading, RG6 6UR):**
 
 ## Upcoming conferences
@@ -649,7 +650,7 @@ nav_order: 6
     // "Past AFESP events" archive, grouped by year (newest first; only the newest year starts open).
     const archivePast = (h2, list, items) => {
       const now = new Date();
-      const past = items.filter((li) => li.dataset.end && new Date(li.dataset.end) < now);
+      const past = items.filter((li) => li.dataset.past === "1" || (li.dataset.end && new Date(li.dataset.end) < now));
       // Upcoming ones soonest first (events without a readable date go last).
       items
         .filter((li) => !past.includes(li))
@@ -724,6 +725,8 @@ nav_order: 6
           rest.querySelector(a ? "a" : "strong").remove();
           const desc = rest.textContent.trim();
           if (!a) a = document.createElement("div");
+          // An AFESP event marked with an .ev-mark-past span goes into the archive straight away, before its last day ends.
+          if (li.querySelector(".ev-mark-past")) li.dataset.past = "1";
           li.innerHTML = "";
           li.appendChild(a);
           const m = raw.match(/^(.*)\(([^()]*)\)\s*$/);

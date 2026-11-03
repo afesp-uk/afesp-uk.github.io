@@ -17,6 +17,7 @@
 #
 # Only list positions that are still open. Don't add adverts that have already closed,
 # and remove an entry once its closing date has passed.
+# Positions elsewhere: don't list adverts first published more than six months ago.
 
 - title: Urban climate, micrometeorology and boundary-layer research positions
   afesp: true
@@ -335,22 +336,3 @@
   url: https://apply.interfolio.com/194094
   body: |
     Research that advances understanding of weather systems and extreme weather, grounded in atmospheric dynamics and the coupled Earth system. Areas could include high-resolution weather and climate modelling, detection and attribution of extremes, and subseasonal-to-decadal prediction, with strong expertise in machine learning and AI expected.
-
-- title: NSF Atmospheric and Geospace Sciences Postdoctoral Research Fellowship (AGS-PRF)
-  organisation: US National Science Foundation
-  advertised: 2022-10-01
-  advertised_label: Ongoing NSF programme
-  closes: Proposals accepted at any time
-  details: Hold at the US institution of your choice · US citizens, nationals and permanent residents only
-  url: https://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22639
-  body: |
-    A postdoctoral fellowship for early-career atmospheric and geospace scientists, held at a host institution of your choice. Applicants must be US citizens or nationals, or permanent residents, when they submit. Confirm the current terms in the NSF solicitation.
-
-- title: Postdoctoral Research Associate – Earth System Research (2 positions)
-  organisation: Princeton University Atmospheric and Oceanic Sciences Program / NOAA GFDL
-  advertised: 2026-02-12
-  closes: Open until filled (listing runs to 12 February 2027)
-  details: $67,000–$77,000 · Postdoctoral or more senior · Princeton, NJ, USA
-  url: https://apply.interfolio.com/181429
-  body: |
-    Two postdoctoral or more senior research scientists for Earth System research and development, applying data science and engineering to stakeholder-relevant problems with GFDL model data. Contact: Aparna Radhakrishnan (<a href="mailto:aparna.radhakrishnan@princeton.edu">aparna.radhakrishnan@princeton.edu</a>).

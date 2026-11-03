@@ -557,7 +557,7 @@ Upcoming workshops & conferences. The script below moves finished events to thei
         class="ai-reveal"
         data-start="{{ e.start | date: '%Y-%m-%d' }}"
         data-end="{{ e_end | date: '%Y-%m-%d' }}"
-        data-kind="{{ e.kind }}"
+        data-kind="{{ e.kind }}"{% if e.past %} data-past="1"{% endif %}
       >
 {%- assign e_external = e.url | slice: 0, 4 -%}
 {%- if e.url -%}{%- assign e_tag = 'a' -%}{%- else -%}{%- assign e_tag = 'div' -%}{%- endif -%}
@@ -714,7 +714,7 @@ target="_blank" rel="noopener"
     // collapsible years (newest first; only the newest year starts open).
     const afesp = root.querySelector(".ai-afesp-upcoming");
     const archive = root.querySelector(".ai-archive");
-    const pastAfesp = Array.from(afesp.children).filter((li) => parse(li.dataset.end) < today);
+    const pastAfesp = Array.from(afesp.children).filter((li) => li.dataset.past === "1" || parse(li.dataset.end) < today);
     if (pastAfesp.length) {
       const byYear = new Map();
       pastAfesp

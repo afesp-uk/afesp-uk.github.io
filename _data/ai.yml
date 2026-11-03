@@ -6,6 +6,7 @@
 #   - kind is one of: Workshop, Conference, Webinar, Seminar
 #   - afesp: true lists the event under "AFESP conferences and workshops" at the top of the page (green border and an AFESP badge);
 #     once it has finished it moves to "Past AFESP conferences and workshops", grouped by year.
+#   - past: true moves an AFESP event into that archive straight away, before its last day has ended.
 #   - url can be an external link or a page on this site (e.g. /about/); leave it out for a card with no link.
 # news: short news items, newest first is not required (the page sorts them by date).
 
@@ -16,8 +17,9 @@ events:
     start: 2026-11-02
     end: 2026-11-03
     location: Henley Business School, Whiteknights Campus, University of Reading, RG6 6UD
-    summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities. A full agenda will be circulated in due course. Registration is now closed.
+    summary: Bringing together everyone in the AFESP programme, with keynote presenters, short talks from AFESP investigators and research scientists, PhD student poster sessions, and breakout sessions to shape future AFESP priorities.
     afesp: true
+    past: true
 
   - title: AFESP Conference 2025
     organiser: AFESP, with ECMWF, the Met Office and NCAS

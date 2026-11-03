@@ -1,0 +1,150 @@
+# Open positions shown on /open-positions/ (_pages/open_positions.md).
+#
+# The page sorts these entries by `advertised`, most recent first, so they can be listed here in any order.
+# AFESP's own positions (afesp: true) come first in a highlighted section.
+#   title:          job title, shown as the heading
+#   afesp:          true for AFESP's own positions; these are highlighted at the top of the page.
+#                   Everything else is listed under "Open positions elsewhere".
+#   organisation:   who is hiring (leave out for AFESP's own positions)
+#   advertised:     date the advert was first published, YYYY-MM-DD (used for sorting)
+#   advertised_label: optional text to show instead of the exact date (e.g. when only the month is known)
+#   closes:         closing date as it should read on the page
+#   details:        short facts shown in the grey line under the title (salary, contract, location, ...)
+#   url:            the employer's own advert
+#   body:           Markdown description
+#
+# Remove an entry once the position has closed.
+
+- title: Urban climate, micrometeorology and boundary-layer research positions
+  afesp: true
+  advertised: 2026-11-03
+  details: Full-time or part-time · A wide range of levels
+  project:
+    name: URBANE
+    url: /projects/5_project/
+  body: |
+    Within a broad range of urban climate, micrometeorology and boundary-layer projects, we have a few positions available for people with different skill sets. Do you have experience or good skills in one or more of the following?
+
+    1. Running (1) the UM, (2) the IFS or (3) other equivalent atmospheric models
+    2. Analysing UM, IFS or other equivalent model output
+    3. Analysing observations (e.g. DWL, LAS, ALC, IRT or EC sensors)
+    4. Writing code and making code more efficient (Fortran or Python)
+    5. Handling and processing GIS data (e.g. to create databases, model input or evaluation data)
+    6. Running land surface models
+    7. Analysing land surface model output (e.g. evaluation against observations)
+    8. Developing land surface models (e.g. code enhancements, model coupling, integration of new sub-models)
+
+    **Examples of recent papers covering some of these topics:**
+
+    <ul class="job-papers">
+      <li>(1), (2): <a href="https://wcd.copernicus.org/articles/6/1723/2025/">Glazer et al. (2025)</a>, <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.4837">Saunders et al. (2024)</a>, <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.4669">Hall et al. (2024)</a></li>
+      <li>(3): <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/met.70088">Looschelders et al. (2025)</a>, <a href="https://essd.copernicus.org/articles/17/6507/2025/">Morrison et al. (2025)</a>, <a href="https://journals.ametsoc.org/view/journals/bams/105/10/BAMS-D-23-0030.1.xml">Fenner et al. (2024)</a></li>
+      <li>(5): <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.289">Hertwig et al. (2025)</a></li>
+      <li>(6), (7), (8): <a href="https://www.sciencedirect.com/science/article/pii/S0378778824007849">Liu et al. (2024)</a>, <a href="https://www.sciencedirect.com/science/article/pii/S2210670724006358">Xie et al. (2024)</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0360132323006480">Xie et al. (2023)</a></li>
+    </ul>
+
+    **How to apply:** if you have one or more of these skills and would like to know more, please contact [Prof Sue Grimmond](/people/#sue-grimmond) at <a href="mailto:c.s.grimmond@reading.ac.uk">c.s.grimmond@reading.ac.uk</a>. Positions could be full-time or part-time and could be at a wide range of levels.
+
+- title: "Project Manager – VERIFY: Out Of Sample Testing For Early Warning Systems Using Past Climate (maternity cover)"
+  organisation: University of Leeds, Institute for Climate and Atmospheric Science (ICAS)
+  advertised: 2026-11-03
+  closes: 15 November 2026
+  details: £41,064–£48,822 pro rata per annum (Grade 7) · Maternity cover · Leeds
+  url: https://jobs.leeds.ac.uk/vacancy.aspx?ref=ENVEE1888
+  body: |
+    Project management for VERIFY, a project testing early warning systems out of sample using past climate.
+
+- title: Senior Postdoctoral Research Scientist – Climate Sensitive Infectious Diseases
+  organisation: University of Oxford, Pandemic Sciences Institute
+  advertised: 2026-11-02
+  closes: 23 November 2026, 12:00
+  details: £50,067–£59,396 per annum (Research Grade 8) · Oxford · Vacancy ID 189515
+  url: https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189515
+  body: |
+    A senior postdoctoral scientist post in the Kraemer Group (Data Analytics and Epidemiology), working on climate-sensitive infectious diseases.
+
+- title: Scientific Software Engineer (Weather Warning Verification)
+  organisation: ETH Zurich, Center for Climate Systems Modeling (C2SM)
+  advertised: 2026-11-02
+  details: 80–100% · Fixed-term · Locarno, Switzerland
+  url: https://jobs.ethz.ch/job/view/JOPG_ethz_XdJx0SbSKtDGiVon7d
+  body: |
+    A scientific software engineering post on the verification of weather warnings.
+
+- title: Research and postdoctoral positions at CNRM
+  organisation: Météo-France / CNRM, Toulouse
+  advertised: 2026-11-01
+  advertised_label: Listed 1 November 2026
+  details: Several posts · Toulouse, France
+  url: https://careers.flatchr.io/company/meteofrance
+  body: |
+    Météo-France lists several research posts at CNRM, including:
+
+    - a climate scientist working on extreme events under climate change
+    - a postdoc characterising deep convection in tropical cyclones from satellite data
+    - a postdoc in drought and fire-danger monitoring
+    - a postdoc in land data assimilation
+    - research engineer posts in high-resolution oceanography and in climate data science
+
+    See the Météo-France careers site for each advert and its closing date.
+
+- title: Postdoctoral Research Associate / Fellow
+  organisation: University of Exeter, Faculty of Environment, Science and Economy
+  advertised: 2026-10-30
+  closes: 10 December 2026
+  details: From £35,302 (PDRA, Grade E) or from £44,352 (PDRF, Grade F) · Penryn Campus, hybrid · Job ref 1817
+  url: https://careers.exeter.ac.uk/vacancies/1817/postdoctoral-research-associate--fellow.html
+  body: |
+    Develop an observation-based ocean forecasting system using machine learning, with the UK Met Office and Oshen. The work includes adding uncertainty quantification to a three-dimensional machine-learning forecasting pipeline and developing adaptive sampling algorithms that suggest where new ocean measurements would most improve forecasts.
+
+- title: Research Scientist (RealESM)
+  organisation: University of Reading, National Centre for Atmospheric Science (NCAS)
+  advertised: 2026-10-28
+  closes: 30 November 2026
+  details: £37,369–£46,970 per annum (Grade 6) · Reading
+  url: https://jobs.reading.ac.uk/
+  body: |
+    Assess the atmospheric drivers of precipitation and air-quality extremes, and the probability distributions of temperature and precipitation. Search for "RealESM" on the University of Reading jobs site.
+
+- title: Climate Monitoring Scientist and Climate Monitoring Foundation Scientist (3 roles)
+  organisation: Met Office, Exeter
+  advertised: 2026-10-17
+  advertised_label: Advertised mid-October 2026
+  closes: 4 November 2026, 23:59
+  details: Scientist £35,145 base pay (total reward up to £49,448) · Foundation Scientist up to £40,524 total reward · Permanent · Hybrid
+  url: https://careershub.metoffice.gov.uk/members/modules/job/detail.php?record=1457
+  body: |
+    Three roles in the Climate Monitoring and Attribution group, advertised at Foundation Scientist and Scientist levels: Global Surface Temperature Climate Monitoring Scientist, Satellite Climate Observations Scientist, and UK Climate Scientist (National Climate Information Centre). The [Foundation Scientist advert](https://careershub.metoffice.gov.uk/members/modules/job/detail.php?record=1456) is separate. To be considered at both levels, apply to each advert.
+
+- title: Climate Scientist (BAS 26/82)
+  organisation: British Antarctic Survey, Cambridge
+  advertised: 2026-10-15
+  advertised_label: Advertised October 2026
+  closes: 4 November 2026, 23:55
+  details: £42,688–£46,957 per annum · Fixed-term, 30 months · Interviews 17 November 2026 · Starts 1 February 2027
+  url: https://www.bas.ac.uk/jobs/vacancies/
+  body: |
+    Use models and observations to quantify how often rain falls on Antarctic sea ice and the processes responsible, and develop projections of how this will change. You'll collaborate with the Universities of Leeds and Reading.
+
+- title: PhD studentships in Atmospheric Sciences and Oceanography (4 positions)
+  organisation: Stockholm University, Department of Meteorology (MISU)
+  advertised: 2026-10-13
+  closes: 3 November 2026
+  details: PhD positions · Stockholm, Sweden
+  url: https://www.su.se/english/divisions/department-of-meteorology/about-the-department/work-with-us
+  body: |
+    Four PhD positions, each with its own advert:
+
+    - [Aerosol–cloud–climate interactions](https://su.varbi.com/en/what:job/jobID:972418/)
+    - [Machine-learning methods in climate modelling](https://su.varbi.com/en/what:job/jobID:972886/)
+    - [Clouds in the atmospheric boundary layer](https://su.varbi.com/en/what:job/jobID:972996/)
+    - [Mixed-phase cloud processes](https://su.varbi.com/en/what:job/jobID:974201/)
+
+- title: Postdoctoral Research Associate – Earth System Research (2 positions)
+  organisation: Princeton University Atmospheric and Oceanic Sciences Program / NOAA GFDL
+  advertised: 2026-02-12
+  closes: Open until filled (listing runs to 12 February 2027)
+  details: $67,000–$77,000 · Postdoctoral or more senior · Princeton, NJ, USA
+  url: https://apply.interfolio.com/181429
+  body: |
+    Two postdoctoral or more senior research scientists for Earth System research and development, applying data science and engineering to stakeholder-relevant problems with GFDL model data. Contact: Aparna Radhakrishnan (<a href="mailto:aparna.radhakrishnan@princeton.edu">aparna.radhakrishnan@princeton.edu</a>).

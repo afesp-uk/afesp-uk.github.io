@@ -453,7 +453,7 @@ nav_order: 6
 
 - **AFESP Conference 2026**<br>
   **Breakout session on HPC usage and needs**<br>
-  Sharar Ahmadi<br>
+  Sharar Ahmadi (chair), Charlie Egan and Rishabh Bhatt (co-chairs)<br>
   Reading, UK | Session chair | 2–3 November 2026
 - **AFESP Conference 2026**<br>
   **AFESP further opportunities and future focus for research and investment**<br>

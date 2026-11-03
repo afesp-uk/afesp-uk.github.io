@@ -456,6 +456,10 @@ nav_order: 6
   Sharar Ahmadi<br>
   Reading, UK | Session chair | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  **AFESP further opportunities and future focus for research and investment**<br>
+  Pier Luigi Vidale (chair), Mark Muetzelfeldt and Julia Kukulies (co-chairs)<br>
+  Reading, UK | Session chair | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   **Overview of AFESP and progress to date**<br>
   Pier Luigi Vidale<br>
   Reading, UK | Oral presentation | 2–3 November 2026

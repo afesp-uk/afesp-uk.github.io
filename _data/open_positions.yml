@@ -13,7 +13,8 @@
 #   url:            the employer's own advert
 #   body:           Markdown description
 #
-# Remove an entry once the position has closed.
+# Only list positions that are still open. Don't add adverts that have already closed,
+# and remove an entry once its closing date has passed.
 
 - title: Urban climate, micrometeorology and boundary-layer research positions
   afesp: true
@@ -118,16 +119,6 @@
   url: https://www.uvic.ca/research-innovation/postdoctoral-fellows/aspiration-post-doc-fellowship/index.php
   body: |
     A two-year postdoctoral fellowship open to any research area, including climate science. You need a UVic faculty supervisor, who provides a supervisor statement and half of the salary. You must be new to UVic and have finished your PhD no more than two years before the deadline. See the [2026 call for proposals](https://www.uvic.ca/_assets/docs/vpri-aspiration_pdf_callforproposal2026.pdf) for how to apply.
-
-- title: Post-Doctoral Researcher – cumulus cloud life cycles (closed)
-  organisation: McGill University, Department of Atmospheric and Oceanic Sciences, Canada
-  advertised: 2026-09-15
-  advertised_label: Applications closed
-  closes: 17 October 2026 (closed)
-  details: CA$62,000 per year · Full-time · Montréal, QC
-  url: https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Burnside-Hall/Post-Doctoral-Researcher_JR0000080714
-  body: |
-    **This position closed on 17 October 2026.** Develop simplified but realistic models of the life cycle of cumulus clouds, combining observations with large-eddy simulations. The models could support cumulus parameterisation or machine-learning tools for short-term prediction of convective hazards.
 
 - title: PhD studentships in Atmospheric Sciences and Oceanography (4 positions)
   organisation: Stockholm University, Department of Meteorology (MISU)

@@ -468,10 +468,6 @@ nav_order: 6
   Cameron Southgate-Ash & Sue Grimmond<br>
   Reading, UK | Research project presentation | 2 November 2026
 - **AFESP Conference 2026**<br>
-  **Progress, challenges, and “state of the art” in subseasonal prediction at ECMWF**<br>
-  Chris Roberts (ECMWF)<br>
-  Reading, UK | Keynote talk | 2 November 2026
-- **AFESP Conference 2026**<br>
   **AFESP further opportunities and future focus for research and investment**<br>
   Pier Luigi Vidale (chair), Mark Muetzelfeldt and Julia Kukulies (co-chairs)<br>
   Reading, UK | Session chair | 2 November 2026

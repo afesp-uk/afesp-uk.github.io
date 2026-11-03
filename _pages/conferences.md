@@ -452,29 +452,101 @@ nav_order: 6
 ## Contributions to conferences
 
 - **AFESP Conference 2026**<br>
-  **Breakout session on HPC usage and needs**<br>
-  Sharar Ahmadi (chair), Charlie Egan and Rishabh Bhatt (co-chairs)<br>
-  Reading, UK | Session chair | 2–3 November 2026
+  **Overview of AFESP and progress to date**<br>
+  Pier Luigi Vidale<br>
+  Reading, UK | Oral presentation | 2 November 2026
+- **AFESP Conference 2026**<br>
+  **Towards a high-fidelity Integrated Forecasting System via improved modelling of the soil-plant system**<br>
+  Rajsekhar Kandala & Anne Verhoef<br>
+  Reading, UK | Research project presentation | 2 November 2026
+- **AFESP Conference 2026**<br>
+  **The ECMWF Land Surface Hydrology Foundation model (ECFoundLand)**<br>
+  Hamidreza Mosaffa & Hannah Cloke<br>
+  Reading, UK | Research project presentation | 2 November 2026
+- **AFESP Conference 2026**<br>
+  **UrbaNE: Urban Numerical Weather Prediction Expedited**<br>
+  Cameron Southgate-Ash & Sue Grimmond<br>
+  Reading, UK | Research project presentation | 2 November 2026
+- **AFESP Conference 2026**<br>
+  **Progress, challenges, and “state of the art” in subseasonal prediction at ECMWF**<br>
+  Chris Roberts (ECMWF)<br>
+  Reading, UK | Keynote talk | 2 November 2026
 - **AFESP Conference 2026**<br>
   **AFESP further opportunities and future focus for research and investment**<br>
   Pier Luigi Vidale (chair), Mark Muetzelfeldt and Julia Kukulies (co-chairs)<br>
-  Reading, UK | Session chair | 2–3 November 2026
+  Reading, UK | Session chair | 2 November 2026
 - **AFESP Conference 2026**<br>
-  **Overview of AFESP and progress to date**<br>
+  **Breakout session on HPC usage and needs**<br>
+  Sharar Ahmadi (chair), Charlie Egan and Rishabh Bhatt (co-chairs)<br>
+  Reading, UK | Session chair | 2 November 2026
+- **AFESP Conference 2026**<br>
+  **Welcome, Day 1 recap and introduction to Day 2**<br>
   Pier Luigi Vidale<br>
-  Reading, UK | Oral presentation | 2–3 November 2026
+  Reading, UK | Oral presentation | 3 November 2026
 - **AFESP Conference 2026**<br>
-  **Towards a high-fidelity Integrated Forecasting System via improved modelling of the soil-plant system**<br>
-  Rajsekhar Kandala<br>
-  Reading, UK | Research project presentation | 2–3 November 2026
+  **High-resolution data assimilation with Spatially and Temporally Correlated Observation Errors (HiSCORE)**<br>
+  Rishabh Bhatt & Sarah Dance<br>
+  Reading, UK | Research project presentation | 3 November 2026
 - **AFESP Conference 2026**<br>
-  **The ECMWF Land Surface Hydrology Foundation model (ECFoundLand)**<br>
-  Hamidreza Mosaffa<br>
-  Reading, UK | Research project presentation | 2–3 November 2026
+  **Isolating and understanding the most predictable components and improving their representation in S2S prediction**<br>
+  Charlie Egan & John Methven<br>
+  Reading, UK | Research project presentation | 3 November 2026
 - **AFESP Conference 2026**<br>
-  **UrbaNE: Urban Numerical Weather Prediction Expedited**<br>
-  Cameron Southgate-Ash<br>
-  Reading, UK | Research project presentation | 2–3 November 2026
+  **UPFLO: Improving understanding and modelling of convective updrafts and anvil clouds**<br>
+  Deepak Gopalakrishnan & Chris Holloway<br>
+  Reading, UK | Research project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Understanding the potential for month-ahead prediction for monsoon systems**<br>
+  Indrakshi Mukherjee<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Discovering the mechanisms behind “forecast busts”**<br>
+  Kaustubh Mittal<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Developing artificial intelligence approaches to enhance representations of turbulence in atmospheric models**<br>
+  Sambit Kumar Panda<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **S2S prediction of marine heatwaves and associated compound events**<br>
+  Piyali Goswami<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Improving the efficiency of weather and climate prediction by developing mathematical methods to take long time steps**<br>
+  Amber te Winkel<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **How skilful are AI-based forecasts of monsoon weather?**<br>
+  Mehzooz Nizar<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Where do we need high resolution in the ocean?**<br>
+  Gabrielle Ching-Johnson<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Machine-learning-driven balance relationships for next-generation data assimilation systems**<br>
+  Ravi Shankar Nemani<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Downstream impacts of embedded convection in warm conveyor belts**<br>
+  Jake Keller<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Improving river streamflow forecasts using deep learning techniques**<br>
+  Karan Ruparell<br>
+  Reading, UK | DTP project presentation | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Convective storms in km-scale models: linking microphysics, convective dynamics and extreme precipitation**<br>
+  Julia Kukulies<br>
+  Reading, UK | AFESP Fellows keynote talk | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **ALOFT: Aligning Organized Features in Coarse- and High-Resolution Simulations**<br>
+  Mark Muetzelfeldt<br>
+  Reading, UK | AFESP Fellows keynote talk | 3 November 2026
+- **AFESP Conference 2026**<br>
+  **Open discussion forum, summary of key outcomes and actions, next steps and conference close**<br>
+  Pier Luigi Vidale (chair)<br>
+  Reading, UK | Session chair | 3 November 2026
 - **EMS2026**<br>
   **Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin**<br>
   Cameron Southgate-Ash, et al.<br>

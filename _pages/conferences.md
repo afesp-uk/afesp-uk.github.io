@@ -451,6 +451,10 @@ nav_order: 6
 
 ## Contributions to conferences
 
+- **AFESP Conference 2026**<br>
+  **Breakout session on HPC usage and needs**<br>
+  Sharar Ahmadi<br>
+  Reading, UK | Session chair | 2–3 November 2026
 - **EMS2026**<br>
   **Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin**<br>
   Cameron Southgate-Ash, et al.<br>

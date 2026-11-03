@@ -455,6 +455,22 @@ nav_order: 6
   **Breakout session on HPC usage and needs**<br>
   Sharar Ahmadi<br>
   Reading, UK | Session chair | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  **Overview of AFESP and progress to date**<br>
+  Pier Luigi Vidale<br>
+  Reading, UK | Oral presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  **Towards a high-fidelity Integrated Forecasting System via improved modelling of the soil-plant system**<br>
+  Rajsekhar Kandala<br>
+  Reading, UK | Research project presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  **The ECMWF Land Surface Hydrology Foundation model (ECFoundLand)**<br>
+  Hamidreza Mosaffa<br>
+  Reading, UK | Research project presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  **UrbaNE: Urban Numerical Weather Prediction Expedited**<br>
+  Cameron Southgate-Ash<br>
+  Reading, UK | Research project presentation | 2–3 November 2026
 - **EMS2026**<br>
   **Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin**<br>
   Cameron Southgate-Ash, et al.<br>

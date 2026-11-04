@@ -240,7 +240,7 @@ profiles:
     anchor: gabrielle-ching-johnson # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="leo-chow" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Gabrielle Ching-Johnson</p>
+      <p id="gabrielle-ching-johnson" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Gabrielle Ching-Johnson</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP PhD Student</p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology</p>

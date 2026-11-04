@@ -392,6 +392,7 @@ nav_order: 5
 			"amber-te-winkel": "amber-winkle",
 			"amber-te-winkle": "amber-winkle",
 			"amber-winkel": "amber-winkle",
+			"tsun-ngai-chow": "leo-chow",
 		};
 		const findProfileAnchor = (text) => {
 			const found = memberMatchers.find((member) => member.regex.test(text.trim()));

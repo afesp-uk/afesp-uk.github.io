@@ -34,6 +34,7 @@
     "amber-te-winkel": "amber-winkle",
     "amber-te-winkle": "amber-winkle",
     "amber-winkel": "amber-winkle",
+    "tsun-ngai-chow": "leo-chow",
   };
 
   const run = () => {

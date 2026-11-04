@@ -31,6 +31,7 @@ This research project addresses this critical challenge of SGS turbulence parame
 
 **Posters**
 
+- **AFESP Conference 2026, Reading:** Neural subgrid closures coupled to MONC: stability, fidelity and cost of emulated turbulence at kilometre scale. [Poster (PDF)]({{ '/assets/pdf/panda_afesp2026_poster.pdf' | relative_url }})
 - **km-scale Global Modelling Summit 2026, Hamburg:** Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES. [Poster (PDF)]({{ '/assets/pdf/panda_kmscale_summit2026_poster.pdf' | relative_url }})
 - **ICCS Summer School 2026, University of Cambridge:** Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with FTorch. [Poster (PDF)]({{ '/assets/pdf/panda_iccs2026_poster.pdf' | relative_url }})
 - **EXCLAIM Symposium 2025, ETH Zurich:** Investigating Physics-guided Deep Learning frameworks for subgrid-scale parameterization of Turbulence in Atmospheric Models. [Poster (PDF)]({{ '/assets/pdf/panda_exclaim2025_poster.pdf' | relative_url }})

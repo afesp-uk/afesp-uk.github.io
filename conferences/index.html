@@ -402,6 +402,85 @@
       transition: none;
     }
   }
+  /* AFESP event cards that open the list of AFESP members' contributions to that event. */
+  .ev-card.ev-has-contribs {
+    cursor: pointer;
+  }
+  .ev-card.ev-has-contribs:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+  .ev-dialog {
+    width: min(720px, calc(100vw - 32px));
+    max-height: min(85vh, 900px);
+    padding: 1.25rem 1.4rem 1.4rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+  }
+  .ev-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .ev-dialog-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .ev-dialog h3 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .ev-dialog-close {
+    border: 0;
+    background: none;
+    color: var(--global-text-color);
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.25rem;
+  }
+  .ev-dialog-sub {
+    color: var(--global-text-color-light);
+    margin: 0.25rem 0 0.75rem;
+    font-size: 0.9rem;
+  }
+  .ev-dialog h4 {
+    font-size: 1rem;
+    margin: 1rem 0 0.4rem;
+    color: var(--global-theme-color);
+  }
+  .ev-dialog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ev-dialog-list li {
+    --kind: var(--ev-other);
+    padding: 0.55rem 0 0.55rem 0.8rem;
+    border-left: 3px solid var(--kind);
+    margin-bottom: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .ev-dialog-list li[data-kind="talk"] { --kind: var(--ev-talk); }
+  .ev-dialog-list li[data-kind="poster"] { --kind: var(--ev-poster); }
+  .ev-dialog-list li[data-kind="lightning"] { --kind: var(--ev-lightning); }
+  .ev-dialog-list li[data-kind="school"] { --kind: var(--ev-school); }
+  .ev-dialog-list .ev-type {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--global-text-color-light);
+  }
+  .ev-dialog-list .ev-title {
+    font-weight: 600;
+  }
+  .ev-dialog-list .ev-authors {
+    font-size: 0.92rem;
+  }
 </style> <h2 id="afesp-events">AFESP events</h2> <ul> <li> <strong>AFESP Conference 2026 (2-3 Nov, 2026; Henley Business School, University of Reading):</strong> <span class="ev-mark-past"></span> </li> <li><strong>AFESP Conference 2025 (Tuesday 4 Nov, 2025; Meadow Suite, Whiteknights Campus, University of Reading, RG6 6UR):</strong></li> </ul> <h2 id="upcoming-conferences">Upcoming conferences</h2> <ul> <li> <a href="https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31" rel="external nofollow noopener" target="_blank"><strong>Health at COP31, World Health Organization (9-20 Nov, 2026; Antalya, Türkiye, with live streaming):</strong></a><br> WHO’s programme at the UN Climate Change Conference (COP31), putting climate-resilient health systems at the centre of the talks: a Health Day on 9 November, a Health Pavilion with over 60 events across the two weeks (live-streamed), and side events including a UN high-level event on 14 November.</li> <li><a href="https://conference.unsw.edu.au/en/CPCM2027" rel="external nofollow noopener" target="_blank"><strong>Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):</strong></a></li> <li> <a href="https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies" rel="external nofollow noopener" target="_blank"><strong>WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):</strong></a><br> The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.</li> </ul> <h2 id="upcoming-workshops">Upcoming workshops</h2> <ul> <li> <a href="https://forms.cloud.microsoft/e/WGvKZecDdF" rel="external nofollow noopener" target="_blank"><strong>Statistics Community of Practice workshop: AI as a research method, and the role of quantitative methods (4 Nov, 2026, 09:30-13:00; Palmer 106, University of Reading, and online):</strong></a><br> With LLMs, sophisticated statistical analyses no longer need extensive statistics training. Is this a blessing or a curse? Also the role of quantitative methods in the changing landscape of research methods. Coffee from 9:30, discussions 10:00–12:00, lunch provided. Register by 26 October to attend in person, or by 3 November to join online.</li> <li><a href="https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/" rel="external nofollow noopener" target="_blank"><strong>NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):</strong></a></li> <li> <a href="https://ncar.github.io/CMIP7_hackathon_2027/#about" rel="external nofollow noopener" target="_blank"><strong>CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):</strong></a><br> A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.</li> <li> <a href="https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027" rel="external nofollow noopener" target="_blank"><strong>7th WGNE Workshop on Systematic Errors in Weather and Earth System Models (15-19 Feb, 2027; IITM, Pune, India):</strong></a><br> Understanding and reducing systematic errors in physics-based and machine-learning-based models across timescales: diagnosing and attributing errors, scale interactions and resolution, parameterisation deficiencies, coupled feedbacks, predictability, and uncertainty and ensembles, including AI/ML-assisted attribution and AI versus physics-based model intercomparison. The call for abstracts has closed.</li> </ul> <h2 id="upcoming-talks-and-seminars">Upcoming talks and seminars</h2> <ul> <li> <a href="https://www.rmets.org/event/antarctica-arctic-airborne-science-british-antarctic-survey" rel="external nofollow noopener" target="_blank"><strong>From Antarctica to the Arctic: Airborne Science with the British Antarctic Survey (2 Nov, 2026, 18:15-19:15; University of East Anglia, Norwich, and online):</strong></a><br> Royal Meteorological Society East Anglia Local Centre talk by Daniel Beeden, Flight Operations Manager at the British Antarctic Survey Air Unit, on BAS airborne science campaigns, Antarctic flight operations and ferry flights between Canada and Antarctica. Free; registration required, non-members welcome.</li> </ul> <h2 id="upcoming-training-courses">Upcoming training courses</h2> <ul> <li><a href="https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/" rel="external nofollow noopener" target="_blank"><strong>NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)</strong></a></li> <li><a href="https://www.archer2.ac.uk/training/courses/261007-archer2-data-transfer-vt/" rel="external nofollow noopener" target="_blank"><strong>Transferring data from ARCHER2 (7 Oct, 2026, 15:00-16:00; online):</strong></a></li> <li><a href="https://step-up.ac.uk/events/bytesized-drtp/" rel="external nofollow noopener" target="_blank"><strong>STEP-UP ByteSized dRTP, Episode 5: AI-assisted Coding (12 Oct, 2026, 15:00-16:30; online):</strong></a></li> </ul> <div style="height: 2.5rem;"></div> <h2 id="contributions-to-conferences">Contributions to conferences</h2> <ul> <li> <strong>AFESP Conference 2026</strong><br> <strong>Overview of AFESP and progress to date</strong><br> Pier Luigi Vidale<br> Reading, UK | Oral presentation | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Towards a high-fidelity Integrated Forecasting System via improved modelling of the soil-plant system</strong><br> Rajsekhar Kandala &amp; Anne Verhoef<br> Reading, UK | Research project presentation | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>The ECMWF Land Surface Hydrology Foundation model (ECFoundLand)</strong><br> Hamidreza Mosaffa &amp; Hannah Cloke<br> Reading, UK | Research project presentation | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>UrbaNE: Urban Numerical Weather Prediction Expedited</strong><br> Cameron Southgate-Ash &amp; Sue Grimmond<br> Reading, UK | Research project presentation | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>AFESP further opportunities and future focus for research and investment</strong><br> Pier Luigi Vidale (chair), Mark Muetzelfeldt and Julia Kukulies (co-chairs)<br> Reading, UK | Session chair | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Breakout session on HPC usage and needs</strong><br> Sharar Ahmadi (chair), Charlie Egan and Rishabh Bhatt (co-chairs)<br> Reading, UK | Session chair | 2 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Welcome, Day 1 recap and introduction to Day 2</strong><br> Pier Luigi Vidale<br> Reading, UK | Oral presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>High-resolution data assimilation with Spatially and Temporally Correlated Observation Errors (HiSCORE)</strong><br> Rishabh Bhatt &amp; Sarah Dance<br> Reading, UK | Research project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Isolating and understanding the most predictable components and improving their representation in S2S prediction</strong><br> Charlie Egan &amp; John Methven<br> Reading, UK | Research project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>UPFLO: Improving understanding and modelling of convective updrafts and anvil clouds</strong><br> Deepak Gopalakrishnan &amp; Chris Holloway<br> Reading, UK | Research project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Understanding the potential for month-ahead prediction for monsoon systems</strong><br> Indrakshi Mukherjee<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Discovering the mechanisms behind “forecast busts”</strong><br> Kaustubh Mittal<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Developing artificial intelligence approaches to enhance representations of turbulence in atmospheric models</strong><br> Sambit Kumar Panda<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>S2S prediction of marine heatwaves and associated compound events</strong><br> Piyali Goswami<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Improving the efficiency of weather and climate prediction by developing mathematical methods to take long time steps</strong><br> Amber te Winkel<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>How skilful are AI-based forecasts of monsoon weather?</strong><br> Mehzooz Nizar<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Where do we need high resolution in the ocean?</strong><br> Gabrielle Ching-Johnson<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Machine-learning-driven balance relationships for next-generation data assimilation systems</strong><br> Ravi Shankar Nemani<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Downstream impacts of embedded convection in warm conveyor belts</strong><br> Jake Keller<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Improving river streamflow forecasts using deep learning techniques</strong><br> Karan Ruparell<br> Reading, UK | DTP project presentation | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Convective storms in km-scale models: linking microphysics, convective dynamics and extreme precipitation</strong><br> Julia Kukulies<br> Reading, UK | AFESP Fellows keynote talk | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>ALOFT: Aligning Organized Features in Coarse- and High-Resolution Simulations</strong><br> Mark Muetzelfeldt<br> Reading, UK | AFESP Fellows keynote talk | 3 November 2026</li> <li> <strong>AFESP Conference 2026</strong><br> <strong>Open discussion forum, summary of key outcomes and actions, next steps and conference close</strong><br> Pier Luigi Vidale (chair)<br> Reading, UK | Session chair | 3 November 2026</li> <li> <strong>EMS2026</strong><br> <strong>Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin</strong><br> Cameron Southgate-Ash, et al.<br> Utrecht, Netherlands | Oral presentation | 6-11 September 2026</li> <li> <strong>S2S2D Conference</strong><br> Piyali Goswami<br> Reading, UK | Oral presentation | September 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> Chris Holloway<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>Precipitation Efficiency Across Storm Regimes: A Satellite-Based Evaluation of Cloud-to-Rain Conversion in km-Scale Models</strong><br> Julia Kukulies <br> Hamburg, Germany | Oral presentation | 20–24 July 2026</li> <li> <strong>km-scale Global Modelling Summit 2026</strong><br> <strong>ALOFT: Aligning organized features in coarse- and high-resolution simulations</strong><br> Mark Muetzelfeldt<br> Hamburg, Germany | Poster presentation | 20–24 July 2026</li> <li> <strong>Neural Network based Emulation of Subgrid-Scale Turbulence in MONC: Bridging Offline Multi-Task Learning and Online Coupling with Ftorch</strong><br> S. K. Panda, et al.<br> ICCS Summer School 2026, Cambridge, UK | Poster presentation | July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Precipitation efficiency in the convective gray zone: grid-spacing dependence, observational constraints and storm-type variability</strong><br> Julia Kukulies <br> Reading, UK | Oral presentation | 13–16 July 2026</li> <li> <strong>ParaChute Conference 2026</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> Reading, UK | Poster presentation | 13–16 July 2026</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026</li> <li> <strong>Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES</strong><br> S. K. Panda, et al.<br> km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026</li> <li> <strong>How skilful are AI-based forecasts of 2023 Indian summer monsoon precipitation?</strong><br> Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br> EGU General Assembly 2026, Vienna, Austria | Oral presentation | 3–8 May 2026<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu26-7223" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu26-7223</a> </li> <li> <strong>AGU Ocean Sciences Meeting</strong><br> Piyali Goswami<br> Glasgow, UK | Oral presentation | 22–27 February 2026</li> <li> <strong>AFESP Conference</strong><br> Piyali Goswami<br> Reading, UK | Poster presentation | 4 November 2025</li> <li> <strong>CFMIP-CloudSense Meeting 2025</strong><br> <strong>Using changes in reflectivity over short time periods to estimate updraft strength</strong><br> Mark Muetzelfeldt, et al.<br> Exeter, UK | Poster presentation | 7–10 July 2025</li> <li> <strong>RMetS Early Career Student Conference</strong><br> Piyali Goswami<br> Manchester, UK | Oral presentation | 30 June–2 July 2025</li> <li> <p><strong>Assessing the Skill of Global AI-Model Weather Predictions for the Indian Summer Monsoon 2023</strong><br> Mehzooz Nizar<br> RMetS Early Career and Student Conference 2025, Manchester, UK | Poster presentation | 30 June–2 July 2025</p> </li> <li> <strong>Physics-guided machine learning for subgrid-scale turbulence</strong><br> S. K. Panda, et al.<br> EGU General Assembly 2025, Vienna, Austria | Oral Presentation | 2025<br> DOI: <a href="https://doi.org/10.5194/egusphere-egu25-13920" rel="external nofollow noopener" target="_blank">10.5194/egusphere-egu25-13920</a> </li> <li> <strong>Neural surrogates for turbulence closure in atmospheric models</strong><br> S. K. Panda, et al.<br> EXCLAIM Symposium 2025, ETH Zurich, Switzerland | Poster presentation | 2025</li> <li> <strong>Machine learning approaches to turbulence representation</strong><br> S. K. Panda<br> Royal Meteorological Society Early Career Scientists Conference 2024, United Kingdom | Oral presentation | 2024</li> </ul> <h2 id="contributions-to-workshops">Contributions to workshops</h2> <ul> <li> <strong>Ver-AI Workshop 2026</strong><br> Mehzooz Nizar<br> Oral presentation | 2026</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> NOC Southampton, UK | Lightning talk | 19 May 2026</li> <li> <strong>Global-to-regional km-scale hackathon 2026 (hk26)</strong><br> <strong>UK Hackathon 2026</strong> (opening talk; organiser and data lead)<br> Mark Muetzelfeldt<br> Met Office, Exeter, UK | Oral presentation | 18 May 2026</li> <li> <strong>Early Career Cloud Physics Meeting, AOPP</strong><br> <strong>How should we parametrize MCSs?</strong><br> Mark Muetzelfeldt<br> University of Oxford, UK | Poster presentation and flash talk | 19 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Measuring updraft strength from successive radar scans during the WesCon and KASBEX field campaigns</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Oral presentation | 9–12 March 2026</li> <li> <strong>5th Workshop on Convective Organization (WCO5), ICTP</strong><br> <strong>Targeted probabilistic trigger for the representation of organized deep convection in a global forecasting ensemble</strong><br> Mark Muetzelfeldt, et al.<br> INPE, São José dos Campos, Brazil | Poster presentation | 9–12 March 2026</li> <li> <strong>INCUS Science Team Meeting</strong><br> <strong>KASBEX (Ka- and S-band Experiment): Implications for INCUS</strong><br> Mark Muetzelfeldt, Thorwald Stein, Chris Holloway, Brian Lo, Rob Thompson, Chris Walden, Graham Marshall<br> Oral presentation | 6 November 2025</li> <li> <strong>National Marine Heatwave Meeting</strong><br> Piyali Goswami<br> Reading, UK | Lightning talk | 22 May 2025</li> <li> <strong>WCRP Global km-scale Hackathon 2025, UK node</strong><br> <strong>UK node data access</strong> (opening talk; UK data processing lead)<br> Mark Muetzelfeldt<br> St Hugh’s College, Oxford, UK | Oral presentation | 12–16 May 2025</li> </ul> <h2 id="other-presentations-and-outreach-activities">Other presentations and outreach activities</h2> <ul> <li> <strong>Advancing the Frontiers of Earth System Prediction</strong><br> Mark Muetzelfeldt<br> Institute of Climate Change (IPI) Seminar Series, Universiti Kebangsaan Malaysia | Invited seminar | November 2026</li> <li> <strong>Data and AI in Urban Climate Science</strong><br> Sharar Ahmadi<br> NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026</li> <li> <strong>Applying delta-Z analysis to the WesCon field campaign</strong><br> Mark Muetzelfeldt, Brian Lo<br> INCUS Calibration/Validation meeting, Online | Invited talk | 9 February 2026</li> <li> <strong>Top AI Agent Programming Tools</strong><br> Sharar Ahmadi<br> CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025</li> <li> <strong>The effects of Anvil clouds on climate, and their representation in global km-scale models</strong><br> Chris Holloway<br> Met Office, Exeter, UK | Invited seminar | 2 December 2025</li> <li> <strong>NCAS Climate Modelling Summer School</strong><br> Piyali Goswami<br> Cambridge, UK | Summer school | 7–22 September 2025</li> <li> <strong>UPFLO: Improving understanding and modelling of convective UPdraFts and anvil cLOuds</strong><br> Mark Muetzelfeldt<br> Colorado State University, Fort Collins, USA | Invited talk | 2 December 2024</li> </ul> <script>
   (() => {
     const article = document.querySelector(".post article");
@@ -753,6 +832,98 @@
       }
       layout.append(side, main);
     }
+
+    // AFESP event cards open a window listing the AFESP members' contributions to that event,
+    // taken from the "Contributions to ..." sections (entries whose conference name matches the event).
+    const norm = (t) => (t || "").replace(/\s+/g, " ").trim().toLowerCase();
+    const contribItems = Array.from(article.querySelectorAll("li.ev-item"));
+    article.querySelectorAll(".ev-card.ev-afesp").forEach((card) => {
+      const nameEl = card.querySelector(".ev-name");
+      if (!nameEl) return;
+      const name = norm(nameEl.textContent);
+      const year = card.closest("li")?.dataset.year || "";
+      const bare = name.replace(/\s*20\d\d$/, "");
+      const matches = contribItems.filter((li) => {
+        const ev = norm(li.querySelector(".ev-event")?.textContent);
+        const title = norm(li.querySelector(".ev-title")?.textContent);
+        if (ev === name) return true;
+        // Entries written as just "AFESP Conference" match by year.
+        return (ev === bare || (!ev && title === bare)) && li.dataset.year === year;
+      });
+      if (!matches.length) return;
+      card.classList.add("ev-has-contribs");
+      card.setAttribute("role", "button");
+      card.setAttribute("tabindex", "0");
+      const more = document.createElement("span");
+      more.className = "ev-more";
+      more.textContent = `View ${matches.length} contribution${matches.length === 1 ? "" : "s"} by AFESP members`;
+      card.append(more);
+
+      const dlg = document.createElement("dialog");
+      dlg.className = "ev ev-dialog";
+      const head = document.createElement("div");
+      head.className = "ev-dialog-head";
+      const h = document.createElement("h3");
+      h.textContent = nameEl.textContent.trim();
+      const close = document.createElement("button");
+      close.type = "button";
+      close.className = "ev-dialog-close";
+      close.setAttribute("aria-label", "Close");
+      close.textContent = "×";
+      head.append(h, close);
+      const sub = document.createElement("p");
+      sub.className = "ev-dialog-sub";
+      sub.textContent = `${matches.length} contribution${matches.length === 1 ? "" : "s"} by AFESP members`;
+      dlg.append(head, sub);
+      // Group by the date in each entry (e.g. one block per conference day), in the order written.
+      const groups = new Map();
+      matches.forEach((li) => {
+        const meta = li.querySelector(".ev-meta")?.textContent || "";
+        const date = meta.split(" — ").pop().trim();
+        if (!groups.has(date)) groups.set(date, []);
+        groups.get(date).push(li);
+      });
+      groups.forEach((list, date) => {
+        if (groups.size > 1 && date) {
+          const dh = document.createElement("h4");
+          dh.textContent = date;
+          dlg.append(dh);
+        }
+        const ul = document.createElement("ul");
+        ul.className = "ev-dialog-list";
+        list.forEach((li) => {
+          const item = document.createElement("li");
+          item.dataset.kind = li.dataset.kind || "other";
+          const add = (cls, el) => {
+            if (!el) return;
+            const span = document.createElement("span");
+            span.className = cls;
+            span.innerHTML = el.innerHTML;
+            item.append(span);
+          };
+          add("ev-type", li.querySelector(".ev-type"));
+          const title = li.querySelector(".ev-title");
+          if (title && norm(title.textContent) !== bare) add("ev-title", title);
+          li.querySelectorAll(".ev-authors").forEach((a) => add("ev-authors", a));
+          ul.append(item);
+        });
+        dlg.append(ul);
+      });
+      document.body.append(dlg);
+      const open = () => (typeof dlg.showModal === "function" ? dlg.showModal() : dlg.setAttribute("open", ""));
+      card.addEventListener("click", open);
+      card.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
+      });
+      close.addEventListener("click", () => dlg.close());
+      // Clicking the dimmed area outside the window closes it.
+      dlg.addEventListener("click", (e) => {
+        if (e.target === dlg) dlg.close();
+      });
+    });
   })();
 </script> <div class="social"> <div class="contact-note"> <a href="mailto:afesp-rse@reading.ac.uk">afesp-rse@reading.ac.uk</a>, <a href="mailto:s.ahmadi@reading.ac.uk">s.ahmadi@reading.ac.uk</a>, <a href="mailto:j.kukulies@reading.ac.uk">j.kukulies@reading.ac.uk</a>, <a href="mailto:mark.muetzelfeldt@reading.ac.uk">mark.muetzelfeldt@reading.ac.uk</a>, <a href="mailto:c.egan@reading.ac.uk">c.egan@reading.ac.uk</a> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Advancing the Frontiers of Earth System Prediction. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. <script>(function () { var s = document.createElement("script"); s.src = "/assets/js/afesp-members.js?t=" + Date.now(); document.body.appendChild(s); })();</script> <style>.navbar .navbar-brand.title { display: none; } .post .afesp-member, .post a.afesp-member:hover { color: #1f9d55; font-weight: 600; } .post a.afesp-member:hover { text-decoration: underline; } .profile .more-info p[id] { scroll-margin-top: 480px; } @media (max-width: 575.98px) { .profile .more-info p[id] { scroll-margin-top: calc(127vw + 70px); } } .profile:not(:has(figure)) .more-info p[id] { scroll-margin-top: 110px !important; } .person-panel { display: flow-root; padding: 1rem 1.25rem; margin: 0 0 0.75rem 0; border-radius: 8px; } .person-panel-blue { background: #e8f1fb; } .person-panel-cream { background: #fbf5e4; } html[data-theme="dark"] .person-panel-blue { background: #1d2a38; } html[data-theme="dark"] .person-panel-cream { background: #2f2a1d; } .person-panel > .clearfix > :last-child { margin-bottom: 0; } .person-panel:first-of-type { margin-top: 2rem; } .post:has(.more-info) > .post-header .post-description { margin-top: 0.9rem; } .post .profile figure img { aspect-ratio: 3 / 4; object-fit: cover; object-position: center; } .post .post-header { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; min-height: 80px; padding-right: 176px; } .post > .header-bar { background: url("/assets/img/AFESP_logo.jpg") right top / 160px auto no-repeat; } @media (max-width: 575.98px) { .post .post-header { background-size: 100px auto; min-height: 52px; padding-right: 112px; } .post > .header-bar { background-size: 100px auto; } } @media (min-width: 576px) { .navbar .navbar-collapse-main { justify-content: flex-start; text-align: left; } .navbar .navbar-collapse-main { flex-grow: 1; } .navbar .navbar-menu-list { display: flex !important; flex-wrap: wrap !important; justify-content: flex-start; align-items: center; margin-left: 0; width: 100%; } .navbar .navbar-menu-list > .nav-item > .nav-link { padding-top: 0.2rem; padding-bottom: 0.2rem; } }</style> </div> </footer> <script>
   window.alFolio = {

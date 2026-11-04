@@ -643,6 +643,10 @@ nav_order: 6
   Tsun Ngai Chow, Xiangbo Feng, Kevin Hodges, Gui-Ying Yang, Rebecca Emerton, Prince Xavier<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**Modulation of Tropical Cyclogenesis by ITCZ characteristics in the Southern Indian Ocean**]({{ '/assets/pdf/giuliani_afesp2026_poster.pdf' | relative_url }})<br>
+  Giacomo Giuliani, Pier Luigi Vidale, Christopher E. Holloway, Elizabeth J. Kendon, Malcolm J. Roberts<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural networks that emulate turbulence in the MONC cloud model**]({{ '/assets/pdf/panda_afesp2026_highlight_slide.pdf' | relative_url }})<br>
   Sambit Kumar Panda<br>
   Reading, UK | Poster presentation | 2–3 November 2026

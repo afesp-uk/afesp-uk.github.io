@@ -639,6 +639,10 @@ nav_order: 6
   Piyali Goswami, Ted Shepherd, Ségolène Berthou, Magdalena Balmaseda, Regina Rodrigues<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**Relationships between Tropical Cyclone Survival Rates and Dynamical Equatorial Waves**]({{ '/assets/pdf/chow_afesp2026_poster.pdf' | relative_url }})<br>
+  Tsun Ngai Chow, Xiangbo Feng, Kevin Hodges, Gui-Ying Yang, Rebecca Emerton, Prince Xavier<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural networks that emulate turbulence in the MONC cloud model**]({{ '/assets/pdf/panda_afesp2026_highlight_slide.pdf' | relative_url }})<br>
   Sambit Kumar Panda<br>
   Reading, UK | Poster presentation | 2–3 November 2026

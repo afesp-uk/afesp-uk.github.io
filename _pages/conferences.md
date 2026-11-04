@@ -405,6 +405,85 @@ nav_order: 6
       transition: none;
     }
   }
+  /* AFESP event cards that open the list of AFESP members' contributions to that event. */
+  .ev-card.ev-has-contribs {
+    cursor: pointer;
+  }
+  .ev-card.ev-has-contribs:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+  .ev-dialog {
+    width: min(720px, calc(100vw - 32px));
+    max-height: min(85vh, 900px);
+    padding: 1.25rem 1.4rem 1.4rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+  }
+  .ev-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .ev-dialog-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .ev-dialog h3 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .ev-dialog-close {
+    border: 0;
+    background: none;
+    color: var(--global-text-color);
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.25rem;
+  }
+  .ev-dialog-sub {
+    color: var(--global-text-color-light);
+    margin: 0.25rem 0 0.75rem;
+    font-size: 0.9rem;
+  }
+  .ev-dialog h4 {
+    font-size: 1rem;
+    margin: 1rem 0 0.4rem;
+    color: var(--global-theme-color);
+  }
+  .ev-dialog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ev-dialog-list li {
+    --kind: var(--ev-other);
+    padding: 0.55rem 0 0.55rem 0.8rem;
+    border-left: 3px solid var(--kind);
+    margin-bottom: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .ev-dialog-list li[data-kind="talk"] { --kind: var(--ev-talk); }
+  .ev-dialog-list li[data-kind="poster"] { --kind: var(--ev-poster); }
+  .ev-dialog-list li[data-kind="lightning"] { --kind: var(--ev-lightning); }
+  .ev-dialog-list li[data-kind="school"] { --kind: var(--ev-school); }
+  .ev-dialog-list .ev-type {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--global-text-color-light);
+  }
+  .ev-dialog-list .ev-title {
+    font-weight: 600;
+  }
+  .ev-dialog-list .ev-authors {
+    font-size: 0.92rem;
+  }
 </style>
 
 ## AFESP events
@@ -1026,6 +1105,98 @@ nav_order: 6
       }
       layout.append(side, main);
     }
+
+    // AFESP event cards open a window listing the AFESP members' contributions to that event,
+    // taken from the "Contributions to ..." sections (entries whose conference name matches the event).
+    const norm = (t) => (t || "").replace(/\s+/g, " ").trim().toLowerCase();
+    const contribItems = Array.from(article.querySelectorAll("li.ev-item"));
+    article.querySelectorAll(".ev-card.ev-afesp").forEach((card) => {
+      const nameEl = card.querySelector(".ev-name");
+      if (!nameEl) return;
+      const name = norm(nameEl.textContent);
+      const year = card.closest("li")?.dataset.year || "";
+      const bare = name.replace(/\s*20\d\d$/, "");
+      const matches = contribItems.filter((li) => {
+        const ev = norm(li.querySelector(".ev-event")?.textContent);
+        const title = norm(li.querySelector(".ev-title")?.textContent);
+        if (ev === name) return true;
+        // Entries written as just "AFESP Conference" match by year.
+        return (ev === bare || (!ev && title === bare)) && li.dataset.year === year;
+      });
+      if (!matches.length) return;
+      card.classList.add("ev-has-contribs");
+      card.setAttribute("role", "button");
+      card.setAttribute("tabindex", "0");
+      const more = document.createElement("span");
+      more.className = "ev-more";
+      more.textContent = `View ${matches.length} contribution${matches.length === 1 ? "" : "s"} by AFESP members`;
+      card.append(more);
+
+      const dlg = document.createElement("dialog");
+      dlg.className = "ev ev-dialog";
+      const head = document.createElement("div");
+      head.className = "ev-dialog-head";
+      const h = document.createElement("h3");
+      h.textContent = nameEl.textContent.trim();
+      const close = document.createElement("button");
+      close.type = "button";
+      close.className = "ev-dialog-close";
+      close.setAttribute("aria-label", "Close");
+      close.textContent = "×";
+      head.append(h, close);
+      const sub = document.createElement("p");
+      sub.className = "ev-dialog-sub";
+      sub.textContent = `${matches.length} contribution${matches.length === 1 ? "" : "s"} by AFESP members`;
+      dlg.append(head, sub);
+      // Group by the date in each entry (e.g. one block per conference day), in the order written.
+      const groups = new Map();
+      matches.forEach((li) => {
+        const meta = li.querySelector(".ev-meta")?.textContent || "";
+        const date = meta.split(" — ").pop().trim();
+        if (!groups.has(date)) groups.set(date, []);
+        groups.get(date).push(li);
+      });
+      groups.forEach((list, date) => {
+        if (groups.size > 1 && date) {
+          const dh = document.createElement("h4");
+          dh.textContent = date;
+          dlg.append(dh);
+        }
+        const ul = document.createElement("ul");
+        ul.className = "ev-dialog-list";
+        list.forEach((li) => {
+          const item = document.createElement("li");
+          item.dataset.kind = li.dataset.kind || "other";
+          const add = (cls, el) => {
+            if (!el) return;
+            const span = document.createElement("span");
+            span.className = cls;
+            span.innerHTML = el.innerHTML;
+            item.append(span);
+          };
+          add("ev-type", li.querySelector(".ev-type"));
+          const title = li.querySelector(".ev-title");
+          if (title && norm(title.textContent) !== bare) add("ev-title", title);
+          li.querySelectorAll(".ev-authors").forEach((a) => add("ev-authors", a));
+          ul.append(item);
+        });
+        dlg.append(ul);
+      });
+      document.body.append(dlg);
+      const open = () => (typeof dlg.showModal === "function" ? dlg.showModal() : dlg.setAttribute("open", ""));
+      card.addEventListener("click", open);
+      card.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
+      });
+      close.addEventListener("click", () => dlg.close());
+      // Clicking the dimmed area outside the window closes it.
+      dlg.addEventListener("click", (e) => {
+        if (e.target === dlg) dlg.close();
+      });
+    });
   })();
 </script>
 

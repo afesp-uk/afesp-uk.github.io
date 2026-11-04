@@ -622,6 +622,26 @@ nav_order: 6
   **Open discussion forum, summary of key outcomes and actions, next steps and conference close**<br>
   Pier Luigi Vidale (chair)<br>
   Reading, UK | Session chair | 3 November 2026
+- **AFESP Conference 2026**<br>
+  [**AdHImEx: Advection that is Accurate, Efficient, and Stable for Long Time Steps**]({{ '/assets/pdf/tewinkel_afesp2026_poster.pdf' | relative_url }})<br>
+  Amber te Winkel, Hilary Weller, Christian Kühnlein, James Kent<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  [**Predictability of European Blocking and Storm Daniel Linked to Hurricane Franklin’s Extratropical Transition**]({{ '/assets/pdf/keller_afesp2026_poster.pdf' | relative_url }})<br>
+  Jake Keller, Oscar Martínez-Alvarado, Ben Harvey, Claudio Sanchez, Benoît Vannière<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  [**Using interface observations in weakly-coupled data assimilation**]({{ '/assets/pdf/hill_afesp2026_poster.pdf' | relative_url }})<br>
+  Tom Hill, Yumeng Chen, Amos Lawless, Nancy Nichols, Dan Lea, Tsz Yan Leung, Jo Waller<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  [**S2S Predictability of North Sea Marine Heatwaves: A Process-Based Approach**]({{ '/assets/pdf/goswami_afesp2026_poster.pdf' | relative_url }})<br>
+  Piyali Goswami, Ted Shepherd, Ségolène Berthou, Magdalena Balmaseda, Regina Rodrigues<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
+  [**Neural networks that emulate turbulence in the MONC cloud model**]({{ '/assets/pdf/panda_afesp2026_highlight_slide.pdf' | relative_url }})<br>
+  Sambit Kumar Panda<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
 - **EMS2026**<br>
   **Spatio-temporal variability of sensible heat fluxes: Large-Aperture Scintillometry observations during urbisphere-Berlin**<br>
   Cameron Southgate-Ash, et al.<br>
@@ -786,7 +806,9 @@ nav_order: 6
     const textOf = (g) => g.map((n) => n.textContent).join("").trim();
     const isBold = (g) => {
       const real = g.filter((n) => n.nodeType !== 3 || n.textContent.trim());
-      return real.length === 1 && real[0].nodeName === "STRONG";
+      // A bold line, or a bold line that is a link (e.g. a title linking to the poster PDF).
+      const n = real[0];
+      return real.length === 1 && (n.nodeName === "STRONG" || (n.nodeName === "A" && n.children.length === 1 && n.firstElementChild.nodeName === "STRONG"));
     };
     const wrap = (cls, nodes, tag = "div") => {
       const el = document.createElement(tag);

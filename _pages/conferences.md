@@ -997,8 +997,10 @@ nav_order: 6
         const d = dateParts(date);
         if (d.year) li.dataset.year = d.year;
         // Used to sort the entries newest first (by the last day given, or the end of the month when only a month is given).
+        // Entries with only a year go to the bottom of their year.
         const last = endOf(date);
-        if (last) li.dataset.sortDate = String(last.getTime());
+        const hasMonth = /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(date);
+        if (last) li.dataset.sortDate = String(hasMonth ? last.getTime() : new Date(last.getFullYear(), 0, 1).getTime());
         const dateEl = document.createElement("div");
         dateEl.className = "ev-date";
         dateEl.innerHTML = `<span class="ev-month"></span><span class="ev-year"></span>`;

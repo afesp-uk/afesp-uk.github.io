@@ -996,6 +996,9 @@ nav_order: 6
         li.dataset.kind = kind;
         const d = dateParts(date);
         if (d.year) li.dataset.year = d.year;
+        // Used to sort the entries newest first (by the last day given, or the end of the month when only a month is given).
+        const last = endOf(date);
+        if (last) li.dataset.sortDate = String(last.getTime());
         const dateEl = document.createElement("div");
         dateEl.className = "ev-date";
         dateEl.innerHTML = `<span class="ev-month"></span><span class="ev-year"></span>`;
@@ -1043,7 +1046,12 @@ nav_order: 6
         sum.querySelector(".ev-year-count").textContent = byYear.get(y).length;
         const ul = document.createElement("ul");
         ul.className = "ev-timeline";
-        byYear.get(y).forEach((li) => ul.appendChild(li));
+        // Newest first; entries with the same date keep the order they are written in.
+        byYear
+          .get(y)
+          .slice()
+          .sort((a, b) => Number(b.dataset.sortDate || 0) - Number(a.dataset.sortDate || 0))
+          .forEach((li) => ul.appendChild(li));
         det.append(sum, ul);
         box.appendChild(det);
       });
@@ -1170,9 +1178,13 @@ nav_order: 6
       sub.className = "ev-dialog-sub";
       sub.textContent = `${matches.length} contribution${matches.length === 1 ? "" : "s"} by AFESP members`;
       dlg.append(head, sub);
-      // Group by the date in each entry (e.g. one block per conference day), in the order written.
+      // Group by the date in each entry (e.g. one block per conference day), first day first,
+      // keeping the programme order within each day.
       const groups = new Map();
-      matches.forEach((li) => {
+      matches
+        .slice()
+        .sort((a, b) => Number(a.dataset.sortDate || 0) - Number(b.dataset.sortDate || 0))
+        .forEach((li) => {
         const meta = li.querySelector(".ev-meta")?.textContent || "";
         const date = meta.split(" — ").pop().trim();
         if (!groups.has(date)) groups.set(date, []);

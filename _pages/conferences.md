@@ -676,7 +676,7 @@ nav_order: 6
   Exeter, UK | Poster presentation (Poster Prize) | 6–8 July 2026
 - **Neural Network based emulation of SGS turbulence in MONC: comparing physics-guided multi-task learning against data-driven closure in online-coupled LES**<br>
   S. K. Panda, et al.<br>
-  km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 2026
+  km-scale Global Modelling Summit 2026, Hamburg, Germany | Poster presentation | 20–24 July 2026
 - **How skilful are AI-based forecasts of 2023 Indian summer monsoon precipitation?**<br>
   Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br>
   EGU General Assembly 2026, Vienna, Austria | Oral presentation | 3–8 May 2026<br>

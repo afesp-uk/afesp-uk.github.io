@@ -1374,7 +1374,7 @@ profiles:
     anchor: hannah-croad # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="hannah-croad" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Hannah Croad</p>
+      <p id="hannah-croad" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Hannah Croad</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Former PDRA</p>
         <p style="white-space: nowrap; margin: 0; display: block;">PI: John Methven</p>

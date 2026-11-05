@@ -111,11 +111,15 @@ nav_order: 11
 
 <!--
   Positions are listed in _data/open_positions.yml. AFESP's own positions (afesp: true) are highlighted first;
-  everything else is listed under "Open positions elsewhere". Each group is sorted newest advert first by `advertised`.
+  everything else is listed under "Open positions elsewhere". Each group is sorted by `closes_on`, soonest closing first;
+  positions without a closing date come after those, newest advert first.
   To add or remove a position, edit that file; you don't need to change this page.
 -->
 
-{% assign sorted_jobs = site.data.open_positions | sort: "advertised" | reverse %}
+{% comment %} Positions with a closing date first, soonest closing at the top; then "Open until filled" ones, newest advert first. {% endcomment %}
+{% assign dated_jobs = site.data.open_positions | where_exp: "job", "job.closes_on" | sort: "closes_on" %}
+{% assign undated_jobs = site.data.open_positions | where_exp: "job", "job.closes_on == nil" | sort: "advertised" | reverse %}
+{% assign sorted_jobs = dated_jobs | concat: undated_jobs %}
 {% assign afesp_jobs = sorted_jobs | where: "afesp", true %}
 {% assign other_jobs = sorted_jobs | where_exp: "job", "job.afesp != true" %}
 

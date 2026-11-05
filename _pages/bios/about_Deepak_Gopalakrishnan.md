@@ -3,5 +3,5 @@ I am a Postdoctoral Research Scientist on the UPFLO (<a href="https://afesp-uk.g
 <p>
 
 <p style="text-align: justify;">
-I completed my Master's degree in Meteorology and PhD in Atmospheric Science in India. Before joining the University of Reading, I worked at the Indian Institute of Tropical Meteorology, New York University Abu Dhabi, and Central Michigan University. Across these roles, my research focused on high-resolution modelling of deep convective systems and future projections of severe thunderstorms using CMIP and WRF simulations.
+I completed my Master's degree in Meteorology and PhD in Atmospheric Science in India. Later, I worked at the Indian Institute of Tropical Meteorology, New York University Abu Dhabi, and Central Michigan University. Across these roles, my research focused on high-resolution modelling of deep convective systems and future projections of severe thunderstorms using CMIP and WRF simulations.
 <p>  

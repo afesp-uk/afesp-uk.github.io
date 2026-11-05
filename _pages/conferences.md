@@ -651,6 +651,10 @@ nav_order: 6
   Fernanda Pino Delgado, Rosalind Cornforth, Ted Shepherd, Katherine Egan, Martín Jacques-Coper, Celia Petty, Abdou Ali<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**How skilful are AI-based precipitation hindcasts in the 2023 Indian summer monsoon?**]({{ '/assets/pdf/nizar_afesp2026_poster.pdf' | relative_url }})<br>
+  Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural subgrid closures coupled to MONC: stability, fidelity and cost of emulated turbulence at kilometre scale**]({{ '/assets/pdf/panda_afesp2026_poster.pdf' | relative_url }})<br>
   Sambit Kumar Panda, Todd R. Jones, Muhammad Shahzad, Bryan N. Lawrence, Anna-Louise Ellis<br>
   Reading, UK | Poster presentation | 2–3 November 2026

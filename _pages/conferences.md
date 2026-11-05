@@ -120,6 +120,27 @@ nav_order: 6
     line-height: 1.45;
     margin-top: 0.5rem;
   }
+  .ev-docs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.55rem;
+  }
+  .ev-docs .ev-doc {
+    display: inline-block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--ev-blue);
+    text-decoration: none;
+  }
+  .ev-docs .ev-doc:hover,
+  .ev-docs .ev-doc:focus-visible {
+    border-color: var(--ev-blue);
+    text-decoration: none;
+  }
   .ev-card .ev-more {
     font-size: 0.85rem;
     margin-top: 0.5rem;
@@ -492,7 +513,7 @@ nav_order: 6
      Upcoming events show as cards. Once an event's last day has passed it moves by itself into "Past AFESP events", grouped by year.
      To move an event there earlier, add <span class="ev-mark-past"></span> at the end of its line. -->
 
-- **AFESP Conference 2026 (2-3 Nov, 2026; Henley Business School, University of Reading):** <span class="ev-mark-past"></span>
+- **AFESP Conference 2026 (2-3 Nov, 2026; Henley Business School, University of Reading):** <span class="ev-mark-past"></span> <a class="ev-doc" href="{{ '/assets/pdf/afesp_conference_2026_agenda.pdf' | relative_url }}">Agenda (PDF)</a>
 - **AFESP Conference 2025 (Tuesday 4 Nov, 2025; Meadow Suite, Whiteknights Campus, University of Reading, RG6 6UR):**
 
 ## Upcoming conferences
@@ -933,17 +954,20 @@ No upcoming talks or seminars at the moment.
         list.classList.add("ev-upcoming");
         items.forEach((li) => {
           // Linked items become link cards; items with only bold text become plain cards.
-          let a = li.querySelector("a");
+          let a = li.querySelector("a:not(.ev-doc)");
           const src = a || li.querySelector("strong");
           if (!src) return;
           const raw = src.textContent.trim().replace(/:$/, "");
           // Any text written under the item (after a <br>) becomes the card's description.
           const rest = li.cloneNode(true);
-          rest.querySelector(a ? "a" : "strong").remove();
+          rest.querySelector(a ? "a:not(.ev-doc)" : "strong").remove();
+          rest.querySelectorAll("a.ev-doc").forEach((d) => d.remove());
           const desc = rest.textContent.trim();
           if (!a) a = document.createElement("div");
           // An AFESP event marked with an .ev-mark-past span goes into the archive straight away, before its last day ends.
           if (li.querySelector(".ev-mark-past")) li.dataset.past = "1";
+          // Document links on the event's line (e.g. <a class="ev-doc">Agenda (PDF)</a>) are kept and shown on the card.
+          const docs = Array.from(li.querySelectorAll("a.ev-doc"));
           li.innerHTML = "";
           li.appendChild(a);
           const m = raw.match(/^(.*)\(([^()]*)\)\s*$/);
@@ -995,6 +1019,18 @@ No upcoming talks or seminars at the moment.
             more.className = "ev-more";
             more.textContent = "Details and registration";
             a.append(more);
+          }
+          if (docs.length) {
+            const box = document.createElement("span");
+            box.className = "ev-docs";
+            docs.forEach((d) => {
+              d.addEventListener("click", (e) => e.stopPropagation());
+              d.addEventListener("keydown", (e) => e.stopPropagation());
+              box.append(d);
+            });
+            // A link can't sit inside a card that is itself a link, so it goes just below that kind of card.
+            if (a.tagName === "A") li.append(box);
+            else a.append(box);
           }
         });
         if (afespEvents) archivePast(h2, list, items);

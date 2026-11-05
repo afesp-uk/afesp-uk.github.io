@@ -22,7 +22,7 @@ category: PhD projects
 - Dr. Celia Petty, The Pearl, University of Reading
 - Prof. Abdou Ali, AGRHYMET
 
-**Outputs**:
+## Outputs
 
 **Posters**
 

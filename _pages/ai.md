@@ -27,7 +27,7 @@ ai_projects:
 ---
 
 <!-- Events and news are kept in _data/ai.yml. Add an entry there and it appears here, sorted by date;
-     finished events move from "Upcoming" to "Recent" by themselves. -->
+     finished events drop off the page by themselves (AFESP's own events move to the past AFESP archive). -->
 
 <style>
   .ai {
@@ -533,7 +533,7 @@ ai_projects:
     <canvas aria-hidden="true"></canvas>
     <h2>AI in weather and climate science</h2>
     <p>
-      Machine learning is changing how we observe, model and predict the Earth system. This page collects upcoming and recent workshops,
+      Machine learning is changing how we observe, model and predict the Earth system. This page collects upcoming workshops,
       conferences and news on AI for weather and climate, and the AFESP projects working in this area.
     </p>
     <div class="ai-stats">
@@ -623,9 +623,6 @@ target="_blank" rel="noopener"
   </ul>
   <p class="ai-empty" data-empty="upcoming" hidden>No upcoming events listed yet.</p>
 
-  <h2 class="ai-h" id="recent">Recent events <span class="ai-count" data-count="recent"></span></h2>
-  <ul class="ai-grid ai-recent"></ul>
-
   <h2 class="ai-h" id="news">News</h2>
   <ul class="ai-news">
     {% for n in ai_news %}
@@ -694,7 +691,6 @@ target="_blank" rel="noopener"
     const root = document.querySelector(".ai");
     if (!root) return;
     const upcoming = root.querySelector(".ai-upcoming");
-    const recent = root.querySelector(".ai-recent");
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const day = 86400000;
@@ -703,12 +699,9 @@ target="_blank" rel="noopener"
       return new Date(y, m - 1, d);
     };
 
-    // Move finished events to "Recent" (newest first) and label the upcoming ones with a countdown.
+    // Remove finished events and label the upcoming ones with a countdown.
     const items = Array.from(upcoming.children);
-    items
-      .filter((li) => parse(li.dataset.end) < today)
-      .sort((a, b) => parse(b.dataset.end) - parse(a.dataset.end))
-      .forEach((li) => recent.appendChild(li));
+    items.filter((li) => parse(li.dataset.end) < today).forEach((li) => li.remove());
 
     // AFESP conferences and workshops: finished ones go into the collapsible "Past AFESP conferences and workshops" archive, grouped into
     // collapsible years (newest first; only the newest year starts open).
@@ -772,7 +765,6 @@ target="_blank" rel="noopener"
     const counts = () => {
       const visible = (list) => Array.from(list.children).filter((li) => !li.hidden).length;
       root.querySelector('[data-count="upcoming"]').textContent = visible(upcoming);
-      root.querySelector('[data-count="recent"]').textContent = visible(recent);
       root.querySelector('[data-empty="upcoming"]').hidden = visible(upcoming) > 0;
     };
     counts();
@@ -811,12 +803,12 @@ target="_blank" rel="noopener"
       box.hidden = false;
     }
 
-    // Filter chips (apply to both upcoming and recent events).
+    // Filter chips (apply to the upcoming events).
     root.querySelectorAll(".ai-chip").forEach((chip) =>
       chip.addEventListener("click", () => {
         root.querySelectorAll(".ai-chip").forEach((c) => c.classList.toggle("active", c === chip));
         const kind = chip.dataset.kind;
-        root.querySelectorAll(".ai-upcoming > li, .ai-recent > li").forEach((li) => {
+        root.querySelectorAll(".ai-upcoming > li").forEach((li) => {
           const k = li.dataset.kind;
           li.hidden = !(kind === "all" || k === kind || (kind === "Webinar" && k === "Seminar"));
         });

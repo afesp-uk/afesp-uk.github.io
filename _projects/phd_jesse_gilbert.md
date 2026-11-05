@@ -11,6 +11,12 @@ category: PhD projects
 
 **PhD Student**: Jesse Gilbert
 
+## Outputs
+
+**Posters**
+
+- **AFESP Conference 2026, Reading:** Hybrid Physics–ML Ensembles for Data Assimilation in Chaotic Systems. [Poster (PDF)]({{ '/assets/pdf/jesse_afesp2026_poster.pdf' | relative_url }})
+
 <div class="social">
   <div class="contact-note">
     <a href="mailto:e.bach@reading.ac.uk">e.bach@reading.ac.uk</a>,

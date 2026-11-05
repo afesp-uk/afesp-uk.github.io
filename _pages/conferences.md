@@ -679,6 +679,10 @@ No upcoming talks or seminars at the moment.
   Jamie Todd, Andrew Turner, Akshay Deoras, Eliza Karlowska, Richard Jones<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**Hybrid Physics–ML Ensembles for Data Assimilation in Chaotic Systems**]({{ '/assets/pdf/jesse_afesp2026_poster.pdf' | relative_url }})<br>
+  Gilbert Jesse, Eviatar Bach, Sarah Dance, Amos Lawless, Christopher Thomas, Massimo Bonavita<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural subgrid closures coupled to MONC: stability, fidelity and cost of emulated turbulence at kilometre scale**]({{ '/assets/pdf/panda_afesp2026_poster.pdf' | relative_url }})<br>
   Sambit Kumar Panda, Todd R. Jones, Muhammad Shahzad, Bryan N. Lawrence, Anna-Louise Ellis<br>
   Reading, UK | Poster presentation | 2–3 November 2026

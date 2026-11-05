@@ -809,6 +809,9 @@ No upcoming talks or seminars at the moment.
 - **Top AI Agent Programming Tools**<br>
   Sharar Ahmadi<br>
   CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025
+- **SUEWS-STEBBS-DAVE**<br>
+  Sharar Ahmadi<br>
+  NCAS CMS Meeting, Department of Meteorology, University of Reading, UK | Presentation | 5 May 2026
 - **Optimising DAVE**<br>
   Sharar Ahmadi<br>
   NCAS CMS Meeting, Department of Meteorology, University of Reading, UK | Presentation | 19 September 2025

@@ -737,6 +737,10 @@ nav_order: 6
 - **Machine learning approaches to turbulence representation**<br>
   S. K. Panda<br>
   Royal Meteorological Society Early Career Scientists Conference 2024, United Kingdom | Oral presentation | 2024
+- **NCAS Staff Meeting 2026**<br>
+  **Data and AI in Urban Climate Science**<br>
+  Sharar Ahmadi<br>
+  Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026
 
 ## Contributions to workshops
 
@@ -779,9 +783,6 @@ nav_order: 6
 - **Advancing the Frontiers of Earth System Prediction**<br>
   Mark Muetzelfeldt<br>
   Institute of Climate Change (IPI) Seminar Series, Universiti Kebangsaan Malaysia | Invited seminar | November 2026
-- **Data and AI in Urban Climate Science**<br>
-  Sharar Ahmadi<br>
-  NCAS Staff Meeting 2026, Science Panel: AI and Data, Staverton, UK | Invited speaker | 30 June–2 July 2026
 - **Applying delta-Z analysis to the WesCon field campaign**<br>
   Mark Muetzelfeldt, Brian Lo<br>
   INCUS Calibration/Validation meeting, Online | Invited talk | 9 February 2026

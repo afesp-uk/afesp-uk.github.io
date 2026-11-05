@@ -540,6 +540,17 @@ No upcoming talks or seminars at the moment.
 
 ## Upcoming training courses
 
+- [**ARCHER2: Building Hybrid HPC/AI workflows using RHAPSODY, radex, and DragonHPC (11 Nov, 2026, 15:00-16:00; online):**](https://www.archer2.ac.uk/training/courses/261111-hpe-coe-hybrid-vt/)
+- [**ARCHER2: Containers for Reproducible Research: Introduction to Podman and Apptainer (12 Nov, 2026, 09:30-16:00; Newcastle University):**](https://www.archer2.ac.uk/training/courses/261112-containers/)
+- [**ECMWF training course: Machine Learning-based weather forecasting (16-20 Nov, 2026; ECMWF, Reading):**](https://events.ecmwf.int/event/546/)<br>
+  An advanced course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications have closed.
+- [**ARCHER2: Porting HPC applications to GPUs: choosing a programming model (18 Nov, 2026, 14:00-15:00; online):**](https://www.archer2.ac.uk/training/courses/261118-hpe-coe-porting-to-gpus-vt/)
+- [**ECMWF training course: Data Assimilation & Machine Learning (11-15 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/578/)<br>
+  Five-day in-person course. Applications closed on 27 September 2026.
+- [**EUMETSAT/ECMWF NWP-SAF training course: Satellite Data Assimilation (18-22 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/577/)<br>
+  Five-day in-person course sponsored by EUMETSAT. Applications closed on 27 September 2026.
+- [**ECMWF training course: Use and Interpretation of ECMWF Products (25-28 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/576/)<br>
+  Four-day in-person course with required pre-course activities. Applications closed on 27 September 2026.
 - [**NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)**](https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/)
 
 <div style="height: 2.5rem;"></div>

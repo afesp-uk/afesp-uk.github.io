@@ -8,17 +8,7 @@
 #     once it has finished it moves to "Past AFESP conferences and workshops", grouped by year.
 #   - past: true moves an AFESP event into that archive straight away, before its last day has ended.
 #   - url can be an external link or a page on this site (e.g. /about/); leave it out for a card with no link.
-# 
-
-  - title: How is AI Transforming Our Understanding and Prediction of Weather and Climate?
-    organiser: Royal Meteorological Society
-    kind: Seminar
-    start: 2027-04-14
-    location: Royal Meteorological Society national meeting
-    summary: A Royal Meteorological Society national meeting on how AI is changing the understanding and prediction of weather and climate.
-    url: https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate
-
-news: short news items, newest first is not required (the page sorts them by date).
+# news: short news items, newest first is not required (the page sorts them by date).
 
 events:
   - title: AFESP Conference 2026
@@ -116,6 +106,14 @@ events:
     location: Royal Meteorological Society local centre meeting
     summary: A Royal Meteorological Society talk on the opportunities and challenges of data-driven (machine-learning) climate modelling.
     url: https://www.rmets.org/event/data-driven-climate-modelling-opportunities-and-challenges
+
+  - title: How is AI Transforming Our Understanding and Prediction of Weather and Climate?
+    organiser: Royal Meteorological Society
+    kind: Seminar
+    start: 2027-04-14
+    location: Royal Meteorological Society national meeting
+    summary: A Royal Meteorological Society national meeting on how AI is changing the understanding and prediction of weather and climate.
+    url: https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate
 
   - title: EGU General Assembly 2027
     organiser: European Geosciences Union

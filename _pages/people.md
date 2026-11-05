@@ -1385,7 +1385,7 @@ profiles:
     anchor: yiqing-liu # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="yiqing-liu" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Yiqing Liu</p>
+      <p id="yiqing-liu" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Yiqing Liu</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">Former PDRA</p>
         <p style="white-space: nowrap; margin: 0; display: block;">PI: Sue Grimmond</p>

@@ -55,7 +55,7 @@ profiles:
     anchor: eviatar-bach # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="eviatar-bach" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Eviatar Bach</p>
+      <p id="eviatar-bach" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Eviatar Bach</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="margin: 0; display: block;">Lecturer in Mathematics of Environmental Data Science</p>
         <p style="margin: 0; display: block;">UKRI Future Leaders Fellow (from Nov. 2026)</p>

@@ -657,6 +657,10 @@ nav_order: 6
 - **S2S2D Conference**<br>
   Piyali Goswami<br>
   Reading, UK | Oral presentation | September 2026
+- **8th WMO and 12th International Symposium on Data Assimilation**<br>
+  **Modelling and accounting for spatial observation error correlations in operational data assimilation at ECMWF and the UK Met Office**<br>
+  Rishabh Bhatt<br>
+  Nanjing, China | Oral presentation | 31 August - 4 September 2026
 - **km-scale Global Modelling Summit 2026**<br>
   Chris Holloway<br>
   Hamburg, Germany | Poster presentation | 20–24 July 2026

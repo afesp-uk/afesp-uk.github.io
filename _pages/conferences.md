@@ -515,14 +515,11 @@ nav_order: 6
 
 ## Upcoming talks and seminars
 
-- [**From Antarctica to the Arctic: Airborne Science with the British Antarctic Survey (2 Nov, 2026, 18:15-19:15; University of East Anglia, Norwich, and online):**](https://www.rmets.org/event/antarctica-arctic-airborne-science-british-antarctic-survey)<br>
-  Royal Meteorological Society East Anglia Local Centre talk by Daniel Beeden, Flight Operations Manager at the British Antarctic Survey Air Unit, on BAS airborne science campaigns, Antarctic flight operations and ferry flights between Canada and Antarctica. Free; registration required, non-members welcome.
+No upcoming talks or seminars at the moment.
 
 ## Upcoming training courses
 
 - [**NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)**](https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/)
-- [**Transferring data from ARCHER2 (7 Oct, 2026, 15:00-16:00; online):**](https://www.archer2.ac.uk/training/courses/261007-archer2-data-transfer-vt/)
-- [**STEP-UP ByteSized dRTP, Episode 5: AI-assisted Coding (12 Oct, 2026, 15:00-16:30; online):**](https://step-up.ac.uk/events/bytesized-drtp/)
 
 <div style="height: 2.5rem;"></div>
 

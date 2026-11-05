@@ -8,7 +8,17 @@
 #     once it has finished it moves to "Past AFESP conferences and workshops", grouped by year.
 #   - past: true moves an AFESP event into that archive straight away, before its last day has ended.
 #   - url can be an external link or a page on this site (e.g. /about/); leave it out for a card with no link.
-# news: short news items, newest first is not required (the page sorts them by date).
+# 
+
+  - title: How is AI Transforming Our Understanding and Prediction of Weather and Climate?
+    organiser: Royal Meteorological Society
+    kind: Seminar
+    start: 2027-04-14
+    location: Royal Meteorological Society national meeting
+    summary: A Royal Meteorological Society national meeting on how AI is changing the understanding and prediction of weather and climate.
+    url: https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate
+
+news: short news items, newest first is not required (the page sorts them by date).
 
 events:
   - title: AFESP Conference 2026
@@ -98,6 +108,14 @@ events:
     location: IITM, Pune, India
     summary: Understanding and reducing systematic errors in physics-based and machine-learning-based weather and Earth system models, including explainability and AI/ML-assisted error attribution and intercomparison of AI and physics-based model outputs. The call for abstracts has closed.
     url: https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027
+
+  - title: "Data-driven climate modelling: Opportunities and challenges"
+    organiser: Royal Meteorological Society, West Midlands Local Centre
+    kind: Seminar
+    start: 2027-02-04
+    location: Royal Meteorological Society local centre meeting
+    summary: A Royal Meteorological Society talk on the opportunities and challenges of data-driven (machine-learning) climate modelling.
+    url: https://www.rmets.org/event/data-driven-climate-modelling-opportunities-and-challenges
 
   - title: EGU General Assembly 2027
     organiser: European Geosciences Union

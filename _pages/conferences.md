@@ -522,21 +522,57 @@ nav_order: 6
 
 - [**Health at COP31, World Health Organization (9-20 Nov, 2026; Antalya, Türkiye, with live streaming):**](https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31)<br>
   WHO's programme at the UN Climate Change Conference (COP31), putting climate-resilient health systems at the centre of the talks: a Health Day on 9 November, a Health Pavilion with over 60 events across the two weeks (live-streamed), and side events including a UN high-level event on 14 November.
+- [**AGU26 Annual Meeting (7-11 Dec, 2026; San Francisco, CA, USA):**](https://www.agu.org/annual-meeting)<br>
+  The largest Earth and space science meeting of the year, with many sessions on weather, climate and the Earth system, including AI and machine learning.
+- [**RMetS: National Environmental Monitoring Conference 2026 (14 Dec, 2026):**](https://www.rmets.org/event/national-environmental-monitoring-conference-2026)
+- [**107th AMS Annual Meeting (10-14 Jan, 2027; Colorado Convention Center, Denver, USA, and online):**](https://annual.ametsoc.org/2027/about/)<br>
+  The American Meteorological Society's annual meeting, including the 26th Conference on Artificial Intelligence for Environmental Science.
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
+- [**EGU General Assembly 2027 (4-9 Apr, 2027; Vienna, Austria, and online):**](https://meetingorganizer.copernicus.org/EGU27/sessionprogramme/5218)<br>
+  Europe's largest geoscience meeting, covering the atmospheric, ocean, hydrology and Earth system sciences.
 - [**WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):**](https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies)<br>
   The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.
 
 ## Upcoming workshops
 
 - [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
+- [**ECMWF Workshop on software strategies for sustainable physical modelling (23-27 Nov, 2026):**](https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwf-2026-events-programme)<br>
+  Shared code, automated testing and open-source practice for Earth system models, including how to integrate machine learning components. Venue to be confirmed.
 - [**CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):**](https://ncar.github.io/CMIP7_hackathon_2027/#about)<br>
   A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.
 - [**7th WGNE Workshop on Systematic Errors in Weather and Earth System Models (15-19 Feb, 2027; IITM, Pune, India):**](https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027)<br>
   Understanding and reducing systematic errors in physics-based and machine-learning-based models across timescales: diagnosing and attributing errors, scale interactions and resolution, parameterisation deficiencies, coupled feedbacks, predictability, and uncertainty and ensembles, including AI/ML-assisted attribution and AI versus physics-based model intercomparison. The call for abstracts has closed.
+- [**RMetS: ParaChute: Improving Convection and Turbulence in High-Resolution Weather Models (3 Mar, 2027):**](https://www.rmets.org/event/parachute-improving-convection-and-turbulence-high-resolution-weather-models-2027)<br>
+  Royal Meteorological Society national meeting.
 
 ## Upcoming talks and seminars
 
-No upcoming talks or seminars at the moment.
+- [**RMetS: Gordon Manley Memorial Lecture 2026 (10 Nov, 2026):**](https://www.rmets.org/event/gordon-manley-memorial-lecture-2026)<br>
+  Royal Meteorological Society, North West Local Centre.
+- [**RMetS: Energy and Insurance Future Climate Resilience Event (10 Nov, 2026):**](https://www.rmets.org/event/energy-and-insurance-future-climate-resilience-event)<br>
+  Royal Meteorological Society special interest group meeting.
+- [**RMetS: Smog, Stories and Solutions: 70 Years since the UK Clean Air Act (11 Nov, 2026):**](https://www.rmets.org/event/smog-stories-and-solutions-70-years-uk-clean-air-act)<br>
+  Royal Meteorological Society national meeting.
+- [**RMetS: CTR Wilson Meeting on Atmospheric Electricity (19 Nov, 2026):**](https://www.rmets.org/event/ctr-wilson-meeting-atmospheric-electricity)<br>
+  Royal Meteorological Society, Atmospheric Electricity Special Interest Group.
+- [**RMetS: Scottish Snow: Past, present and future (27 Nov, 2026):**](https://www.rmets.org/event/scottish-snow-past-present-and-future)<br>
+  Royal Meteorological Society, Scottish Local Centre.
+- [**RMetS: Diverse Voices: Operational Meteorology (1 Dec, 2026):**](https://www.rmets.org/event/diverse-voices-operational-meteorology)<br>
+  Royal Meteorological Society event.
+- [**RMetS: Yorkshire Local Centre Monthly Meet-up (2 Dec, 2026):**](https://www.rmets.org/event/yorkshire-local-centre-monthly-meet-11)<br>
+  Royal Meteorological Society, Yorkshire Local Centre.
+- [**RMetS: Can Tree-ring Hydroclimate Reconstructions Characterise Extreme Drought in East Anglia? (7 Dec, 2026):**](https://www.rmets.org/event/can-tree-ring-hydroclimate-reconstructions-characterise-extreme-drought-east-anglia)<br>
+  Royal Meteorological Society, East Anglia Local Centre.
+- [**RMetS: Art and the Atmosphere: How the Impressionists captured the modifications of clouds (15 Dec, 2026):**](https://www.rmets.org/event/art-and-atmosphere-how-impressionists-captured-modifications-clouds)<br>
+  Royal Meteorological Society, Scottish Local Centre.
+- [**RMetS: Probability Forecasts and Will People Understand? (28 Jan, 2027):**](https://www.rmets.org/event/probability-forecasts-and-will-people-understand)<br>
+  Royal Meteorological Society, West Midlands Local Centre.
+- [**RMetS: Data-driven climate modelling: Opportunities and challenges (4 Feb, 2027):**](https://www.rmets.org/event/data-driven-climate-modelling-opportunities-and-challenges)<br>
+  Royal Meteorological Society, West Midlands Local Centre.
+- [**RMetS: Weather and Sailing 2027 (6 Feb, 2027):**](https://www.rmets.org/event/weather-and-sailing-2027)<br>
+  Royal Meteorological Society national meeting.
+- [**RMetS: How is AI Transforming Our Understanding and Prediction of Weather and Climate? (14 Apr, 2027):**](https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate)<br>
+  Royal Meteorological Society national meeting.
 
 ## Upcoming training courses
 

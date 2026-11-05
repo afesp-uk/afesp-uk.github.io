@@ -22,6 +22,12 @@ category: PhD projects
 - Dr. Celia Petty, The Pearl, University of Reading
 - Prof. Abdou Ali, AGRHYMET
 
+**Outputs**:
+
+**Posters**
+
+- **AFESP Conference 2026, Reading:** Understanding Sub-Seasonal Extremes in Semi-Arid Transition Zones: Using Machine Learning to Enhance Predictability Signals for Early Action Decision-Making [STEP-AHEAD]. [Poster (PDF)]({{ '/assets/pdf/pinodelgado_afesp2026_poster.pdf' | relative_url }})
+
 <div class="social">
   <div class="contact-note">
     <a href="mailto:r.j.cornforth@reading.ac.uk">r.j.cornforth@reading.ac.uk</a>,

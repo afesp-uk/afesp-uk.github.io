@@ -647,6 +647,10 @@ nav_order: 6
   Giacomo Giuliani, Pier Luigi Vidale, Christopher E. Holloway, Elizabeth J. Kendon, Malcolm J. Roberts<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**Understanding Sub-Seasonal Extremes in Semi-Arid Transition Zones: Using Machine Learning to Enhance Predictability Signals for Early Action Decision-Making [STEP-AHEAD]**]({{ '/assets/pdf/pinodelgado_afesp2026_poster.pdf' | relative_url }})<br>
+  Fernanda Pino Delgado, Rosalind Cornforth, Ted Shepherd, Katherine Egan, Martín Jacques-Coper, Celia Petty, Abdou Ali<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural subgrid closures coupled to MONC: stability, fidelity and cost of emulated turbulence at kilometre scale**]({{ '/assets/pdf/panda_afesp2026_poster.pdf' | relative_url }})<br>
   Sambit Kumar Panda, Todd R. Jones, Muhammad Shahzad, Bryan N. Lawrence, Anna-Louise Ellis<br>
   Reading, UK | Poster presentation | 2–3 November 2026

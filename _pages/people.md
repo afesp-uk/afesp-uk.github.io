@@ -132,7 +132,7 @@ profiles:
     anchor: rishabh-bhatt # link target used by the green author names on the publications page
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p id="rishabh-bhatt" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Rishabh Bhatt</p>
+      <p id="rishabh-bhatt" style="white-space: nowrap; margin: 0; display: block; font-size: 0.9em;">Dr Rishabh Bhatt</p>
       <div style="font-size: 0.8em; line-height: 1.15;">
         <p style="white-space: nowrap; margin: 0; display: block;">AFESP Postdoctoral Researcher </p>
         <p style="white-space: nowrap; margin: 0; display: block;">Department of Meteorology </p>

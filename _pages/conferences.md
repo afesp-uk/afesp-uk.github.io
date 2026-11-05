@@ -655,6 +655,10 @@ nav_order: 6
   Mehzooz Nizar, Reinhard Schiemann, Andrew G. Turner, Kieran Hunt, Steffen Tietsche<br>
   Reading, UK | Poster presentation | 2–3 November 2026
 - **AFESP Conference 2026**<br>
+  [**Forecast Busts over Europe in Numerical Weather Prediction models: Characteristics and Variability**]({{ '/assets/pdf/mittal_afesp2026_poster.pdf' | relative_url }})<br>
+  Kaustubh Mittal, Robert S. Plant, Suzanne L. Gray, David L. Flack, David B. Parsons<br>
+  Reading, UK | Poster presentation | 2–3 November 2026
+- **AFESP Conference 2026**<br>
   [**Neural subgrid closures coupled to MONC: stability, fidelity and cost of emulated turbulence at kilometre scale**]({{ '/assets/pdf/panda_afesp2026_poster.pdf' | relative_url }})<br>
   Sambit Kumar Panda, Todd R. Jones, Muhammad Shahzad, Bryan N. Lawrence, Anna-Louise Ellis<br>
   Reading, UK | Poster presentation | 2–3 November 2026

@@ -809,6 +809,12 @@ No upcoming talks or seminars at the moment.
 - **Top AI Agent Programming Tools**<br>
   Sharar Ahmadi<br>
   CMS Away Day, Penta Hotel, Reading, UK | Presentation | Jun 2025
+- **Optimising DAVE**<br>
+  Sharar Ahmadi<br>
+  NCAS CMS Meeting, Department of Meteorology, University of Reading, UK | Presentation | 19 September 2025
+- **CMORIZING**<br>
+  Sharar Ahmadi<br>
+  NCAS CMS Meeting, Department of Meteorology, University of Reading, UK | Presentation | 25 February 2025
 - **The effects of Anvil clouds on climate, and their representation in global km-scale models**<br>
   Chris Holloway<br>
   Met Office, Exeter, UK | Invited seminar | 2 December 2025

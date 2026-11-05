@@ -57,6 +57,52 @@ nav_order: 11
     padding: 0.15rem 0.6rem;
     margin: 0 0 0.5rem 0;
   }
+  /* Counters at the top of the page. */
+  .job-counts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0 0 2rem 0;
+  }
+  .job-count {
+    display: block;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .job-count:hover,
+  .job-count:focus-visible {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+  .job-count b {
+    display: block;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    color: var(--global-theme-color);
+  }
+  .job-count span {
+    font-weight: 600;
+  }
+  .job-count.job-count-afesp {
+    border: 2px solid var(--global-theme-color);
+    background: color-mix(in srgb, var(--global-theme-color) 8%, var(--global-card-bg-color));
+  }
+  @media (max-width: 575.98px) {
+    .job-counts {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .job-count {
+      transition: none;
+    }
+  }
   h2.job-section {
     font-size: 1.5rem;
     margin: 2.5rem 0 1.25rem 0;
@@ -73,6 +119,12 @@ nav_order: 11
 {% assign afesp_jobs = sorted_jobs | where: "afesp", true %}
 {% assign other_jobs = sorted_jobs | where_exp: "job", "job.afesp != true" %}
 
+<div class="job-counts">
+  <a class="job-count job-count-afesp" href="#afesp-positions"><b>{{ afesp_jobs.size }}</b><span>open position{% if afesp_jobs.size != 1 %}s{% endif %} within the AFESP community</span></a>
+  <a class="job-count" href="#positions-elsewhere"><b>{{ other_jobs.size }}</b><span>open position{% if other_jobs.size != 1 %}s{% endif %} elsewhere</span></a>
+</div>
+<span id="afesp-positions"></span>
+
 {% for group in (1..2) %}
 {% if group == 1 %}
 {% assign jobs = afesp_jobs %}
@@ -80,7 +132,7 @@ nav_order: 11
 {% assign jobs = other_jobs %}
 {% if jobs.size > 0 %}
 
-<h2 class="job-section">Open positions elsewhere</h2>
+<h2 class="job-section" id="positions-elsewhere">Open positions elsewhere</h2>
 <p>Vacancies at AFESP partners, collaborating institutions and other organisations in weather and climate science. Please apply through each employer's own advert.</p>
 {% endif %}
 {% endif %}

@@ -1,11 +1,7 @@
 <p style="text-align: justify;">
-
+I am a Postdoctoral Research Scientist on the UPFLO (<a href="https://afesp-uk.github.io/projects/4_project/">Improving understanding and modelling of convective UPdraFts and anvil cLOuds</a>) project at the University of Reading. My research focuses on deep convective systems, cloud-radiation interactions, and climate change. Within UPFLO, I investigate how convective updrafts and anvil clouds are represented in kilometre-scale atmospheric models, using state-of-the-art satellite observations and field campaign datasets to evaluate and improve model performance. A particular focus of my work is the use of observations from the EarthCARE satellite and the upcoming INCUS (Investigation of Convective Updrafts) mission to assess model-simulated convective dynamics and anvil clouds. Overall, the project aims to improve our understanding and modelling of deep convection and its interactions with clouds and radiation across a range of spatial scales. Prior to the UPFLO project, I worked as a postdoc in the CIRCULATES project, where I studied the radiative properties of high clouds within mesoscale convective systems.
 <p>
 
-<!--
-Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic_yourname.jpg` and put it in the `assets/img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<p style="text-align: justify;">
+I completed my Master's degree in Meteorology and PhD in Atmospheric Science in India. Before joining the University of Reading, I held research positions at the Indian Institute of Tropical Meteorology, New York University Abu Dhabi, and Central Michigan University. Across these roles, my research has focused on high-resolution modelling of deep convective systems and future projections of severe thunderstorms using CMIP and WRF simulations.
+<p>  

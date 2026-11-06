@@ -1,5 +1,5 @@
 <p style="text-align: justify;">
-I am a geophysicist interested in climate change research, extreme events, and how they affect people and their livelihoods. I am currently in the first year of my PhD, which combines machine learning and physical understanding to extract weak signals at weeks 3-4 from ECMWF's extended-range forecasts, with the aim of supporting early warning systems for adaptive social protection.
+Hi, I am a geophysicist interested in climate change research, extreme events, and how they affect people and their livelihoods. I am currently in the first year of my PhD, which combines machine learning and physical understanding to extract weak signals at weeks 3-4 from ECMWF's extended-range forecasts, with the aim of supporting early warning systems for adaptive social protection.
 </p>
 
 <p style="text-align: justify;">

@@ -385,3 +385,23 @@
     - UKRI deadline: mid-June 2027 (expected; the Round 12 call is due to be announced in early 2027)
 
     Full details and forms: [University of Reading Future Leaders Fellowships guidance](https://www.reading.ac.uk/research-innovation-hub/pre-award-support/applying-for-external-funding/finding-funding/fellowships/future-leaders-fellowships). Contact <a href="mailto:fellowships@reading.ac.uk">fellowships@reading.ac.uk</a> or your Research Development Manager, or UKRI at <a href="mailto:fellows@ukri.org">fellows@ukri.org</a>.
+
+- title: Research Associate in AI for Environmental Forecasting (SENTINEL project)
+  organisation: University of Leicester, School of Engineering
+  advertised: 2026-11-06
+  closes: 23 November 2026
+  closes_on: 2026-11-23
+  details: £40,704 per annum, pro rata if part-time (Grade 7) · Full-time or job share · Fixed-term, 1 January 2027 to 31 March 2028 · Leicester · Vacancy 14072
+  url: https://jobs.le.ac.uk/vacancies/14072/research-associate-in-ai-for-environmental-forecasting-sentinel-project.html
+  body: |
+    Lead the AI development strand of SENTINEL, a UKRI-funded project building a physics-informed AI system to forecast chemical fugitive emissions. You'll build a multi-modal training dataset and design, train and evaluate the project's "Receptor Transfer Function Learner".
+
+- title: Research Associate in Atmospheric Dispersion Modelling (SENTINEL project)
+  organisation: University of Leicester, School of Engineering
+  advertised: 2026-11-06
+  closes: 26 November 2026
+  closes_on: 2026-11-26
+  details: £40,704 per annum, pro rata if part-time (Grade 7) · Full-time or job share · Fixed-term, 1 January 2027 to 31 March 2028 · Leicester · Vacancy 14073
+  url: https://jobs.le.ac.uk/vacancies/14073/research-associate-in-atmospheric-dispersion-modelling-sentinel-project.html
+  body: |
+    Lead the physics-based dispersion modelling and validation work on SENTINEL, a UKRI-funded project developing a new way to forecast chemical fugitive emissions. You'll set up and run established models, including ADMS, the Met Office NAME model and CALPUFF, to provide scientific benchmarks for the project's AI forecasts.

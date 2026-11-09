@@ -107,6 +107,15 @@ events:
     summary: A Royal Meteorological Society national meeting on how AI is changing the understanding and prediction of weather and climate.
     url: https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate
 
+  - title: "ELLIS Winter School 2027: AI & ML in Earth System Science"
+    organiser: AI4PEX and ELIAS Horizon Europe projects and the ELLIS Unit Jena
+    kind: Workshop
+    start: 2027-03-01
+    end: 2027-03-05
+    location: Friedrich Schiller University Jena, Germany
+    summary: A hands-on winter school on AI and machine learning for the land, ocean, atmosphere and biosphere, from foundation models and generative and agentic AI to trustworthy AI, with keynotes from Zhijing Jin, Tapio Schneider, Konstantin Klemmer and Peter Dueben. Fee €400; applications close 15 November 2026.
+    url: https://elias-ai.eu/event/ellis-winter-school-2027-ai-ml-in-earth-system-science/
+
   - title: EGU General Assembly 2027
     organiser: European Geosciences Union
     kind: Conference

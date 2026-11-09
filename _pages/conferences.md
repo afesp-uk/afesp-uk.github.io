@@ -589,6 +589,8 @@ nav_order: 6
   Five-day in-person course sponsored by EUMETSAT. Applications closed on 27 September 2026.
 - [**ECMWF training course: Use and Interpretation of ECMWF Products (25-28 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/576/)<br>
   Four-day in-person course with required pre-course activities. Applications closed on 27 September 2026.
+- [**ELLIS Winter School 2027: AI & ML in Earth System Science (1-5 Mar, 2027; Friedrich Schiller University Jena, Germany):**](https://elias-ai.eu/event/ellis-winter-school-2027-ai-ml-in-earth-system-science/)<br>
+  An in-person week of lectures, hands-on training and real-world applications on AI and machine learning for the land, ocean, atmosphere and biosphere, covering foundation models, generative and agentic AI, stochastic modelling and trustworthy AI. Keynotes from Zhijing Jin, Tapio Schneider, Konstantin Klemmer and Peter Dueben. Hosted by the AI4PEX and ELIAS Horizon Europe projects and the ELLIS Unit Jena; up to 100 participants; fee €400. Applications close 15 November 2026 (23:00 CET), with decisions by 14 December 2026.
 - [**NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)**](https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/)
 
 <div style="height: 2.5rem;"></div>

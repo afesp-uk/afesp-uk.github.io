@@ -10,7 +10,7 @@ jobs:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # pinned: ubuntu-latest (26.04) has no prebuilt Ruby 3.3.5 / 3.2.2
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4

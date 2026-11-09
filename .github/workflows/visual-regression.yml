@@ -46,7 +46,7 @@ on:
 
 jobs:
   visual-regression:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # pinned: ubuntu-latest (26.04) has no prebuilt Ruby 3.3.5 / 3.2.2
     timeout-minutes: 20
     env:
       # Use workflow_dispatch inputs when provided, otherwise defaults from inputs are used

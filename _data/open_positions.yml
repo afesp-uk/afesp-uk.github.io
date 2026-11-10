@@ -445,3 +445,91 @@
   url: https://lu.varbi.com/en/what:job/jobID:983398/
   body: |
     Study how the AD 536/540 volcanic eruptions cooled the climate and whether that helped trigger the Plague of Justinian. You'll build a single-column climate model testbed, run volcanic forcing simulations, and compile palaeoclimate data to constrain them. The work is in Fortran 90 on Linux.
+
+- title: Postdoc on high resolution modelling (R2)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-11-04
+  advertised_label: Open now
+  closes: 19 November 2026
+  closes_on: 2026-11-19
+  details: Full-time (35h/week) · Open-ended contract · Starts 1 December 2026 · Barcelona · Ref 512_26_ES_CVC_R2
+  url: https://www.bsc.es/join-us/job-opportunities/51226escvcr2
+  body: |
+    Investigate the Atlantic Meridional Overturning Circulation (AMOC) in eddy-resolving global coupled models: how model resolution affects its mean state, variability and impacts, and how Greenland ice-sheet melt affects it. You need a PhD in atmospheric sciences, applied mathematics, fluid dynamics or a related field, with ocean/atmosphere modelling and HPC experience.
+
+- title: PostDoctoral Researcher for Climate Services – Climate Projections (R2)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-10-27
+  advertised_label: Open now
+  closes: 20 November 2026
+  closes_on: 2026-11-20
+  details: Full-time (35h/week) · Open-ended contract · Barcelona · Ref 471_26_ES_CS_R2
+  url: https://www.bsc.es/join-us/job-opportunities/47126escsr2
+  body: |
+    Analyse and compare climate projections (CMIP6, CMIP7, CORDEX and global km-scale simulations), develop statistical and AI-based downscaling, build sector-specific climate indicators and study climate extremes. You'll start on a flagship regional project with the regional met office to build an integrated climate information system. You need a PhD in atmospheric sciences, applied statistics or a related field.
+
+- title: Master Student for Earth Science (R0) – evaluating km-scale climate models over the Caribbean
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-10-20
+  advertised_label: Open now
+  closes: 20 November 2026
+  closes_on: 2026-11-20
+  details: Master's thesis placement · Full-time · Barcelona, possible stays at KNMI · Ref 411_26_ES_CS_R0
+  url: https://www.bsc.es/join-us/job-opportunities/41126escsr0
+  body: |
+    A master's thesis within Destination Earth, evaluating the km-scale global climate models IFS-FESOM, IFS-NEMO and ICON over the Caribbean, including ENSO, sea-surface temperature biases and the ITCZ, and their projected changes. Co-supervised with KNMI, in collaboration with the University of the West Indies. For students currently enrolled on a degree or master's programme.
+
+- title: PostDoctoral Researcher / Research Engineer for Climate Services – Decadal predictions (RE2/R2)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-11-06
+  advertised_label: Open now
+  closes: 10 December 2026
+  closes_on: 2026-12-10
+  details: Full-time (35h/week) · Open-ended contract · Barcelona · Ref 520_26_ES_CS_RE2
+  url: https://www.bsc.es/join-us/job-opportunities/52026escsre2
+  body: |
+    Turn decadal climate predictions into user-oriented climate information: post-processing, statistical downscaling, forecast evaluation, hybrid dynamical–machine-learning methods and seamless seasonal-to-decadal frameworks, with automated workflows on HPC. Open to applicants with a master's degree in physics, environmental sciences, mathematics, computer science or a related field.
+
+- title: Postdoctoral Researcher or Research Engineer for Climate Services – Destination Earth Climate Projections (R2/RE2)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-11-06
+  advertised_label: Open now
+  closes: 10 December 2026
+  closes_on: 2026-12-10
+  details: Full-time (35h/week) · Open-ended contract · Barcelona · Ref 519_26_ES_CS_RE2
+  url: https://www.bsc.es/join-us/job-opportunities/51926escsre2
+  body: |
+    Evaluate the added value of km-scale global and regional climate projections from the Destination Earth Climate Digital Twin, using free-running projections and storylines, compare them with CORDEX and CMIP, and assess how model strengths and biases carry through to impact sectors. The role also includes stakeholder engagement such as hackathons. You need a PhD in climate or atmospheric sciences, meteorology or a related field.
+
+- title: PhD student for Climate Services Team (R1) – urban extreme heat
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-11-06
+  advertised_label: Open now
+  closes: 10 December 2026
+  closes_on: 2026-12-10
+  details: PhD position · Full-time · Barcelona · Ref 518_26_ES_CS_R1
+  url: https://www.bsc.es/join-us/job-opportunities/51826escsr1
+  body: |
+    Develop machine-learning methods to estimate extreme heat in cities under different scenarios, as part of the TerraDT project linked to Destination Earth. You'll combine citizen-science and weather-station data, build deep-learning downscaling models for urban grids, quantify uncertainty and apply them to DestinE climate data. You need a master's degree in physics, environmental sciences, mathematics, machine learning, computer science or a related field.
+
+- title: Research Engineer – Agentic AI support and Deployment (RE1)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-11-06
+  advertised_label: Open now
+  closes: 10 December 2026
+  closes_on: 2026-12-10
+  details: Full-time (35h/week) · Barcelona · Ref 521_26_ES_CES_RE1
+  url: https://www.bsc.es/join-us/job-opportunities/52126escesre1
+  body: |
+    A junior engineering role building, deploying and supporting AI agents and LLM-based workflows for the Earth Sciences department's research, analysis and science communication. You need a bachelor's or master's degree in computer science, AI or software engineering and solid Python skills. This is an AI engineering role rather than climate research.
+
+- title: Workflow Management Software Engineer (RE2)
+  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
+  advertised: 2026-09-15
+  advertised_label: Open now
+  closes: 31 December 2026
+  closes_on: 2026-12-31
+  details: Full-time (35h/week) · Open-ended contract · Starts as soon as possible · Barcelona · Ref 354_26_ES_EMW_RE2
+  url: https://www.bsc.es/join-us/job-opportunities/35426esemwre2
+  body: |
+    Coordinate the development, testing and documentation of the Autosubmit workflow engine and support end-to-end weather and climate modelling workflows on European HPC systems. You need a bachelor's degree in computer science or a related field and strong Python 3 skills.

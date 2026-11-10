@@ -435,3 +435,13 @@
   url: https://jobs.pse.kit.edu/en/jobs/170984/phd-position-in-physics-of-the-earth-fmd-part-time-75
   body: |
     Study how atmospheric pressure deforms the Earth's crust. You'll run a large network of about 90 barometers, build physics-based models of atmosphere–crust coupling with Python time-series analysis, and use them to improve high-precision deformation measurements. This is mainly geophysics. You need a master's degree in geophysics, physics or a related field.
+
+- title: Postdoc in climate modelling of volcanic eruptions and epidemics
+  organisation: Lund University, Department of Earth and Environmental Sciences, Sweden
+  advertised: 2026-11-09
+  closes: 1 December 2026
+  closes_on: 2026-12-01
+  details: Full-time · Fixed-term, 2 years · Starts as soon as possible, by 1 May 2027 · Lund
+  url: https://lu.varbi.com/en/what:job/jobID:983398/
+  body: |
+    Study how the AD 536/540 volcanic eruptions cooled the climate and whether that helped trigger the Plague of Justinian. You'll build a single-column climate model testbed, run volcanic forcing simulations, and compile palaeoclimate data to constrain them. The work is in Fortran 90 on Linux.

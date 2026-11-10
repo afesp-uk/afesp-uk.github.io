@@ -29,15 +29,6 @@ events:
     summary: The AFESP programme's 2025 conference.
     afesp: true
 
-  - title: Workshop on Machine Learning for Land and Hydrology
-    organiser: ECMWF
-    kind: Workshop
-    start: 2026-11-03
-    end: 2026-11-05
-    location: ECMWF, Reading, UK (in person)
-    summary: Machine-learning-based and machine-learning-enhanced forecasting of streamflow, floods, soil moisture and other land-surface processes. Registration is closed (fully subscribed).
-    url: https://events.ecmwf.int/event/530/
-
   - title: "Training course: Machine Learning-based weather forecasting"
     organiser: ECMWF
     kind: Workshop

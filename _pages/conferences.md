@@ -549,10 +549,6 @@ nav_order: 6
 
 ## Upcoming talks and seminars
 
-- [**RMetS: Gordon Manley Memorial Lecture 2026 (10 Nov, 2026):**](https://www.rmets.org/event/gordon-manley-memorial-lecture-2026)<br>
-  Royal Meteorological Society, North West Local Centre.
-- [**RMetS: Energy and Insurance Future Climate Resilience Event (10 Nov, 2026):**](https://www.rmets.org/event/energy-and-insurance-future-climate-resilience-event)<br>
-  Royal Meteorological Society special interest group meeting.
 - [**RMetS: Smog, Stories and Solutions: 70 Years since the UK Clean Air Act (11 Nov, 2026):**](https://www.rmets.org/event/smog-stories-and-solutions-70-years-uk-clean-air-act)<br>
   Royal Meteorological Society national meeting.
 - [**RMetS: CTR Wilson Meeting on Atmospheric Electricity (19 Nov, 2026):**](https://www.rmets.org/event/ctr-wilson-meeting-atmospheric-electricity)<br>

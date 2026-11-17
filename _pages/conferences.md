@@ -532,8 +532,12 @@ nav_order: 6
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
 - [**EGU General Assembly 2027 (4-9 Apr, 2027; Vienna, Austria, and online):**](https://meetingorganizer.copernicus.org/EGU27/sessionprogramme/5218)<br>
   Europe's largest geoscience meeting, covering the atmospheric, ocean, hydrology and Earth system sciences.
+- [**ICEM 2027: The Smart Energy System: Weather, Climate and AI (25-27 May, 2027; Galzignano Terme, Padova, Italy):**](https://www.wemcouncil.org/wp/icem2027-about/)<br>
+  The World Energy & Meteorology Council's International Conference Energy & Meteorology, on how weather and climate information, seasonal forecasts, climate projections and AI support energy system operations, planning, risk and resilience.
 - [**16th International Meeting on Statistical Climatology (16IMSC) (31 May-4 Jun, 2027; Faculty of Sciences, University of Lisbon, Portugal):**](https://imsc2027.my.canva.site/imsc-2027)<br>
   Part of an interdisciplinary series, held roughly every three years since 1979, that brings statisticians and atmospheric scientists together. Oral and poster abstracts in all areas of statistical climatology are welcome, and poster presenters can introduce their work in short lightning talks. Abstract submission is open and free, closing 15 January 2027, with acceptance by mid-February 2027. Registration opens in early February 2027: €625 (€525 for students and retirees), or early-bird €525 (€425) until 20 March 2027, including coffee breaks, lunches and a social dinner.
+- [**ML4EO: Machine Learning for Earth Observation (14-16 Jun, 2027):**](https://ml4eo.org/call-for-abstracts/)<br>
+  A conference on AI and machine learning for Earth observation, remote sensing and environmental monitoring, from climate analysis and land use to disaster response, biodiversity and agriculture. Abstracts are due 8 February 2027, with acceptance by 15 March 2027.
 - [**WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):**](https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies)<br>
   The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.
 
@@ -546,10 +550,14 @@ nav_order: 6
   A Fortran 70th birthday workshop organised by the Institute of Computing for Climate Science (ICCS), timed to coincide with Computing Insights UK (CIUK) on 2-4 December. Morning community meetings, then an afternoon workshop looking at Fortran's past, present and future: a keynote from Damian Rouson (Lawrence Berkeley National Laboratory), sponsor and lightning talks (early- and mid-career speakers especially encouraged), and a breakout discussion on the next 70 years. The day ends with a drinks reception and poster session, including a demonstration of the Baby computer. Free to attend in person or on Zoom; registration closes 16 November 2026.
 - [**CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):**](https://ncar.github.io/CMIP7_hackathon_2027/#about)<br>
   A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.
+- [**WeatherGenerator Community Hackathon (26-28 Jan, 2027; Jena, Germany):**](https://events.ecmwf.int/event/582/)<br>
+  The first community hackathon for the open-source WeatherGenerator model: teams of two to five run and fine-tune the model for their own applications in weather, climate, water, energy, agriculture, ecosystems or health, with a tutorial, mentor support and team presentations. Familiarity with Python and machine learning is expected. Free to attend (travel self-funded, limited travel grants); rolling applications until places are filled.
 - [**7th WGNE Workshop on Systematic Errors in Weather and Earth System Models (15-19 Feb, 2027; IITM, Pune, India):**](https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027)<br>
   Understanding and reducing systematic errors in physics-based and machine-learning-based models across timescales: diagnosing and attributing errors, scale interactions and resolution, parameterisation deficiencies, coupled feedbacks, predictability, and uncertainty and ensembles, including AI/ML-assisted attribution and AI versus physics-based model intercomparison. The call for abstracts has closed.
 - [**RMetS: ParaChute: Improving Convection and Turbulence in High-Resolution Weather Models (3 Mar, 2027):**](https://www.rmets.org/event/parachute-improving-convection-and-turbulence-high-resolution-weather-models-2027)<br>
   Royal Meteorological Society national meeting.
+- [**Statistics and AI for weather and climate science (9-11 Mar, 2027; Heidelberg Academy of Sciences and Humanities, Germany):**](https://zhongwei-zhang.github.io/Workshop_Heidelberg_2027/)<br>
+  A workshop on the reliability of AI forecasts for extreme events, spatio-temporal and multivariate dependence and physical consistency, uncertainty quantification, and what physics-based models still do better. Organised by Zhongwei Zhang (KIT) and Sebastian Lerch (University of Marburg). Apply for in-person participation by 23 November 2026; limited travel funding is available.
 
 ## Upcoming talks and seminars
 
@@ -557,6 +565,8 @@ nav_order: 6
   Royal Meteorological Society, Atmospheric Electricity Special Interest Group.
 - [**RMetS: Scottish Snow: Past, present and future (27 Nov, 2026):**](https://www.rmets.org/event/scottish-snow-past-present-and-future)<br>
   Royal Meteorological Society, Scottish Local Centre.
+- [**ECMWF panel: Towards Coupled AI Climate Models (27 Nov, 2026, 15:00 CET; online):**](https://events.ecmwf.int/event/587/)<br>
+  An online panel with Claire Monteleoni (INRIA), Niklas Boers (PIK and TU Munich), Nina Raoult (ECMWF) and William Gregory (UCL) on where AI-based coupled climate modelling stands and the challenges ahead. Free; register by 26 November, 17:00 CET. A recording will be available afterwards.
 - [**RMetS: Diverse Voices: Operational Meteorology (1 Dec, 2026):**](https://www.rmets.org/event/diverse-voices-operational-meteorology)<br>
   Royal Meteorological Society event.
 - [**RMetS: Yorkshire Local Centre Monthly Meet-up (2 Dec, 2026):**](https://www.rmets.org/event/yorkshire-local-centre-monthly-meet-11)<br>

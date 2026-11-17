@@ -125,6 +125,50 @@ events:
     summary: Europe's largest geoscience meeting, with sessions on machine learning and AI across the atmospheric, ocean, hydrology and Earth system science programmes.
     url: https://meetingorganizer.copernicus.org/EGU27/sessionprogramme/5218
 
+  - title: "Panel: Towards Coupled AI Climate Models"
+    organiser: ECMWF
+    kind: Seminar
+    start: 2026-11-27
+    location: Online
+    summary: Claire Monteleoni (INRIA), Niklas Boers (PIK and TU Munich), Nina Raoult (ECMWF) and William Gregory (UCL) discuss where AI-based coupled climate modelling stands and the challenges ahead. Free; register by 26 November.
+    url: https://events.ecmwf.int/event/587/
+
+  - title: WeatherGenerator Community Hackathon
+    organiser: ECMWF and the WeatherGenerator project
+    kind: Workshop
+    start: 2027-01-26
+    end: 2027-01-28
+    location: Jena, Germany
+    summary: Teams of two to five run and fine-tune the open-source WeatherGenerator model for their own applications, with a tutorial and mentor support. Free; rolling applications until places are filled.
+    url: https://events.ecmwf.int/event/582/
+
+  - title: Statistics and AI for weather and climate science
+    organiser: KIT and University of Marburg
+    kind: Workshop
+    start: 2027-03-09
+    end: 2027-03-11
+    location: Heidelberg Academy of Sciences and Humanities, Germany
+    summary: AI forecasts of extremes, dependence and physical consistency, uncertainty quantification, and AI versus physics-based models. Apply by 23 November 2026.
+    url: https://zhongwei-zhang.github.io/Workshop_Heidelberg_2027/
+
+  - title: "ICEM 2027: The Smart Energy System: Weather, Climate and AI"
+    organiser: World Energy & Meteorology Council
+    kind: Conference
+    start: 2027-05-25
+    end: 2027-05-27
+    location: Galzignano Terme, Padova, Italy
+    summary: How weather and climate information and AI support smarter, more resilient energy systems, from forecasting and trading to planning and risk.
+    url: https://www.wemcouncil.org/wp/icem2027-about/
+
+  - title: "ML4EO: Machine Learning for Earth Observation"
+    organiser: ML4EO
+    kind: Conference
+    start: 2027-06-14
+    end: 2027-06-16
+    location: To be confirmed
+    summary: AI and machine learning for Earth observation, remote sensing and environmental monitoring. Abstracts due 8 February 2027.
+    url: https://ml4eo.org/call-for-abstracts/
+
 news:
   - date: 2026-10-28
     title: AI for Science expands to foundations and research institutions

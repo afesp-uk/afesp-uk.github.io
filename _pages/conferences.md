@@ -532,6 +532,8 @@ nav_order: 6
 - [**Convection-Permitting Climate Modelling Workshop 2027 (1-5 Feb, 2027):**](https://conference.unsw.edu.au/en/CPCM2027)
 - [**EGU General Assembly 2027 (4-9 Apr, 2027; Vienna, Austria, and online):**](https://meetingorganizer.copernicus.org/EGU27/sessionprogramme/5218)<br>
   Europe's largest geoscience meeting, covering the atmospheric, ocean, hydrology and Earth system sciences.
+- [**16th International Meeting on Statistical Climatology (16IMSC) (31 May-4 Jun, 2027; Faculty of Sciences, University of Lisbon, Portugal):**](https://imsc2027.my.canva.site/imsc-2027)<br>
+  Part of an interdisciplinary series, held roughly every three years since 1979, that brings statisticians and atmospheric scientists together. Oral and poster abstracts in all areas of statistical climatology are welcome, and poster presenters can introduce their work in short lightning talks. Abstract submission is open and free, closing 15 January 2027, with acceptance by mid-February 2027. Registration opens in early February 2027: €625 (€525 for students and retirees), or early-bird €525 (€425) until 20 March 2027, including coffee breaks, lunches and a social dinner.
 - [**WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):**](https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies)<br>
   The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.
 

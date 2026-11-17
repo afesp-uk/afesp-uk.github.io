@@ -551,8 +551,6 @@ nav_order: 6
 
 ## Upcoming talks and seminars
 
-- [**RMetS: Smog, Stories and Solutions: 70 Years since the UK Clean Air Act (11 Nov, 2026):**](https://www.rmets.org/event/smog-stories-and-solutions-70-years-uk-clean-air-act)<br>
-  Royal Meteorological Society national meeting.
 - [**RMetS: CTR Wilson Meeting on Atmospheric Electricity (19 Nov, 2026):**](https://www.rmets.org/event/ctr-wilson-meeting-atmospheric-electricity)<br>
   Royal Meteorological Society, Atmospheric Electricity Special Interest Group.
 - [**RMetS: Scottish Snow: Past, present and future (27 Nov, 2026):**](https://www.rmets.org/event/scottish-snow-past-present-and-future)<br>
@@ -576,8 +574,6 @@ nav_order: 6
 
 ## Upcoming training courses
 
-- [**ARCHER2: Building Hybrid HPC/AI workflows using RHAPSODY, radex, and DragonHPC (11 Nov, 2026, 15:00-16:00; online):**](https://www.archer2.ac.uk/training/courses/261111-hpe-coe-hybrid-vt/)
-- [**ARCHER2: Containers for Reproducible Research: Introduction to Podman and Apptainer (12 Nov, 2026, 09:30-16:00; Newcastle University):**](https://www.archer2.ac.uk/training/courses/261112-containers/)
 - [**ECMWF training course: Machine Learning-based weather forecasting (16-20 Nov, 2026; ECMWF, Reading):**](https://events.ecmwf.int/event/546/)<br>
   An advanced course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications have closed.
 - [**ARCHER2: Porting HPC applications to GPUs: choosing a programming model (18 Nov, 2026, 14:00-15:00; online):**](https://www.archer2.ac.uk/training/courses/261118-hpe-coe-porting-to-gpus-vt/)

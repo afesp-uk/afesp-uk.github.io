@@ -518,3 +518,14 @@
   url: https://www.sfu.ca/internationalstudies.html
   body: |
     A one-year postdoctoral fellowship in SFU's School for International Studies, funded by the Simons Foundation Canada, starting in September 2027 with the possibility of extension. See the full advertisement on the School's website, and send any questions to [instst@sfu.ca](mailto:instst@sfu.ca).
+
+- title: Machine Learning Scientist (VN26-075)
+  organisation: European Centre for Medium-Range Weather Forecasts (ECMWF)
+  advertised: 2026-11-20
+  advertised_label: Open now
+  closes: 22 November 2026
+  closes_on: 2026-11-22
+  details: Reading, UK or Bonn, Germany · Grade A2 · Net annual basic salary GBP 76,384 (Reading) or EUR 91,754 (Bonn)
+  url: https://jobs.ecmwf.int/Job/JobDetail?JobId=10443
+  body: |
+    Build machine learning models for weather and climate prediction on scalable, maintainable software, including work on ECMWF's Anemoi library and the WeatherGenerator codebase. Candidates need machine learning and software engineering experience, strong teamwork skills across international and interdisciplinary groups, and an advanced degree in a relevant science field or equivalent experience.

@@ -170,6 +170,12 @@ events:
     url: https://ml4eo.org/call-for-abstracts/
 
 news:
+  - date: 2026-11-12
+    title: "Exploring future forecasting: how the Met Office is supporting AI innovation"
+    source: Met Office
+    summary: The Met Office has signed a multi-year agreement with Google to assess its WeatherNext 3 AI model in experimental sandboxes, building on earlier tropical cyclone work and the FastNet model developed with The Alan Turing Institute. AI is presented as a complement to physics-based forecasting, with new techniques validated before operational use and meteorologists still interpreting the data and issuing warnings.
+    url: https://www.metoffice.gov.uk/blog/2026/exploring-future-forecasting-how-the-met-office-is-supporting-ai-innovation
+
   - date: 2026-10-28
     title: AI for Science expands to foundations and research institutions
     source: Anthropic

@@ -232,3 +232,7 @@ links:
   - title: AI Policy — Simulation Systems documentation
     url: https://metoffice.github.io/simulation-systems/FurtherDetails/ai.html
     summary: The Met Office rules for contributing code written with generative AI tools to its simulation systems, including guardrails and how to attribute AI use.
+
+  - title: "Hidden Figures, Hidden Costs: Reducing the Footprint of Your AI Use"
+    url: https://www.software.ac.uk/blog/hidden-figures-hidden-costs-reducing-footprint-your-ai-use
+    summary: An Institute for Research Software blog post by Kirsty Pringle (17 November 2026) on the hidden environmental costs of AI in research, with practical ways to cut them, from choosing smaller models, focused prompts and fresh threads to reusing pre-trained models, piloting on small samples, and measuring and reporting your footprint.

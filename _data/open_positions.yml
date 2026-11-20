@@ -126,17 +126,6 @@
   body: |
     Join a team improving how climate and extreme events over Europe are represented in models, and how those extremes may change in the coming decades. You'll study the weather conditions leading up to high-impact extremes, assess the atmospheric drivers of precipitation and air-quality extremes, and test how far conclusions depend on model resolution and complexity. You'll also help develop climate storylines with partners and stakeholders and use them to pick high-impact events for large ensemble simulations. Also advertised on [jobs.ac.uk](https://www.jobs.ac.uk/job/DTL341/research-scientist-realesm).
 
-- title: Aspiration Postdoctoral Fellowship
-  organisation: University of Victoria, Canada
-  advertised: 2026-10-01
-  advertised_label: 2026–27 competition, open now
-  closes: 19 November 2026, 5pm Pacific
-  closes_on: 2026-11-19
-  details: At least CA$60,000 per year · 2 years, full-time · Start by 1 September 2027 · Victoria, BC
-  url: https://www.uvic.ca/research-innovation/postdoctoral-fellows/aspiration-post-doc-fellowship/index.php
-  body: |
-    A two-year postdoctoral fellowship open to any research area, including climate science. You need a UVic faculty supervisor, who provides a supervisor statement and half of the salary. You must be new to UVic and have finished your PhD no more than two years before the deadline. See the [2026 call for proposals](https://www.uvic.ca/_assets/docs/vpri-aspiration_pdf_callforproposal2026.pdf) for how to apply.
-
 - title: Richard Foster Flint Postdoctoral Fellowship
   organisation: Yale University, Department of Earth & Planetary Sciences, USA
   advertised: 2026-11-02
@@ -353,17 +342,6 @@
   url: https://lu.varbi.com/en/what:job/jobID:983398/
   body: |
     Study how the AD 536/540 volcanic eruptions cooled the climate and whether that helped trigger the Plague of Justinian. You'll build a single-column climate model testbed, run volcanic forcing simulations, and compile palaeoclimate data to constrain them. The work is in Fortran 90 on Linux.
-
-- title: Postdoc on high resolution modelling (R2)
-  organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain
-  advertised: 2026-11-04
-  advertised_label: Open now
-  closes: 19 November 2026
-  closes_on: 2026-11-19
-  details: Full-time (35h/week) · Open-ended contract · Starts 1 December 2026 · Barcelona · Ref 512_26_ES_CVC_R2
-  url: https://www.bsc.es/join-us/job-opportunities/51226escvcr2
-  body: |
-    Investigate the Atlantic Meridional Overturning Circulation (AMOC) in eddy-resolving global coupled models: how model resolution affects its mean state, variability and impacts, and how Greenland ice-sheet melt affects it. You need a PhD in atmospheric sciences, applied mathematics, fluid dynamics or a related field, with ocean/atmosphere modelling and HPC experience.
 
 - title: PostDoctoral Researcher for Climate Services – Climate Projections (R2)
   organisation: Barcelona Supercomputing Center (BSC), Earth Sciences Department, Spain

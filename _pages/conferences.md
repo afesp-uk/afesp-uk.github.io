@@ -561,8 +561,6 @@ nav_order: 6
 
 ## Upcoming talks and seminars
 
-- [**RMetS: CTR Wilson Meeting on Atmospheric Electricity (19 Nov, 2026):**](https://www.rmets.org/event/ctr-wilson-meeting-atmospheric-electricity)<br>
-  Royal Meteorological Society, Atmospheric Electricity Special Interest Group.
 - [**RMetS: Scottish Snow: Past, present and future (27 Nov, 2026):**](https://www.rmets.org/event/scottish-snow-past-present-and-future)<br>
   Royal Meteorological Society, Scottish Local Centre.
 - [**ECMWF panel: Towards Coupled AI Climate Models (27 Nov, 2026, 15:00 CET; online):**](https://events.ecmwf.int/event/587/)<br>
@@ -588,7 +586,6 @@ nav_order: 6
 
 - [**ECMWF training course: Machine Learning-based weather forecasting (16-20 Nov, 2026; ECMWF, Reading):**](https://events.ecmwf.int/event/546/)<br>
   An advanced course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications have closed.
-- [**ARCHER2: Porting HPC applications to GPUs: choosing a programming model (18 Nov, 2026, 14:00-15:00; online):**](https://www.archer2.ac.uk/training/courses/261118-hpe-coe-porting-to-gpus-vt/)
 - [**ECMWF training course: Data Assimilation & Machine Learning (11-15 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/578/)<br>
   Five-day in-person course. Applications closed on 27 September 2026.
 - [**EUMETSAT/ECMWF NWP-SAF training course: Satellite Data Assimilation (18-22 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/577/)<br>

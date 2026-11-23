@@ -29,15 +29,6 @@ events:
     summary: The AFESP programme's 2025 conference.
     afesp: true
 
-  - title: "Training course: Machine Learning-based weather forecasting"
-    organiser: ECMWF
-    kind: Workshop
-    start: 2026-11-16
-    end: 2026-11-20
-    location: ECMWF, Reading, UK (in person)
-    summary: An advanced training course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications closed on 28 June.
-    url: https://events.ecmwf.int/event/546/registrations/
-
   - title: Workshop on software strategies for sustainable physical modelling
     organiser: ECMWF
     kind: Workshop

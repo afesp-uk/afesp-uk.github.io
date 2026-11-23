@@ -520,8 +520,6 @@ nav_order: 6
 
 <!-- Items whose name starts with "AFESP" are highlighted as AFESP's own events. An item without a link is shown as a plain card. -->
 
-- [**Health at COP31, World Health Organization (9-20 Nov, 2026; Antalya, Türkiye, with live streaming):**](https://www.who.int/teams/environment-climate-change-and-health/climate-change-and-health/advocacy-partnerships/talks/health-at-cop31)<br>
-  WHO's programme at the UN Climate Change Conference (COP31), putting climate-resilient health systems at the centre of the talks: a Health Day on 9 November, a Health Pavilion with over 60 events across the two weeks (live-streamed), and side events including a UN high-level event on 14 November.
 - [**AGU26 Annual Meeting (7-11 Dec, 2026; San Francisco, CA, USA):**](https://www.agu.org/annual-meeting)<br>
   The largest Earth and space science meeting of the year, with many sessions on weather, climate and the Earth system, including AI and machine learning.
 - [**RMetS: National Environmental Monitoring Conference 2026 (14 Dec, 2026):**](https://www.rmets.org/event/national-environmental-monitoring-conference-2026)
@@ -543,7 +541,6 @@ nav_order: 6
 
 ## Upcoming workshops
 
-- [**NCAS Introduction to Scientific Computing workshop (9-20 Nov, 2026; online and Leeds):**](https://ncas.ac.uk/study-with-us/introduction-to-scientific-computing/)
 - [**ECMWF Workshop on software strategies for sustainable physical modelling (23-27 Nov, 2026):**](https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwf-2026-events-programme)<br>
   Shared code, automated testing and open-source practice for Earth system models, including how to integrate machine learning components. Venue to be confirmed.
 - [**Celebrating 70 years of Fortran (1 Dec, 2026; Science and Industry Museum, Manchester, and online):**](https://fortran-index.github.io/fortran-index/page/fortran_birthday.html)<br>
@@ -584,8 +581,6 @@ nav_order: 6
 
 ## Upcoming training courses
 
-- [**ECMWF training course: Machine Learning-based weather forecasting (16-20 Nov, 2026; ECMWF, Reading):**](https://events.ecmwf.int/event/546/)<br>
-  An advanced course on deep learning for Earth system forecasting and the Anemoi framework, with lectures and hands-on coding. Applications have closed.
 - [**ECMWF training course: Data Assimilation & Machine Learning (11-15 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/578/)<br>
   Five-day in-person course. Applications closed on 27 September 2026.
 - [**EUMETSAT/ECMWF NWP-SAF training course: Satellite Data Assimilation (18-22 Jan, 2027; ECMWF, Reading):**](https://events.ecmwf.int/event/577/)<br>

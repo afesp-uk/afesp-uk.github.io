@@ -485,3 +485,74 @@
   url: https://www.colgate.edu/academics/departments-programs/department-earth-environmental-geosciences/faculty-position
   body: |
     Colgate's Department of Earth & Environmental Geosciences seeks an assistant professor in paleoclimate who will build an externally funded research programme involving undergraduates and teach department courses, the Liberal Arts Core Curriculum and field courses in central New York. Apply with a cover letter, CV, the names of three references, and teaching and research statements.
+
+- title: "Scientist: In-situ observations for atmospheric composition and numerical weather prediction (VN26-088)"
+  organisation: European Centre for Medium-Range Weather Forecasts (ECMWF)
+  advertised: 2026-11-20
+  advertised_label: Open now
+  closes: 13 December 2026
+  closes_on: 2026-12-13
+  details: Reading, UK or Bonn, Germany · 3 years · Grade A2 · Net annual basic salary GBP 78,217 (Reading) or EUR 93,956 (Bonn)
+  url: https://jobs.ecmwf.int/Job/JobDetail?JobId=10447
+  body: |
+    Improve how surface, aircraft and balloon observations feed into ECMWF's weather and atmospheric composition forecasts: evaluating observation quality, developing assimilation methods (including machine learning), and moving promising new data, such as greenhouse gas measurements, from research into operations under the JOHN and IM4CA projects.
+
+- title: Senior Scientist in Atmospheric Data Assimilation
+  organisation: University of Vienna, Department of Meteorology and Geophysics, Austria
+  advertised: 2026-11-15
+  closes: 10 December 2026
+  closes_on: 2026-12-10
+  details: Full-time · Initially 3 years, with the possibility of becoming permanent · From EUR 5,014.30 gross per month (14 times a year) · Start 1 December 2026 or later · Reference 6255
+  url: https://www.timeshighereducation.com/unijobs/listing/417141/senior-scientist-in-atmospheric-data-assimilation
+  body: |
+    A senior scientist for the Numerical Weather Prediction and Data Assimilation group, researching a topic the candidate proposes, such as new observation types, improved assimilation schemes or ensemble-based observation diagnostics, alongside teaching on the BSc and MSc programmes, contributing to project proposals and supporting group members.
+
+- title: Postdoc in Earth System Dynamics
+  organisation: Kiel University, Department of Geography (Global Environmental Change and Impacts), Germany
+  advertised: 2026-11-17
+  closes: 4 December 2026
+  closes_on: 2026-12-04
+  details: 3 years, extendable · Kiel
+  url: https://jobs.uni-kiel.de/jobposting/f918fe2e13232fabb2954ecff443da2bbdabe5560
+  body: |
+    Research on land–atmosphere interactions, extreme hydroclimatic events and water-related risks using the ICON Earth system model. The post is also designed to support the holder towards Habilitation or an equivalent academic qualification.
+
+- title: Fully funded PhD studentship with a Met Office CASE award in S2S prediction and AI
+  organisation: University of Hertfordshire, with the Met Office, UK
+  advertised: 2026-11-20
+  closes: 2 February 2027
+  closes_on: 2027-02-02
+  details: Fully funded PhD · Hatfield, with Met Office CASE partnership
+  url: https://www.emetsoc.org/news-room/jobs/fully-funded-phd-studentship-with-the-uk-met-office-case-fellowship-in-s2s-prediction-and-ai/
+  body: |
+    A fully funded PhD combining sub-seasonal to seasonal (S2S) prediction with AI, co-supervised through a Met Office CASE partnership. See the advert for the project description and how to apply.
+
+- title: "Intelligent Earth: more than 20 funded PhD studentships, UKRI AI Centre for Doctoral Training in AI for the Environment"
+  organisation: University of Oxford, UK
+  advertised: 2026-11-11
+  closes: "12:00 midday (UK time), 6 January 2027"
+  closes_on: 2027-01-06
+  details: Fully funded · Starting October 2027 · Enhanced TechFirst stipend of £30,000 a year for 4 years for home-fee students · About 6 places open to overseas (including EU) students
+  url: https://intelligent-earth.ox.ac.uk/how-apply
+  body: |
+    Oxford's Intelligent Earth CDT trains researchers at the interface of AI and environmental science. Funding covers course fees, a tax-free living allowance and a research and training support grant. Applicants with strong quantitative skills from backgrounds including physics, mathematics, meteorology, oceanography, earth and environmental sciences, computer science, engineering and statistics are welcome. Apply through the Oxford graduate application form (programme code R30_1 full-time or R30_9P1 part-time), with three referees.
+
+- title: PhD Position in Atmospheric Moisture and Heat Transport (LAMDA)
+  organisation: University of Reading, Department of Geography and Environmental Science, UK
+  advertised: 2026-11-15
+  closes: 8 January 2027
+  closes_on: 2027-01-08
+  details: ERC Starting Grant LAMDA · UKRI-rate stipend · Home and international fees covered · Supervisor Dr Akash Koppa, with collaboration with ECMWF
+  url: https://www.egu.eu/jobs/8797/
+  body: |
+    Can land–atmosphere interactions turn humid regions into drylands? The student will trace where the moisture and heat over present-day drylands came from since 850 CE and how upwind vegetation changes affected rainfall and atmospheric water demand, building a machine learning emulator of a Lagrangian atmospheric transport model to attribute these changes to local and upwind land.
+
+- title: PhD Position in Dynamic Vegetation Modelling (LAMDA)
+  organisation: University of Reading, Department of Geography and Environmental Science, UK
+  advertised: 2026-11-15
+  closes: 8 January 2027 (reference DRC27-004)
+  closes_on: 2027-01-08
+  details: ERC Starting Grant LAMDA · UKRI-rate stipend · Home and international fees covered · Supervisor Dr Akash Koppa
+  url: https://www.egu.eu/jobs/8798/
+  body: |
+    Part of the LAMDA project, which reconstructs climate and vegetation changes since 850 CE. The student will drive an ecosystem demography model with a millennium-scale climate reconstruction to assess how long-term drying affects vegetation function, structure, mortality and species composition, and quantify how these changes alter moisture and heat fluxes from the land to the atmosphere.

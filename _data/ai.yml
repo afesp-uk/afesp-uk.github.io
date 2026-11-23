@@ -160,6 +160,14 @@ events:
     summary: AI and machine learning for Earth observation, remote sensing and environmental monitoring. Abstracts due 8 February 2027.
     url: https://ml4eo.org/call-for-abstracts/
 
+  - title: "RMetS Masterclass: Ensemble Forecasting: From Chaos to AI"
+    organiser: Royal Meteorological Society
+    kind: Workshop
+    start: 2027-03-10
+    location: Royal Meteorological Society masterclass
+    summary: A Royal Meteorological Society masterclass on ensemble forecasting, from chaos theory to AI-based ensembles.
+    url: https://www.rmets.org/event/masterclass-ensemble-forecasting-chaos-ai
+
 news:
   - date: 2026-11-12
     title: "Exploring future forecasting: how the Met Office is supporting AI innovation"

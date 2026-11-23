@@ -536,6 +536,10 @@ nav_order: 6
   Part of an interdisciplinary series, held roughly every three years since 1979, that brings statisticians and atmospheric scientists together. Oral and poster abstracts in all areas of statistical climatology are welcome, and poster presenters can introduce their work in short lightning talks. Abstract submission is open and free, closing 15 January 2027, with acceptance by mid-February 2027. Registration opens in early February 2027: €625 (€525 for students and retirees), or early-bird €525 (€425) until 20 March 2027, including coffee breaks, lunches and a social dinner.
 - [**ML4EO: Machine Learning for Earth Observation (14-16 Jun, 2027):**](https://ml4eo.org/call-for-abstracts/)<br>
   A conference on AI and machine learning for Earth observation, remote sensing and environmental monitoring, from climate analysis and land use to disaster response, biodiversity and agriculture. Abstracts are due 8 February 2027, with acceptance by 15 March 2027.
+- [**RMetS Early Career and Student Conference 2027 (5-7 Jul, 2027):**](https://www.rmets.org/event/early-career-and-student-conference-2027)<br>
+  Royal Meteorological Society conference for students and early-career researchers.
+- [**RMetS Annual Weather and Climate Conference 2027 (7-9 Jul, 2027):**](https://www.rmets.org/event/annual-weather-and-climate-conference-2027)<br>
+  The Royal Meteorological Society's annual conference.
 - [**WWRP 2027 Conference: Advancing Weather Science for Resilient Societies (23-25 Aug, 2027; Nanjing University, China):**](https://wmo.int/events/public-event/wwrp-conference-2027-advancing-weather-science-resilient-societies)<br>
   The WMO World Weather Research Programme conference, with themes on observations of physical and societal systems, weather prediction and predictability, and societal preparedness including impact-based warnings. Abstracts (up to 300 words) are due by 31 December 2026.
 
@@ -547,6 +551,8 @@ nav_order: 6
   A Fortran 70th birthday workshop organised by the Institute of Computing for Climate Science (ICCS), timed to coincide with Computing Insights UK (CIUK) on 2-4 December. Morning community meetings, then an afternoon workshop looking at Fortran's past, present and future: a keynote from Damian Rouson (Lawrence Berkeley National Laboratory), sponsor and lightning talks (early- and mid-career speakers especially encouraged), and a breakout discussion on the next 70 years. The day ends with a drinks reception and poster session, including a demonstration of the Baby computer. Free to attend in person or on Zoom; registration closes 16 November 2026.
 - [**CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):**](https://ncar.github.io/CMIP7_hackathon_2027/#about)<br>
   A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.
+- [**C3S User Engagement Workshop Ireland 2027 (26 Jan, 2027; Dublin, Ireland):**](https://events.ecmwf.int/event/590/)<br>
+  An ECMWF workshop hosted by Met Éireann on how Copernicus Climate Change Service (C3S) data and tools can support work on drought, wildfire and agriculture, with practical use cases and a hands-on Climate Data Store session using Jupyter Notebooks. Aimed mainly at Irish organisations and professionals working with climate information; register through the expression-of-interest form on the event page.
 - [**WeatherGenerator Community Hackathon (26-28 Jan, 2027; Jena, Germany):**](https://events.ecmwf.int/event/582/)<br>
   The first community hackathon for the open-source WeatherGenerator model: teams of two to five run and fine-tune the model for their own applications in weather, climate, water, energy, agriculture, ecosystems or health, with a tutorial, mentor support and team presentations. Familiarity with Python and machine learning is expected. Free to attend (travel self-funded, limited travel grants); rolling applications until places are filled.
 - [**7th WGNE Workshop on Systematic Errors in Weather and Earth System Models (15-19 Feb, 2027; IITM, Pune, India):**](https://www.wcrp-esmo.org/activities/7th-systematic-error-workshop-2027)<br>
@@ -555,6 +561,8 @@ nav_order: 6
   Royal Meteorological Society national meeting.
 - [**Statistics and AI for weather and climate science (9-11 Mar, 2027; Heidelberg Academy of Sciences and Humanities, Germany):**](https://zhongwei-zhang.github.io/Workshop_Heidelberg_2027/)<br>
   A workshop on the reliability of AI forecasts for extreme events, spatio-temporal and multivariate dependence and physical consistency, uncertainty quantification, and what physics-based models still do better. Organised by Zhongwei Zhang (KIT) and Sebastian Lerch (University of Marburg). Apply for in-person participation by 23 November 2026; limited travel funding is available.
+- [**RMetS: 12th UK National Climate Dynamics Workshop (22-23 Jun, 2027):**](https://www.rmets.org/event/12th-uk-national-climate-dynamics-workshop)<br>
+  Royal Meteorological Society workshop.
 
 ## Upcoming talks and seminars
 
@@ -576,6 +584,16 @@ nav_order: 6
   Royal Meteorological Society, West Midlands Local Centre.
 - [**RMetS: Weather and Sailing 2027 (6 Feb, 2027):**](https://www.rmets.org/event/weather-and-sailing-2027)<br>
   Royal Meteorological Society national meeting.
+- [**RMetS: Water Scarcity in Scotland (9 Feb, 2027):**](https://www.rmets.org/event/water-scarcity-scotland)<br>
+  Royal Meteorological Society, Scottish Local Centre.
+- [**RMetS: Weather to Water: Whole Water Cycle Monitoring for UK Flood and Drought Resilience (10 Feb, 2027):**](https://www.rmets.org/event/weather-water-whole-water-cycle-monitoring-uk-flood-and-drought-resilience)<br>
+  Royal Meteorological Society event.
+- [**RMetS: Post-Graduate Student Showcase 2027 (23 Feb, 2027):**](https://www.rmets.org/event/post-graduate-student-showcase-2027)<br>
+  Royal Meteorological Society, Scottish Local Centre.
+- [**RMetS: Weather, Climate and Risk: Bridging Science and Industry (25 Feb, 2027):**](https://www.rmets.org/event/weather-climate-and-risk-bridging-science-and-industry)<br>
+  Royal Meteorological Society, West Midlands Local Centre.
+- [**RMetS: Citizen Weather After WOW (Weather Observation Website) (23 Mar, 2027):**](https://www.rmets.org/event/citizen-weather-after-wow-weather-observation-website)<br>
+  Royal Meteorological Society, Scottish Local Centre.
 - [**RMetS: How is AI Transforming Our Understanding and Prediction of Weather and Climate? (14 Apr, 2027):**](https://www.rmets.org/event/how-ai-transforming-our-understanding-and-prediction-weather-and-climate)<br>
   Royal Meteorological Society national meeting.
 
@@ -591,8 +609,16 @@ nav_order: 6
   Four-day in-person course with required pre-course activities. Applications closed on 27 September 2026.
 - [**IHP School: Artificial Intelligence for Mathematicians and Theoretical Physicists (22-26 Feb, 2027; Institut Henri Poincaré, Paris, France):**](https://www.ihp.fr/en/events/ihp-school-artificial-intelligence-mathematicians-and-theoretical-physicists)<br>
   A one-week school of lectures and lab sessions for PhD students and early-career researchers in mathematics and theoretical physics who are not AI specialists. One day per topic: deep learning and neural networks, generative AI and LLMs, AI-assisted research and agent-based AI, formal methods, and the ethical, legal, environmental and industrial aspects and limitations of AI. Register through the event page.
+- [**RMetS Masterclass: Where Does the Rain Come From? Moisture Pathways in Extratropical Cyclones (24 Feb, 2027):**](https://www.rmets.org/event/masterclass-where-does-rain-come-moisture-pathways-extratropical-cyclones)<br>
+  Royal Meteorological Society masterclass.
 - [**ELLIS Winter School 2027: AI & ML in Earth System Science (1-5 Mar, 2027; Friedrich Schiller University Jena, Germany):**](https://elias-ai.eu/event/ellis-winter-school-2027-ai-ml-in-earth-system-science/)<br>
   An in-person week of lectures, hands-on training and real-world applications on AI and machine learning for the land, ocean, atmosphere and biosphere, covering foundation models, generative and agentic AI, stochastic modelling and trustworthy AI. Keynotes from Zhijing Jin, Tapio Schneider, Konstantin Klemmer and Peter Dueben. Hosted by the AI4PEX and ELIAS Horizon Europe projects and the ELLIS Unit Jena; up to 100 participants; fee €400. Applications close 15 November 2026 (23:00 CET), with decisions by 14 December 2026.
+- [**RMetS Masterclass: Ensemble Forecasting: From Chaos to AI (10 Mar, 2027):**](https://www.rmets.org/event/masterclass-ensemble-forecasting-chaos-ai)<br>
+  Royal Meteorological Society masterclass.
+- [**RMetS Masterclass: The Stratosphere as a Source of Predictability Weeks to Months Ahead (17 Mar, 2027):**](https://www.rmets.org/event/masterclass-stratosphere-source-predictability-weeks-months-ahead)<br>
+  Royal Meteorological Society masterclass.
+- [**RMetS Masterclass: The Role of Aerosols in Capturing European Extremes (24 Mar, 2027):**](https://www.rmets.org/event/masterclass-role-aerosols-capturing-european-extremes)<br>
+  Royal Meteorological Society masterclass.
 - [**NCAS Climate Modelling Summer School (5-17 Sep 2027, Cambridge, UK)**](https://ncas.ac.uk/study-with-us/climate-modelling-summer-school/)
 
 <div style="height: 2.5rem;"></div>

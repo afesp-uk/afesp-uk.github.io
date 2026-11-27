@@ -549,6 +549,8 @@ nav_order: 6
   Shared code, automated testing and open-source practice for Earth system models, including how to integrate machine learning components. Venue to be confirmed.
 - [**Celebrating 70 years of Fortran (1 Dec, 2026; Science and Industry Museum, Manchester, and online):**](https://fortran-index.github.io/fortran-index/page/fortran_birthday.html)<br>
   A Fortran 70th birthday workshop organised by the Institute of Computing for Climate Science (ICCS), timed to coincide with Computing Insights UK (CIUK) on 2-4 December. Morning community meetings, then an afternoon workshop looking at Fortran's past, present and future: a keynote from Damian Rouson (Lawrence Berkeley National Laboratory), sponsor and lightning talks (early- and mid-career speakers especially encouraged), and a breakout discussion on the next 70 years. The day ends with a drinks reception and poster session, including a demonstration of the Baby computer. Free to attend in person or on Zoom; registration closes 16 November 2026.
+- [**2026 International Workshop on Interbasin Interaction, its Impacts on Predictability, and Related Climate Phenomena (15-16 Dec, 2026; Yokohama, Japan):**](https://www.jamstec.go.jp/j/pr-event/tbi2026/)<br>
+  A JAMSTEC workshop, listed by CLIVAR, on interactions between ocean basins and their effects on climate predictability and related phenomena.
 - [**CLIVAR CMIP7 Hackathon (6-8 Jan, 2027; Boulder, Taipei and Tokyo, in person):**](https://ncar.github.io/CMIP7_hackathon_2027/#about)<br>
   A CLIVAR/WCRP hackathon for hands-on analysis of the new CMIP7 climate model data, run at three hubs in parallel.
 - [**C3S User Engagement Workshop Ireland 2027 (26 Jan, 2027; Dublin, Ireland):**](https://events.ecmwf.int/event/590/)<br>
@@ -561,6 +563,10 @@ nav_order: 6
   Royal Meteorological Society national meeting.
 - [**Statistics and AI for weather and climate science (9-11 Mar, 2027; Heidelberg Academy of Sciences and Humanities, Germany):**](https://zhongwei-zhang.github.io/Workshop_Heidelberg_2027/)<br>
   A workshop on the reliability of AI forecasts for extreme events, spatio-temporal and multivariate dependence and physical consistency, uncertainty quantification, and what physics-based models still do better. Organised by Zhongwei Zhang (KIT) and Sebastian Lerch (University of Marburg). Apply for in-person participation by 23 November 2026; limited travel funding is available.
+- [**MER-EP Workshop (20-23 Apr, 2027; Rome, Italy):**](https://www.clivar.org/events/mer-ep-workshop)<br>
+  A CLIVAR-listed workshop; see the event page for the programme and registration.
+- [**3rd Nordic Workshop on AI for Climate (22 Apr, 2027; Oslo, Norway):**](https://climateainordics.com/events/2027-nordic-workshop)<br>
+  A one-day, in-person Climate AI Nordics workshop with keynotes, oral presentations and a poster session (with optional short poster talks), followed by a social dinner. Topics span Earth observation, computer vision, NLP, geometric machine learning, multimodal modelling, AI for climate mitigation and adaptation, and sustainable AI; work in progress is welcome. Registration has not opened yet.
 - [**RMetS: 12th UK National Climate Dynamics Workshop (22-23 Jun, 2027):**](https://www.rmets.org/event/12th-uk-national-climate-dynamics-workshop)<br>
   Royal Meteorological Society workshop.
 
@@ -574,10 +580,14 @@ nav_order: 6
   Royal Meteorological Society event.
 - [**RMetS: Yorkshire Local Centre Monthly Meet-up (2 Dec, 2026):**](https://www.rmets.org/event/yorkshire-local-centre-monthly-meet-11)<br>
   Royal Meteorological Society, Yorkshire Local Centre.
+- [**Learning Machines seminar: Reinforcement learning for climate-resilient urban transport (3 Dec, 2026, 15:00 CET; Gothenburg and online):**](https://climateainordics.com/events/2026-11-02-2026-12-03-reinforcement-learning-for-climate-resilient-urban-transport)<br>
+  Miguel Costa (Technical University of Denmark) presents a reinforcement learning framework, with a graph neural network policy embedded in a city-scale climate, flood, transport and impact model, that decides where and when to deploy adaptation measures; in a Copenhagen pluvial flooding case study it cut costs by about 25%. A RISE and Climate AI Nordics seminar, in person at RISE Gothenburg or on Zoom; registration required.
 - [**RMetS: Can Tree-ring Hydroclimate Reconstructions Characterise Extreme Drought in East Anglia? (7 Dec, 2026):**](https://www.rmets.org/event/can-tree-ring-hydroclimate-reconstructions-characterise-extreme-drought-east-anglia)<br>
   Royal Meteorological Society, East Anglia Local Centre.
 - [**RMetS: Art and the Atmosphere: How the Impressionists captured the modifications of clouds (15 Dec, 2026):**](https://www.rmets.org/event/art-and-atmosphere-how-impressionists-captured-modifications-clouds)<br>
   Royal Meteorological Society, Scottish Local Centre.
+- [**CLIVAR PROS4SORP webinar: Kristen Krumhardt (17 Dec, 2026; online):**](https://www.clivar.org/events/pros4sorp-dr-kristen-krumhardt)<br>
+  An online CLIVAR Southern Ocean webinar.
 - [**RMetS: Probability Forecasts and Will People Understand? (28 Jan, 2027):**](https://www.rmets.org/event/probability-forecasts-and-will-people-understand)<br>
   Royal Meteorological Society, West Midlands Local Centre.
 - [**RMetS: Data-driven climate modelling: Opportunities and challenges (4 Feb, 2027):**](https://www.rmets.org/event/data-driven-climate-modelling-opportunities-and-challenges)<br>
@@ -588,6 +598,8 @@ nav_order: 6
   Royal Meteorological Society, Scottish Local Centre.
 - [**RMetS: Weather to Water: Whole Water Cycle Monitoring for UK Flood and Drought Resilience (10 Feb, 2027):**](https://www.rmets.org/event/weather-water-whole-water-cycle-monitoring-uk-flood-and-drought-resilience)<br>
   Royal Meteorological Society event.
+- [**CLIVAR Emerging Ideas in Climate Dynamics webinar series (16 Feb-23 Mar, 2027; online):**](https://www.clivar.org/events/emerging-ideas-climate-dynamics-webinar-series-hosted-clivar-climate-dynamics-panel)<br>
+  An online webinar series hosted by the CLIVAR Climate Dynamics Panel; sign up through the CLIVAR mailing list (https://mailchi.mp/clivar.org/cdpwebinar).
 - [**RMetS: Post-Graduate Student Showcase 2027 (23 Feb, 2027):**](https://www.rmets.org/event/post-graduate-student-showcase-2027)<br>
   Royal Meteorological Society, Scottish Local Centre.
 - [**RMetS: Weather, Climate and Risk: Bridging Science and Industry (25 Feb, 2027):**](https://www.rmets.org/event/weather-climate-and-risk-bridging-science-and-industry)<br>

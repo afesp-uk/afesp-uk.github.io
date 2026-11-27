@@ -168,7 +168,53 @@ events:
     summary: A Royal Meteorological Society masterclass on ensemble forecasting, from chaos theory to AI-based ensembles.
     url: https://www.rmets.org/event/masterclass-ensemble-forecasting-chaos-ai
 
+  - title: "Learning Machines seminar: Reinforcement learning for climate-resilient urban transport"
+    organiser: RISE and Climate AI Nordics
+    kind: Seminar
+    start: 2026-12-03
+    location: RISE Gothenburg, Sweden, and online (Zoom)
+    summary: Miguel Costa (DTU) on a reinforcement learning framework with a graph neural network policy that decides where and when to deploy flood adaptation measures, cutting costs by about 25% in a Copenhagen case study. Registration required.
+    url: https://climateainordics.com/events/2026-11-02-2026-12-03-reinforcement-learning-for-climate-resilient-urban-transport
+
+  - title: 3rd Nordic Workshop on AI for Climate
+    organiser: Climate AI Nordics
+    kind: Workshop
+    start: 2027-04-22
+    location: Oslo, Norway
+    summary: A one-day, in-person workshop with keynotes, oral presentations and a poster session on AI for climate, from Earth observation and multimodal modelling to mitigation, adaptation and sustainable AI. Registration has not opened yet.
+    url: https://climateainordics.com/events/2027-nordic-workshop
+
 news:
+  - date: 2026-11-23
+    title: AIM for Scale and partners expand AI weather forecasting training to strengthen national weather services for farmers
+    source: WMO
+    summary: Officials from 15 countries spent a week in Abu Dhabi learning to test, run and adopt advanced AI weather models for forecasts aimed at small-scale farmers. The programme, up from six countries in 2025, aims to reach 30 nations by 2027, with each delegation leaving with a basic working agricultural weather service.
+    url: https://wmo.int/media/project-update/aim-scale-and-partners-expand-ai-weather-forecasting-training-strengthen-national-weather-services
+
+  - date: 2026-11-20
+    title: New approach enables physically consistent AI models of chaotic systems
+    source: MIT News
+    summary: Sunbochen Tang, Navid Azizan and Themistoklis Sapsis (PNAS) add a learned energy-like function and enforce energy dissipation as a hard constraint, keeping AI models of weather, climate and turbulence within realistic bounds over long runs without suppressing their chaotic behaviour.
+    url: https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120
+
+  - date: 2026-11-19
+    title: Forecast-in-a-Box – piloting a portable solution for running AI weather forecasts
+    source: ECMWF
+    summary: ECMWF, MET Norway and Malawi's DCCMS are testing Forecast-in-a-Box, which lets national weather services produce AI forecasts on their own local infrastructure. The Malawi pilot uses a variant of MET Norway's Bris model tuned for Africa to improve early warnings for droughts, floods and cyclones, with more African countries and Destination Earth users to follow in 2027.
+    url: https://www.ecmwf.int/en/about/media-centre/news/2026/forecast-box-piloting-portable-solution-running-ai-weather-forecasts
+
+  - date: 2026-11-16
+    title: ECMWF wins two 2026 HPCwire awards
+    source: EurekAlert! / ECMWF
+    summary: ECMWF received "Best Use of HPC/AI in Physical Sciences" for building AI weather models with its open-source Anemoi framework on EuroHPC supercomputers, and "Best Use of HPC/AI in Response to Societal Plight" for Forecast-in-a-Box, which brings AI forecasting to countries with limited computing resources.
+    url: https://www.eurekalert.org/news-releases/1152244
+
+  - date: 2026-11-13
+    title: "COP31: New initiative targets AI and reliable climate change information"
+    source: UN News
+    summary: The Global Initiative for Information Integrity on Climate Change, led by the UN, UNESCO and Brazil, launched guidance at COP31 to help people get trustworthy climate information from AI. It asks AI companies to assess their effects on climate information and disclose their energy use and environmental footprints, and urges governments to build information integrity into their AI and climate plans.
+    url: https://news.un.org/en/story/2026/11/1168798
+
   - date: 2026-11-12
     title: "Exploring future forecasting: how the Met Office is supporting AI innovation"
     source: Met Office
@@ -186,6 +232,12 @@ news:
     source: Google
     summary: Google DeepMind and Google Research's newest global AI weather model learns directly from live geostationary satellite data, not only from supercomputer simulations, and produces hourly forecasts at up to 5 km resolution.
     url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/
+
+  - date: 2026-10-16
+    title: ECMWF introduces AIFS-COMPO, a new AI system for atmospheric composition forecasting
+    source: ECMWF
+    summary: An experimental AI model adapted from the AIFS to forecast global aerosols and reactive gases, with a 10-day range beyond the five-day outlook of the operational CAMS system. Initial tests show it matches or beats the operational IFS-COMPO on several key species at a much lower computational cost, though it still lacks features such as time-varying emissions.
+    url: https://www.ecmwf.int/en/about/media-centre/news/2026/aifs-compo-ai-atmospheric-composition-forecasting
 
   - date: 2026-10-14
     title: Machine learning improves weather forecasts two to six weeks ahead

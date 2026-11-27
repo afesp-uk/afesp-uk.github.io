@@ -70,16 +70,6 @@
 
     **How to apply:** if you have one or more of these skills and would like to know more, please contact [Prof Sue Grimmond](/people/#sue-grimmond) at <a href="mailto:c.s.grimmond@reading.ac.uk">c.s.grimmond@reading.ac.uk</a>. Positions could be full-time or part-time and could be at a wide range of levels.
 
-- title: Senior Postdoctoral Research Scientist – Climate Sensitive Infectious Diseases
-  organisation: University of Oxford, Pandemic Sciences Institute
-  advertised: 2026-11-02
-  closes: 23 November 2026, 12:00
-  closes_on: 2026-11-23
-  details: £50,067–£59,396 per annum (Research Grade 8) · Oxford · Vacancy ID 189515
-  url: https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189515
-  body: |
-    A senior postdoctoral scientist post in the Kraemer Group (Data Analytics and Epidemiology), working on climate-sensitive infectious diseases.
-
 - title: Scientific Software Engineer (Weather Warning Verification)
   organisation: ETH Zurich, Center for Climate Systems Modeling (C2SM)
   advertised: 2026-11-02
@@ -195,16 +185,6 @@
   body: |
     A fully funded Alexander von Humboldt postdoctoral fellowship to quantify greenhouse gas fluxes in the city of Münster. You need a PhD in an environmental, atmospheric, climate or related field and experience with eddy covariance or mechanistic modelling. Email a single PDF (cover letter, CV with publications, two referees) to Prof. Mana Gharun (<a href="mailto:mana.gharun@uni-muenster.de">mana.gharun@uni-muenster.de</a>).
 
-- title: Research Associate / Senior Research Associate in Weather and Health (2 positions)
-  organisation: University of Bristol, School of Engineering, Mathematics and Technology
-  advertised: 2026-10-28
-  closes: 25 November 2026, 23:59 UK time
-  closes_on: 2026-11-25
-  details: £40,704–£45,641 (Grade I) or £45,641–£51,258 (Grade J) · Bristol · Ref ACAD108762
-  url: https://www.bristol.ac.uk/jobs/find/
-  body: |
-    Two postdoctoral posts in Dr Eunice Lo's Futureproof project, developing weather–health forecasts to help the NHS prepare for extreme heat, cold and storms. You'll run environmental-epidemiology models and work with partners including the Met Office and the NHS; strong Python and R skills are expected. Search for reference ACAD108762 on the University of Bristol jobs site.
-
 - title: Scientist – tropical cyclone research and product development
   organisation: University of Wisconsin–Madison, Space Science and Engineering Center (SSEC), USA
   advertised: 2026-10-29
@@ -282,26 +262,6 @@
     - UKRI deadline: mid-June 2027 (expected; the Round 12 call is due to be announced in early 2027)
 
     Full details and forms: [University of Reading Future Leaders Fellowships guidance](https://www.reading.ac.uk/research-innovation-hub/pre-award-support/applying-for-external-funding/finding-funding/fellowships/future-leaders-fellowships). Contact <a href="mailto:fellowships@reading.ac.uk">fellowships@reading.ac.uk</a> or your Research Development Manager, or UKRI at <a href="mailto:fellows@ukri.org">fellows@ukri.org</a>.
-
-- title: Research Associate in AI for Environmental Forecasting (SENTINEL project)
-  organisation: University of Leicester, School of Engineering
-  advertised: 2026-11-06
-  closes: 23 November 2026
-  closes_on: 2026-11-23
-  details: £40,704 per annum, pro rata if part-time (Grade 7) · Full-time or job share · Fixed-term, 1 January 2027 to 31 March 2028 · Leicester · Vacancy 14072
-  url: https://jobs.le.ac.uk/vacancies/14072/research-associate-in-ai-for-environmental-forecasting-sentinel-project.html
-  body: |
-    Lead the AI development strand of SENTINEL, a UKRI-funded project building a physics-informed AI system to forecast chemical fugitive emissions. You'll build a multi-modal training dataset and design, train and evaluate the project's "Receptor Transfer Function Learner".
-
-- title: Research Associate in Atmospheric Dispersion Modelling (SENTINEL project)
-  organisation: University of Leicester, School of Engineering
-  advertised: 2026-11-06
-  closes: 26 November 2026
-  closes_on: 2026-11-26
-  details: £40,704 per annum, pro rata if part-time (Grade 7) · Full-time or job share · Fixed-term, 1 January 2027 to 31 March 2028 · Leicester · Vacancy 14073
-  url: https://jobs.le.ac.uk/vacancies/14073/research-associate-in-atmospheric-dispersion-modelling-sentinel-project.html
-  body: |
-    Lead the physics-based dispersion modelling and validation work on SENTINEL, a UKRI-funded project developing a new way to forecast chemical fugitive emissions. You'll set up and run established models, including ADMS, the Met Office NAME model and CALPUFF, to provide scientific benchmarks for the project's AI forecasts.
 
 - title: Postdoctoral Research Scientist in Probabilistic Storylines of Climate Extremes
   organisation: University of Reading, Department of Meteorology
@@ -397,17 +357,6 @@
   url: https://www.bsc.es/join-us/job-opportunities/35426esemwre2
   body: |
     Coordinate the development, testing and documentation of the Autosubmit workflow engine and support end-to-end weather and climate modelling workflows on European HPC systems. You need a bachelor's degree in computer science or a related field and strong Python 3 skills.
-
-- title: Research Assistant Level 1 – peat-core analysis for past storminess and carbon accumulation
-  organisation: Maynooth University, Department of Geography, Ireland
-  advertised: 2026-11-09
-  advertised_label: Open now
-  closes: 23 November 2026, 23:30 Irish time
-  closes_on: 2026-11-23
-  details: €34,130 per annum (1 point) · Full-time, specified purpose contract · Maynooth · Vacancy 044863
-  url: https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.display_form?p_company=1&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=044863
-  body: |
-    Lab analysis of peat cores from Irish blanket bogs for two Research Ireland-funded palaeoclimate projects: HoStIr (Holocene Storminess in Ireland), which is developing new proxies and multi-millennial storminess reconstructions, and PCARB, which reconstructs past carbon accumulation. The work includes loss-on-ignition, wet sieving, humification, macrofossil and testate amoebae analyses.
 
 - title: "PhD studentship: using next-generation ocean observations and machine learning to transform mixed layer depth predictions"
   organisation: University of Exeter, with Plymouth Marine Laboratory (NERC GW4+ Doctoral Training Partnership)

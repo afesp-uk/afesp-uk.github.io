@@ -241,3 +241,7 @@ links:
   - title: "Hidden Figures, Hidden Costs: Reducing the Footprint of Your AI Use"
     url: https://www.software.ac.uk/blog/hidden-figures-hidden-costs-reducing-footprint-your-ai-use
     summary: An Institute for Research Software blog post by Kirsty Pringle (17 November 2026) on the hidden environmental costs of AI in research, with practical ways to cut them, from choosing smaller models, focused prompts and fresh threads to reusing pre-trained models, piloting on small samples, and measuring and reporting your footprint.
+
+  - title: "Choosing to work without AI (University of Reading Library guide)"
+    url: https://libguides.reading.ac.uk/work_without_ai/home
+    summary: A University of Reading Library guide for students who want or need to limit their use of generative AI in some or all of their research and study. It explains what AI is and how chatbots work, and covers recognising AI, searching for information, referencing, and switching off AI tools.
